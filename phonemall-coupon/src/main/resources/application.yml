@@ -1,4 +1,3 @@
-
 spring:
   datasource:
     url: jdbc:mysql://172.1.1.10:3306/phonemall_sms

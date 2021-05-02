@@ -5,6 +5,8 @@ import com.city.common.utils.R;
 import com.city.phonemall.coupon.entity.CouponEntity;
 import com.city.phonemall.coupon.service.CouponService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
@@ -19,6 +21,7 @@ import java.util.Map;
  * @email 1071607950@qq.com
  * @date 2021-05-02 10:17:10
  */
+@RefreshScope
 @RestController
 @RequestMapping("coupon/coupon")
 public class CouponController {

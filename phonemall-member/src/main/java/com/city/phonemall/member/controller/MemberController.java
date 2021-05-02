@@ -3,6 +3,7 @@ package com.city.phonemall.member.controller;
 import com.city.common.utils.PageUtils;
 import com.city.common.utils.R;
 import com.city.phonemall.member.entity.MemberEntity;
+import com.city.phonemall.member.feign.CouponFeignService;
 import com.city.phonemall.member.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -24,6 +25,17 @@ import java.util.Map;
 public class MemberController {
     @Autowired
     private MemberService memberService;
+
+    @Autowired
+    private CouponFeignService couponFeignService;
+
+    @RequestMapping("/coupons")
+    public R test() {
+        MemberEntity memberEntity = new MemberEntity();
+        memberEntity.setNickname("张三");
+        R membercoupons = couponFeignService.membercoupons();
+        return R.ok().put("member",memberEntity).put("coupons",membercoupons.get("coupons"));
+    }
 
     /**
      * 列表
