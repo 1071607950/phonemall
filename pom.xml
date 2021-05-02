@@ -11,11 +11,14 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>phonemall-common</module>
+        <module>phonemall-admin</module>
         <module>phonemall-coupon</module>
         <module>phonemall-member</module>
         <module>phonemall-order</module>
         <module>phonemall-product</module>
         <module>phonemall-ware</module>
+        <module>renren-generator</module>
     </modules>
 
 </project>
