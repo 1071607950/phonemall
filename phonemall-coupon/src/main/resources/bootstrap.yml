@@ -7,5 +7,5 @@ spring:
         file-extension: yml
         server-addr: 127.0.0.1:8848
         namespace: phonemall-coupon
-        group: dev
+        group: DEFAULT_GROUP
         name: application

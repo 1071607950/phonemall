@@ -24,6 +24,12 @@
             <groupId>com.city.phonemall</groupId>
             <artifactId>phonemall-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>mybatis-plus-boot-starter</artifactId>
+                    <groupId>com.baomidou</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

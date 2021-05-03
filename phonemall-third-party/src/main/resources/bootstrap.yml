@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: phonemall-third-party
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: 127.0.0.1:8848
+        namespace: phonemall-third-party
+        group: DEFAULT_GROUP
+        name: application
+        extension-configs:
+          - data-id: oss
+            group: DEFAULT_GROUP
+            refresh: true

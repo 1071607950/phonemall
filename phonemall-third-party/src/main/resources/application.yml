@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: phonemall-third-party
+server:
+  port: 30000
+alibaba:
+  cloud:
+    access-key: LTAI4G66cCNM2t7LKE79RaY3
+    secret-key: wd0KVDLCO1vVXq4q9aIPTXY7AP7rdW
+    oss:
+      endpoint: oss-cn-beijing.aliyuncs.com
+      bucket: gulimall-clouds

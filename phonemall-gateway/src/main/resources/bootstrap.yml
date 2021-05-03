@@ -7,15 +7,15 @@ spring:
         file-extension: yml
         server-addr: 127.0.0.1:8848
         namespace: phonemall-gateway
-        group: dev
+        group: DEFAULT_GROUP
         name: application
 #        extension-configs:
 #          - data-id: datasource.yml
-#            group: dev
+#            group: DEFAULT_GROUP
 #            refresh: true
 #          - data-id: mybatis.yml
-#            group: dev
+#            group: DEFAULT_GROUP
 #            refresh: true
 #          - data-id: other.yml
-#            group: dev
+#            group: DEFAULT_GROUP
 #            refresh: true
