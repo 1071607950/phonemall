@@ -54,7 +54,7 @@ export default {
     paths (v) {
       this.$emit('update:catelogPath', v)
       // 还可以使用pubsub-js进行传值
-      this.PubSub.publish('catPath', v)
+      PubSub.publish('catPath', v)
     }
   },
   // 方法集合
@@ -62,7 +62,8 @@ export default {
     getCategorys () {
       this.$http({
         url: this.$http.adornUrl('/product/category/list/tree'),
-        method: 'get'
+        method: 'get',
+        params: this.$http.adornParams()
       }).then(({ data }) => {
         this.categorys = data.data
       })

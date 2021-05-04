@@ -106,7 +106,8 @@ export default {
     getMenus () {
       this.$http({
         url: this.$http.adornUrl('/product/category/list/tree'),
-        method: 'get'
+        method: 'get',
+        params: this.$http.adornParams()
       }).then(({ data }) => {
         console.log('成功获取到菜单数据...', data.data)
         this.menus = data.data

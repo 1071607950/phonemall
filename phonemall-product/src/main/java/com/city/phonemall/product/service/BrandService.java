@@ -3,7 +3,6 @@ package com.city.phonemall.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.city.common.utils.PageUtils;
 import com.city.phonemall.product.entity.BrandEntity;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Map;
 
@@ -18,7 +17,6 @@ public interface BrandService extends IService<BrandEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
 
-    @Transactional(rollbackFor = Exception.class)
     void updateDetail(BrandEntity brand);
 }
 

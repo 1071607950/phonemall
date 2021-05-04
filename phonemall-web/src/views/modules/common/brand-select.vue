@@ -44,6 +44,7 @@ export default {
   // 方法集合
   methods: {
     getCatBrands () {
+      console.log(111, this.catId)
       this.$http({
         url: this.$http.adornUrl('/product/categorybrandrelation/brands/list'),
         method: 'get',
@@ -61,8 +62,11 @@ export default {
   mounted () {
     // 监听三级分类消息的变化
     this.subscribe = PubSub.subscribe('catPath', (msg, val) => {
-      this.catId = val[val.length - 1]
-      this.getCatBrands()
+      // TODO 修复置空时还发送请求的问题
+      if (val.length >= 1) {
+        this.catId = val[val.length - 1]
+        this.getCatBrands()
+      }
     })
   },
   beforeCreate () {}, // 生命周期 - 创建之前

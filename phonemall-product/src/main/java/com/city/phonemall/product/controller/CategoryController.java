@@ -1,20 +1,16 @@
 package com.city.phonemall.product.controller;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-
+import com.city.common.utils.R;
+import com.city.phonemall.product.entity.CategoryEntity;
+import com.city.phonemall.product.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.city.phonemall.product.entity.CategoryEntity;
-import com.city.phonemall.product.service.CategoryService;
-import com.city.common.utils.PageUtils;
-import com.city.common.utils.R;
+import java.util.Arrays;
+import java.util.List;
 
 
 
@@ -79,14 +75,14 @@ public class CategoryController {
     @RequestMapping("/update")
     //@RequiresPermissions("product:category:update")
     public R update(@RequestBody CategoryEntity category){
-//        categoryService.updateCascade(category);
+        categoryService.updateCascade(category);
 
         return R.ok();
     }
 
     /**
      * 删除
-     * {@link RequestBody @RequestBody}:获取请求体，必须发送POST请求
+     * @RequestBody:获取请求体，必须发送POST请求
      * SpringMVC自动将请求体的数据(json)转换为对象
      */
     @RequestMapping("/delete")

@@ -1,27 +1,24 @@
 package com.city.phonemall.product.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.city.common.utils.PageUtils;
+import com.city.common.utils.Query;
+import com.city.phonemall.product.dao.CategoryDao;
 import com.city.phonemall.product.entity.CategoryBrandRelationEntity;
+import com.city.phonemall.product.entity.CategoryEntity;
 import com.city.phonemall.product.service.CategoryBrandRelationService;
+import com.city.phonemall.product.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.city.common.utils.PageUtils;
-import com.city.common.utils.Query;
-
-import com.city.phonemall.product.dao.CategoryDao;
-import com.city.phonemall.product.entity.CategoryEntity;
-import com.city.phonemall.product.service.CategoryService;
-
-import javax.annotation.Resource;
 
 
 @Service("categoryService")
@@ -133,6 +130,14 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         }
 
         return paths;
+    }
+
+    @Transactional(rollbackFor = Exception.class)
+    @Override
+    public void updateCascade(CategoryEntity category) {
+        this.baseMapper.updateById(category);
+        categoryBrandRelationService.updateCategory(category.getCatId(), category.getName());
+
     }
 
 

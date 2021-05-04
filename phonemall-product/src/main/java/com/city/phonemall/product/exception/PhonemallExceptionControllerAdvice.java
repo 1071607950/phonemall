@@ -45,7 +45,9 @@ public class PhonemallExceptionControllerAdvice {
 
     @ExceptionHandler(value = Throwable.class)
     public R handleException(Throwable throwable) {
-
+        for (StackTraceElement stackTraceElement : throwable.getStackTrace()) {
+            System.out.println(stackTraceElement);
+        }
         log.error("错误异常{}",throwable.getMessage());
 
         return R.error(BizCodeEnum.UNKNOW_EXCEPTION.getCode(),BizCodeEnum.UNKNOW_EXCEPTION.getMessage());
