@@ -1,5 +1,6 @@
 package com.city.phonemall.coupon.controller;
 
+import com.city.common.to.SkuReductionTo;
 import com.city.common.utils.PageUtils;
 import com.city.common.utils.R;
 import com.city.phonemall.coupon.entity.SkuFullReductionEntity;
@@ -24,6 +25,14 @@ import java.util.Map;
 public class SkuFullReductionController {
     @Autowired
     private SkuFullReductionService skuFullReductionService;
+
+    @PostMapping("/saveinfo")
+    public R saveInfo(@RequestBody SkuReductionTo skuReductionTo){
+
+        skuFullReductionService.saveSkuReduction(skuReductionTo);
+
+        return R.ok();
+    }
 
     /**
      * 列表

@@ -179,7 +179,7 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
 
         this.updateById(attrEntity);
 
-        //修复修改时候关联的分组ID为空还仍然增加关联记录的问题
+        //TODO 修复修改时候关联的分组ID为空还仍然增加关联记录的问题
         if (attrEntity.getAttrType() == ProductConstant.AttrEnum.ATTR_TYPE_BASE.getCode() && attr.getAttrGroupId() != null) {
             //1、修改分组关联
             AttrAttrgroupRelationEntity relationEntity = new AttrAttrgroupRelationEntity();

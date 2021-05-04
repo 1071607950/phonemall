@@ -15,8 +15,13 @@ import java.math.BigDecimal;
 @Data
 public class Bounds implements Serializable {
   private static final long serialVersionUID = 1L;
-
+  /**
+   * 购物积分
+   */
   private BigDecimal buyBounds;
+  /**
+   * 成长积分
+   */
   private BigDecimal growBounds;
 
 }

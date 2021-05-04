@@ -14,8 +14,17 @@ import java.math.BigDecimal;
 public class MemberPrice implements Serializable {
   private static final long serialVersionUID = 1L;
 
+  /**
+   * 会员等级ID
+   */
   private Long id;
+  /**
+   * 等级等级名
+   */
   private String name;
+  /**
+   * 会员对应价格
+   */
   private BigDecimal price;
 
 }

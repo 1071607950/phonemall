@@ -15,8 +15,17 @@ import java.io.Serializable;
 public class BaseAttrs implements Serializable {
   private static final long serialVersionUID = 1L;
 
+  /**
+   * 属性ID
+   */
   private Long attrId;
+  /**
+   * 属性值
+   */
   private String attrValues;
+  /**
+   * 快速展示
+   */
   private int showDesc;
 
 }

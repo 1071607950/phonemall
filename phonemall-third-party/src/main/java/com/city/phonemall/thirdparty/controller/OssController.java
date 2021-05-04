@@ -1,8 +1,6 @@
 package com.city.phonemall.thirdparty.controller;
 
 import com.aliyun.oss.OSS;
-import com.aliyun.oss.OSSClient;
-import com.aliyun.oss.OSSClientBuilder;
 import com.aliyun.oss.common.utils.BinaryUtil;
 import com.aliyun.oss.model.MatchMode;
 import com.aliyun.oss.model.PolicyConditions;
@@ -18,10 +16,9 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-05-27 15:56
+ * @author liuZhongKun
+ * @email 1071607950@qq.com
+ * @date 2021-05-03 13:41:33
  **/
 
 @RestController

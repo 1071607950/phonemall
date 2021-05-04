@@ -54,6 +54,8 @@ public interface CategoryService extends IService<CategoryEntity> {
 
     public void updateCascade(CategoryEntity category);
 
+    //TODO 还有接口
+
 
 
 }

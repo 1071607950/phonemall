@@ -13,8 +13,16 @@ import java.io.Serializable;
 @Data
 public class Attr implements Serializable {
   private static final long serialVersionUID = 1L;
-
+  /**
+   * 属性ID
+   */
   private Long attrId;
+  /**
+   * 属性名
+   */
   private String attrName;
+  /**
+   * 属性值
+   */
   private String attrValue;
 }
