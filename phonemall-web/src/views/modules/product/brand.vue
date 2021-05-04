@@ -36,7 +36,7 @@
             :src="scope.row.logo"
             fit="cover">
           </el-image>-->
-          <img :src="scope.row.logo" style="width: 120px; height: 80px; object-fit:scale-down" alt="加载失败"/>
+          <img :src="scope.row.logo" style="width: 120px; height: 80px; object-fit: scale-down" alt="加载失败"/>
         </template>
       </el-table-column>
       <el-table-column prop="descript" header-align="center" align="center" label="介绍"></el-table-column>

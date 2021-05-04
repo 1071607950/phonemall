@@ -393,10 +393,10 @@ export default {
           { required: true, message: '请选择一个品牌', trigger: 'blur' }
         ],
         decript: [
-          { required: true, message: '请上传商品详情图集', trigger: 'blur' }
+          { required: false, message: '请上传商品详情图集', trigger: 'blur' }
         ],
         images: [
-          { required: true, message: '请上传商品图片集', trigger: 'blur' }
+          { required: false, message: '请上传商品图片集', trigger: 'blur' }
         ],
         weight: [
           {
@@ -499,7 +499,7 @@ export default {
       row.images[index].defaultImg = 1 // 修改标志位;
       // 修改其他人的标志位
       row.images.forEach((item, idx) => {
-        if (idx != index) {
+        if (idx !== index) {
           row.images[idx].defaultImg = 0
         }
       })
@@ -508,7 +508,7 @@ export default {
       let inputValue = this.inputValue[idx].val
       if (inputValue) {
         // this.dynamicTags.push(inputValue);
-        if (this.dataResp.saleAttrs[idx].valueSelect == '') {
+        if (this.dataResp.saleAttrs[idx].valueSelect === '') {
           this.dataResp.saleAttrs[idx].valueSelect = inputValue
         } else {
           this.dataResp.saleAttrs[idx].valueSelect += ';' + inputValue
@@ -535,7 +535,7 @@ export default {
         item.forEach(attr => {
           let { attrId, attrValues, showDesc } = attr
           // 跳过没有录入值的属性
-          if (attrValues != '') {
+          if (attrValues !== '') {
             if (attrValues instanceof Array) {
               // 多个值用;隔开
               attrValues = attrValues.join(';')
@@ -590,7 +590,7 @@ export default {
         let memberPrices = []
         if (this.dataResp.memberLevels.length > 0) {
           for (let i = 0; i < this.dataResp.memberLevels.length; i++) {
-            if (this.dataResp.memberLevels[i].priviledgeMemberPrice == 1) {
+            if (this.dataResp.memberLevels[i].priviledgeMemberPrice === 1) {
               memberPrices.push({
                 id: this.dataResp.memberLevels[i].id,
                 name: this.dataResp.memberLevels[i].name,
@@ -616,7 +616,7 @@ export default {
             fullPrice: 0.0,
             reducePrice: 0.0,
             priceStatus: 0,
-            memberPrice: new Array().concat(memberPrices)
+            memberPrice: [].concat(memberPrices)
           })
         } else {
           skus.push(res)
@@ -630,7 +630,7 @@ export default {
       let res = null
       if (skus.length > 0) {
         for (let i = 0; i < skus.length; i++) {
-          if (skus[i].descar.join(' ') == descar.join(' ')) {
+          if (skus[i].descar.join(' ') === descar.join(' ')) {
             res = skus[i]
           }
         }
@@ -676,13 +676,15 @@ export default {
           // 先对表单的baseAttrs进行初始化
           data.data.forEach(item => {
             let attrArray = []
-            item.attrs.forEach(attr => {
-              attrArray.push({
-                attrId: attr.attrId,
-                attrValues: '',
-                showDesc: attr.showDesc
+            if (item.attrs != null && item.attrs.length > 0) {
+              item.attrs.forEach(attr => {
+                attrArray.push({
+                  attrId: attr.attrId,
+                  attrValues: '',
+                  showDesc: attr.showDesc
+                })
               })
-            })
+            }
             this.dataResp.baseAttrs.push(attrArray)
           })
           this.dataResp.steped[0] = 0
@@ -704,7 +706,7 @@ export default {
             method: 'post',
             data: this.$http.adornData(this.spu, false)
           }).then(({ data }) => {
-            if (data.code == 0) {
+            if (data.code === 0) {
               this.$message({
                 type: 'success',
                 message: '新增商品成功!'
@@ -735,9 +737,9 @@ export default {
       var pIndex = null
       var tempCount = 0
       var temp = []
-
+      var index = 0
       // 根据参数列生成指针对象
-      for (var index in list) {
+      for (index in list) {
         if (typeof list[index] === 'object') {
           point[index] = { parent: pIndex, count: 0 }
           pIndex = index
@@ -751,7 +753,7 @@ export default {
 
       // 动态生成笛卡尔积
       while (true) {
-        for (var index in list) {
+        for (index in list) {
           tempCount = point[index]['count']
           temp.push(list[index][tempCount])
         }
@@ -783,10 +785,10 @@ export default {
   created () {},
   // 生命周期 - 挂载完成（可以访问DOM元素）
   mounted () {
-    this.catPathSub = PubSub.subscribe('catPath', (msg, val) => {
+    this.catPathSub = this.PubSub.subscribe('catPath', (msg, val) => {
       this.spu.catalogId = val[val.length - 1]
     })
-    this.brandIdSub = PubSub.subscribe('brandId', (msg, val) => {
+    this.brandIdSub = this.PubSub.subscribe('brandId', (msg, val) => {
       this.spu.brandId = val
     })
     this.getMemberLevels()
@@ -796,8 +798,8 @@ export default {
   beforeUpdate () {}, // 生命周期 - 更新之前
   updated () {}, // 生命周期 - 更新之后
   beforeDestroy () {
-    PubSub.unsubscribe(this.catPathSub)
-    PubSub.unsubscribe(this.brandIdSub)
+    this.PubSub.unsubscribe(this.catPathSub)
+    this.PubSub.unsubscribe(this.brandIdSub)
   }, // 生命周期 - 销毁之前
   destroyed () {}, // 生命周期 - 销毁完成
   activated () {} // 如果页面有keep-alive缓存功能，这个函数会触发
