@@ -61,7 +61,7 @@ public class SkuFullReductionServiceImpl extends ServiceImpl<SkuFullReductionDao
         BeanUtils.copyProperties(skuReductionTo,skuFullReductionEntity);
         //TODO 增加满减可叠加
         skuFullReductionEntity.setAddOther(skuReductionTo.getPriceStatus());
-        if (skuFullReductionEntity.getFullPrice().compareTo(BigDecimal.ZERO) == 1) {
+        if (skuFullReductionEntity.getFullPrice().compareTo(BigDecimal.ZERO) > 0) {
             this.save(skuFullReductionEntity);
         }
 
@@ -78,7 +78,7 @@ public class SkuFullReductionServiceImpl extends ServiceImpl<SkuFullReductionDao
             memberPriceEntity.setAddOther(1);
             return memberPriceEntity;
         }).filter(item -> {
-            return item.getMemberPrice().compareTo(BigDecimal.ZERO) == 1;
+            return item.getMemberPrice().compareTo(BigDecimal.ZERO) > 0;
         }).collect(Collectors.toList());
 
         memberPriceService.saveBatch(collect);

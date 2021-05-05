@@ -29,6 +29,7 @@ public interface SkuInfoService extends IService<SkuInfoEntity> {
      * @param skuId
      * @return
      */
+    //TODO 还没实现
     //SkuItemVo item(Long skuId) throws ExecutionException, InterruptedException;
 }
 
