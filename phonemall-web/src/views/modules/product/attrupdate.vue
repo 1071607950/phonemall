@@ -110,7 +110,7 @@ export default {
             if (_this.spuAttrsMap['' + attr.attrId]) {
               v = _this.spuAttrsMap['' + attr.attrId].attrValue.split(';')
               // TODO: 待测&& attr.valueType === 0
-              if (v.length === 1) {
+              if (v.length === 1 && attr.valueType === 0) {
                 v = v[0] + ''
               }
             }

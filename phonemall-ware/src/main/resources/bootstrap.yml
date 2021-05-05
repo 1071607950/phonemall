@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: phonemall-ware
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: 127.0.0.1:8848
+        namespace: phonemall-ware
+        group: DEFAULT_GROUP
+        name: application

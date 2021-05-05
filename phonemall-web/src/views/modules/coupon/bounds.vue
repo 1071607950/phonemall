@@ -32,7 +32,7 @@
         prop="spuId"
         header-align="center"
         align="center"
-        label="">
+        label="spuID">
       </el-table-column>
       <el-table-column
         prop="growBounds"

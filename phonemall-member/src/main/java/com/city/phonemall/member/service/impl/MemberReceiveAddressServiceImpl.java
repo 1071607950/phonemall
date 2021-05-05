@@ -10,6 +10,7 @@ import com.city.phonemall.member.entity.MemberReceiveAddressEntity;
 import com.city.phonemall.member.service.MemberReceiveAddressService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Map;
 
 
@@ -24,6 +25,15 @@ public class MemberReceiveAddressServiceImpl extends ServiceImpl<MemberReceiveAd
         );
 
         return new PageUtils(page);
+    }
+
+    @Override
+    public List<MemberReceiveAddressEntity> getAddress(Long memberId) {
+
+        List<MemberReceiveAddressEntity> addressList = this.baseMapper.selectList
+                (new QueryWrapper<MemberReceiveAddressEntity>().eq("member_id", memberId));
+
+        return addressList;
     }
 
 }

@@ -87,7 +87,7 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfoEntity> i
         if (!StringUtils.isEmpty(max)) {
             try {
                 BigDecimal bigDecimal = new BigDecimal(max);
-                if (bigDecimal.compareTo(BigDecimal.ZERO) == 1) {
+                if (bigDecimal.compareTo(BigDecimal.ZERO) > 0) {
                     queryWrapper.le("price",max);
                 }
             } catch (Exception e) {
