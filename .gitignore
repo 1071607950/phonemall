@@ -17,6 +17,5 @@ buildNumber.properties
 
 **/README.md
 *.iml
-node_modules
-**/node_modules/
-node_modules/
+
+**/node_modules
