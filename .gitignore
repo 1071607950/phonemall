@@ -15,7 +15,8 @@ buildNumber.properties
 **/target/
 .idea
 
-**/.gitignore
-
 **/README.md
 *.iml
+node_modules/
+**/node_modules/
+node_modules/
