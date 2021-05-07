@@ -3,21 +3,35 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.7.RELEASE</version>
-    </parent>
     <groupId>com.city.phonemall</groupId>
     <artifactId>phonemall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <description>聚合服务</description>
     <packaging>pom</packaging>
 
+    <!--  这里的属性会被子模块继承  -->
     <properties>
-        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
-        <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>
-        <aliyun-spring-boot.version>1.0.0</aliyun-spring-boot.version>
+        <java.version>1.8</java.version>
+        <mall.version>0.0.1-SNAPSHOT</mall.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <lombok.version>1.18.18</lombok.version>
+        <mybatis-plus.version>3.3.1</mybatis-plus.version>
+        <mysql.version>8.0.23</mysql.version>
+        <http.components.version>4.4.13</http.components.version>
+        <commons.lang.version>2.6</commons.lang.version>
+        <elasticsearch.version>7.4.2</elasticsearch.version>
+        <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
+        <spring.cloud.version>Hoxton.SR3</spring.cloud.version>
+        <cloud.alibaba.version>2.2.1.RELEASE</cloud.alibaba.version>
+
+<!--        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>-->
+<!--        <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>-->
+<!--        <aliyun-spring-boot.version>1.0.0</aliyun-spring-boot.version>-->
+
     </properties>
 
     <modules>
@@ -32,31 +46,129 @@
         <module>phonemall-admin</module>
         <module>renren-generator</module>
     </modules>
-
+    <!--  子模块继承父模块之后，提供作用：锁定版本 + 子模块不用再写 version  -->
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.city.phonemall</groupId>
+                <artifactId>phonemall-common</artifactId>
+                <version>${mall.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
+                <version>${spring.cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${spring-cloud-alibaba.version}</version>
+                <version>${cloud.alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
             <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alicloud-oss</artifactId>
+                <version>2.2.0.RELEASE</version>
+            </dependency>
+
+
+            <!-- 阿里云服务单独部分<dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>aliyun-spring-boot-dependencies</artifactId>
                 <version>${aliyun-spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>-->
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpcore</artifactId>
+                <version>${http.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>${commons.lang.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <!-- 重写覆盖 spring-boot-dependencies 中的依赖版本  -->
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring.boot.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <!--  这里的依赖会被子模块继承  -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>${spring.boot.version}</version>
+                    <configuration>
+                        <fork>true</fork>
+                        <addResources>true</addResources>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>

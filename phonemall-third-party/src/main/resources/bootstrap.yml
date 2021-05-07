@@ -10,6 +10,6 @@ spring:
         group: DEFAULT_GROUP
         name: application
         extension-configs:
-          - data-id: oss
+          - data-id: oss.yml
             group: DEFAULT_GROUP
             refresh: true

@@ -27,16 +27,16 @@ public class OssController {
     @Autowired
     private OSS ossClient;
 
-    @Value("${alibaba.cloud.oss.endpoint}")
+    @Value("${spring.cloud.alicloud.oss.endpoint}")
     private String endpoint;
 
-    @Value("${alibaba.cloud.oss.bucket}")
+    @Value("${spring.cloud.alicloud.oss.bucket}")
     private String bucket;
 
-    @Value("${alibaba.cloud.access-key}")
+    @Value("${spring.cloud.alicloud.access-key}")
     private String accessKeyId;
 
-    @Value("${alibaba.cloud.secret-key}")
+    @Value("${spring.cloud.alicloud.secret-key}")
     private String accessKeySecret;
 
 
