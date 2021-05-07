@@ -1,6 +1,6 @@
 package com.city.phonemall.product.feign;
 
-import com.city.common.es.SkuEsModel;
+import com.city.common.to.es.SkuEsModel;
 import com.city.common.utils.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;

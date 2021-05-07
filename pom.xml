@@ -38,13 +38,14 @@
         <module>phonemall-common</module>
         <module>phonemall-gateway</module>
         <module>phonemall-third-party</module>
+        <module>phonemall-search</module>
         <module>phonemall-coupon</module>
         <module>phonemall-member</module>
         <module>phonemall-order</module>
         <module>phonemall-product</module>
         <module>phonemall-ware</module>
-        <module>phonemall-admin</module>
-        <module>renren-generator</module>
+<!--        <module>phonemall-admin</module>-->
+<!--        <module>renren-generator</module>-->
     </modules>
     <!--  子模块继承父模块之后，提供作用：锁定版本 + 子模块不用再写 version  -->
     <dependencyManagement>
