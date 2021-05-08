@@ -37,8 +37,12 @@
           <el-table-column prop="attrGroupName" header-align="center" align="center" label="组名"></el-table-column>
           <el-table-column prop="sort" header-align="center" align="center" label="排序"></el-table-column>
           <el-table-column prop="descript" header-align="center" align="center" label="描述"></el-table-column>
-          <el-table-column prop="icon" header-align="center" align="center" label="组图标"></el-table-column>
-          <el-table-column prop="catelogId" header-align="center" align="center" label="所属分类id"></el-table-column>
+          <el-table-column prop="icon" header-align="center" align="center" label="组图标">
+            <template slot-scope="scope">
+              <img :src="scope.row.logo" style="width: 60px; height: 60px"  alt=""/>
+            </template>
+          </el-table-column>
+          <el-table-column prop="catelogId" header-align="center" align="center" label="分类id"></el-table-column>
           <el-table-column
             fixed="right"
             header-align="center"
@@ -88,7 +92,6 @@
 import Category from '../common/category'
 import AddOrUpdate from './attrgroup-add-or-update'
 import RelationUpdate from './attr-group-relation'
-
 export default {
   // import引入的组件需要注入到对象中才能使用
   components: { Category, AddOrUpdate, RelationUpdate },
@@ -144,16 +147,18 @@ export default {
           limit: this.pageSize,
           key: this.dataForm.key
         })
-      }).then(({ data }) => {
-        if (data && data.code === 0) {
-          this.dataList = data.page.list
-          this.totalPage = data.page.totalCount
-        } else {
-          this.dataList = []
-          this.totalPage = 0
-        }
-        this.dataListLoading = false
       })
+        .then(({ data }) => {
+          if (data && data.code === 0) {
+            this.dataList = data.page.list
+            this.totalPage = data.page.totalCount
+          } else {
+            this.dataList = []
+            this.totalPage = 0
+          }
+          this.dataListLoading = false
+        })
+        .catch(() => {})
     },
     // 每页数
     sizeChangeHandle (val) {
@@ -192,26 +197,28 @@ export default {
           cancelButtonText: '取消',
           type: 'warning'
         }
-      ).then(() => {
-        this.$http({
-          url: this.$http.adornUrl('/product/attrgroup/delete'),
-          method: 'post',
-          data: this.$http.adornData(ids, false)
-        }).then(({ data }) => {
-          if (data && data.code === 0) {
-            this.$message({
-              message: '操作成功',
-              type: 'success',
-              duration: 1500,
-              onClose: () => {
-                this.getDataList()
-              }
-            })
-          } else {
-            this.$message.error(data.msg)
-          }
+      )
+        .then(() => {
+          this.$http({
+            url: this.$http.adornUrl('/product/attrgroup/delete'),
+            method: 'post',
+            data: this.$http.adornData(ids, false)
+          }).then(({ data }) => {
+            if (data && data.code === 0) {
+              this.$message({
+                message: '操作成功',
+                type: 'success',
+                duration: 1500,
+                onClose: () => {
+                  this.getDataList()
+                }
+              })
+            } else {
+              this.$message.error(data.msg)
+            }
+          })
         })
-      })
+        .catch(() => {})
     }
   }
 }

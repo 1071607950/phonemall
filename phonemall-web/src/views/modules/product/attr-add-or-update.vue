@@ -44,7 +44,7 @@
       <el-form-item label="所属分类" prop="catelogId">
         <category-cascader :catelogPath.sync="catelogPath"></category-cascader>
       </el-form-item>
-      <el-form-item label="所属分组" prop="attrGroupId" v-if="type == 1">
+      <el-form-item label="所属分组" prop="attrGroupId" v-if="type === 1">
         <el-select ref="groupSelect" v-model="dataForm.attrGroupId" placeholder="请选择">
           <el-option
             v-for="item in attrGroups"
@@ -54,7 +54,7 @@
           ></el-option>
         </el-select>
       </el-form-item>
-      <el-form-item label="可检索" prop="searchType" v-if="type == 1">
+      <el-form-item label="可检索" prop="searchType" v-if="type === 1">
         <el-switch
           v-model="dataForm.searchType"
           active-color="#13ce66"
@@ -63,7 +63,7 @@
           :inactive-value="0"
         ></el-switch>
       </el-form-item>
-      <el-form-item label="快速展示" prop="showDesc" v-if="type == 1">
+      <el-form-item label="快速展示" prop="showDesc" v-if="type === 1">
         <el-switch
           v-model="dataForm.showDesc"
           active-color="#13ce66"
@@ -171,7 +171,7 @@ export default {
   watch: {
     catelogPath (path) {
       // 监听到路径变化需要查出这个三级分类的分组信息
-      console.log('路径变了', path)
+      // console.log("路径变了", path);
       this.attrGroups = []
       this.dataForm.attrGroupId = ''
       this.dataForm.catelogId = path[path.length - 1]

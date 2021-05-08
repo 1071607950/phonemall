@@ -10,7 +10,7 @@
           <el-step title="保存完成"></el-step>
         </el-steps>
       </el-col>
-      <el-col :span="24" v-show="step==0">
+      <el-col :span="24" v-show="step===0">
         <el-card class="box-card" style="width:80%;margin:20px auto">
           <el-form ref="spuBaseForm" :model="spu" label-width="120px" :rules="spuBaseInfoRules">
             <el-form-item label="商品名称" prop="spuName">
@@ -61,7 +61,7 @@
           </el-form>
         </el-card>
       </el-col>
-      <el-col :span="24" v-show="step==1">
+      <el-col :span="24" v-show="step===1">
         <el-card class="box-card" style="width:80%;margin:20px auto">
           <el-tabs tab-position="left" style="width:98%">
             <el-tab-pane
@@ -83,7 +83,7 @@
                   ></el-input>
                   <el-select
                     v-model="dataResp.baseAttrs[gidx][aidx].attrValues"
-                    :multiple="attr.valueType == 1"
+                    :multiple="attr.valueType === 1"
                     filterable
                     allow-create
                     default-first-option
@@ -111,7 +111,7 @@
           </div>
         </el-card>
       </el-col>
-      <el-col :span="24" v-show="step==2">
+      <el-col :span="24" v-show="step===2">
         <el-card class="box-card" style="width:80%;margin:20px auto">
           <el-card class="box-card">
             <div slot="header" class="clearfix">
@@ -129,7 +129,7 @@
                   ></el-input>
                   <el-checkbox-group v-model="dataResp.tempSaleAttrs[aidx].attrValues">
                     <el-checkbox
-                      v-if="dataResp.saleAttrs[aidx].valueSelect != ''"
+                      v-if="dataResp.saleAttrs[aidx].valueSelect !== ''"
                       :label="val"
                       v-for="val in dataResp.saleAttrs[aidx].valueSelect.split(';')"
                       :key="val"
@@ -160,7 +160,7 @@
           </el-card>
         </el-card>
       </el-col>
-      <el-col :span="24" v-show="step==3">
+      <el-col :span="24" v-show="step===3">
         <el-card class="box-card" style="width:80%;margin:20px auto">
           <el-table :data="spu.skus" style="width: 100%">
             <el-table-column label="属性组合">
@@ -227,7 +227,7 @@
                             ></el-checkbox>
                           </el-col>
                           <el-col :span="12">
-                            <el-tag v-if="scope.row.images[index].defaultImg == 1">
+                            <el-tag v-if="scope.row.images[index].defaultImg === 1">
                               <input
                                 type="radio"
                                 checked
@@ -333,7 +333,7 @@
           <el-button type="success" @click="submitSkus">下一步：保存商品信息</el-button>
         </el-card>
       </el-col>
-      <el-col :span="24" v-show="step==4">
+      <el-col :span="24" v-show="step===4">
         <el-card class="box-card" style="width:80%;margin:20px auto">
           <h1>保存成功</h1>
           <el-button type="primary" @click="addAgian">继续添加</el-button>
@@ -344,11 +344,10 @@
 </template>
 
 <script>
-// 这里可以导入其他文件（比如：组件，工具js，第三方插件js，json文件，图片文件等等）
-// 例如：import 《组件名称》 from '《组件路径》';
 import CategoryCascader from '../common/category-cascader'
 import BrandSelect from '../common/brand-select'
 import MultiUpload from '@/components/upload/multiUpload'
+
 export default {
   // import引入的组件需要注入到对象中才能使用
   components: { CategoryCascader, BrandSelect, MultiUpload },
@@ -393,10 +392,10 @@ export default {
           { required: true, message: '请选择一个品牌', trigger: 'blur' }
         ],
         decript: [
-          { required: false, message: '请上传商品详情图集', trigger: 'blur' }
+          { required: true, message: '请上传商品详情图集', trigger: 'blur' }
         ],
         images: [
-          { required: false, message: '请上传商品图片集', trigger: 'blur' }
+          { required: true, message: '请上传商品图片集', trigger: 'blur' }
         ],
         weight: [
           {
@@ -471,6 +470,7 @@ export default {
     handlePriceChange (scope, mpidx, e) {
       this.spu.skus[scope.$index].memberPrice[mpidx].price = e
     },
+    // 查询所有会员信息
     getMemberLevels () {
       this.$http({
         url: this.$http.adornUrl('/member/memberlevel/list'),
@@ -533,6 +533,7 @@ export default {
       this.spu.baseAttrs = []
       this.dataResp.baseAttrs.forEach(item => {
         item.forEach(attr => {
+          // console.log("笛卡尔生成组合：" , attr);
           let { attrId, attrValues, showDesc } = attr
           // 跳过没有录入值的属性
           if (attrValues !== '') {
@@ -544,7 +545,7 @@ export default {
           }
         })
       })
-      console.log('baseAttrs', this.spu.baseAttrs)
+      // console.log("baseAttrs", this.spu.baseAttrs);
       this.step = 2
       this.getShowSaleAttr()
     },
@@ -565,7 +566,7 @@ export default {
       // [["黑色","6GB","移动"],["黑色","6GB","联通"],["黑色","8GB","移动"],["黑色","8GB","联通"],
       // ["白色","6GB","移动"],["白色","6GB","联通"],["白色","8GB","移动"],["白色","8GB","联通"],
       // ["蓝色","6GB","移动"],["蓝色","6GB","联通"],["蓝色","8GB","移动"],["蓝色","8GB","联通"]]
-      console.log('生成的组合', JSON.stringify(descartes))
+      // console.log("笛卡尔生成的组合", JSON.stringify(descartes));
       // 有多少descartes就有多少sku
       let skus = []
 
@@ -623,7 +624,7 @@ export default {
         }
       })
       this.spu.skus = skus
-      console.log('结果!!!', this.spu.skus, this.dataResp.tableAttrColumn)
+      // console.log("结果!!!", this.spu.skus, this.dataResp.tableAttrColumn);
     },
     // 判断如果包含之前的sku的descar组合，就返回这个sku的详细信息；
     hasAndReturnSku (skus, descar) {
@@ -672,24 +673,31 @@ export default {
           ),
           method: 'get',
           params: this.$http.adornParams({})
-        }).then(({ data }) => {
-          // 先对表单的baseAttrs进行初始化
-          data.data.forEach(item => {
-            let attrArray = []
-            if (item.attrs != null && item.attrs.length > 0) {
-              item.attrs.forEach(attr => {
-                attrArray.push({
-                  attrId: attr.attrId,
-                  attrValues: '',
-                  showDesc: attr.showDesc
-                })
-              })
-            }
-            this.dataResp.baseAttrs.push(attrArray)
-          })
-          this.dataResp.steped[0] = 0
-          this.dataResp.attrGroups = data.data
         })
+          .then(({ data }) => {
+            // 先对表单的baseAttrs进行初始化
+            data.data.forEach(item => {
+              // 输出基本信息
+              //  console.log(item)
+              let attrArray = []
+              // 显示基本属性
+              if (item.attrs != null && item.attrs.length > 0) {
+                item.attrs.forEach(attr => {
+                  attrArray.push({
+                    attrId: attr.attrId,
+                    attrValues: '',
+                    showDesc: attr.showDesc
+                  })
+                })
+              }
+              this.dataResp.baseAttrs.push(attrArray)
+            })
+            this.dataResp.steped[0] = 0
+            this.dataResp.attrGroups = data.data
+          })
+          .catch(e => {
+            console.log(e)
+          })
       }
     },
 
@@ -721,7 +729,7 @@ export default {
           })
         })
         .catch(e => {
-          console.log(e)
+          // console.log("已取消");
           this.$message({
             type: 'info',
             message: '已取消'
@@ -785,6 +793,7 @@ export default {
   created () {},
   // 生命周期 - 挂载完成（可以访问DOM元素）
   mounted () {
+    // 当用户点击三级分类id时 准备给品牌查询
     this.catPathSub = this.PubSub.subscribe('catPath', (msg, val) => {
       this.spu.catalogId = val[val.length - 1]
     })

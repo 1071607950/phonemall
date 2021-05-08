@@ -108,7 +108,6 @@
 <script>
 import AddOrUpdate from './brand-add-or-update'
 import CategoryCascader from '../common/category-cascader'
-
 export default {
   data () {
     return {
@@ -143,10 +142,16 @@ export default {
       this.$http({
         url: this.$http.adornUrl('/product/categorybrandrelation/save'),
         method: 'post',
-        data: this.$http.adornData({brandId: this.brandId, catelogId: this.catelogPath[this.catelogPath.length - 1]}, false)
+        data: this.$http.adornData(
+          {
+            brandId: this.brandId,
+            catelogId: this.catelogPath[this.catelogPath.length - 1]
+          },
+          false
+        )
       }).then(({ data }) => {
         this.getCateRelation()
-      })
+      }).catch(() => {})
     },
     deleteCateRelationHandle (id, brandId) {
       this.$http({
@@ -155,7 +160,7 @@ export default {
         data: this.$http.adornData([id], false)
       }).then(({ data }) => {
         this.getCateRelation()
-      })
+      }).catch(() => {})
     },
     updateCatelogHandle (brandId) {
       this.cateRelationDialogVisible = true
@@ -169,9 +174,11 @@ export default {
         params: this.$http.adornParams({
           brandId: this.brandId
         })
-      }).then(({ data }) => {
-        this.cateRelationTableData = data.data
       })
+        .then(({ data }) => {
+          this.cateRelationTableData = data.data
+        })
+        .catch(() => {})
     },
     // 获取数据列表
     getDataList () {
@@ -193,10 +200,10 @@ export default {
           this.totalPage = 0
         }
         this.dataListLoading = false
-      })
+      }).catch(() => {})
     },
     updateBrandStatus (data) {
-      console.log('最新信息', data)
+      // console.log("最新信息", data);
       let { brandId, showStatus } = data
       // 发送请求修改状态
       this.$http({
@@ -208,7 +215,7 @@ export default {
           type: 'success',
           message: '状态更新成功'
         })
-      })
+      }).catch(() => {})
     },
     // 每页数
     sizeChangeHandle (val) {
@@ -247,26 +254,28 @@ export default {
           cancelButtonText: '取消',
           type: 'warning'
         }
-      ).then(() => {
-        this.$http({
-          url: this.$http.adornUrl('/product/brand/delete'),
-          method: 'post',
-          data: this.$http.adornData(ids, false)
-        }).then(({ data }) => {
-          if (data && data.code === 0) {
-            this.$message({
-              message: '操作成功',
-              type: 'success',
-              duration: 1500,
-              onClose: () => {
-                this.getDataList()
-              }
-            })
-          } else {
-            this.$message.error(data.msg)
-          }
+      )
+        .then(() => {
+          this.$http({
+            url: this.$http.adornUrl('/product/brand/delete'),
+            method: 'post',
+            data: this.$http.adornData(ids, false)
+          }).then(({ data }) => {
+            if (data && data.code === 0) {
+              this.$message({
+                message: '操作成功',
+                type: 'success',
+                duration: 1500,
+                onClose: () => {
+                  this.getDataList()
+                }
+              })
+            } else {
+              this.$message.error(data.msg)
+            }
+          })
         })
-      })
+        .catch(() => {})
     }
   }
 }

@@ -91,7 +91,7 @@ public class AttrGroupController {
 
         PageUtils page = attrService.getNoRelationAttr(params,attrgroupId);
 
-        return R.ok().put("page",page);
+        return R.ok().put("data",page);
     }
 
 

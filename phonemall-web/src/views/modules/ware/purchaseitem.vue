@@ -45,19 +45,19 @@
       style="width: 100%;"
     >
       <el-table-column type="selection" header-align="center" align="center" width="50"></el-table-column>
-      <el-table-column prop="id" header-align="center" align="center" label="id"></el-table-column>
+      <el-table-column prop="id" header-align="center" align="center" label="采购项id"></el-table-column>
       <el-table-column prop="purchaseId" header-align="center" align="center" label="采购单id"></el-table-column>
       <el-table-column prop="skuId" header-align="center" align="center" label="采购商品id"></el-table-column>
       <el-table-column prop="skuNum" header-align="center" align="center" label="采购数量"></el-table-column>
-      <el-table-column prop="skuPrice" header-align="center" align="center" label="采购金额"></el-table-column>
+      <el-table-column prop="skuPrice" header-align="center" align="center" label="采购金额(￥)"></el-table-column>
       <el-table-column prop="wareId" header-align="center" align="center" label="仓库id"></el-table-column>
       <el-table-column prop="status" header-align="center" align="center" label="状态">
         <template slot-scope="scope">
-          <el-tag v-if="scope.row.status==0">新建</el-tag>
-          <el-tag type="info" v-if="scope.row.status==1">已分配</el-tag>
-          <el-tag type="wanring" v-if="scope.row.status==2">正在采购</el-tag>
-          <el-tag type="success" v-if="scope.row.status==3">已完成</el-tag>
-          <el-tag type="danger" v-if="scope.row.status==4">采购失败</el-tag>
+          <el-tag v-if="scope.row.status===0">新建</el-tag>
+          <el-tag type="info" v-if="scope.row.status===1">已分配</el-tag>
+          <el-tag type="wanring" v-if="scope.row.status===2">正在采购</el-tag>
+          <el-tag type="success" v-if="scope.row.status===3">已完成</el-tag>
+          <el-tag type="danger" v-if="scope.row.status===4">采购失败</el-tag>
         </template>
       </el-table-column>
       <el-table-column fixed="right" header-align="center" align="center" width="150" label="操作">
@@ -141,44 +141,41 @@ export default {
       if (items != null && items.length > 0) {
         if (!this.purchaseId) {
           this.$confirm(
-            '没有选择任何【采购单】，将自动创建新单进行合并。确认吗？',
-            '提示',
+          '没有选择任何【采购单】，将自动创建新单进行合并。确认吗？',
+          '提示',
             {
               confirmButtonText: '确定',
               cancelButtonText: '取消',
               type: 'warning'
             }
-          )
-            .then(() => {
-              this.$http({
-                url: this.$http.adornUrl('/ware/purchase/merge'),
-                method: 'post',
-                data: this.$http.adornData({ items: items }, false)
-              }).then(({ data }) => {
-                if (data && data.code === 0) {
-                  this.$message({
-                    message: '操作成功',
-                    type: 'success',
-                    duration: 1500,
-                    onClose: () => {
-                      this.getDataList()
-                    }
-                  })
-                } else {
-                  this.$message.error(data.msg)
-                }
-                this.getDataList()
-              })
+        )
+          .then(() => {
+            this.$http({
+              url: this.$http.adornUrl('/ware/purchase/merge'),
+              method: 'post',
+              data: this.$http.adornData({ items: items }, false)
+            }).then(({ data }) => {
+              if (data && data.code === 0) {
+                this.$message({
+                  message: '操作成功',
+                  type: 'success',
+                  duration: 1500
+                })
+              } else {
+                this.$message.error(data.msg)
+              }
+              this.getDataList()
             })
-            .catch(() => {})
+          })
+          .catch(() => {})
         } else {
           this.$http({
             url: this.$http.adornUrl('/ware/purchase/merge'),
             method: 'post',
             data: this.$http.adornData(
-              { purchaseId: this.purchaseId, items: items },
-              false
-            )
+            { purchaseId: this.purchaseId, items: items },
+            false
+          )
           }).then(({ data }) => {
             if (data && data.code === 0) {
               this.$message({
@@ -314,7 +311,7 @@ export default {
             this.$message.error(data.msg)
           }
         })
-      })
+      }).catch(e => {})
     }
   }
 }

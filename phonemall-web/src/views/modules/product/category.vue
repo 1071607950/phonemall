@@ -19,13 +19,8 @@
       <span class="custom-tree-node" slot-scope="{ node, data }">
         <span>{{ node.label }}</span>
         <span>
-          <el-button
-            v-if="node.level <=2"
-            type="text"
-            size="mini"
-            @click="() => append(data)"
-          >增加</el-button>
-          <el-button type="text" size="mini" @click="edit(data)">修改</el-button>
+          <el-button v-if="node.level <=2" type="text" size="mini" @click="() => append(data)">添加</el-button>
+          <el-button type="text" size="mini" @click="edit(data)">编辑</el-button>
           <el-button
             v-if="node.childNodes.length===0"
             type="text"
@@ -62,9 +57,6 @@
 </template>
 
 <script>
-// 这里可以导入其他文件（比如：组件，工具js，第三方插件js，json文件，图片文件等等）
-// 例如：import 《组件名称》 from '《组件路径》';
-
 export default {
   // import引入的组件需要注入到对象中才能使用
   components: {},
@@ -109,9 +101,9 @@ export default {
         method: 'get',
         params: this.$http.adornParams()
       }).then(({ data }) => {
-        console.log('成功获取到菜单数据...', data.data)
         this.menus = data.data
       })
+        .catch(() => {})
     },
     batchDelete () {
       let catIds = []
@@ -123,7 +115,7 @@ export default {
         })
         return
       }
-      console.log('被选中的元素', checkedNodes)
+      // console.log('被选中的元素', checkedNodes)
       for (let i = 0; i < checkedNodes.length; i++) {
         catIds.push(checkedNodes[i].catId)
       }
@@ -152,22 +144,24 @@ export default {
         url: this.$http.adornUrl('/product/category/update/sort'),
         method: 'post',
         data: this.$http.adornData(this.updateNodes, false)
-      }).then(({ data }) => {
-        this.$message({
-          message: '菜单顺序等修改成功',
-          type: 'success'
-        })
-        // 刷新出新的菜单
-        this.getMenus()
-        // 设置需要默认展开的菜单
-        this.expandedKey = this.pCid
-        this.updateNodes = []
-        this.maxLevel = 0
-        //  this.pCid = 0;
       })
+        .then(({ data }) => {
+          this.$message({
+            message: '菜单顺序等修改成功',
+            type: 'success'
+          })
+          // 刷新出新的菜单
+          this.getMenus()
+          // 设置需要默认展开的菜单
+          this.expandedKey = this.pCid
+          this.updateNodes = []
+          this.maxLevel = 0
+          // this.pCid = 0;
+        })
+        .catch(() => {})
     },
     handleDrop (draggingNode, dropNode, dropType, ev) {
-      console.log('handleDrop: ', draggingNode, dropNode, dropType)
+      // console.log("handleDrop: ", draggingNode, dropNode, dropType);
       // 1、当前节点最新的父节点id
       let pCid = 0
       let siblings = null
@@ -206,7 +200,7 @@ export default {
       }
 
       // 3、当前拖拽节点的最新层级
-      console.log('updateNodes', this.updateNodes)
+      // console.log("updateNodes", this.updateNodes);
     },
     updateChildNodeLevel (node) {
       if (node.childNodes.length > 0) {
@@ -224,20 +218,19 @@ export default {
       // 1、被拖动的当前节点以及所在的父节点总层数不能大于3
 
       // 1）、被拖动的当前节点总层数
-      console.log('allowDrop:', draggingNode, dropNode, type)
       //
       this.countNodeLevel(draggingNode)
       // 当前正在拖动的节点+父节点所在的深度不大于3即可
       // TODO 已修复第一次三级菜单不能拖动问题
       //  let deep = Math.abs(this.maxLevel - draggingNode.level) + 1;
       let deep = Math.abs(this.maxLevel - draggingNode.level + 1)
-      console.log('深度：', deep)
+      // console.log('深度：', deep)
 
-      //    this.maxLevel
+      //   this.maxLevel
       if (type === 'inner') {
-        //  console.log(
-        //    `this.maxLevel：${this.maxLevel}；draggingNode.data.catLevel：${draggingNode.data.catLevel}；dropNode.level：${dropNode.level}`
-        //  );
+        // console.log(
+        //   `this.maxLevel：${this.maxLevel}；draggingNode.data.catLevel：${draggingNode.data.catLevel}；dropNode.level：${dropNode.level}`
+        // );
         return deep + dropNode.level <= 3
       } else {
         return deep + dropNode.parent.level <= 3
@@ -259,7 +252,6 @@ export default {
       }
     },
     edit (data) {
-      console.log('要修改的数据', data)
       this.dialogType = 'edit'
       this.title = '修改分类'
       this.dialogVisible = true
@@ -268,27 +260,22 @@ export default {
       this.$http({
         url: this.$http.adornUrl(`/product/category/info/${data.catId}`),
         method: 'get'
-      }).then(({ data }) => {
-        // 请求成功
-        console.log('要回显的数据', data)
-        this.category.name = data.data.name
-        this.category.catId = data.data.catId
-        this.category.icon = data.data.icon
-        this.category.productUnit = data.data.productUnit
-        this.category.parentCid = data.data.parentCid
-        this.category.catLevel = data.data.catLevel
-        this.category.sort = data.data.sort
-        this.category.showStatus = data.data.showStatus
-        /**
-         *         parentCid: 0,
-         catLevel: 0,
-         showStatus: 1,
-         sort: 0,
-         */
       })
+        .then(({ data }) => {
+          // 请求成功
+          // console.log("要回显的数据", data);
+          this.category.name = data.data.name
+          this.category.catId = data.data.catId
+          this.category.icon = data.data.icon
+          this.category.productUnit = data.data.productUnit
+          this.category.parentCid = data.data.parentCid
+          this.category.catLevel = data.data.catLevel
+          this.category.sort = data.data.sort
+          this.category.showStatus = data.data.showStatus
+        })
+        .catch(() => {})
     },
     append (data) {
-      console.log('append', data)
       this.dialogType = 'add'
       this.title = '添加分类'
       this.dialogVisible = true
@@ -317,38 +304,41 @@ export default {
         url: this.$http.adornUrl('/product/category/update'),
         method: 'post',
         data: this.$http.adornData({ catId, name, icon, productUnit }, false)
-      }).then(({ data }) => {
-        this.$message({
-          message: '菜单修改成功',
-          type: 'success'
-        })
-        // 关闭对话框
-        this.dialogVisible = false
-        // 刷新出新的菜单
-        this.getMenus()
-        // 设置需要默认展开的菜单
-        this.expandedKey = [this.category.parentCid]
       })
+        .then(({ data }) => {
+          this.$message({
+            message: '菜单修改成功',
+            type: 'success'
+          })
+          // 关闭对话框
+          this.dialogVisible = false
+          // 刷新出新的菜单
+          this.getMenus()
+          // 设置需要默认展开的菜单
+          this.expandedKey = [this.category.parentCid]
+        })
+        .catch(() => {})
     },
     // 添加三级分类
     addCategory () {
-      console.log('提交的三级分类数据', this.category)
       this.$http({
         url: this.$http.adornUrl('/product/category/save'),
         method: 'post',
         data: this.$http.adornData(this.category, false)
-      }).then(({ data }) => {
-        this.$message({
-          message: '菜单保存成功',
-          type: 'success'
-        })
-        // 关闭对话框
-        this.dialogVisible = false
-        // 刷新出新的菜单
-        this.getMenus()
-        // 设置需要默认展开的菜单
-        this.expandedKey = [this.category.parentCid]
       })
+        .then(({ data }) => {
+          this.$message({
+            message: '菜单保存成功',
+            type: 'success'
+          })
+          // 关闭对话框
+          this.dialogVisible = false
+          // 刷新出新的菜单
+          this.getMenus()
+          // 设置需要默认展开的菜单
+          this.expandedKey = [this.category.parentCid]
+        })
+        .catch(() => {})
     },
 
     remove (node, data) {
@@ -375,8 +365,6 @@ export default {
           })
         })
         .catch(() => {})
-
-      console.log('remove', node, data)
     }
   },
   // 生命周期 - 创建完成（可以访问当前this实例）

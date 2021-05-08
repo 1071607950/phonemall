@@ -30,10 +30,10 @@
       <el-table-column prop="id" header-align="center" align="center" label="id"></el-table-column>
       <el-table-column prop="couponType" header-align="center" align="center" label="优惠卷类型">
         <template slot-scope="scope">
-          <el-tag v-if="scope.row.couponType==0">全场赠券</el-tag>
-          <el-tag type="info" v-if="scope.row.couponType==1">会员赠券</el-tag>
-          <el-tag type="success" v-if="scope.row.couponType==2">购物赠券</el-tag>
-          <el-tag type="warning" v-if="scope.row.couponType==3">注册赠券</el-tag>
+          <el-tag v-if="scope.row.couponType===0">全场赠券</el-tag>
+          <el-tag type="info" v-if="scope.row.couponType===1">会员赠券</el-tag>
+          <el-tag type="success" v-if="scope.row.couponType===2">购物赠券</el-tag>
+          <el-tag type="warning" v-if="scope.row.couponType===3">注册赠券</el-tag>
         </template>
       </el-table-column>
       <el-table-column prop="couponImg" header-align="center" align="center" label="优惠券图片"></el-table-column>
@@ -46,9 +46,9 @@
       <el-table-column prop="endTime" header-align="center" align="center" label="结束时间"></el-table-column>
       <el-table-column prop="useType" header-align="center" align="center" label="使用类型">
         <template slot-scope="scope">
-          <el-tag v-if="scope.row.useType==0">全场通用</el-tag>
-          <el-tag type="info" v-if="scope.row.useType==1">指定分类</el-tag>
-          <el-tag type="success" v-if="scope.row.useType==2">指定商品</el-tag>
+          <el-tag v-if="scope.row.useType===0">全场通用</el-tag>
+          <el-tag type="info" v-if="scope.row.useType===1">指定分类</el-tag>
+          <el-tag type="success" v-if="scope.row.useType===2">指定商品</el-tag>
         </template>
       </el-table-column>
       <el-table-column prop="note" header-align="center" align="center" label="备注"></el-table-column>
@@ -62,13 +62,13 @@
       <el-table-column prop="code" header-align="center" align="center" label="优惠码"></el-table-column>
       <el-table-column prop="memberLevel" header-align="center" align="center" label="领取所需等级">
         <template slot-scope="scope">
-          <el-tag v-if="scope.row.memberLevel==0">不限等级</el-tag>
+          <el-tag v-if="scope.row.memberLevel===0">不限等级</el-tag>
           <el-tag type="info" v-else>{{getLevel(scope.row.memberLevel)}}</el-tag>
         </template>
       </el-table-column>
       <el-table-column prop="publish" header-align="center" align="center" label="发布状态">
         <template slot-scope="scope">
-          <el-tag v-if="scope.row.publish==0">未发布</el-tag>
+          <el-tag v-if="scope.row.publish===0">未发布</el-tag>
           <el-tag type="success" v-else>已发布</el-tag>
         </template>
       </el-table-column>
@@ -95,7 +95,6 @@
 
 <script>
 import AddOrUpdate from './coupon-add-or-update'
-
 export default {
   data () {
     return {

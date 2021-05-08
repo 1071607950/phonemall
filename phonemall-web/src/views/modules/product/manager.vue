@@ -49,10 +49,10 @@
       <el-table-column prop="skuName" header-align="center" align="center" label="名称"></el-table-column>
       <el-table-column prop="skuDefaultImg" header-align="center" align="center" label="默认图片">
         <template slot-scope="scope">
-          <img :src="scope.row.skuDefaultImg" style="width:80px;height:80px;object-fit: scale-down" />
+          <img :src="scope.row.skuDefaultImg" style="width:80px;height:80px;object-fit: scale-down"  alt=""/>
         </template>
       </el-table-column>
-      <el-table-column prop="price" header-align="center" align="center" label="价格"></el-table-column>
+      <el-table-column prop="price" header-align="center" align="center" label="价格(￥)"></el-table-column>
       <el-table-column prop="saleCount" header-align="center" align="center" label="销量"></el-table-column>
       <el-table-column fixed="right" header-align="center" align="center" width="150" label="操作">
         <template slot-scope="scope">
@@ -127,11 +127,11 @@ export default {
   methods: {
     getSkuDetails (row, expand) {
       // sku详情查询
-      console.log('展开某行...', row, expand)
+      // console.log("展开某行...", row, expand);
     },
     // 处理更多指令
     handleCommand (row, command) {
-      console.log('~~~~~', row, command)
+      // console.log("~~~~~", row, command);
       if (command === 'stockSettings') {
         this.$router.push({ path: '/ware-sku', query: { skuId: row.skuId } })
       }

@@ -53,12 +53,20 @@
               <el-tag v-else>多选</el-tag>
             </template>
           </el-table-column>
-          <el-table-column prop="icon" header-align="center" align="center" label="图标"></el-table-column>
+          <el-table-column prop="icon" header-align="center" align="center" label="图标">
+            <template slot-scope="scope">
+              <!-- 自定义表格+自定义图片 -->
+              <img :src="scope.row.logo" style="width: 60px; height: 60px"  alt=""/>
+            </template>
+          </el-table-column>
           <el-table-column prop="valueSelect" header-align="center" align="center" label="可选值">
             <template slot-scope="scope">
               <el-tooltip placement="top">
                 <div slot="content">
-                  <span v-for="(i,index) in scope.row.valueSelect.split(';')" :key="index">{{i}}<br/></span>
+                  <span v-for="(i,index) in scope.row.valueSelect.split(';')" :key="index">
+                    {{i}}
+                    <br />
+                  </span>
                 </div>
                 <el-tag>{{scope.row.valueSelect.split(";")[0]+" ..."}}</el-tag>
               </el-tooltip>
@@ -119,8 +127,6 @@
 </template>
 
 <script>
-// 这里可以导入其他文件（比如：组件，工具js，第三方插件js，json文件，图片文件等等）
-// 例如：import 《组件名称》 from '《组件路径》';
 import Category from '../common/category'
 import AddOrUpdate from './attr-add-or-update'
 export default {
@@ -175,16 +181,18 @@ export default {
           limit: this.pageSize,
           key: this.dataForm.key
         })
-      }).then(({ data }) => {
-        if (data && data.code === 0) {
-          this.dataList = data.page.list
-          this.totalPage = data.page.totalCount
-        } else {
-          this.dataList = []
-          this.totalPage = 0
-        }
-        this.dataListLoading = false
       })
+        .then(({ data }) => {
+          if (data && data.code === 0) {
+            this.dataList = data.page.list
+            this.totalPage = data.page.totalCount
+          } else {
+            this.dataList = []
+            this.totalPage = 0
+          }
+          this.dataListLoading = false
+        })
+        .catch(() => {})
     },
     // 每页数
     sizeChangeHandle (val) {
@@ -223,26 +231,28 @@ export default {
           cancelButtonText: '取消',
           type: 'warning'
         }
-      ).then(() => {
-        this.$http({
-          url: this.$http.adornUrl('/product/attr/delete'),
-          method: 'post',
-          data: this.$http.adornData(ids, false)
-        }).then(({ data }) => {
-          if (data && data.code === 0) {
-            this.$message({
-              message: '操作成功',
-              type: 'success',
-              duration: 1500,
-              onClose: () => {
-                this.getDataList()
-              }
-            })
-          } else {
-            this.$message.error(data.msg)
-          }
+      )
+        .then(() => {
+          this.$http({
+            url: this.$http.adornUrl('/product/attr/delete'),
+            method: 'post',
+            data: this.$http.adornData(ids, false)
+          }).then(({ data }) => {
+            if (data && data.code === 0) {
+              this.$message({
+                message: '操作成功',
+                type: 'success',
+                duration: 1500,
+                onClose: () => {
+                  this.getDataList()
+                }
+              })
+            } else {
+              this.$message.error(data.msg)
+            }
+          })
         })
-      })
+        .catch(() => {})
     }
   }
 }

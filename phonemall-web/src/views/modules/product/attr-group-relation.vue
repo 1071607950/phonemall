@@ -21,7 +21,11 @@
             <el-table-column type="selection" header-align="center" align="center"></el-table-column>
             <el-table-column prop="attrId" header-align="center" align="center" label="属性id"></el-table-column>
             <el-table-column prop="attrName" header-align="center" align="center" label="属性名"></el-table-column>
-            <el-table-column prop="icon" header-align="center" align="center" label="属性图标"></el-table-column>
+            <el-table-column prop="icon" header-align="center" align="center" label="属性图标">
+              <template slot-scope="scope">
+              <img :src="scope.row.logo" style="width: 60px; height: 60px"  alt=""/>
+            </template>
+            </el-table-column>
             <el-table-column prop="valueSelect" header-align="center" align="center" label="可选值列表"></el-table-column>
           </el-table>
           <el-pagination
@@ -141,7 +145,7 @@ export default {
         } else {
           this.$message({ type: 'error', message: data.msg })
         }
-      })
+      }).catch(() => {})
     },
     // 移除关联
     relationRemove (attrId) {
@@ -158,12 +162,12 @@ export default {
         } else {
           this.$message({ type: 'error', message: data.msg })
         }
-      })
+      }).catch(() => {})
     },
     submitAddRealtion () {
       this.innerVisible = false
       // 准备数据
-      console.log('准备新增的数据', this.innerdataListSelections)
+      // console.log("准备新增的数据", this.innerdataListSelections);
       if (this.innerdataListSelections.length > 0) {
         let postData = []
         this.innerdataListSelections.forEach(item => {
@@ -179,7 +183,7 @@ export default {
           }
           this.$emit('refreshData')
           this.init(this.attrGroupId)
-        })
+        }).catch(() => {})
       } else {
       }
     },
@@ -194,7 +198,7 @@ export default {
         params: this.$http.adornParams({})
       }).then(({ data }) => {
         this.relationAttrs = data.data
-      })
+      }).catch(() => {})
     },
     dialogClose () {},
 
@@ -214,14 +218,14 @@ export default {
         })
       }).then(({ data }) => {
         if (data && data.code === 0) {
-          this.dataList = data.page.list
-          this.totalPage = data.page.totalCount
+          this.dataList = data.data.list
+          this.totalPage = data.data.totalCount
         } else {
           this.dataList = []
           this.totalPage = 0
         }
         this.dataListLoading = false
-      })
+      }).catch(() => {})
     },
     // 每页数
     sizeChangeHandle (val) {

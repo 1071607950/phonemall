@@ -25,7 +25,7 @@
         <el-input v-model="dataForm.icon" placeholder="组图标"></el-input>
       </el-form-item>
       <el-form-item label="所属分类" prop="catelogId">
-        <!-- <el-input v-model="dataForm.catelogId" placeholder="所属分类id"></el-input> @change="handleChange" -->
+        <!-- filterable:让这个选择器可以搜索 -->
         <!-- <el-cascader filterable placeholder="试试搜索：手机" v-model="catelogPath" :options="categorys"  :props="props"></el-cascader> -->
         <!-- :catelogPath="catelogPath"自定义绑定的属性，可以给子组件传值 -->
         <category-cascader :catelogPath.sync="catelogPath"></category-cascader>
@@ -40,7 +40,6 @@
 
 <script>
 import CategoryCascader from '../common/category-cascader'
-
 export default {
   data () {
     return {
@@ -75,7 +74,7 @@ export default {
       }
     }
   },
-  components: {CategoryCascader},
+  components: { CategoryCascader },
 
   methods: {
     dialogClose () {
@@ -84,8 +83,7 @@ export default {
     getCategorys () {
       this.$http({
         url: this.$http.adornUrl('/product/category/list/tree'),
-        method: 'get',
-        params: this.$http.adornParams()
+        method: 'get'
       }).then(({ data }) => {
         this.categorys = data.data
       })
