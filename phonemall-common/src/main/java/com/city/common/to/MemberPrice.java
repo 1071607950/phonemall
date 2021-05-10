@@ -3,6 +3,7 @@ package com.city.common.to;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -13,7 +14,8 @@ import java.math.BigDecimal;
  */
 
 @Data
-public class MemberPrice {
+public class MemberPrice implements Serializable {
+  private static final long serialVersionUID = 1L;
   /**
    * 会员等级ID
    */

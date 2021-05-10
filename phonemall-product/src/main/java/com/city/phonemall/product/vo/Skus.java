@@ -1,7 +1,5 @@
-/** Copyright 2020 bejson.com */
 package com.city.phonemall.product.vo;
 
-import com.city.common.to.MemberPrice;
 import lombok.Data;
 
 import java.io.Serializable;

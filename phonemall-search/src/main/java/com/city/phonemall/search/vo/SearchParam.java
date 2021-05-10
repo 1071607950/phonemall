@@ -5,6 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 /**
+ * @Description: 封装页面所有可能传递过来的查询条件
  * @author liuZhongKun
  * @email 1071607950@qq.com
  * @date 2021-05-07 21:36:33

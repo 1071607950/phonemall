@@ -10,6 +10,7 @@ import java.math.BigDecimal;
  * @email 1071607950@qq.com
  * @date 2021-05-04 08:26:33
  */
+
 @Data
 public class MemberPrice implements Serializable {
   private static final long serialVersionUID = 1L;
