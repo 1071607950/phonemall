@@ -20,7 +20,7 @@ import java.util.Map;
  **/
 
 @Slf4j
-@RestControllerAdvice(basePackages = "com.city.phonemall.product.controller")
+@RestControllerAdvice(basePackages = "com.city.phonemall.product.app")
 public class PhonemallExceptionControllerAdvice {
 
     /**

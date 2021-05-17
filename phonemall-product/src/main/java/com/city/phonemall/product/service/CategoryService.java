@@ -3,6 +3,7 @@ package com.city.phonemall.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.city.common.utils.PageUtils;
 import com.city.phonemall.product.entity.CategoryEntity;
+import com.city.phonemall.product.vo.Catelog2Vo;
 
 import java.util.List;
 import java.util.Map;
@@ -54,9 +55,9 @@ public interface CategoryService extends IService<CategoryEntity> {
 
     public void updateCascade(CategoryEntity category);
 
-    //TODO 还有接口
+    List<CategoryEntity> getLevel1Categorys();
 
-
+    Map<String, List<Catelog2Vo>> getCatalogJson();
 
 }
 

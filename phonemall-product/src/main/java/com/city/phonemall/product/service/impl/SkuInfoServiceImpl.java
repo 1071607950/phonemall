@@ -1,14 +1,22 @@
 package com.city.phonemall.product.service.impl;
 
+import com.alibaba.fastjson.TypeReference;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.city.common.utils.PageUtils;
 import com.city.common.utils.Query;
+import com.city.common.utils.R;
 import com.city.phonemall.product.dao.SkuInfoDao;
+import com.city.phonemall.product.entity.SkuImagesEntity;
 import com.city.phonemall.product.entity.SkuInfoEntity;
+import com.city.phonemall.product.entity.SpuInfoDescEntity;
 import com.city.phonemall.product.feign.SeckillFeignService;
 import com.city.phonemall.product.service.*;
+import com.city.phonemall.product.vo.SeckillSkuVo;
+import com.city.phonemall.product.vo.SkuItemSaleAttrVo;
+import com.city.phonemall.product.vo.SkuItemVo;
+import com.city.phonemall.product.vo.SpuItemAttrGroupVo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,6 +25,9 @@ import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ThreadPoolExecutor;
 
 
 @Service("skuInfoService")

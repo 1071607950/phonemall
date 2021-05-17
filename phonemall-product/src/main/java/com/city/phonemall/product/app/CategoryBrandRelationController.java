@@ -1,4 +1,4 @@
-package com.city.phonemall.product.controller;
+package com.city.phonemall.product.app;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.city.common.utils.PageUtils;
