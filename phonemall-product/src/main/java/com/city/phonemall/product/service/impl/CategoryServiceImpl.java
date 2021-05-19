@@ -45,9 +45,8 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     @Resource
     private StringRedisTemplate stringRedisTemplate;
 
-    //TODO 没实现
-//    @Autowired
-//    private RedissonClient redissonClient;
+    @Autowired
+    private RedissonClient redissonClient;
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
@@ -252,16 +251,15 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     //2)、lettuce的bug导致netty堆外内存溢出   可设置：-Dio.netty.maxDirectMemory
     //解决方案：不能直接使用-Dio.netty.maxDirectMemory去调大堆外内存
     //1)、升级lettuce客户端。      2）、切换使用jedis
-    // @Override
-    // TODO 还没实现
-    /*public Map<String, List<Catelog2Vo>> getCatalogJson2() {
+    @Override
+    public Map<String, List<Catelog2Vo>> getCatalogJson2() {
         //给缓存中放json字符串，拿出的json字符串，反序列为能用的对象
 
-        *//**
+        /**
          * 1、空结果缓存：解决缓存穿透问题
          * 2、设置过期时间(加随机值)：解决缓存雪崩
          * 3、加锁：解决缓存击穿问题
-         *//*
+         */
 
         //1、加入缓存逻辑,缓存中存的数据是json字符串
         //JSON跨语言。跨平台兼容。
@@ -280,7 +278,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         Map<String, List<Catelog2Vo>> result = JSON.parseObject(catalogJson,new TypeReference<Map<String, List<Catelog2Vo>>>(){});
 
         return result;
-    }*/
+    }
 
 
     /**
@@ -291,7 +289,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
      * @return
      */
 
-    /*TODO 还没实现
     public Map<String, List<Catelog2Vo>> getCatalogJsonFromDbWithRedissonLock() {
 
         //1、占分布式锁。去redis占坑
@@ -320,7 +317,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
         return dataFromDb;
 
-    }*/
+    }
 
 
     /**

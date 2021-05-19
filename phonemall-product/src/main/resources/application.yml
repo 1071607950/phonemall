@@ -18,6 +18,8 @@ spring:
   redis:
     host: localhost
     port: 6379
+#    redisson:
+#      config: classpath:/redission.yml
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
