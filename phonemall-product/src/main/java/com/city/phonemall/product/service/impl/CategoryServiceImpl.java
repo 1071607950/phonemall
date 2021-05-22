@@ -17,6 +17,7 @@ import org.redisson.api.RLock;
 import org.redisson.api.RReadWriteLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
@@ -39,10 +40,10 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     // @Resource
     // private CategoryDao categoryDao;
 
-    @Resource
+    @Autowired
     private CategoryBrandRelationService categoryBrandRelationService;
 
-    @Resource
+    @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
     @Autowired
@@ -130,31 +131,43 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     }
 
 
-
-    private List<Long> findParentPath(Long catelogId, List<Long> paths) {
-
-        //1、收集当前节点id
-        paths.add(catelogId);
-
-        //根据当前分类id查询信息
-        CategoryEntity byId = this.getById(catelogId);
-        //如果当前不是父分类
-        if (byId.getParentCid() != 0) {
-            findParentPath(byId.getParentCid(), paths);
-        }
-
-        return paths;
-    }
-
-    //TODO 没写完
-
+    /**
+     * 级联更新所有关联的数据
+     *
+     * @CacheEvict:失效模式
+     * @CachePut:双写模式，需要有返回值
+     * 1、同时进行多种缓存操作：@Caching
+     * 2、指定删除某个分区下的所有数据 @CacheEvict(value = "category",allEntries = true)
+     * 3、存储同一类型的数据，都可以指定为同一分区
+     * @param category
+     */
+    // @Caching(evict = {
+    //         @CacheEvict(value = "category",key = "'getLevel1Categorys'"),
+    //         @CacheEvict(value = "category",key = "'getCatalogJson'")
+    // })
+    @CacheEvict(value = "category",allEntries = true)       //删除某个分区下的所有数据
     @Transactional(rollbackFor = Exception.class)
     @Override
     public void updateCascade(CategoryEntity category) {
-        this.baseMapper.updateById(category);
-        categoryBrandRelationService.updateCategory(category.getCatId(), category.getName());
 
+        RReadWriteLock readWriteLock = redissonClient.getReadWriteLock("catalogJson-lock");
+        //创建写锁
+        RLock rLock = readWriteLock.writeLock();
+
+        try {
+            rLock.lock();
+            this.baseMapper.updateById(category);
+            categoryBrandRelationService.updateCategory(category.getCatId(), category.getName());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            rLock.unlock();
+        }
+
+        //同时修改缓存中的数据
+        //删除缓存,等待下一次主动查询进行更新
     }
+
 
     /**
      * 每一个需要缓存的数据我们都来指定要放到那个名字的缓存。【缓存的分区(按照业务类型分)】
@@ -251,7 +264,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     //2)、lettuce的bug导致netty堆外内存溢出   可设置：-Dio.netty.maxDirectMemory
     //解决方案：不能直接使用-Dio.netty.maxDirectMemory去调大堆外内存
     //1)、升级lettuce客户端。      2）、切换使用jedis
-    @Override
+    //@Override
     public Map<String, List<Catelog2Vo>> getCatalogJson2() {
         //给缓存中放json字符串，拿出的json字符串，反序列为能用的对象
 
@@ -452,5 +465,19 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         //         new QueryWrapper<CategoryEntity>().eq("parent_cid", parentCid));
     }
 
+    private List<Long> findParentPath(Long catelogId, List<Long> paths) {
+
+        //1、收集当前节点id
+        paths.add(catelogId);
+
+        //根据当前分类id查询信息
+        CategoryEntity byId = this.getById(catelogId);
+        //如果当前不是父分类
+        if (byId.getParentCid() != 0) {
+            findParentPath(byId.getParentCid(), paths);
+        }
+
+        return paths;
+    }
 
 }

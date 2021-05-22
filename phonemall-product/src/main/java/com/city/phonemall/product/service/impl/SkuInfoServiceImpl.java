@@ -45,7 +45,7 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfoEntity> i
     @Autowired
     private SkuSaleAttrValueService skuSaleAttrValueService;
 
-    @Resource
+    @Autowired
     private SeckillFeignService seckillFeignService;
 
 //    @Autowired

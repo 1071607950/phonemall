@@ -1,4 +1,4 @@
-//PUT gulimall_product
+PUT phonemall_product
 {
   "mappings": {
     "properties": {

@@ -59,11 +59,5 @@ public interface CategoryService extends IService<CategoryEntity> {
 
     Map<String, List<Catelog2Vo>> getCatalogJson();
 
-    //TODO 产生堆外内存溢出OutOfDirectMemoryError:
-    //1)、springboot2.0以后默认使用lettuce操作redis的客户端，它使用通信
-    //2)、lettuce的bug导致netty堆外内存溢出   可设置：-Dio.netty.maxDirectMemory
-    //解决方案：不能直接使用-Dio.netty.maxDirectMemory去调大堆外内存
-    //1)、升级lettuce客户端。      2）、切换使用jedis
-    Map<String, List<Catelog2Vo>> getCatalogJson2();
 }
 

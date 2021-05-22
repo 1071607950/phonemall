@@ -3,6 +3,7 @@ package com.city.phonemall.product.web;
 
 import com.city.phonemall.product.service.SkuInfoService;
 import com.city.phonemall.product.vo.SkuItemVo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +21,7 @@ import java.util.concurrent.ExecutionException;
 @Controller
 public class ItemController {
 
-    @Resource
+    @Autowired
     private SkuInfoService skuInfoService;
 
     /**

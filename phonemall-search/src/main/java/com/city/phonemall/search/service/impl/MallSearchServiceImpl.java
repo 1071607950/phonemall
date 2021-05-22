@@ -17,6 +17,7 @@ import org.apache.lucene.search.join.ScoreMode;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.common.xcontent.XContentParser;
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.NestedQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -59,7 +60,7 @@ public class MallSearchServiceImpl implements MallSearchService {
     @Autowired
     private RestHighLevelClient esRestClient;
 
-    @Resource
+    @Autowired
     private ProductFeignService productFeignService;
 
     @Override
@@ -230,7 +231,7 @@ public class MallSearchServiceImpl implements MallSearchService {
                     e.printStackTrace();
                 }
                 String replace = param.get_queryString().replace("&attrs=" + attr, "");
-                navVo.setLink("http://search.gulimall.com/list.html?" + replace);
+                navVo.setLink("http://search.phonemall.com/list.html?" + replace);
 
                 return navVo;
             }).collect(Collectors.toList());
@@ -333,6 +334,7 @@ public class MallSearchServiceImpl implements MallSearchService {
             String sort = param.getSort();
             String[] sortFileds = sort.split("_");
 
+//            SortOrder sortOrder = SortOrder.fromString(sortFileds[1]);
             SortOrder sortOrder="asc".equalsIgnoreCase(sortFileds[1])?SortOrder.ASC:SortOrder.DESC;
 
             searchSourceBuilder.sort(sortFileds[0],sortOrder);

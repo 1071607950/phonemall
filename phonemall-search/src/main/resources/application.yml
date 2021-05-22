@@ -8,6 +8,8 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: Asia/Shanghai
+  thymeleaf:
+    cache: false
 server:
   port: 12000
 logging:

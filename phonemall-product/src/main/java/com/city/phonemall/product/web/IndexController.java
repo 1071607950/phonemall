@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 @Controller
 public class IndexController {
 
-    @Resource
+    @Autowired
     private CategoryService categoryService;
 
     @Autowired
