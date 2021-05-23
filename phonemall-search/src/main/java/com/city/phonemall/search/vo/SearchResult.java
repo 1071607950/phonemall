@@ -3,6 +3,7 @@ package com.city.phonemall.search.vo;
 import com.city.common.to.es.SkuEsModel;
 import lombok.Data;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -55,8 +56,8 @@ public class SearchResult {
 
 
     /* 面包屑导航数据 */
-    private List<NavVo> navs;
-
+    private List<NavVo> navs = new ArrayList<>();
+    private List<Long> attrIds = new ArrayList<>();
     @Data
     public static class NavVo {
         private String navName;

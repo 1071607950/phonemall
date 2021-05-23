@@ -4,7 +4,6 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 import com.city.common.to.es.SkuEsModel;
 import com.city.common.utils.R;
-
 import com.city.phonemall.search.config.MallElasticSearchConfig;
 import com.city.phonemall.search.constant.EsConstant;
 import com.city.phonemall.search.feign.ProductFeignService;
@@ -17,7 +16,6 @@ import org.apache.lucene.search.join.ScoreMode;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RestHighLevelClient;
-import org.elasticsearch.common.xcontent.XContentParser;
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.NestedQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -39,7 +37,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import javax.annotation.Resource;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -213,6 +210,8 @@ public class MallSearchServiceImpl implements MallSearchService {
                 String[] s = attr.split("_");
                 navVo.setNavValue(s[1]);
                 R r = productFeignService.attrInfo(Long.parseLong(s[0]));
+                result.getAttrIds().add(Long.parseLong(s[0]));
+
                 if (r.getCode() == 0) {
                     AttrResponseVo data = r.getData("attr", new TypeReference<AttrResponseVo>() {
                     });
@@ -225,19 +224,45 @@ public class MallSearchServiceImpl implements MallSearchService {
                 //拿到所有的查询条件，去掉当前
                 String encode = null;
                 try {
-                    encode = URLEncoder.encode(attr,"UTF-8");
-                    encode.replace("+","%20");  //浏览器对空格的编码和Java不一样，差异化处理
+                    encode = URLEncoder.encode(attr, "UTF-8");
+                    encode = encode.replace("+", "%20");  //浏览器对空格的编码和Java不一样，差异化处理
                 } catch (UnsupportedEncodingException e) {
                     e.printStackTrace();
                 }
-                String replace = param.get_queryString().replace("&attrs=" + attr, "");
-                navVo.setLink("http://search.phonemall.com/list.html?" + replace);
+
+                String replace = replaceQueryString(param, attr, "attrs");
+
+                navVo.setLink("http://search.phonemall.com/list.html" + (replace.isEmpty() ? "" : "?" + replace));
 
                 return navVo;
             }).collect(Collectors.toList());
 
             result.setNavs(collect);
         }
+
+        // 品牌、分类
+        if(param.getBrandId() != null && param.getBrandId().size() > 0){
+            List<SearchResult.NavVo> navs = result.getNavs();
+            SearchResult.NavVo navVo = new SearchResult.NavVo();
+            navVo.setNavName("品牌");
+            // TODO 远程查询所有品牌
+            R r = productFeignService.brandsInfo(param.getBrandId());
+            if(r.getCode() == 0) {
+                List<SearchResult.BrandVo> brand = r.getData("brand", new TypeReference<List<SearchResult.BrandVo>>() {
+                });
+                StringBuffer buffer = new StringBuffer();
+                // 替换所有品牌ID
+                String replace = "";
+                for (SearchResult.BrandVo brandVo : brand) {
+                    buffer.append(brandVo.getBrandName()).append(";");
+                    replace = replaceQueryString(param, brandVo.getBrandId() + "", "brandId");
+                }
+                navVo.setNavValue(buffer.toString());
+                navVo.setLink("http://search.phonemall.com/list.html" + (replace.isEmpty() ? "" : "?" + replace));
+            }
+            navs.add(navVo);
+        }
+        //TODO 分类:不需要导航取消
 
 
         return result;
@@ -398,5 +423,22 @@ public class MallSearchServiceImpl implements MallSearchService {
         SearchRequest searchRequest = new SearchRequest(new String[]{EsConstant.PRODUCT_INDEX},searchSourceBuilder);
 
         return searchRequest;
+    }
+
+    /**
+     * 替换字符
+     * key ：需要替换的key
+     */
+    private String replaceQueryString(SearchParam param, String value, String key) {
+        String encode = null;
+        try {
+            encode = URLEncoder.encode(value,"UTF-8");
+            // 浏览器对空格的编码和java的不一样
+            encode = encode.replace("+","%20");
+            encode = encode.replace("%28", "(").replace("%29",")");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return param.get_queryString().replace("&" + key + "=" + encode, "").replace(key + "=" + encode + "&", "").replace(key + "=" + encode,"");
     }
 }

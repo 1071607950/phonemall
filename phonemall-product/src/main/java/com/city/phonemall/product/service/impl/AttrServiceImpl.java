@@ -23,6 +23,7 @@ import com.city.phonemall.product.vo.AttrVo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -132,6 +133,7 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
 
     }
 
+    @Cacheable(value = "attr",key = "'attrinfo:' + #root.args[0]")
     @Override
     public AttrRespVo getAttrInfo(Long attrId) {
 
@@ -178,6 +180,7 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
         BeanUtils.copyProperties(attr,attrEntity);
 
         this.updateById(attrEntity);
+        //TODO这里还需要在商品属性表里修改下关联的属性名字
 
         //TODO 修复修改时候关联的分组ID为空还仍然增加关联记录的问题
         if (attrEntity.getAttrType() == ProductConstant.AttrEnum.ATTR_TYPE_BASE.getCode() && attr.getAttrGroupId() != null) {

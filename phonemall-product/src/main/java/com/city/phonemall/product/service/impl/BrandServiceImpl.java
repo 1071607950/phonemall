@@ -11,9 +11,12 @@ import com.city.phonemall.product.service.BrandService;
 import com.city.phonemall.product.service.CategoryBrandRelationService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
 import java.util.Map;
 
 
@@ -44,6 +47,7 @@ public class BrandServiceImpl extends ServiceImpl<BrandDao, BrandEntity> impleme
 
     @Transactional(rollbackFor = Exception.class)
     @Override
+    @CacheEvict(value = "brand",allEntries = true)       //删除某个分区下的所有数据
     public void updateDetail(BrandEntity brand) {
         //保证冗余字段的数据一致
         baseMapper.updateById(brand);
@@ -54,6 +58,12 @@ public class BrandServiceImpl extends ServiceImpl<BrandDao, BrandEntity> impleme
 
             //TODO 更新其他关联
         }
+    }
+
+    @Override
+    @Cacheable(value = "brand",key = "'brands:' + #root.args[0]")
+    public List<BrandEntity> getBrandsByIds(List<Long> brandIds) {
+        return baseMapper.selectList(new QueryWrapper<BrandEntity>().in("brand_id", brandIds));
     }
 
 }

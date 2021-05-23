@@ -783,9 +783,9 @@
                 <h3><b>手机</b><em>商品筛选</em></h3>
                 <div class="st-ext">共&nbsp;<span th:text="${result.total}">10135</span>个商品</div>
             </div>
-            <div class="JD_nav_logo">
+            <div class="JD_nav_logo" th:with="brandId = ${param.brandId}">
                 <!--品牌-->
-                <div class="JD_nav_wrap">
+                <div th:if="${#strings.isEmpty(brandId)}" class="JD_nav_wrap">
                     <div class="sl_key">
                         <span><b>品牌：</b></span>
                     </div>
@@ -849,7 +849,7 @@
                 </div>
 
                 <!--其它的所有需要展示的属性-->
-                <div class="JD_pre" th:each="attr : ${result.attrs}">
+                <div class="JD_pre" th:each="attr : ${result.attrs}" th:if="${!#lists.contains(result.attrIds,attr.attrId)}">
                     <div class="sl_key">
                         <span th:text="${attr.attrName}">屏幕尺寸：</span>
                     </div>
@@ -1086,10 +1086,18 @@
                         </div>
                         <div class="filter_top_right">
                             <span class="fp-text">
-                               <b>1</b><em>/</em><i>169</i>
+                               <b th:text="${result.pageNum}">1</b><em>/</em><i th:text="${result.totalPages}">169</i>
                            </span>
-                            <a href="/static/search/#" class="prev"><</a>
-                            <a href="/static/search/#" class="next"> > </a>
+                            <a class="page_a prev" th:attr="pn=${result.pageNum - 1}" href="/static/search/#"
+                               th:if="${result.pageNum>1}">
+                                <
+                            </a>
+                            <a class="page_a next" th:attr="pn=${result.pageNum + 1}"
+                               th:if="${result.pageNum<result.totalPages}">
+                                >
+                            </a>
+<!--                            <a href="/static/search/#" class="prev"><</a>-->
+<!--                            <a href="/static/search/#" class="next"> > </a>-->
                         </div>
                     </div>
                     <!--收货地址-->
@@ -1209,32 +1217,32 @@
                     <!--排序内容，每四个是一组-->
                     <div class="rig_tab">
                         <div th:each="product : ${result.getProduct()}">
-                            <div class="ico">
-                                <i class="iconfont icon-weiguanzhu"></i>
-                                <a href="/static/search/#">关注</a>
-                            </div>
+<!--                            <div class="ico">-->
+<!--                                <i class="iconfont icon-weiguanzhu"></i>-->
+<!--                                <a href="/static/search/#">关注</a>-->
+<!--                            </div>-->
                             <p class="da">
                                 <a th:href="|http://item.phonemall.com/${product.skuId}.html|" >
                                     <img   class="dim" th:src="${product.skuImg}">
                                 </a>
                             </p>
                             <ul class="tab_im">
-                                <li><a href="/static/search/#" title="黑色">
+                                <li><a th:href="|http://item.phonemall.com/${product.skuId}.html|" th:title="${product.skuTitle}">
                                     <img th:src="${product.skuImg}"></a></li>
                             </ul>
                             <p class="tab_R">
                                 <span th:text="'￥' + ${product.skuPrice}">¥5199.00</span>
                             </p>
                             <p class="tab_JE">
-                                <a href="/static/search/#" th:utext="${product.skuTitle}">
+                                <a th:href="|http://item.phonemall.com/${product.skuId}.html|" th:utext="${product.skuTitle}">
                                     Apple iPhone 7 Plus (A1661) 32G 黑色 移动联通电信4G手机
                                 </a>
                             </p>
-                            <p class="tab_PI">已有<span>11万+</span>热门评价
-                                <a href="/static/search/#">二手有售</a>
-                            </p>
-                            <p class="tab_CP"><a href="/static/search/#" title="谷粒商城Apple产品专营店">谷粒商城Apple产品...</a>
-                                <a href='#' title="联系供应商进行咨询">
+<!--                            <p class="tab_PI">已有<span>11万+</span>热门评价-->
+<!--                                <a href="#">二手有售</a>-->
+<!--                            </p>-->
+                            <p class="tab_CP"><a th:text="${'谷粒商城' + product.brandName  + '产品专营店'}" th:title="${'谷粒商城' + product.brandName  + '产品专营店'}">谷粒商城Apple产品...</a>
+                                <a title="联系供应商进行咨询">
                                     <img src="/static/search/img/xcxc.png">
                                 </a>
                             </p>
@@ -1268,9 +1276,9 @@
                             </span>
                             <span class="page_span2">
                                 <em>共<b>[[${result.totalPages}]]</b>页&nbsp;&nbsp;到第</em>
-                                <input type="number" value="1">
+                                <input id="jumpPageInput" type="number" value="1">
                                 <em>页</em>
-                                <a class="page_submit">确定</a>
+                                <a class="page_submit" href="javascript:jumpPage()">确定</a>
                             </span>
                         </div>
                     </div>
@@ -2027,21 +2035,26 @@
 
 
     function searchByKeyword() {
-        searchProducts("keyword", $("#keyword_input").val());
+        location.href = replaceParamVal(location.href,"keyword", $("#keyword_input").val(),false)
     }
 
     $(".page_a").click(function () {
         var pn = $(this).attr("pn");
         var href = location.href;
-        // if (href.indexOf("pageNum") != -1) {
-        //     //替换pageNum
-        //
-        // } else {
+        // if(href.indexOf("pageNum")!=-1){
+        //     // 路劲包含这个就进行替换
+        //     location.href = replaceParamVal(href, "pageNum", pn);
+        // }else{
         //     location.href = location.href + "&pageNum=" + pn;
         // }
         location.href = replaceParamVal(href, "pageNum", pn);
         return false;
     })
+
+    function jumpPage() {
+        location.href = replaceParamVal(location.href, "pageNum", $("#jumpPageInput").val());
+        return false;
+    }
 
     function replaceParamVal(url, paramName, replaceVal,forceAdd) {
         var oUrl = url.toString();
@@ -2111,11 +2124,11 @@
 
 
     $("#showHasStock").change(function () {
-        alert( $(this).prop("checked") );
+        // alert( $(this).prop("checked") );
         if( $(this).prop("checked") ) {
             location.href = replaceParamVal(location.href,"hasStock",1,false);
         } else {
-            let re = eval('/(hasStock=)([^&]*)/gi');
+            let re = eval('/([\?|&]?hasStock=)([^&]*)/gi');
             location.href = (location.href+"").replace(re,"");
         }
         return false;

@@ -7,12 +7,15 @@ import com.city.common.valid.UpdateGroup;
 import com.city.common.valid.UpdateStatusGroup;
 import com.city.phonemall.product.entity.BrandEntity;
 import com.city.phonemall.product.service.BrandService;
+import com.city.phonemall.product.vo.BrandVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 
 /**
@@ -50,6 +53,19 @@ public class BrandController {
 
         return R.ok().put("brand", brand);
     }
+
+    @GetMapping("/infos")
+    public R info(@RequestParam("brandIds") List<Long> brandIds) {
+        List<BrandEntity> brand = brandService.getBrandsByIds(brandIds);
+        final List<BrandVo> collect = brand.stream().map(item -> {
+            BrandVo brandVo = new BrandVo();
+            brandVo.setBrandId(item.getBrandId());
+            brandVo.setBrandName(item.getName());
+            return brandVo;
+        }).collect(Collectors.toList());
+        return R.ok().put("brand",collect);
+    }
+
 
     /**
      * 保存

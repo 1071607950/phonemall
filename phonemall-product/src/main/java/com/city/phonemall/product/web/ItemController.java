@@ -9,7 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import javax.annotation.Resource;
 import java.util.concurrent.ExecutionException;
 
 /**
@@ -34,10 +33,9 @@ public class ItemController {
 
         System.out.println("准备查询" + skuId + "详情");
 
-        //TODO 没写完
-//        SkuItemVo vos = skuInfoService.item(skuId);
-//
-//        model.addAttribute("item",vos);
+        SkuItemVo vos = skuInfoService.item(skuId);
+
+        model.addAttribute("item",vos);
 
         return "item";
     }
