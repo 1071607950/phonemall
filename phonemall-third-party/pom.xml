@@ -22,6 +22,10 @@
                     <groupId>com.baomidou</groupId>
                     <artifactId>mybatis-plus-boot-starter</artifactId>
                 </exclusion>
+                <exclusion>
+                    <artifactId>mysql-connector-java</artifactId>
+                    <groupId>mysql</groupId>
+                </exclusion>
             </exclusions>
         </dependency>
         <!--阿里云服务单独部分<dependency>
@@ -31,6 +35,10 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alicloud-oss</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
         </dependency>
     </dependencies>
 

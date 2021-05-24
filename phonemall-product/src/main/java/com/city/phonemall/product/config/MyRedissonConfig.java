@@ -3,8 +3,8 @@ package com.city.phonemall.product.config;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;
+import org.redisson.spring.starter.RedissonAutoConfiguration;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 import java.io.IOException;
 
@@ -12,6 +12,12 @@ import java.io.IOException;
  * @author liuZhongKun 1071607950@qq.com
  **/
 
+/**
+ * 使用了
+ *
+ * @see RedissonAutoConfiguration
+ * 自动配置不用手动配置
+ */
 //@Configuration
 public class MyRedissonConfig {
 
@@ -24,7 +30,7 @@ public class MyRedissonConfig {
     public RedissonClient redisson() throws IOException {
         //1、创建配置
         Config config = new Config();
-        config.useSingleServer().setAddress("redis://192.168.77.130:6379");
+        config.useSingleServer().setAddress("redis://127.0.0.1:6379");
 
         //2、根据Config创建出RedissonClient实例
         //Redis url should start with redis:// or rediss://

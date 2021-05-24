@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
@@ -26,11 +27,25 @@ public class MemberReceiveAddressController {
     private MemberReceiveAddressService memberReceiveAddressService;
 
     /**
+     * 根据会员id查询会员的所有地址
+     *
+     * @param memberId
+     * @return
+     */
+    @GetMapping(value = "/{memberId}/address")
+    public List<MemberReceiveAddressEntity> getAddress(@PathVariable("memberId") Long memberId) {
+
+        List<MemberReceiveAddressEntity> addressList = memberReceiveAddressService.getAddress(memberId);
+
+        return addressList;
+    }
+
+    /**
      * 列表
      */
     @RequestMapping("/list")
     //@RequiresPermissions("member:memberreceiveaddress:list")
-    public R list(@RequestParam Map<String, Object> params){
+    public R list(@RequestParam Map<String, Object> params) {
         PageUtils page = memberReceiveAddressService.queryPage(params);
 
         return R.ok().put("page", page);

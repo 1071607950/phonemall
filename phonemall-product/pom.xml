@@ -18,6 +18,17 @@
             <groupId>com.city.phonemall</groupId>
             <artifactId>phonemall-common</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
         <!-- 模板引擎 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -40,11 +51,6 @@
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
         <!-- 以后使用Redisson作为所有分布式锁 -->
 <!--        <dependency>-->
 <!--            <groupId>org.redisson</groupId>-->
@@ -60,11 +66,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-cache</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
+
     </dependencies>
 
     <build>

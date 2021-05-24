@@ -9,6 +9,12 @@ spring:
       oss:
         endpoint: oss-cn-beijing.aliyuncs.com
         bucket: gulimall-clouds
+      sms:
+        host: https://intlsms.market.alicloudapi.com
+        path: /comms/sms/sendmsgall
+        channel: 0
+        templateId: "0000000"
+        appcode: d7de69fdb50a4ad1ba97406bc372d92a
   application:
     name: phonemall-third-party
 server:

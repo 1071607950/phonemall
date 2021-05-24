@@ -13,7 +13,7 @@ import java.util.Map;
  * @date 2021-05-05 8:37:33
  **/
 
-@FeignClient("phone-order")
+@FeignClient("phonemall-order")
 public interface OrderFeignService {
 
     /**

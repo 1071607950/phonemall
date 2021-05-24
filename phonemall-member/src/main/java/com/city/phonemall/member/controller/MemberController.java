@@ -1,10 +1,16 @@
 package com.city.phonemall.member.controller;
 
+import com.city.common.exception.BizCodeEnum;
 import com.city.common.utils.PageUtils;
 import com.city.common.utils.R;
 import com.city.phonemall.member.entity.MemberEntity;
+import com.city.phonemall.member.exception.PhoneException;
+import com.city.phonemall.member.exception.UsernameException;
 import com.city.phonemall.member.feign.CouponFeignService;
 import com.city.phonemall.member.service.MemberService;
+import com.city.phonemall.member.vo.MemberUserLoginVo;
+import com.city.phonemall.member.vo.MemberUserRegisterVo;
+import com.city.phonemall.member.vo.SocialUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -34,7 +40,58 @@ public class MemberController {
         MemberEntity memberEntity = new MemberEntity();
         memberEntity.setNickname("张三");
         R membercoupons = couponFeignService.membercoupons();
-        return R.ok().put("member",memberEntity).put("coupons",membercoupons.get("coupons"));
+        return R.ok().put("member", memberEntity).put("coupons", membercoupons.get("coupons"));
+    }
+
+    @PostMapping(value = "/register")
+    public R register(@RequestBody MemberUserRegisterVo vo) {
+
+        try {
+            memberService.register(vo);
+        } catch (PhoneException e) {
+            return R.error(BizCodeEnum.PHONE_EXIST_EXCEPTION.getCode(), BizCodeEnum.PHONE_EXIST_EXCEPTION.getMessage());
+        } catch (UsernameException e) {
+            return R.error(BizCodeEnum.USER_EXIST_EXCEPTION.getCode(), BizCodeEnum.USER_EXIST_EXCEPTION.getMessage());
+        }
+
+        return R.ok();
+    }
+
+
+    @PostMapping(value = "/login")
+    public R login(@RequestBody MemberUserLoginVo vo) {
+
+        MemberEntity memberEntity = memberService.login(vo);
+
+        if (memberEntity != null) {
+            return R.ok().setData(memberEntity);
+        } else {
+            return R.error(BizCodeEnum.LOGINACCT_PASSWORD_EXCEPTION.getCode(), BizCodeEnum.LOGINACCT_PASSWORD_EXCEPTION.getMessage());
+        }
+    }
+
+
+    @PostMapping(value = "/oauth2/login")
+    public R oauthLogin(@RequestBody SocialUser socialUser) throws Exception {
+
+        MemberEntity memberEntity = memberService.login(socialUser);
+
+        if (memberEntity != null) {
+            return R.ok().setData(memberEntity);
+        } else {
+            return R.error(BizCodeEnum.LOGINACCT_PASSWORD_EXCEPTION.getCode(), BizCodeEnum.LOGINACCT_PASSWORD_EXCEPTION.getMessage());
+        }
+    }
+
+    @PostMapping(value = "/weixin/login")
+    public R weixinLogin(@RequestParam("accessTokenInfo") String accessTokenInfo) {
+
+        MemberEntity memberEntity = memberService.login(accessTokenInfo);
+        if (memberEntity != null) {
+            return R.ok().setData(memberEntity);
+        } else {
+            return R.error(BizCodeEnum.LOGINACCT_PASSWORD_EXCEPTION.getCode(), BizCodeEnum.LOGINACCT_PASSWORD_EXCEPTION.getMessage());
+        }
     }
 
     /**
@@ -42,7 +99,7 @@ public class MemberController {
      */
     @RequestMapping("/list")
     //@RequiresPermissions("member:member:list")
-    public R list(@RequestParam Map<String, Object> params){
+    public R list(@RequestParam Map<String, Object> params) {
         PageUtils page = memberService.queryPage(params);
 
         return R.ok().put("page", page);

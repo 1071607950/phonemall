@@ -460,7 +460,8 @@
 
                     <div class="box-lh-one">
                         <ul>
-                            <li th:each="img : ${item.images}"><img th:src="${img.imgUrl}"/></li>
+                            <li th:each="img : ${item.images}" th:if="${!#strings.isEmpty(img.imgUrl)}"><img
+                                    th:src="${img.imgUrl}"/></li>
                         </ul>
                     </div>
                     <div id="left">
@@ -966,7 +967,6 @@
                             <!--                            </div>-->
                         </div>
                     </li>
-                    <li class="baozhuang actives" id="li2">
                     <li class="baozhuang actives" id="li2">
                         <div class="guiGebox">
                             <div class="guiGe" th:each="group : ${item.groupAttrs}">
