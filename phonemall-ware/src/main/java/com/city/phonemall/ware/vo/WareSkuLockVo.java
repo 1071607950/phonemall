@@ -2,6 +2,7 @@ package com.city.phonemall.ware.vo;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -11,7 +12,8 @@ import java.util.List;
  **/
 
 @Data
-public class WareSkuLockVo {
+public class WareSkuLockVo implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     private String orderSn;
 

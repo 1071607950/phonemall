@@ -2,6 +2,7 @@ package com.city.common.to.mq;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -11,7 +12,8 @@ import java.math.BigDecimal;
  **/
 
 @Data
-public class SeckillOrderTo {
+public class SeckillOrderTo implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     /**
      * 订单号

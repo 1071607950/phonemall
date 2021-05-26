@@ -3,6 +3,7 @@ package com.city.phonemall.search.vo;
 import com.city.common.to.es.SkuEsModel;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +13,8 @@ import java.util.List;
  * @date 2021-05-07 21:36:33
  */
 @Data
-public class SearchResult {
+public class SearchResult implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     /**
      * 查询到的所有商品信息
@@ -67,7 +69,8 @@ public class SearchResult {
 
 
     @Data
-    public static class BrandVo {
+    public static class BrandVo implements Serializable {
+        private static final long serialVersionUID = 1L;
 
         private Long brandId;
 
@@ -78,7 +81,8 @@ public class SearchResult {
 
 
     @Data
-    public static class AttrVo {
+    public static class AttrVo implements Serializable {
+        private static final long serialVersionUID = 1L;
 
         private Long attrId;
 
@@ -89,7 +93,8 @@ public class SearchResult {
 
 
     @Data
-    public static class CatalogVo {
+    public static class CatalogVo implements Serializable {
+        private static final long serialVersionUID = 1L;
 
         private Long catalogId;
 

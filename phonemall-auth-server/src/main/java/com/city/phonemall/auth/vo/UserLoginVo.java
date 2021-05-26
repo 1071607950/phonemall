@@ -2,6 +2,8 @@ package com.city.phonemall.auth.vo;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author liuZhongKun
  * @Description:
@@ -10,7 +12,8 @@ import lombok.Data;
  **/
 
 @Data
-public class UserLoginVo {
+public class UserLoginVo implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     private String loginacct;
 

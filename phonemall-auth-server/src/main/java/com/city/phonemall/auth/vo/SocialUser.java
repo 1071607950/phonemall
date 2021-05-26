@@ -2,6 +2,8 @@ package com.city.phonemall.auth.vo;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author liuZhongKun
  * @Description: 社交用户信息
@@ -10,8 +12,8 @@ import lombok.Data;
  **/
 
 @Data
-public class SocialUser {
-
+public class SocialUser implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String access_token;
 
     private String remind_in;

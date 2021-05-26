@@ -2,6 +2,7 @@ package com.city.common.to.es;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -12,7 +13,8 @@ import java.util.List;
  **/
 
 @Data
-public class SkuEsModel {
+public class SkuEsModel implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     private Long skuId;
 
@@ -43,7 +45,8 @@ public class SkuEsModel {
     private List<Attrs> attrs;
 
     @Data
-    public static class Attrs {
+    public static class Attrs implements Serializable {
+        private static final long serialVersionUID = 1L;
 
         private Long attrId;
 

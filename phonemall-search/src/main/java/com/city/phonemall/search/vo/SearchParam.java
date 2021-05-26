@@ -2,6 +2,7 @@ package com.city.phonemall.search.vo;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -11,7 +12,8 @@ import java.util.List;
  * @date 2021-05-07 21:36:33
  */
 @Data
-public class SearchParam {
+public class SearchParam implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     /**
      * 页面传递过来的全文匹配关键字

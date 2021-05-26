@@ -2,13 +2,16 @@ package com.city.phonemall.search.vo;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author liuZhongKun
  * @email 1071607950@qq.com
  * @date 2021-05-07 21:36:33
  */
 @Data
-public class AttrResponseVo {
+public class AttrResponseVo implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     /**
      * 属性id

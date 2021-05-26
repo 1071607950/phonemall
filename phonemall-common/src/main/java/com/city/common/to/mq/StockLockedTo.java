@@ -2,6 +2,8 @@ package com.city.common.to.mq;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * 发送到mq消息队列的to
  * @author liuZhongKun
@@ -10,7 +12,8 @@ import lombok.Data;
  **/
 
 @Data
-public class StockLockedTo {
+public class StockLockedTo implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     /** 库存工作单的id **/
     private Long id;

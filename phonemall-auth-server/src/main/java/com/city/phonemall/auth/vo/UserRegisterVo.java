@@ -5,6 +5,7 @@ import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
+import java.io.Serializable;
 
 /**
  * @author liuZhongKun
@@ -14,8 +15,9 @@ import javax.validation.constraints.Pattern;
  **/
 
 @Data
-public class UserRegisterVo {
-
+public class UserRegisterVo implements Serializable {
+    private static final long serialVersionUID = 1L;
+    
     @NotEmpty(message = "用户名不能为空")
     @Length(min = 6, max = 19, message = "用户名长度在6-18字符")
     private String userName;

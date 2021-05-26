@@ -2,6 +2,7 @@ package com.city.common.to;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -12,7 +13,8 @@ import java.math.BigDecimal;
  **/
 
 @Data
-public class SpuBoundTo {
+public class SpuBoundTo implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     /**
      * 商品ID

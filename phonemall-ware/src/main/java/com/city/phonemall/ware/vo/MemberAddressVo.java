@@ -2,6 +2,8 @@ package com.city.phonemall.ware.vo;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author liuZhongKun
  * @email 1071607950@qq.com
@@ -9,7 +11,8 @@ import lombok.Data;
  **/
 
 @Data
-public class MemberAddressVo {
+public class MemberAddressVo implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     private Long id;
     /**

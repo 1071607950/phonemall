@@ -2,6 +2,7 @@ package com.city.common.to;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -13,7 +14,8 @@ import java.util.List;
  **/
 
 @Data
-public class SkuReductionTo {
+public class SkuReductionTo implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     private Long skuId;
     /**
