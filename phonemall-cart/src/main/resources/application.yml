@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: phonemall-cart
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+  thymeleaf:
+    cache: false
+  redis:
+    host: localhost
+    port: 6379
+  session:
+    store-type: redis
+server:
+  port: 13000

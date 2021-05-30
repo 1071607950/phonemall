@@ -161,7 +161,6 @@ public class MemberServiceImpl extends ServiceImpl<MemberDao, MemberEntity> impl
                 String name = jsonObject.getString("name");
                 String gender = jsonObject.getString("gender");
                 String profileImageUrl = jsonObject.getString("profile_image_url");
-
                 register.setNickname(name);
                 register.setGender("m".equals(gender)?1:0);
                 register.setHeader(profileImageUrl);

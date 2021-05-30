@@ -26,14 +26,15 @@
         <lombok.version>1.18.18</lombok.version>
         <mybatis-plus.version>3.3.1</mybatis-plus.version>
         <mysql.version>8.0.23</mysql.version>
-        <http.components.version>4.4.13</http.components.version>
+        <http.components.core.version>4.4.13</http.components.core.version>
+        <http.components.client.version>4.5.11</http.components.client.version>
         <commons.lang.version>2.6</commons.lang.version>
         <elasticsearch.version>7.4.2</elasticsearch.version>
         <javax.validation.api>2.0.1.Final</javax.validation.api>
 
         <!--        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>-->
-<!--        <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>-->
-<!--        <aliyun-spring-boot.version>1.0.0</aliyun-spring-boot.version>-->
+        <!--        <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>-->
+        <!--        <aliyun-spring-boot.version>1.0.0</aliyun-spring-boot.version>-->
 
     </properties>
 
@@ -42,14 +43,14 @@
         <module>phonemall-gateway</module>
         <module>phonemall-third-party</module>
         <module>phonemall-auth-server</module>
+        <module>phonemall-product</module>
         <module>phonemall-search</module>
         <module>phonemall-coupon</module>
         <module>phonemall-member</module>
+        <module>phonemall-cart</module>
         <module>phonemall-order</module>
-        <module>phonemall-product</module>
         <module>phonemall-ware</module>
         <module>phonemall-admin</module>
-        <module>renren-generator</module>
     </modules>
     <!--  子模块继承父模块之后，提供作用：锁定版本 + 子模块不用再写 version  -->
     <dependencyManagement>
@@ -112,7 +113,12 @@
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpcore</artifactId>
-                <version>${http.components.version}</version>
+                <version>${http.components.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${http.components.client.version}</version>
             </dependency>
             <dependency>
                 <groupId>commons-lang</groupId>

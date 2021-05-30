@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
 /**
  * 1、整合MyBatis-Plus
@@ -54,10 +55,12 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  *  2）、使用@ExceptionHandler标注方法可以处理的异常。
  */
 
+//开启springsession
+@EnableRedisHttpSession
 //开启缓存功能
 @EnableCaching
 //开启Feign远程调用
-@EnableFeignClients(basePackages = "com.city.phonemall.product.feign")
+@EnableFeignClients
 //服务发现
 @EnableDiscoveryClient
 @SpringBootApplication

@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/static/search/font/iconfont.css">
     <!--<script src="/static/search/./js/jquery-3.2.1.min.js"></script>-->
     <script src="/static/search/./js/jquery-1.12.4.js"></script>
-    <title>Document</title>
+    <title>商品列表</title>
 </head>
 <body>
 <!--头部-->
@@ -64,8 +64,13 @@
         </b>
         <ul>
             <li>
-                <a th:if="${session.loginUser == null}" href="http://auth.phonemall.com/login.html" class="li_2">你好，请登录</a>
+                <a th:if="${session.loginUser == null}" href="http://auth.phonemall.com/login.html"
+                   class="li_2">你好，请登录</a>
                 <a th:if="${session.loginUser != null}">欢迎, [[${session.loginUser.nickname}]]</a>
+            </li>
+            <li>
+                <a th:if="${session.loginUser != null}" href="http://auth.phonemall.com/logout.html"
+                   class="li_2">立即退出</a>
             </li>
             <li>
                 <a th:if="${session.loginUser == null}" href="http://auth.phonemall.com/reg.html" style="color: red;">免费注册</a>

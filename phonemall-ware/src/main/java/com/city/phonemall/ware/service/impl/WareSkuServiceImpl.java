@@ -31,6 +31,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -312,7 +313,8 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
 
 
     @Data
-    class SkuWareHasStock {
+    class SkuWareHasStock implements Serializable {
+        private static final long serialVersionUID = 1L;
         private Long skuId;
         private Integer num;
         private List<Long> wareId;

@@ -13,7 +13,7 @@ spring:
         host: https://intlsms.market.alicloudapi.com
         path: /comms/sms/sendmsgall
         channel: 0
-        templateId: "0000000"
+        templateId: "20210524132837"
         appcode: d7de69fdb50a4ad1ba97406bc372d92a
   application:
     name: phonemall-third-party
