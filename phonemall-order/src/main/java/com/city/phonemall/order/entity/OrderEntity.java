@@ -1,19 +1,21 @@
 package com.city.phonemall.order.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-
-import java.math.BigDecimal;
-import java.io.Serializable;
-import java.util.Date;
 import lombok.Data;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.Date;
+import java.util.List;
 
 /**
  * 订单
- * 
+ *
  * @author liuZhongKun
  * @email 1071607950@qq.com
- * @date 2021-05-02 10:36:15
+ * @date 2021-05-31 8:37:33
  */
 @Data
 @TableName("oms_order")
@@ -160,34 +162,37 @@ public class OrderEntity implements Serializable {
 	/**
 	 * 确认收货状态[0->未确认；1->已确认]
 	 */
-	private Integer confirmStatus;
-	/**
-	 * 删除状态【0->未删除；1->已删除】
-	 */
-	private Integer deleteStatus;
-	/**
-	 * 下单时使用的积分
-	 */
-	private Integer useIntegration;
-	/**
-	 * 支付时间
-	 */
-	private Date paymentTime;
-	/**
-	 * 发货时间
-	 */
-	private Date deliveryTime;
-	/**
-	 * 确认收货时间
-	 */
-	private Date receiveTime;
-	/**
-	 * 评价时间
-	 */
-	private Date commentTime;
-	/**
-	 * 修改时间
-	 */
-	private Date modifyTime;
+    private Integer confirmStatus;
+    /**
+     * 删除状态【0->未删除；1->已删除】
+     */
+    private Integer deleteStatus;
+    /**
+     * 下单时使用的积分
+     */
+    private Integer useIntegration;
+    /**
+     * 支付时间
+     */
+    private Date paymentTime;
+    /**
+     * 发货时间
+     */
+    private Date deliveryTime;
+    /**
+     * 确认收货时间
+     */
+    private Date receiveTime;
+    /**
+     * 评价时间
+     */
+    private Date commentTime;
+    /**
+     * 修改时间
+     */
+    private Date modifyTime;
+
+    @TableField(exist = false)
+    private List<OrderItemEntity> orderItemEntityList;
 
 }

@@ -11,13 +11,12 @@ import java.util.Arrays;
 import java.util.Map;
 
 
-
 /**
  * 订单
  *
  * @author liuZhongKun
  * @email 1071607950@qq.com
- * @date 2021-05-02 10:36:15
+ * @date 2021-05-31 8:37:33
  */
 @RestController
 @RequestMapping("order/order")
@@ -26,12 +25,39 @@ public class OrderController {
     private OrderService orderService;
 
     /**
+     * 根据订单编号查询订单状态
+     *
+     * @param orderSn
+     * @return
+     */
+    @GetMapping(value = "/status/{orderSn}")
+    public R getOrderStatus(@PathVariable("orderSn") String orderSn) {
+        OrderEntity orderEntity = orderService.getOrderByOrderSn(orderSn);
+        return R.ok().setData(orderEntity);
+    }
+
+    /**
      * 列表
      */
     @RequestMapping("/list")
     //@RequiresPermissions("order:order:list")
-    public R list(@RequestParam Map<String, Object> params){
+    public R list(Map<String, Object> params) {
+
         PageUtils page = orderService.queryPage(params);
+
+        return R.ok().put("page", page);
+    }
+
+    /**
+     * 分页查询当前登录用户的所有订单信息
+     *
+     * @param params
+     * @return
+     */
+    @PostMapping("/listWithItem")
+    //@RequiresPermissions("order:order:list")
+    public R listWithItem(@RequestBody Map<String, Object> params) {
+        PageUtils page = orderService.queryPageWithItem(params);
 
         return R.ok().put("page", page);
     }

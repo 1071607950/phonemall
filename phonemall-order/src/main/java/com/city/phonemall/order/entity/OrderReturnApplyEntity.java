@@ -2,18 +2,18 @@ package com.city.phonemall.order.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-
-import java.math.BigDecimal;
-import java.io.Serializable;
-import java.util.Date;
 import lombok.Data;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.Date;
 
 /**
  * 订单退货申请
- * 
+ *
  * @author liuZhongKun
  * @email 1071607950@qq.com
- * @date 2021-05-02 10:36:15
+ * @date 2021-05-31 8:37:33
  */
 @Data
 @TableName("oms_order_return_apply")
