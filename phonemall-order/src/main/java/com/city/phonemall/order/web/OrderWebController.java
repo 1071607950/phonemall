@@ -40,9 +40,14 @@ public class OrderWebController {
     @GetMapping(value = "/toTrade")
     public String toTrade(Model model, HttpServletRequest request) throws ExecutionException, InterruptedException {
 
-        OrderConfirmVo confirmVo = orderService.confirmOrder();
+        try {
+            OrderConfirmVo confirmVo = orderService.confirmOrder();
 
-        model.addAttribute("confirmOrderData", confirmVo);
+            model.addAttribute("confirmOrderData", confirmVo);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return "redirect:http://cart.phonemall.com/cart.html";
+        }
         //展示订单确认的数据
 
         return "confirm";

@@ -18,9 +18,11 @@ public class MemberLevelServiceImpl extends ServiceImpl<MemberLevelDao, MemberLe
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
+        String key = String.valueOf(params.get("key"));
         IPage<MemberLevelEntity> page = this.page(
                 new Query<MemberLevelEntity>().getPage(params),
-                new QueryWrapper<MemberLevelEntity>()
+                new QueryWrapper<MemberLevelEntity>().lambda()
+                        .like(params.containsKey("key") && org.apache.commons.lang3.StringUtils.isNotBlank(key),MemberLevelEntity::getName,key)
         );
 
         return new PageUtils(page);

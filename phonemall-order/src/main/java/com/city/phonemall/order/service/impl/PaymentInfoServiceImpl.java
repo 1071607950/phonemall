@@ -18,9 +18,12 @@ public class PaymentInfoServiceImpl extends ServiceImpl<PaymentInfoDao, PaymentI
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
+        String key = String.valueOf(params.get("key"));
         IPage<PaymentInfoEntity> page = this.page(
                 new Query<PaymentInfoEntity>().getPage(params),
-                new QueryWrapper<PaymentInfoEntity>()
+                new QueryWrapper<PaymentInfoEntity>().lambda()
+                        .like(params.containsKey("key") && org.apache.commons.lang3.StringUtils.isNotBlank(key),PaymentInfoEntity::getOrderSn,key)
+
         );
 
         return new PageUtils(page);

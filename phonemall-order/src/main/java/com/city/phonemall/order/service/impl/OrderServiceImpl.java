@@ -93,9 +93,11 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
+        String key = String.valueOf(params.get("key"));
         IPage<OrderEntity> page = this.page(
                 new Query<OrderEntity>().getPage(params),
-                new QueryWrapper<OrderEntity>()
+                new QueryWrapper<OrderEntity>().lambda()
+                        .like(params.containsKey("key") && org.apache.commons.lang3.StringUtils.isNotBlank(key),OrderEntity::getOrderSn,key)
         );
 
         return new PageUtils(page);
@@ -486,26 +488,29 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         orderEntity.setMemberUsername(memberResponseVo.getUsername());
 
         OrderSubmitVo orderSubmitVo = confirmVoThreadLocal.get();
-
+        FareVo fareResp = null;
         //远程获取收货地址和运费信息
-        R fareAddressVo = wmsFeignService.getFare(orderSubmitVo.getAddrId());
-        FareVo fareResp = fareAddressVo.getData("data", new TypeReference<FareVo>() {
-        });
+        if (orderSubmitVo.getAddrId() != null) {
+            R fareAddressVo = wmsFeignService.getFare(orderSubmitVo.getAddrId());
+            fareResp = fareAddressVo.getData("data", new TypeReference<FareVo>() {
+            });
 
-        //获取到运费信息
-        BigDecimal fare = fareResp.getFare();
-        orderEntity.setFreightAmount(fare);
-
-        //获取到收货地址信息
-        MemberAddressVo address = fareResp.getAddress();
-        //设置收货人信息
-        orderEntity.setReceiverName(address.getName());
-        orderEntity.setReceiverPhone(address.getPhone());
-        orderEntity.setReceiverPostCode(address.getPostCode());
-        orderEntity.setReceiverProvince(address.getProvince());
-        orderEntity.setReceiverCity(address.getCity());
-        orderEntity.setReceiverRegion(address.getRegion());
-        orderEntity.setReceiverDetailAddress(address.getDetailAddress());
+            //获取到运费信息
+            BigDecimal fare = fareResp.getFare();
+            orderEntity.setFreightAmount(fare);
+            //获取到收货地址信息
+            MemberAddressVo address = fareResp.getAddress();
+            //设置收货人信息
+            orderEntity.setReceiverName(address.getName());
+            orderEntity.setReceiverPhone(address.getPhone());
+            orderEntity.setReceiverPostCode(address.getPostCode());
+            orderEntity.setReceiverProvince(address.getProvince());
+            orderEntity.setReceiverCity(address.getCity());
+            orderEntity.setReceiverRegion(address.getRegion());
+            orderEntity.setReceiverDetailAddress(address.getDetailAddress());
+        } else {
+            orderEntity.setFreightAmount(BigDecimal.ZERO);
+        }
 
         //设置订单相关的状态信息
         orderEntity.setStatus(OrderStatusEnum.CREATE_NEW.getCode());

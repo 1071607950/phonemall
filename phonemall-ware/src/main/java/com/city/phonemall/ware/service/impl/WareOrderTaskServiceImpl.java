@@ -18,9 +18,11 @@ public class WareOrderTaskServiceImpl extends ServiceImpl<WareOrderTaskDao, Ware
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
+        String key = String.valueOf(params.get("key"));
         IPage<WareOrderTaskEntity> page = this.page(
                 new Query<WareOrderTaskEntity>().getPage(params),
-                new QueryWrapper<WareOrderTaskEntity>()
+                new QueryWrapper<WareOrderTaskEntity>().lambda()
+                        .like(params.containsKey("key") && org.apache.commons.lang3.StringUtils.isNotBlank(key),WareOrderTaskEntity::getOrderSn,key)
         );
 
         return new PageUtils(page);
