@@ -26,6 +26,7 @@ import com.city.phonemall.ware.vo.SkuHasStockVo;
 import com.city.phonemall.ware.vo.WareSkuLockVo;
 import lombok.Data;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -47,8 +48,8 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
     @Autowired
     private ProductFeignService productFeignService;
 
-    /*TODO @Autowired
-    private RabbitTemplate rabbitTemplate;*/
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
 
     @Autowired
     private WareOrderTaskService wareOrderTaskService;
@@ -199,7 +200,7 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
                     StockDetailTo detailTo = new StockDetailTo();
                     BeanUtils.copyProperties(taskDetailEntity,detailTo);
                     lockedTo.setDetailTo(detailTo);
-                    //TODO rabbitTemplate.convertAndSend("stock-event-exchange","stock.locked",lockedTo);
+                    rabbitTemplate.convertAndSend("stock-event-exchange","stock.locked",lockedTo);
                     break;
                 } else {
                     //当前仓库锁失败，重试下一个仓库

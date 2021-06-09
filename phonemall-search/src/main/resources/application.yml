@@ -8,6 +8,8 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: Asia/Shanghai
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
   thymeleaf:
     cache: false
   redis:
@@ -20,3 +22,9 @@ server:
 logging:
   level:
     com.city: debug
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000

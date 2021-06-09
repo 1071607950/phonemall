@@ -49,6 +49,16 @@ public class SpuInfoController {
         return R.ok();
     }
 
+    //商品上架
+    ///product/spuinfo/{spuId}/up
+    @PostMapping(value = "/{spuId}/down")
+    public R spuDown(@PathVariable("spuId") Long spuId) {
+
+        spuInfoService.down(spuId);
+
+        return R.ok();
+    }
+
     /**
      * 列表
      */

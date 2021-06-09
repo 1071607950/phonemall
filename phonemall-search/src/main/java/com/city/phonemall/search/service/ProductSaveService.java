@@ -14,4 +14,6 @@ import java.util.List;
 public interface ProductSaveService {
 
     boolean productStatusUp(List<SkuEsModel> skuEsModels) throws IOException;
+
+    boolean productStatusDown(List<Long> skuIdList) throws IOException;
 }

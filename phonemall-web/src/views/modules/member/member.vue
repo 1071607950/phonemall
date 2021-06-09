@@ -24,8 +24,17 @@
       <el-table-column prop="nickname" header-align="center" align="center" label="昵称"></el-table-column>
       <el-table-column prop="mobile" header-align="center" align="center" label="手机号码"></el-table-column>
       <el-table-column prop="email" header-align="center" align="center" label="邮箱"></el-table-column>
-      <el-table-column prop="header" header-align="center" align="center" label="头像"></el-table-column>
-      <el-table-column prop="gender" header-align="center" align="center" label="性别"></el-table-column>
+      <el-table-column prop="header" header-align="center" align="center" label="头像">
+        <template slot-scope="scope">
+          <img :src="scope.row.header"/>
+        </template>
+      </el-table-column>
+      <el-table-column prop="gender" header-align="center" align="center" label="性别">
+        <template slot-scope="scope">
+          <el-tag v-if="scope.row.gender === 0" type="success">男</el-tag>
+          <el-tag v-else type="success">女</el-tag>
+        </template>
+      </el-table-column>
       <el-table-column prop="birth" header-align="center" align="center" label="生日"></el-table-column>
       <el-table-column prop="city" header-align="center" align="center" label="所在城市"></el-table-column>
       <el-table-column prop="job" header-align="center" align="center" label="职业"></el-table-column>
@@ -68,6 +77,7 @@
 
 <script>
 import AddOrUpdate from './member-add-or-update'
+
 export default {
   data () {
     return {

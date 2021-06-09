@@ -26,11 +26,17 @@
       <el-table-column fixed="right" header-align="center" align="center" width="150" label="操作">
         <template slot-scope="scope">
           <el-button
-            v-if="scope.row.publishStatus === 0"
+            v-if="scope.row.publishStatus !== 1"
             type="text"
             size="small"
             @click="productUp(scope.row.id)"
           >上架</el-button>
+          <el-button
+            v-if="scope.row.publishStatus === 1"
+            type="text"
+            size="small"
+            @click="productDown(scope.row.id)"
+          >下架</el-button>
           <el-button type="text" size="small" @click="attrUpdateShow(scope.row)">规格</el-button>
         </template>
       </el-table-column>
@@ -77,6 +83,25 @@ export default {
     productUp (id) {
       this.$http({
         url: this.$http.adornUrl('/product/spuinfo/' + id + '/up'),
+        method: 'post'
+      }).then(({ data }) => {
+        if (data && data.code === 0) {
+          this.$message({
+            message: '操作成功',
+            type: 'success',
+            duration: 1500,
+            onClose: () => {
+              this.getDataList()
+            }
+          })
+        } else {
+          this.$message.error(data.msg)
+        }
+      })
+    },
+    productDown (id) {
+      this.$http({
+        url: this.$http.adornUrl('/product/spuinfo/' + id + '/down'),
         method: 'post'
       }).then(({ data }) => {
         if (data && data.code === 0) {

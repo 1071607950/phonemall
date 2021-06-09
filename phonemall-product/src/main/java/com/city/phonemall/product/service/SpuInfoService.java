@@ -31,6 +31,12 @@ public interface SpuInfoService extends IService<SpuInfoEntity> {
     void up(Long spuId);
 
     /**
+     * 商品下架
+     * @param spuId
+     */
+    void down(Long spuId);
+
+    /**
      * 根据skuId查询spu的信息
      * @param skuId
      * @return

@@ -1,5 +1,6 @@
 package com.city.phonemall.order;
 
+import io.seata.spring.boot.autoconfigure.SeataAutoConfiguration;
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +8,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
-
 /**
  * 使用RabbitMQ
  * 1、引入amqp场景;RabbitAutoConfiguration就会自动生效
@@ -29,14 +29,12 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
  * 6、给分布式大事务的入口标注@GlobalTransactional
  * 7、每一个远程的小事务用@Trabsactional
  */
-
 @EnableAspectJAutoProxy(exposeProxy = true)     //开启了aspect动态代理模式,对外暴露代理对象
 @EnableRedisHttpSession     //开启springsession
 @EnableRabbit
 @EnableFeignClients
 @EnableDiscoveryClient
-//TODO 还没实现@SpringBootApplication(exclude = GlobalTransactionAutoConfiguration.class)
-@SpringBootApplication
+@SpringBootApplication(exclude = SeataAutoConfiguration.class)
 public class PhonemallOrderApplication {
 
     public static void main(String[] args) {

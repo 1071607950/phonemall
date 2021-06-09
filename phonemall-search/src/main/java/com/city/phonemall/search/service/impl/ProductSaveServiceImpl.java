@@ -2,13 +2,13 @@ package com.city.phonemall.search.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.city.common.to.es.SkuEsModel;
-
 import com.city.phonemall.search.config.MallElasticSearchConfig;
 import com.city.phonemall.search.constant.EsConstant;
 import com.city.phonemall.search.service.ProductSaveService;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.bulk.BulkResponse;
+import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.xcontent.XContentType;
@@ -48,7 +48,6 @@ public class ProductSaveServiceImpl implements ProductSaveService {
             bulkRequest.add(indexRequest);
         }
 
-
         BulkResponse bulk = esRestClient.bulk(bulkRequest, MallElasticSearchConfig.COMMON_OPTIONS);
 
         //TODO 如果批量错误
@@ -59,6 +58,31 @@ public class ProductSaveServiceImpl implements ProductSaveService {
         }).collect(Collectors.toList());
 
         log.info("商品上架完成：{}",collect);
+
+        return hasFailures;
+    }
+
+    @Override
+    public boolean productStatusDown(List<Long> skuIdList) throws IOException {
+
+        BulkRequest bulkRequest = new BulkRequest();
+        for (Long skuId : skuIdList) {
+            //构造保存请求
+            DeleteRequest deleteRequest = new DeleteRequest(EsConstant.PRODUCT_INDEX);
+            deleteRequest.id(skuId.toString());
+            bulkRequest.add(deleteRequest);
+        }
+
+        BulkResponse bulk = esRestClient.bulk(bulkRequest, MallElasticSearchConfig.COMMON_OPTIONS);
+
+        //TODO 如果批量错误
+        boolean hasFailures = bulk.hasFailures();
+
+        List<String> collect = Arrays.asList(bulk.getItems()).stream().map(item -> {
+            return item.getId();
+        }).collect(Collectors.toList());
+
+        log.info("商品下架完成：{}",collect);
 
         return hasFailures;
     }

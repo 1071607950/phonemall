@@ -87,7 +87,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
      *  //TODO：高级部分完善后续
      * @param vo 新增商品
      */
-    //TODO 还未实现@GlobalTransactional(rollbackFor = Exception.class)
+    //TODO 没实现@GlobalTransactional(rollbackFor = Exception.class)
     @Transactional(rollbackFor = Exception.class)
     @Override
     public void savesupInfo(SpuSaveVo vo) {
@@ -240,8 +240,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
         return new PageUtils(page);
     }
 
-    //TODO 还未实现
-    // @GlobalTransactional(rollbackFor = Exception.class)
+    //TODO 没实现@GlobalTransactional(rollbackFor = Exception.class)
     @Transactional(rollbackFor = Exception.class)
     @Override
     public void up(Long spuId) {
@@ -326,6 +325,30 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
             //远程调用成功
             //TODO 6、修改当前spu的状态
             this.baseMapper.updaSpuStatus(spuId, ProductConstant.ProductStatusEnum.SPU_UP.getCode());
+        } else {
+            //远程调用失败
+            //TODO 7、重复调用？接口幂等性:重试机制
+        }
+    }
+
+    @Transactional(rollbackFor = Exception.class)
+    @Override
+    public void down(Long spuId) {
+
+        //1、查出当前spuId对应的所有sku信息,品牌的名字
+        List<SkuInfoEntity> skuInfoEntities = skuInfoService.getSkusBySpuId(spuId);
+
+        List<Long> skuIdList = skuInfoEntities.stream()
+                .map(SkuInfoEntity::getSkuId)
+                .collect(Collectors.toList());
+
+        //将数据发给es进行保存：phonemall-search
+        R r = searchFeignService.productStatusDown(skuIdList);
+
+        if (r.getCode() == 0) {
+            //远程调用成功
+            //TODO 6、修改当前spu的状态
+            this.baseMapper.updaSpuStatus(spuId, ProductConstant.ProductStatusEnum.SPU_DOWN.getCode());
         } else {
             //远程调用失败
             //TODO 7、重复调用？接口幂等性:重试机制

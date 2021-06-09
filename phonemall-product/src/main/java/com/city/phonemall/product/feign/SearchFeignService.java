@@ -20,4 +20,6 @@ public interface SearchFeignService {
     @PostMapping(value = "/search/save/product")
     public R productStatusUp(@RequestBody List<SkuEsModel> skuEsModels);
 
+    @PostMapping(value = "/search/down/product")
+    public R productStatusDown(@RequestBody List<Long> skuIdList);
 }

@@ -1,4 +1,4 @@
-package com.city.phonemall.order.interceptor;
+package com.city.phonemall.member.interceptor;
 
 import com.city.common.vo.MemberResponseVo;
 import org.springframework.stereotype.Component;
@@ -8,15 +8,16 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.PrintWriter;
 
 import static com.city.common.constant.AuthServerConstant.LOGIN_USER;
 
 /**
- * @author liuZhongKun
  * @Description: 登录拦截器
+ * @author liuZhongKun
  * @email 1071607950@qq.com
- * @date 2021-05-31 8:37:33
+ * @date 2021-06-01 13:09:33
  **/
 
 @Component
@@ -28,17 +29,15 @@ public class LoginUserInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
         String uri = request.getRequestURI();
-        AntPathMatcher antPathMatcher = new AntPathMatcher();
-        boolean match = antPathMatcher.match("/order/order/status/**", uri);
-        boolean match1 = antPathMatcher.match("/payed/notify", uri);
-        boolean match2 = antPathMatcher.match("/order/**", uri);
-        boolean match3 = antPathMatcher.match("/order/order/listWithItem", uri);
-        if (match || match1 || (match2 && !match3)) {
+        boolean match = new AntPathMatcher().match("/member/**", uri);
+        if (match) {
             return true;
         }
 
+        HttpSession session = request.getSession();
+
         //获取登录的用户信息
-        MemberResponseVo attribute = (MemberResponseVo) request.getSession().getAttribute(LOGIN_USER);
+        MemberResponseVo attribute = (MemberResponseVo) session.getAttribute(LOGIN_USER);
 
         if (attribute != null) {
             //把登录后用户的信息放在ThreadLocal里面进行保存

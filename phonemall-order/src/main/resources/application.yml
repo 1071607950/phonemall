@@ -4,6 +4,9 @@ spring:
     username: phonemall
     password: phonemall
     driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 1
+      maximum-pool-size: 10
   cloud:
     nacos:
       discovery:
@@ -13,6 +16,8 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: Asia/Shanghai
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
   thymeleaf:
     cache: false
   redis:
@@ -32,3 +37,18 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 server:
   port: 9000
+#seata:
+#  registry:
+#    type: nacos
+#  config:
+#    type: nacos
+#  tx-service-group: phonemall_group
+#  service:
+#    vgroup-mapping:
+#      phonemall_group: default
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000

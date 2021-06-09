@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.HashMap;
 
-
 /**
  * @author liuZhongKun
  * @Description:
@@ -41,7 +40,6 @@ public class MyRabbitMQConfig {
         arguments.put("x-dead-letter-routing-key", "order.release.order");
         arguments.put("x-message-ttl", 60000); // 消息过期时间 1分钟
         Queue queue = new Queue("order.delay.queue", true, false, false, arguments);
-
         return queue;
     }
 

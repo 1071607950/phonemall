@@ -78,6 +78,8 @@ public class OrderWebController {
                     case 3:
                         msg += "库存锁定失败，商品库存不足";
                         break;
+                    default:
+                        break;
                 }
                 attributes.addFlashAttribute("msg", msg);
                 return "redirect:http://order.phonemall.com/toTrade";

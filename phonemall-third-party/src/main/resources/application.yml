@@ -26,3 +26,9 @@ server:
 #    oss:
 #      endpoint: oss-cn-beijing.aliyuncs.com
 #      bucket: gulimall-clouds
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000

@@ -20,7 +20,7 @@ import java.util.List;
  * @date 2021-05-07 21:36:33
  */
 @Slf4j
-@RequestMapping(value = "/search/save")
+@RequestMapping(value = "/search")
 @RestController
 public class ElasticSaveController {
 
@@ -33,7 +33,7 @@ public class ElasticSaveController {
      * @param skuEsModels
      * @return
      */
-    @PostMapping(value = "/product")
+    @PostMapping(value = "/save/product")
     public R productStatusUp(@RequestBody List<SkuEsModel> skuEsModels) {
 
         boolean status = false;
@@ -41,6 +41,24 @@ public class ElasticSaveController {
             status = productSaveService.productStatusUp(skuEsModels);
         } catch (IOException e) {
             log.error("ElasticSaveController - 商品上架错误: ", e);
+            return R.error(BizCodeEnum.PRODUCT_UP_EXCEPTION.getCode(), BizCodeEnum.PRODUCT_UP_EXCEPTION.getMessage());
+        }
+
+        if (status) {
+            return R.error(BizCodeEnum.PRODUCT_UP_EXCEPTION.getCode(), BizCodeEnum.PRODUCT_UP_EXCEPTION.getMessage());
+        } else {
+            return R.ok();
+        }
+    }
+
+    @PostMapping(value = "/down/product")
+    public R productStatusDown(@RequestBody List<Long> skuIdList) {
+
+        boolean status = false;
+        try {
+            status = productSaveService.productStatusDown(skuIdList);
+        } catch (IOException e) {
+            log.error("ElasticSaveController - 商品下架错误: ", e);
             return R.error(BizCodeEnum.PRODUCT_UP_EXCEPTION.getCode(), BizCodeEnum.PRODUCT_UP_EXCEPTION.getMessage());
         }
 

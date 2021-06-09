@@ -7,7 +7,7 @@
       <div class="mod-config">
         <el-form :inline="true" :model="dataForm" @keyup.enter.native="getDataList()">
           <el-form-item>
-            <el-input v-model="dataForm.key" placeholder="参数名" clearable></el-input>
+            <el-input v-model="dataForm.key" placeholder="分组名" clearable></el-input>
           </el-form-item>
           <el-form-item>
             <el-button @click="getDataList()">查询</el-button>
@@ -92,6 +92,7 @@
 import Category from '../common/category'
 import AddOrUpdate from './attrgroup-add-or-update'
 import RelationUpdate from './attr-group-relation'
+
 export default {
   // import引入的组件需要注入到对象中才能使用
   components: { Category, AddOrUpdate, RelationUpdate },
