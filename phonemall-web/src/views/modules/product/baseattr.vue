@@ -7,7 +7,7 @@
       <div class="mod-config">
         <el-form :inline="true" :model="dataForm" @keyup.enter.native="getDataList()">
           <el-form-item>
-            <el-input v-model="dataForm.key" placeholder="参数名" clearable></el-input>
+            <el-input v-model="dataForm.key" placeholder="属性名" clearable></el-input>
           </el-form-item>
           <el-form-item>
             <el-button @click="getDataList()">查询</el-button>
@@ -160,7 +160,7 @@ export default {
   methods: {
     // 感知树节点被点击
     treenodeclick (data, node, component) {
-      if (node.level === 3) {
+      if (node.isLeaf) {
         this.catId = data.catId
         this.getDataList() // 重新查询
       }
