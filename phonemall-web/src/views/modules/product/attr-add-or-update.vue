@@ -38,9 +38,9 @@
           placeholder="请输入内容"
         ></el-select>
       </el-form-item>
-      <el-form-item label="属性图标" prop="icon">
-        <el-input v-model="dataForm.icon" placeholder="属性图标"></el-input>
-      </el-form-item>
+<!--      <el-form-item label="属性图标" prop="icon">-->
+<!--        <el-input v-model="dataForm.icon" placeholder="属性图标"></el-input>-->
+<!--      </el-form-item>-->
       <el-form-item label="所属分类" prop="catelogId">
         <category-cascader :catelogPath.sync="catelogPath"></category-cascader>
       </el-form-item>
@@ -175,7 +175,7 @@ export default {
       this.attrGroups = []
       this.dataForm.attrGroupId = ''
       this.dataForm.catelogId = path[path.length - 1]
-      if (path && path.length === 3) {
+      if (path && path.length >= 1) {
         this.$http({
           url: this.$http.adornUrl(
             `/product/attrgroup/list/${path[path.length - 1]}`

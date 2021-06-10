@@ -18,7 +18,7 @@
                 <li class="glyphicon glyphicon-home" style="width: 100px"><a href="http://phonemall.com/" class="aa" style="margin-left: 10px;width: 100px">谷粒商城首页</a></li>
             </ul>
             <ul class="header_ul_right">
-                <li style="border: 0;">
+                <li style="border: 0; width: 300px">
                     <a th:if="${session.loginUser == null}" href="http://auth.phonemall.com/login.html"
                        class="aa">你好，请登录</a>
                     <a th:if="${session.loginUser != null}">欢迎, [[${session.loginUser.nickname}]]</a>
@@ -27,10 +27,10 @@
                     <a th:if="${session.loginUser == null}" href="http://auth.phonemall.com/reg.html"
                        style="color: red;">免费注册</a>
                 </li>
-                <li>
+                <li style="float: right">
                     <a th:if="${session.loginUser != null}" href="http://auth.phonemall.com/logout.html" class="li_2">立即退出</a>
                 </li>
-                <li><a href="http://member.phonemall.com/memberOrder.html" class="aa">我的订单</a> |</li>
+                <li style="float: right"><a href="http://member.phonemall.com/memberOrder.html" class="aa">我的订单</a> |</li>
             </ul>
         </div>
     </header>

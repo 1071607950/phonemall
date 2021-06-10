@@ -4,6 +4,9 @@
       <el-form-item>
         <el-input v-model="dataForm.key" placeholder="订单号" clearable></el-input>
       </el-form-item>
+      <el-form-item label="用户ID">
+        <el-input v-model="dataForm.memberId" placeholder="用户ID" clearable></el-input>
+      </el-form-item>
       <el-form-item>
         <el-button @click="getDataList()">查询</el-button>
         <el-button v-if="isAuth('order:order:save')" type="primary" @click="addOrUpdateHandle()">新增</el-button>
@@ -32,7 +35,7 @@
         prop="memberId"
         header-align="center"
         align="center"
-        label="member_id">
+        label="用户ID">
       </el-table-column>
       <el-table-column
         prop="orderSn"
@@ -40,24 +43,24 @@
         align="center"
         label="订单号">
       </el-table-column>
-      <el-table-column
-        prop="couponId"
-        header-align="center"
-        align="center"
-        label="使用的优惠券">
-      </el-table-column>
+<!--      <el-table-column-->
+<!--        prop="couponId"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="使用的优惠券">-->
+<!--      </el-table-column>-->
       <el-table-column
         prop="createTime"
         header-align="center"
         align="center"
-        label="create_time">
+        label="创建时间">
       </el-table-column>
-      <el-table-column
-        prop="memberUsername"
-        header-align="center"
-        align="center"
-        label="用户名">
-      </el-table-column>
+<!--      <el-table-column-->
+<!--        prop="memberUsername"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="用户名">-->
+<!--      </el-table-column>-->
       <el-table-column
         prop="totalAmount"
         header-align="center"
@@ -100,36 +103,44 @@
         align="center"
         label="后台调整订单使用的折扣金额">
       </el-table-column>
-      <el-table-column
-        prop="payType"
-        header-align="center"
-        align="center"
-        label="支付方式【1->支付宝；2->微信；3->银联； 4->货到付款；】">
-      </el-table-column>
-      <el-table-column
-        prop="sourceType"
-        header-align="center"
-        align="center"
-        label="订单来源[0->PC订单；1->app订单]">
-      </el-table-column>
+<!--      <el-table-column-->
+<!--        prop="payType"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="支付方式【1->支付宝；2->微信；3->银联； 4->货到付款；】">-->
+<!--      </el-table-column>-->
+<!--      <el-table-column-->
+<!--        prop="sourceType"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="订单来源[0->PC订单；1->app订单]">-->
+<!--      </el-table-column>-->
       <el-table-column
         prop="status"
         header-align="center"
         align="center"
-        label="订单状态【0->待付款；1->待发货；2->已发货；3->已完成；4->已关闭；5->无效订单】">
+        label="订单状态">
+        <template slot-scope="scope">
+          <el-tag v-if="scope.row.status === 0">待付款</el-tag>
+          <el-tag v-if="scope.row.status === 1">待发货</el-tag>
+          <el-tag v-if="scope.row.status === 2">已发货</el-tag>
+          <el-tag v-if="scope.row.status === 3">已完成</el-tag>
+          <el-tag v-if="scope.row.status === 4">已关闭</el-tag>
+          <el-tag v-if="scope.row.status === 5">无效订单</el-tag>
+        </template>
       </el-table-column>
-      <el-table-column
-        prop="deliveryCompany"
-        header-align="center"
-        align="center"
-        label="物流公司(配送方式)">
-      </el-table-column>
-      <el-table-column
-        prop="deliverySn"
-        header-align="center"
-        align="center"
-        label="物流单号">
-      </el-table-column>
+<!--      <el-table-column-->
+<!--        prop="deliveryCompany"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="物流公司(配送方式)">-->
+<!--      </el-table-column>-->
+<!--      <el-table-column-->
+<!--        prop="deliverySn"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="物流单号">-->
+<!--      </el-table-column>-->
       <el-table-column
         prop="autoConfirmDay"
         header-align="center"
@@ -148,36 +159,36 @@
         align="center"
         label="可以获得的成长值">
       </el-table-column>
-      <el-table-column
-        prop="billType"
-        header-align="center"
-        align="center"
-        label="发票类型[0->不开发票；1->电子发票；2->纸质发票]">
-      </el-table-column>
-      <el-table-column
-        prop="billHeader"
-        header-align="center"
-        align="center"
-        label="发票抬头">
-      </el-table-column>
-      <el-table-column
-        prop="billContent"
-        header-align="center"
-        align="center"
-        label="发票内容">
-      </el-table-column>
-      <el-table-column
-        prop="billReceiverPhone"
-        header-align="center"
-        align="center"
-        label="收票人电话">
-      </el-table-column>
-      <el-table-column
-        prop="billReceiverEmail"
-        header-align="center"
-        align="center"
-        label="收票人邮箱">
-      </el-table-column>
+<!--      <el-table-column-->
+<!--        prop="billType"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="发票类型[0->不开发票；1->电子发票；2->纸质发票]">-->
+<!--      </el-table-column>-->
+<!--      <el-table-column-->
+<!--        prop="billHeader"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="发票抬头">-->
+<!--      </el-table-column>-->
+<!--      <el-table-column-->
+<!--        prop="billContent"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="发票内容">-->
+<!--      </el-table-column>-->
+<!--      <el-table-column-->
+<!--        prop="billReceiverPhone"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="收票人电话">-->
+<!--      </el-table-column>-->
+<!--      <el-table-column-->
+<!--        prop="billReceiverEmail"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="收票人邮箱">-->
+<!--      </el-table-column>-->
       <el-table-column
         prop="receiverName"
         header-align="center"
@@ -230,13 +241,21 @@
         prop="confirmStatus"
         header-align="center"
         align="center"
-        label="确认收货状态[0->未确认；1->已确认]">
+        label="确认收货状态">
+        <template slot-scope="scope">
+          <el-tag v-if="scope.row.confirmStatus === 0">未确认</el-tag>
+          <el-tag v-if="scope.row.confirmStatus === 1">已确认</el-tag>
+        </template>
       </el-table-column>
       <el-table-column
         prop="deleteStatus"
         header-align="center"
         align="center"
-        label="删除状态【0->未删除；1->已删除】">
+        label="删除状态">
+        <template slot-scope="scope">
+          <el-tag v-if="scope.row.deleteStatus === 0">未删除</el-tag>
+          <el-tag v-if="scope.row.deleteStatus === 1">已删除</el-tag>
+        </template>
       </el-table-column>
       <el-table-column
         prop="useIntegration"
@@ -250,24 +269,24 @@
         align="center"
         label="支付时间">
       </el-table-column>
-      <el-table-column
-        prop="deliveryTime"
-        header-align="center"
-        align="center"
-        label="发货时间">
-      </el-table-column>
-      <el-table-column
-        prop="receiveTime"
-        header-align="center"
-        align="center"
-        label="确认收货时间">
-      </el-table-column>
-      <el-table-column
-        prop="commentTime"
-        header-align="center"
-        align="center"
-        label="评价时间">
-      </el-table-column>
+<!--      <el-table-column-->
+<!--        prop="deliveryTime"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="发货时间">-->
+<!--      </el-table-column>-->
+<!--      <el-table-column-->
+<!--        prop="receiveTime"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="确认收货时间">-->
+<!--      </el-table-column>-->
+<!--      <el-table-column-->
+<!--        prop="commentTime"-->
+<!--        header-align="center"-->
+<!--        align="center"-->
+<!--        label="评价时间">-->
+<!--      </el-table-column>-->
       <el-table-column
         prop="modifyTime"
         header-align="center"
@@ -306,7 +325,8 @@
     data () {
       return {
         dataForm: {
-          key: ''
+          key: '',
+          memberId: ''
         },
         dataList: [],
         pageIndex: 1,
@@ -321,6 +341,9 @@
       AddOrUpdate
     },
     activated () {
+      if (this.$route.query.memberId) {
+        this.dataForm.memberId = this.$route.query.memberId
+      }
       this.getDataList()
     },
     methods: {
@@ -333,7 +356,8 @@
           params: this.$http.adornParams({
             'page': this.pageIndex,
             'limit': this.pageSize,
-            'key': this.dataForm.key
+            'key': this.dataForm.key,
+            'memberId': this.dataForm.memberId
           })
         }).then(({data}) => {
           if (data && data.code === 0) {

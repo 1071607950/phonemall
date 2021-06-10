@@ -56,8 +56,8 @@
       <el-table-column prop="createTime" header-align="center" align="center" label="注册时间"></el-table-column>
       <el-table-column fixed="right" header-align="center" align="center" width="150" label="操作">
         <template slot-scope="scope">
-          <el-button type="text" size="small">送券</el-button>
-          <el-button type="text" size="small">查订单</el-button>
+<!--          <el-button type="text" size="small">送券</el-button>-->
+          <el-button type="text" size="small" @click="getOrder(scope.row)">查订单</el-button>
         </template>
       </el-table-column>
     </el-table>
@@ -100,6 +100,9 @@ export default {
     this.getDataList()
   },
   methods: {
+    getOrder (row) {
+      this.$router.push({ path: '/order-order', query: { memberId: row.id } })
+    },
     // 获取数据列表
     getDataList () {
       this.dataListLoading = true

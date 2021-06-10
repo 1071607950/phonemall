@@ -41,12 +41,12 @@
         <el-form-item label="分类名称">
           <el-input v-model="category.name" autocomplete="off"></el-input>
         </el-form-item>
-        <el-form-item label="图标">
-          <el-input v-model="category.icon" autocomplete="off"></el-input>
-        </el-form-item>
-        <el-form-item label="计量单位">
-          <el-input v-model="category.productUnit" autocomplete="off"></el-input>
-        </el-form-item>
+<!--        <el-form-item label="图标">-->
+<!--          <el-input v-model="category.icon" autocomplete="off"></el-input>-->
+<!--        </el-form-item>-->
+<!--        <el-form-item label="计量单位">-->
+<!--          <el-input v-model="category.productUnit" autocomplete="off"></el-input>-->
+<!--        </el-form-item>-->
       </el-form>
       <span slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">取 消</el-button>
@@ -119,7 +119,7 @@ export default {
       for (let i = 0; i < checkedNodes.length; i++) {
         catIds.push(checkedNodes[i].catId)
       }
-      this.$confirm(`是否批量删除【${catIds}】菜单?`, '提示', {
+      this.$confirm(`是否批量删除【${catIds}】分类?`, '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
         type: 'warning'
@@ -130,10 +130,17 @@ export default {
             method: 'post',
             data: this.$http.adornData(catIds, false)
           }).then(({ data }) => {
-            this.$message({
-              message: '菜单批量删除成功',
-              type: 'success'
-            })
+            if (data && data.code === 0) {
+              this.$message({
+                message: '分类批量删除成功',
+                type: 'success'
+              })
+            } else {
+              this.$message({
+                message: '该分类下面还有品牌，无法删除!',
+                type: 'error'
+              })
+            }
             this.getMenus()
           })
         })
@@ -147,7 +154,7 @@ export default {
       })
         .then(({ data }) => {
           this.$message({
-            message: '菜单顺序等修改成功',
+            message: '分类顺序修改成功',
             type: 'success'
           })
           // 刷新出新的菜单
@@ -307,7 +314,7 @@ export default {
       })
         .then(({ data }) => {
           this.$message({
-            message: '菜单修改成功',
+            message: '分类修改成功',
             type: 'success'
           })
           // 关闭对话框
@@ -343,7 +350,7 @@ export default {
 
     remove (node, data) {
       let ids = [data.catId]
-      this.$confirm(`是否删除【${data.name}】菜单?`, '提示', {
+      this.$confirm(`是否删除【${data.name}】分类?`, '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
         type: 'warning'
@@ -354,10 +361,17 @@ export default {
             method: 'post',
             data: this.$http.adornData(ids, false)
           }).then(({ data }) => {
-            this.$message({
-              message: '菜单删除成功',
-              type: 'success'
-            })
+            if (data && data.code === 0) {
+              this.$message({
+                message: '分类批量删除成功',
+                type: 'success'
+              })
+            } else {
+              this.$message({
+                message: '该分类下面还有品牌，无法删除!',
+                type: 'error'
+              })
+            }
             // 刷新出新的菜单
             this.getMenus()
             // 设置需要默认展开的菜单

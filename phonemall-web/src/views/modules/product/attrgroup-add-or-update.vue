@@ -21,9 +21,9 @@
       <el-form-item label="描述" prop="descript">
         <el-input v-model="dataForm.descript" placeholder="描述"></el-input>
       </el-form-item>
-      <el-form-item label="组图标" prop="icon">
-        <el-input v-model="dataForm.icon" placeholder="组图标"></el-input>
-      </el-form-item>
+<!--      <el-form-item label="组图标" prop="icon">-->
+<!--        <el-input v-model="dataForm.icon" placeholder="组图标"></el-input>-->
+<!--      </el-form-item>-->
       <el-form-item label="所属分类" prop="catelogId">
         <!-- filterable:让这个选择器可以搜索 -->
         <!-- <el-cascader filterable placeholder="试试搜索：手机" v-model="catelogPath" :options="categorys"  :props="props"></el-cascader> -->

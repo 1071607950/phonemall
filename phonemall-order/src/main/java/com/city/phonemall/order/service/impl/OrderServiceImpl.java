@@ -94,9 +94,11 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
         String key = String.valueOf(params.get("key"));
+        String memberId = String.valueOf(params.get("memberId"));
         IPage<OrderEntity> page = this.page(
                 new Query<OrderEntity>().getPage(params),
                 new QueryWrapper<OrderEntity>().lambda()
+                        .eq(params.containsKey("memberId") && org.apache.commons.lang3.StringUtils.isNotBlank(memberId),OrderEntity::getMemberId,memberId)
                         .like(params.containsKey("key") && org.apache.commons.lang3.StringUtils.isNotBlank(key),OrderEntity::getOrderSn,key)
         );
 

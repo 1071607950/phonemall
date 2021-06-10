@@ -96,7 +96,7 @@
         prop="createTime"
         header-align="center"
         align="center"
-        label="create_time">
+        label="创建时间">
       </el-table-column>
       <el-table-column
         prop="wareId"

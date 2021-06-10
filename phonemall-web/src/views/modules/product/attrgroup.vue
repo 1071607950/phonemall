@@ -37,11 +37,12 @@
           <el-table-column prop="attrGroupName" header-align="center" align="center" label="组名"></el-table-column>
           <el-table-column prop="sort" header-align="center" align="center" label="排序"></el-table-column>
           <el-table-column prop="descript" header-align="center" align="center" label="描述"></el-table-column>
-          <el-table-column prop="icon" header-align="center" align="center" label="组图标">
-            <template slot-scope="scope">
-              <img :src="scope.row.logo" style="width: 60px; height: 60px"  alt=""/>
-            </template>
-          </el-table-column>
+<!--          <el-table-column prop="icon" header-align="center" align="center" label="组图标">-->
+<!--            <template slot-scope="scope">-->
+<!--              <icon-svg :name="scope.row.icon || ''"></icon-svg>-->
+<!--              <img :src="scope.row.logo" style="width: 60px; height: 60px"  alt=""/>-->
+<!--            </template>-->
+<!--          </el-table-column>-->
           <el-table-column prop="catelogId" header-align="center" align="center" label="分类id"></el-table-column>
           <el-table-column
             fixed="right"

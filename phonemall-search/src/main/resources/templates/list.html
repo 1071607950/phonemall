@@ -64,7 +64,7 @@
                 <a href="http://search.phonemall.com/list.html?keyword=华为">华为</a>
             </li>
             <li>
-                <a href="http://search.phonemall.com/list.html?keyword=苹果">苹果</a>
+                <a href="http://search.phonemall.com/list.html?keyword=Apple">Apple</a>
             </li>
         </ul>
     </div>
@@ -72,77 +72,7 @@
 
 <hr style="border: 1px solid #ff0000;margin-top: -7px;">
 
-<!--热卖促销-->
-<div class="JD_temai">
-    <div class="JD_main">
-        <div class="JD_left">
-            <div class="hd">
-                热卖推荐
-            </div>
-            <div class="bd mc">
-                <ul class="mc">
-                    <li>
-                        <a href="/static/search/#" class="mc_a"><img src="/static/search/./img/5a28b5a1n8a5c095f.jpg"
-                                                                     alt=""></a>
-                        <div class="mc_div">
-                            <a href="/static/search/#" class="mc_div_a1">
-                                <em>华为 HUAWEI nova 2S 全面屏四摄 6GB +64GB 曜石黑 移动联通电信4G手机 双卡双待</em>
-                            </a>
-                            <p>
-                                <strong>
-                                    <em class="number J-p-5963064">￥2999.00</em>
-                                </strong>
-                            </p>
-                            <a href="/static/search/#" class="mc_div_a2">立即抢购</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="/static/search/#" class="mc_a"><img src="/static/search/./img/59f5eef1n99542494.jpg"
-                                                                     alt=""></a>
-                        <div class="mc_div">
-                            <a href="/static/search/#" class="mc_div_a1">
-                                <em>【预约版】华为 HUAWEI 畅享7S 全面屏双摄 4GB +64GB 黑色 移动联通电信4G手机 双卡双待</em>
-                            </a>
-                            <p>
-                                <strong>
-                                    <em class="number J-p-5963064">￥1699.00</em>
-                                </strong>
-                            </p>
-                            <a href="/static/search/#" class="mc_div_a2">立即抢购</a>
-                        </div>
-                    </li>
-                    <li style="margin-right: 0">
-                        <a href="/static/search/#" class="mc_a"><img src="/static/search/./img/59f5eef1n99542494.jpg"
-                                                                     alt=""></a>
-                        <div class="mc_div">
-                            <a href="/static/search/#" class="mc_div_a1">
-                                <em>华为 HUAWEI nova 2S 全面屏四摄 6GB +64GB 曜石黑 移动联通电信4G手机 双卡双待</em>
-                            </a>
-                            <p>
-                                <strong>
-                                    <em class="number J-p-5963064">￥2999.00</em>
-                                </strong>
-                            </p>
-                            <a href="/static/search/#" class="mc_div_a2">立即抢购</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="JD_right">
-            <div class="hd"> 促销活动</div>
-            <div class="bd">
-                <ul>
-                    <li> . <a href="/static/search/#">红米千元全面屏手机上市</a></li>
-                    <li> . <a href="/static/search/#">锤子坚果Pro2火爆预约中</a></li>
-                    <li> . <a href="/static/search/#">大牌新品 疯狂抢购</a></li>
-                    <li> . <a href="/static/search/#">X20 vivo蓝新色上市</a></li>
-                    <li> . <a href="/static/search/#">荣耀畅玩7X新品上市</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!--手机-->
 <div class="JD_ipone">
@@ -195,7 +125,7 @@
                     <div class="sl_value">
                         <ul>
                             <li th:each="catalog : ${result.catalogs}">
-                                <a href="/static/search/#"
+                                <a
                                    th:href="${'javascript:searchProducts(&quot;catalog3Id&quot;,'+catalog.catalogId+')'}"
                                    th:text="${catalog.catalogName}">5.56英寸及以上
 
@@ -213,7 +143,7 @@
                     <div class="sl_value">
                         <ul>
                             <li th:each="attrValue : ${attr.attrValue}">
-                                <a href="/static/search/#"
+                                <a
                                    th:href="${'javascript:searchProducts(&quot;attrs&quot;,&quot;'+attr.attrId+'_'+attrValue+'&quot;)'}"
                                    th:text="${attrValue}">5.56英寸及以上
                                 </a>
@@ -236,9 +166,9 @@
                         <div class="mc">
                             <ul>
                                 <li>
-                                    <a href="/static/search/#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
+                                    <a title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
                                             src="/static/search/img/59bf3c47n91d65c73.jpg" alt=""></a>
-                                    <a href="/static/search/#"
+                                    <a
                                        title="【预约版】华为 HUAWEI 畅享7S 全面屏双摄 4GB +64GB 黑色 移动联通电信4G手机 双卡双待">
                                         <em>华为 HUAWEI nova 2S 全面屏四摄 6GB +64GB 曜石黑 移动联通电信4G手机 双卡双待</em>
                                     </a>
@@ -252,14 +182,14 @@
                                     </div>
                                     <div class="mc_rev">
                                         已有
-                                        <a href="/static/search/#" class="number">12466</a>
+                                        <a class="number">12466</a>
                                         人评价
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="/static/search/#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
+                                    <a title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
                                             src="/static/search/img/59bf3c47n91d65c73.jpg" alt=""></a>
-                                    <a href="/static/search/#"
+                                    <a
                                        title="【预约版】华为 HUAWEI 畅享7S 全面屏双摄 4GB +64GB 黑色 移动联通电信4G手机 双卡双待">
                                         <em>华为 HUAWEI nova 2S 全面屏四摄 6GB +64GB 曜石黑 移动联通电信4G手机 双卡双待</em>
                                     </a>
@@ -273,14 +203,14 @@
                                     </div>
                                     <div class="mc_rev">
                                         已有
-                                        <a href="/static/search/#" class="number">12466</a>
+                                        <a  class="number">12466</a>
                                         人评价
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="/static/search/#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
+                                    <a  title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
                                             src="/static/search/img/593ba628n8794c6a6.jpg" alt=""></a>
-                                    <a href="/static/search/#"
+                                    <a
                                        title="【预约版】华为 HUAWEI 畅享7S 全面屏双摄 4GB +64GB 黑色 移动联通电信4G手机 双卡双待">
                                         <em>诺基亚 7 (Nokia 7) 4GB+64GB 黑色 全网通 双卡双待 移动联通电信4G手机</em>
                                     </a>
@@ -294,14 +224,14 @@
                                     </div>
                                     <div class="mc_rev">
                                         已有
-                                        <a href="/static/search/#" class="number">15600</a>
+                                        <a class="number">15600</a>
                                         人评价
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="/static/search/#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
+                                    <a title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
                                             src="/static/search/img/5919637an271a1301.jpg" alt=""></a>
-                                    <a href="/static/search/#"
+                                    <a
                                        title="【预约版】华为 HUAWEI 畅享7S 全面屏双摄 4GB +64GB 黑色 移动联通电信4G手机 双卡双待">
                                         <em>vivo Xplay6 全网通 6GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待</em>
                                     </a>
@@ -315,7 +245,7 @@
                                     </div>
                                     <div class="mc_rev">
                                         已有
-                                        <a href="/static/search/#" class="number">5369</a>
+                                        <a class="number">5369</a>
                                         人评价
                                     </div>
                                 </li>
@@ -329,9 +259,9 @@
                         <div class="mc">
                             <ul>
                                 <li>
-                                    <a href="/static/search/#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
+                                    <a title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
                                             src="/static/search/img/59bf3c47n91d65c73.jpg" alt=""></a>
-                                    <a href="/static/search/#">
+                                    <a >
                                         <em>华为 HUAWEI nova 2S 全面屏四摄 6GB +64GB 曜石黑 移动联通电信4G手机 双卡双待</em>
                                     </a>
                                     <div class="mc_price">
@@ -341,9 +271,9 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="/static/search/#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
+                                    <a title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
                                             src="/static/search/img/59bf3c47n91d65c73.jpg" alt=""></a>
-                                    <a href="/static/search/#">
+                                    <a >
                                         <em>华为 HUAWEI nova 2S 全面屏四摄 6GB +64GB 曜石黑 移动联通电信4G手机 双卡双待</em>
                                     </a>
                                     <div class="mc_price">
@@ -353,9 +283,9 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="/static/search/#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
+                                    <a title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
                                             src="/static/search/img/593ba628n8794c6a6.jpg" alt=""></a>
-                                    <a href="/static/search/#">
+                                    <a >
                                         <em>诺基亚 7 (Nokia 7) 4GB+64GB 黑色 全网通 双卡双待 移动联通电信4G手机</em>
                                     </a>
                                     <div class="mc_price">
@@ -365,9 +295,9 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="/static/search/#" title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
+                                    <a title="vivo X9s 全网通 4GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待"><img
                                             src="/static/search/img/5919637an271a1301.jpg" alt=""></a>
-                                    <a href="/static/search/#">
+                                    <a >
                                         <em>vivo Xplay6 全网通 6GB+64GB 磨砂黑 移动联通电信4G手机 双卡双待</em>
                                     </a>
                                     <div class="mc_price">
@@ -420,7 +350,7 @@
                             <span class="fp-text">
                                <b th:text="${result.pageNum}">1</b><em>/</em><i th:text="${result.totalPages}">169</i>
                            </span>
-                            <a class="page_a prev" th:attr="pn=${result.pageNum - 1}" href="/static/search/#"
+                            <a class="page_a prev" th:attr="pn=${result.pageNum - 1}"
                                th:if="${result.pageNum>1}">
                                 <
                             </a>
@@ -485,7 +415,7 @@
                     <div class="filter_page">
                         <div class="page_wrap">
                             <span class="page_span1">
-                                <a class="page_a" th:attr="pn=${result.pageNum - 1}" href="/static/search/#"
+                                <a class="page_a" th:attr="pn=${result.pageNum - 1}"
                                    th:if="${result.pageNum>1}">
                                     < 上一页
                                 </a>
