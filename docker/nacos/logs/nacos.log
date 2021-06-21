@@ -1,0 +1,195 @@
+2021-06-11 08:19:34,019 INFO Starting Nacos v2.0.1 on nacos with PID 24 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2021-06-11 08:19:34,033 INFO The following profiles are active: standalone
+
+2021-06-11 08:19:53,920 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@273c947f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-06-11 08:19:53,950 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-06-11 08:19:59,303 INFO Tomcat initialized with port(s): 8848 (http)
+
+2021-06-11 08:20:00,167 INFO Starting service [Tomcat]
+
+2021-06-11 08:20:00,204 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2021-06-11 08:20:05,046 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2021-06-11 08:20:05,612 INFO Initializing Spring embedded WebApplicationContext
+
+2021-06-11 08:20:05,763 INFO Root WebApplicationContext: initialization completed in 31519 ms
+
+2021-06-11 08:20:10,579 INFO HikariPool-1 - Starting...
+
+2021-06-11 08:20:24,919 INFO HikariPool-1 - Start completed.
+
+2021-06-11 08:20:29,297 INFO Nacos-related cluster resource initialization
+
+2021-06-11 08:20:29,597 INFO The cluster resource is initialized
+
+2021-06-11 08:20:34,942 INFO Reflections took 446 ms to scan 1 urls, producing 5 keys and 10 values 
+
+2021-06-11 08:20:35,332 INFO Reflections took 51 ms to scan 1 urls, producing 4 keys and 21 values 
+
+2021-06-11 08:20:35,723 INFO Reflections took 47 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2021-06-11 08:20:35,802 INFO Reflections took 15 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2021-06-11 08:20:50,968 INFO Reflections took 465 ms to scan 2 urls, producing 3 keys and 6 values 
+
+2021-06-11 08:20:51,644 INFO Reflections took 499 ms to scan 2 urls, producing 4 keys and 9 values 
+
+2021-06-11 08:20:52,173 INFO Reflections took 404 ms to scan 2 urls, producing 3 keys and 10 values 
+
+2021-06-11 08:20:52,627 INFO Reflections took 19 ms to scan 1 urls, producing 2 keys and 2 values 
+
+2021-06-11 08:20:52,907 INFO Reflections took 228 ms to scan 2 urls, producing 1 keys and 5 values 
+
+2021-06-11 08:20:53,267 INFO Reflections took 237 ms to scan 2 urls, producing 1 keys and 7 values 
+
+2021-06-11 08:20:53,718 INFO Reflections took 408 ms to scan 2 urls, producing 2 keys and 8 values 
+
+2021-06-11 08:20:53,839 INFO Reflections took 17 ms to scan 1 urls, producing 1 keys and 1 values 
+
+2021-06-11 08:21:29,884 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2021-06-11 08:21:32,613 INFO Adding welcome page: class path resource [static/index.html]
+
+2021-06-11 08:21:44,779 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2021-06-11 08:21:45,230 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@176555c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a500561, org.springframework.security.web.header.HeaderWriterFilter@ea52184, org.springframework.security.web.csrf.CsrfFilter@67507df, org.springframework.security.web.authentication.logout.LogoutFilter@2e3572e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6949e948, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4086d8fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c781c42, org.springframework.security.web.session.SessionManagementFilter@3c854752, org.springframework.security.web.access.ExceptionTranslationFilter@470d183]
+
+2021-06-11 08:21:48,117 INFO Initializing ExecutorService 'taskScheduler'
+
+2021-06-11 08:21:48,482 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2021-06-11 08:21:51,739 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2021-06-11 08:21:51,777 INFO Started Nacos in 144.839 seconds (JVM running for 148.756)
+
+2021-06-11 08:21:51,780 INFO Nacos started successfully in stand alone mode. use external storage
+
+2021-06-11 08:21:52,061 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2021-06-11 08:21:52,068 INFO Initializing Servlet 'dispatcherServlet'
+
+2021-06-11 08:21:52,127 INFO Completed initialization in 53 ms
+
+2021-06-11 08:23:10,783 INFO Starting Nacos v2.0.1 on nacos with PID 22 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2021-06-11 08:23:10,785 INFO The following profiles are active: standalone
+
+2021-06-11 08:23:22,898 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@44ea608c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-06-11 08:23:22,914 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-06-11 08:23:23,941 INFO Tomcat initialized with port(s): 8848 (http)
+
+2021-06-11 08:23:24,088 INFO Starting service [Tomcat]
+
+2021-06-11 08:23:24,090 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2021-06-11 08:23:25,268 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2021-06-11 08:23:25,559 INFO Initializing Spring embedded WebApplicationContext
+
+2021-06-11 08:23:25,574 INFO Root WebApplicationContext: initialization completed in 14636 ms
+
+2021-06-11 08:23:29,931 INFO HikariPool-1 - Starting...
+
+2021-06-11 08:23:40,451 INFO HikariPool-1 - Start completed.
+
+2021-06-11 08:23:44,383 INFO Nacos-related cluster resource initialization
+
+2021-06-11 08:23:44,468 INFO The cluster resource is initialized
+
+2021-06-11 08:23:48,136 INFO Reflections took 475 ms to scan 1 urls, producing 5 keys and 10 values 
+
+2021-06-11 08:23:48,503 INFO Reflections took 27 ms to scan 1 urls, producing 4 keys and 21 values 
+
+2021-06-11 08:23:48,626 INFO Reflections took 35 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2021-06-11 08:23:48,716 INFO Reflections took 6 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2021-06-11 08:23:52,030 INFO Reflections took 422 ms to scan 2 urls, producing 3 keys and 6 values 
+
+2021-06-11 08:23:52,549 INFO Reflections took 503 ms to scan 2 urls, producing 4 keys and 9 values 
+
+2021-06-11 08:23:52,968 INFO Reflections took 406 ms to scan 2 urls, producing 3 keys and 10 values 
+
+2021-06-11 08:23:53,000 INFO Reflections took 22 ms to scan 1 urls, producing 2 keys and 2 values 
+
+2021-06-11 08:23:53,446 INFO Reflections took 430 ms to scan 2 urls, producing 1 keys and 5 values 
+
+2021-06-11 08:23:53,802 INFO Reflections took 339 ms to scan 2 urls, producing 1 keys and 7 values 
+
+2021-06-11 08:23:54,178 INFO Reflections took 363 ms to scan 2 urls, producing 2 keys and 8 values 
+
+2021-06-11 08:23:54,210 INFO Reflections took 17 ms to scan 1 urls, producing 1 keys and 1 values 
+
+2021-06-11 08:24:24,427 WARN Stream Error
+
+io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2Exception$StreamException: Received DATA frame for an unknown stream 3
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2Exception.streamError(Http2Exception.java:147)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.shouldIgnoreHeadersOrDataFrame(DefaultHttp2ConnectionDecoder.java:591)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder$FrameReadListener.onDataRead(DefaultHttp2ConnectionDecoder.java:239)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger$1.onDataRead(Http2InboundFrameLogger.java:48)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readDataFrame(DefaultHttp2FrameReader.java:422)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.processPayloadState(DefaultHttp2FrameReader.java:251)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2FrameReader.readFrame(DefaultHttp2FrameReader.java:160)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2InboundFrameLogger.readFrame(Http2InboundFrameLogger.java:41)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.DefaultHttp2ConnectionDecoder.decodeFrame(DefaultHttp2ConnectionDecoder.java:174)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler$FrameDecoder.decode(Http2ConnectionHandler.java:378)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler.decode(Http2ConnectionHandler.java:438)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:505)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444)
+	at io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:283)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1421)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:794)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:424)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:326)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:918)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-11 08:24:28,322 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2021-06-11 08:24:30,358 INFO Adding welcome page: class path resource [static/index.html]
+
+2021-06-11 08:24:53,891 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2021-06-11 08:24:54,096 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10c72a6f, org.springframework.security.web.context.SecurityContextPersistenceFilter@60e9c3a5, org.springframework.security.web.header.HeaderWriterFilter@31dfc6f5, org.springframework.security.web.csrf.CsrfFilter@5f254608, org.springframework.security.web.authentication.logout.LogoutFilter@7a8b9166, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@459f703f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@aaa0f76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70e94ecb, org.springframework.security.web.session.SessionManagementFilter@663bb8ef, org.springframework.security.web.access.ExceptionTranslationFilter@298f0a0b]
+
+2021-06-11 08:24:55,282 INFO Initializing ExecutorService 'taskScheduler'
+
+2021-06-11 08:24:55,382 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2021-06-11 08:24:56,618 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2021-06-11 08:24:56,649 INFO Started Nacos in 110.024 seconds (JVM running for 112.345)
+
+2021-06-11 08:24:56,658 INFO Nacos started successfully in stand alone mode. use external storage
+
+2021-06-11 08:24:56,882 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2021-06-11 08:24:56,888 INFO Initializing Servlet 'dispatcherServlet'
+
+2021-06-11 08:24:56,909 INFO Completed initialization in 20 ms
+
+2021-06-11 08:33:50,482 WARN clearConfigHistory start
+
+2021-06-11 08:33:50,483 INFO [capacityManagement] start correct usage
+
+2021-06-11 08:33:50,597 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-06-11 08:43:50,536 WARN clearConfigHistory start
+
+2021-06-11 08:43:50,597 INFO [capacityManagement] start correct usage
+
+2021-06-11 08:43:50,603 INFO [capacityManagement] end correct usage, cost: 0s
+

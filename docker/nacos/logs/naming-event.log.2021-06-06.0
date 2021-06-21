@@ -1,0 +1,56 @@
+2021-06-06 10:22:01,394 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622946105207
+
+2021-06-06 10:23:11,956 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622946176955
+
+2021-06-06 10:23:16,195 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 10:23:51,959 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622946214628
+
+2021-06-06 10:24:31,962 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622946255341
+
+2021-06-06 10:24:37,384 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 10:24:56,964 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622946277383
+
+2021-06-06 10:25:02,888 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 10:25:31,967 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622946312203
+
+2021-06-06 10:25:37,941 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 10:36:39,650 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622946980444
+
+2021-06-06 10:36:47,573 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 10:37:14,652 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622947019051
+
+2021-06-06 10:37:19,521 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 10:38:24,657 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622947085479
+
+2021-06-06 11:00:03,686 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622948388018
+
+2021-06-06 11:00:10,102 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 11:00:28,691 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622948410102
+
+2021-06-06 11:00:32,404 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 11:03:08,704 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622948571920
+
+2021-06-06 11:03:51,402 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622948616401
+
+2021-06-06 11:12:35,597 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622949136949
+
+2021-06-06 11:12:37,794 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 11:13:05,600 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622949167940
+
+2021-06-06 11:17:01,832 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622949405041
+
+2021-06-06 11:17:12,770 INFO service: DEFAULT_GROUP@@phonemall-order {POS} {IP-ENABLED} valid: 192.168.1.101:9000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-06-06 12:12:57,486 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622952757740
+
+2021-06-06 12:17:08,571 INFO {POS} {IP-DISABLED} valid: 192.168.1.101:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1622953008589
+

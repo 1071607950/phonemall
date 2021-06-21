@@ -1,0 +1,34 @@
+2021-06-07 00:16:24,519 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=11}, 192.168.1.101:9000#true
+
+2021-06-07 00:16:27,544 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, 192.168.1.101:11000#true
+
+2021-06-07 00:16:31,084 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2021-06-07 00:16:31,144 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2021-06-07 00:16:32,619 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-07 00:16:32,619 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

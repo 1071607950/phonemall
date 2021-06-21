@@ -1,0 +1,42 @@
+2021-06-05 09:55:52,255 INFO Initializes the Raft protocol, raft-config info : {}
+
+2021-06-05 09:55:52,673 INFO ========= The raft protocol is starting... =========
+
+2021-06-05 09:55:52,740 INFO ========= The raft protocol start finished... =========
+
+2021-06-05 09:55:52,774 INFO create raft group : naming_persistent_service_v2
+
+2021-06-05 09:55:53,350 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='null', term=null, raftClusterInfo=[73eb80915e1b:7848]}
+
+2021-06-05 09:55:53,443 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='73eb80915e1b:7848', term=5, raftClusterInfo=[73eb80915e1b:7848]}
+
+2021-06-05 09:55:53,470 INFO create raft group : naming_instance_metadata
+
+2021-06-05 09:55:53,659 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='null', term=null, raftClusterInfo=[73eb80915e1b:7848]}
+
+2021-06-05 09:55:53,702 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='73eb80915e1b:7848', term=5, raftClusterInfo=[73eb80915e1b:7848]}
+
+2021-06-05 09:55:53,705 INFO create raft group : naming_service_metadata
+
+2021-06-05 09:55:53,865 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='null', term=null, raftClusterInfo=[73eb80915e1b:7848]}
+
+2021-06-05 09:55:53,903 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='73eb80915e1b:7848', term=5, raftClusterInfo=[73eb80915e1b:7848]}
+
+2021-06-05 17:11:45,972 INFO Initializes the Raft protocol, raft-config info : {}
+
+2021-06-05 17:11:46,315 INFO ========= The raft protocol is starting... =========
+
+2021-06-05 17:11:46,361 INFO ========= The raft protocol start finished... =========
+
+2021-06-05 17:11:46,390 INFO create raft group : naming_persistent_service_v2
+
+2021-06-05 17:11:46,794 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='71d22eaea35c:7848', term=1, raftClusterInfo=[71d22eaea35c:7848]}
+
+2021-06-05 17:11:46,808 INFO create raft group : naming_instance_metadata
+
+2021-06-05 17:11:46,908 INFO create raft group : naming_service_metadata
+
+2021-06-05 17:11:46,913 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='71d22eaea35c:7848', term=1, raftClusterInfo=[71d22eaea35c:7848]}
+
+2021-06-05 17:11:47,023 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='71d22eaea35c:7848', term=1, raftClusterInfo=[71d22eaea35c:7848]}
+

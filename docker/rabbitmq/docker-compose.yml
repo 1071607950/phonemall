@@ -1,0 +1,33 @@
+version: '3'
+services:
+    rabbitmq:
+        image: rabbitmq:management
+        container_name: rabbitmq
+        hostname: rabbitmq
+        ports:
+          - "5671:5671"
+          - "5672:5672"
+          - "4369:4369"
+          - "25672:25672"
+          - "15671:15671"
+          - "15672:15672"
+        environment:
+          - RABBITMQ_DEFAULT_VHOST=rabbitmq
+          - RABBITMQ_DEFAULT_USER=rabbitmq
+          - RABBITMQ_DEFAULT_PASS=rabbitmq
+        volumes:
+          - ./etc:/etc/rabbitmq
+          # - "./data:/var/lib/rabbitmq"
+          - "./log:/var/log/rabbitmq/log"
+        networks:
+          myNetwork:
+            ipv4_address: 172.100.0.12
+        deploy:
+           resources:
+              limits:
+                 cpus: '2'
+                 memory: 128m
+networks:
+  myNetwork:   #自定义网络名称
+    external:     #外部已定义网卡
+      name: "myNetwork"    #使用docker-compose的默认网卡　　

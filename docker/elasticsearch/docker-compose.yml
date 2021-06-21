@@ -1,0 +1,48 @@
+version: '3'
+services:
+    elasticsearch:
+        image: elasticsearch:7.4.2
+        container_name: elasticsearch
+        hostname: elasticsearch
+        privileged: true
+        ports:
+          - "9200:9200"
+          - "9300:9300"
+        volumes:
+          - ./config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+          - ./data:/usr/share/elasticsearch/data
+          - ./plugins:/usr/share/elasticsearch/plugins
+        environment:
+          - "discovery.type=single-node"
+          - "ES_JAVA_OPTS=-Xms128m -Xmx512m"
+        networks:
+          myNetwork:
+            ipv4_address: 172.100.1.11
+        deploy:
+           resources:
+              limits:
+                 cpus: '2'
+                 memory: 512m
+    kibana:
+        image: kibana:7.4.2
+        container_name: kibana
+        privileged: true
+        ports:
+          - "5601:5601"
+        environment:
+          - I18N_LOCALE=zh-CN
+          - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+        networks:
+          myNetwork:
+            ipv4_address: 172.100.1.10
+        depends_on:
+          - elasticsearch
+        deploy:
+           resources:
+              limits:
+                 cpus: '2'
+                 memory: 512m
+networks:
+  myNetwork:   #自定义网络名称
+    external:     #外部已定义网卡
+      name: "myNetwork"    #使用docker-compose的默认网卡　　

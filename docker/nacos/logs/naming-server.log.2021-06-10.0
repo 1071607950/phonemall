@@ -1,0 +1,196 @@
+2021-06-10 09:59:26,694 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2021-06-10 09:59:26,694 WARN Using naming.distro config to replace core.distro config
+
+2021-06-10 09:59:26,961 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-06-10 09:59:26,970 INFO listen for service meta change
+
+2021-06-10 10:32:05,316 INFO Client connection 192.168.43.142:88#true connect
+
+2021-06-10 10:32:05,320 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-gateway', ephemeral=true, revision=0}, 192.168.43.142:88#true
+
+2021-06-10 10:32:21,576 INFO Client connection 192.168.43.142:8000#true connect
+
+2021-06-10 10:32:21,576 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=0}, 192.168.43.142:8000#true
+
+2021-06-10 10:32:30,273 INFO Client connection 192.168.43.142:7000#true connect
+
+2021-06-10 10:32:30,273 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=0}, 192.168.43.142:7000#true
+
+2021-06-10 10:32:41,177 INFO Client connection 192.168.43.142:9000#true connect
+
+2021-06-10 10:32:41,177 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.43.142:9000#true
+
+2021-06-10 10:32:47,576 INFO Client connection 192.168.43.142:30000#true connect
+
+2021-06-10 10:32:47,576 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-third-party', ephemeral=true, revision=0}, 192.168.43.142:30000#true
+
+2021-06-10 10:33:07,459 INFO Client connection 192.168.43.142:8080#true connect
+
+2021-06-10 10:33:07,459 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-admin', ephemeral=true, revision=0}, 192.168.43.142:8080#true
+
+2021-06-10 10:33:38,173 INFO Client connection 192.168.43.142:12000#true connect
+
+2021-06-10 10:33:38,173 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=0}, 192.168.43.142:12000#true
+
+2021-06-10 10:33:39,866 INFO Client connection 192.168.43.142:10000#true connect
+
+2021-06-10 10:33:39,866 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=0}, 192.168.43.142:10000#true
+
+2021-06-10 10:33:41,038 INFO Client connection 192.168.43.142:20000#true connect
+
+2021-06-10 10:33:41,038 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-auth-server', ephemeral=true, revision=0}, 192.168.43.142:20000#true
+
+2021-06-10 10:33:43,075 INFO Client connection 192.168.43.142:13000#true connect
+
+2021-06-10 10:33:43,075 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=0}, 192.168.43.142:13000#true
+
+2021-06-10 10:33:48,849 INFO Client connection 192.168.43.142:11000#true connect
+
+2021-06-10 10:33:48,849 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=0}, 192.168.43.142:11000#true
+
+2021-06-10 10:33:50,113 INFO Client connection 172.26.224.1:54158#true connect
+
+2021-06-10 10:42:47,605 INFO Client connection 172.26.224.1:64095#true connect
+
+2021-06-10 11:34:34,991 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.43.142:9000#true
+
+2021-06-10 11:34:58,787 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, 192.168.43.142:9000#true
+
+2021-06-10 13:39:26,768 INFO Client connection 172.28.112.1:58394#true connect
+
+2021-06-10 14:13:21,289 INFO Client connection 172.28.112.1:64527#true connect
+
+2021-06-10 14:54:37,999 INFO Client connection 172.28.112.1:54157#true connect
+
+2021-06-10 14:55:11,476 INFO Client connection 172.28.112.1:57442#true connect
+
+2021-06-10 14:55:22,072 INFO Client connection 172.28.112.1:61585#true connect
+
+2021-06-10 14:56:13,638 INFO Client connection 172.28.112.1:56233#true connect
+
+2021-06-10 23:13:27,875 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, 192.168.43.142:9000#true
+
+2021-06-10 23:13:59,337 INFO Client connection 172.28.112.1:61585#true disconnect, remove instances and subscribers
+
+2021-06-10 23:13:59,337 INFO Client connection 192.168.43.142:9000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:14:13,101 INFO Client connection 192.168.43.142:9000#true connect
+
+2021-06-10 23:14:13,101 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, 192.168.43.142:9000#true
+
+2021-06-10 23:17:03,167 INFO Client connection 172.28.112.1:60361#true connect
+
+2021-06-10 23:53:18,268 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-gateway', ephemeral=true, revision=1}, 192.168.43.142:88#true
+
+2021-06-10 23:53:18,468 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=1}, 192.168.43.142:8000#true
+
+2021-06-10 23:53:18,616 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-third-party', ephemeral=true, revision=1}, 192.168.43.142:30000#true
+
+2021-06-10 23:53:18,631 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=1}, 192.168.43.142:7000#true
+
+2021-06-10 23:53:18,748 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-auth-server', ephemeral=true, revision=1}, 192.168.43.142:20000#true
+
+2021-06-10 23:53:18,903 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-admin', ephemeral=true, revision=1}, 192.168.43.142:8080#true
+
+2021-06-10 23:53:18,903 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=1}, 192.168.43.142:11000#true
+
+2021-06-10 23:53:18,914 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=1}, 192.168.43.142:12000#true
+
+2021-06-10 23:53:19,047 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, 192.168.43.142:13000#true
+
+2021-06-10 23:53:19,239 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=1}, 192.168.43.142:10000#true
+
+2021-06-10 23:53:19,488 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, 192.168.43.142:9000#true
+
+2021-06-10 23:53:44,560 INFO Client connection 172.28.112.1:57442#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,561 INFO Client connection 192.168.43.142:10000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,561 INFO Client connection 192.168.43.142:11000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,561 INFO Client connection 192.168.43.142:8000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,561 INFO Client connection 192.168.43.142:7000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,561 INFO Client connection 192.168.43.142:8080#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,561 INFO Client connection 172.28.112.1:56233#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,561 INFO Client connection 172.28.112.1:54157#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 172.26.224.1:54158#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 192.168.43.142:30000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 172.28.112.1:64527#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 172.28.112.1:60361#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 192.168.43.142:13000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 172.26.224.1:64095#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 192.168.43.142:20000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 172.28.112.1:58394#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 192.168.43.142:88#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 192.168.43.142:9000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:53:49,562 INFO Client connection 192.168.43.142:12000#true disconnect, remove instances and subscribers
+
+2021-06-10 23:55:01,332 WARN namespace : public, [DEFAULT_GROUP@@phonemall-cart] services are automatically cleaned
+
+2021-06-10 23:55:01,332 WARN namespace : public, [DEFAULT_GROUP@@phonemall-member] services are automatically cleaned
+
+2021-06-10 23:55:01,332 WARN namespace : public, [DEFAULT_GROUP@@phonemall-ware] services are automatically cleaned
+
+2021-06-10 23:55:01,333 WARN namespace : public, [DEFAULT_GROUP@@phonemall-product] services are automatically cleaned
+
+2021-06-10 23:55:01,333 WARN namespace : public, [DEFAULT_GROUP@@phonemall-coupon] services are automatically cleaned
+
+2021-06-10 23:55:01,333 WARN namespace : public, [DEFAULT_GROUP@@phonemall-admin] services are automatically cleaned
+
+2021-06-10 23:55:01,333 WARN namespace : public, [DEFAULT_GROUP@@phonemall-gateway] services are automatically cleaned
+
+2021-06-10 23:55:01,333 WARN namespace : public, [DEFAULT_GROUP@@phonemall-auth-server] services are automatically cleaned
+
+2021-06-10 23:55:01,333 WARN namespace : public, [DEFAULT_GROUP@@phonemall-third-party] services are automatically cleaned
+
+2021-06-10 23:55:01,333 WARN namespace : public, [DEFAULT_GROUP@@phonemall-order] services are automatically cleaned
+
+2021-06-10 23:55:01,333 WARN namespace : public, [DEFAULT_GROUP@@phonemall-search] services are automatically cleaned
+
+2021-06-10 23:55:07,753 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2021-06-10 23:55:07,787 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2021-06-10 23:55:08,386 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-10 23:55:08,386 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

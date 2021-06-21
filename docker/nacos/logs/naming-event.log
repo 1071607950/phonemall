@@ -1,0 +1,6 @@
+2021-06-11 08:25:17,122 INFO {POS} {IP-DISABLED} valid: 192.168.43.142:10000@DEFAULT@phonemall-product, region: unknown, msg: client last beat: 1623371101692
+
+2021-06-11 08:25:17,123 INFO {POS} {IP-DISABLED} valid: 192.168.43.142:9000@DEFAULT@phonemall-order, region: unknown, msg: client last beat: 1623371101152
+
+2021-06-11 08:25:18,234 INFO {POS} {IP-DISABLED} valid: 192.168.43.142:8080@DEFAULT@phonemall-admin, region: unknown, msg: client last beat: 1623371103198
+

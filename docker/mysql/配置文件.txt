@@ -1,0 +1,10 @@
+//mysql 配置
+docker run \
+-p 3306:3306 \
+--restart=always \
+--name mysql \
+-v /usr/local/docker/mysql/conf:/etc/mysql \
+-v /usr/local/docker/mysql/logs:/var/log/mysql \
+-v /usr/local/docker/mysql/data:/var/lib/mysql \
+-e MYSQL_ROOT_PASSWORD=root \
+-d mysql:5.7
