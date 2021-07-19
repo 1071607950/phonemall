@@ -1,0 +1,168 @@
+Jun 08 12:42:08 
+Jun 08 12:42:08 🔔美丽研究院, 开始!
+Jun 08 12:42:08 
+Jun 08 12:42:08 ====================共1个京东账号Cookie=========
+Jun 08 12:42:08 
+Jun 08 12:42:08 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 12:42:08 PM=====================
+Jun 08 12:42:08 
+Jun 08 12:42:09 
+Jun 08 12:42:09 ******开始【京东账号1】liu1071607950*********
+Jun 08 12:42:09 
+Jun 08 12:42:09 
+Jun 08 12:42:09 ==============📣系统通知📣==============
+Jun 08 12:42:09 美丽研究院
+Jun 08 12:42:09 【提示】cookie已失效
+Jun 08 12:42:09 京东账号1 liu1071607950
+Jun 08 12:42:09 请重新登录获取
+Jun 08 12:42:09 https://bean.m.jd.com/
+Jun 08 12:42:09 
+Jun 08 12:42:09 
+Jun 08 12:42:09 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 12:42:09 
+Jun 08 12:42:09 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 12:42:09 
+Jun 08 12:42:09 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 12:42:09 
+Jun 08 12:42:09 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 12:42:09 
+Jun 08 12:42:09 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 12:42:09 
+Jun 08 12:42:09 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 12:42:09 
+Jun 08 12:42:09 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 12:42:09 
+Jun 08 12:42:09 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 12:42:09 
+Jun 08 12:42:09 
+Jun 08 12:42:09 🔔美丽研究院, 结束! 🕛 1.333 秒
+Jun 08 12:42:09 
+Jun 08 19:41:54 
+Jun 08 19:41:54 🔔美丽研究院, 开始!
+Jun 08 19:41:54 
+Jun 08 19:41:54 ====================共1个京东账号Cookie=========
+Jun 08 19:41:54 
+Jun 08 19:41:54 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 7:41:54 PM=====================
+Jun 08 19:41:54 
+Jun 08 19:41:56 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 08 19:41:56 美丽研究院 API请求失败，请检查网路重试
+Jun 08 19:41:56 
+Jun 08 19:41:56 ******开始【京东账号1】liu1071607950*********
+Jun 08 19:41:56 
+Jun 08 19:41:56 美丽研究院 API请求失败，请检查网路重试
+Jun 08 19:41:56 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 08 19:41:56 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 08 19:41:56 美丽研究院 API请求失败，请检查网路重试
+Jun 08 19:41:56 "getaddrinfo ENOTFOUND xinruimz-isv.isvjcloud.com"
+Jun 08 19:41:56 美丽研究院 API请求失败，请检查网路重试
+Jun 08 19:41:56 
+Jun 08 19:41:56 
+Jun 08 19:41:56 提示：请尝试换服务器ip或者设置"xinruimz-isv.isvjcloud.com"域名直连，或者自定义UA再次尝试(环境变量JD_USER_AGENT)
+Jun 08 19:41:56 
+Jun 08 19:41:56 
+Jun 08 19:41:56 
+Jun 08 19:41:56 🔔美丽研究院, 结束! 🕛 1.402 秒
+Jun 08 19:41:56 
+Jun 09 12:41:07 
+Jun 09 12:41:07 🔔美丽研究院, 开始!
+Jun 09 12:41:07 
+Jun 09 12:41:07 ====================共1个京东账号Cookie=========
+Jun 09 12:41:07 
+Jun 09 12:41:07 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 12:41:07 PM=====================
+Jun 09 12:41:07 
+Jun 09 12:41:08 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 09 12:41:09 美丽研究院 API请求失败，请检查网路重试
+Jun 09 12:41:09 
+Jun 09 12:41:09 ******开始【京东账号1】liu1071607950*********
+Jun 09 12:41:09 
+Jun 09 12:41:09 美丽研究院 API请求失败，请检查网路重试
+Jun 09 12:41:09 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 09 12:41:09 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 09 12:41:09 美丽研究院 API请求失败，请检查网路重试
+Jun 09 12:41:09 "getaddrinfo ENOTFOUND xinruimz-isv.isvjcloud.com"
+Jun 09 12:41:09 美丽研究院 API请求失败，请检查网路重试
+Jun 09 12:41:09 
+Jun 09 12:41:09 
+Jun 09 12:41:09 提示：请尝试换服务器ip或者设置"xinruimz-isv.isvjcloud.com"域名直连，或者自定义UA再次尝试(环境变量JD_USER_AGENT)
+Jun 09 12:41:09 
+Jun 09 12:41:09 
+Jun 09 12:41:09 
+Jun 09 12:41:09 🔔美丽研究院, 结束! 🕛 1.412 秒
+Jun 09 12:41:09 
+Jun 09 19:42:55 
+Jun 09 19:42:55 🔔美丽研究院, 开始!
+Jun 09 19:42:55 
+Jun 09 19:42:55 ====================共1个京东账号Cookie=========
+Jun 09 19:42:55 
+Jun 09 19:42:55 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 7:42:55 PM=====================
+Jun 09 19:42:55 
+Jun 09 19:42:55 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 09 19:42:55 美丽研究院 API请求失败，请检查网路重试
+Jun 09 19:42:55 
+Jun 09 19:42:55 ******开始【京东账号1】liu1071607950*********
+Jun 09 19:42:55 
+Jun 09 19:42:55 美丽研究院 API请求失败，请检查网路重试
+Jun 09 19:42:55 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 09 19:42:56 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 09 19:42:56 美丽研究院 API请求失败，请检查网路重试
+Jun 09 19:42:56 "getaddrinfo ENOTFOUND xinruimz-isv.isvjcloud.com"
+Jun 09 19:42:56 美丽研究院 API请求失败，请检查网路重试
+Jun 09 19:42:56 
+Jun 09 19:42:56 
+Jun 09 19:42:56 提示：请尝试换服务器ip或者设置"xinruimz-isv.isvjcloud.com"域名直连，或者自定义UA再次尝试(环境变量JD_USER_AGENT)
+Jun 09 19:42:56 
+Jun 09 19:42:56 
+Jun 09 19:42:56 
+Jun 09 19:42:56 🔔美丽研究院, 结束! 🕛 1.105 秒
+Jun 09 19:42:56 
+Jun 10 12:41:06 
+Jun 10 12:41:06 🔔美丽研究院, 开始!
+Jun 10 12:41:07 
+Jun 10 12:41:07 ====================共1个京东账号Cookie=========
+Jun 10 12:41:07 
+Jun 10 12:41:07 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 12:41:07 PM=====================
+Jun 10 12:41:07 
+Jun 10 12:41:08 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 10 12:41:08 美丽研究院 API请求失败，请检查网路重试
+Jun 10 12:41:08 
+Jun 10 12:41:08 ******开始【京东账号1】liu1071607950*********
+Jun 10 12:41:08 
+Jun 10 12:41:08 美丽研究院 API请求失败，请检查网路重试
+Jun 10 12:41:08 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 10 12:41:08 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 10 12:41:08 美丽研究院 API请求失败，请检查网路重试
+Jun 10 12:41:08 "getaddrinfo ENOTFOUND xinruimz-isv.isvjcloud.com"
+Jun 10 12:41:08 美丽研究院 API请求失败，请检查网路重试
+Jun 10 12:41:08 
+Jun 10 12:41:08 
+Jun 10 12:41:09 提示：请尝试换服务器ip或者设置"xinruimz-isv.isvjcloud.com"域名直连，或者自定义UA再次尝试(环境变量JD_USER_AGENT)
+Jun 10 12:41:09 
+Jun 10 12:41:09 
+Jun 10 12:41:09 
+Jun 10 12:41:09 🔔美丽研究院, 结束! 🕛 1.999 秒
+Jun 10 12:41:09 
+Jun 10 19:41:51 
+Jun 10 19:41:51 🔔美丽研究院, 开始!
+Jun 10 19:41:51 
+Jun 10 19:41:51 ====================共1个京东账号Cookie=========
+Jun 10 19:41:51 
+Jun 10 19:41:51 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 7:41:51 PM=====================
+Jun 10 19:41:51 
+Jun 10 19:41:52 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 10 19:41:52 美丽研究院 API请求失败，请检查网路重试
+Jun 10 19:41:52 
+Jun 10 19:41:53 ******开始【京东账号1】liu1071607950*********
+Jun 10 19:41:53 
+Jun 10 19:41:53 美丽研究院 API请求失败，请检查网路重试
+Jun 10 19:41:53 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 10 19:41:53 "getaddrinfo ENOTFOUND api.m.jd.com"
+Jun 10 19:41:53 美丽研究院 API请求失败，请检查网路重试
+Jun 10 19:41:53 "getaddrinfo ENOTFOUND xinruimz-isv.isvjcloud.com"
+Jun 10 19:41:53 美丽研究院 API请求失败，请检查网路重试
+Jun 10 19:41:53 
+Jun 10 19:41:53 
+Jun 10 19:41:53 提示：请尝试换服务器ip或者设置"xinruimz-isv.isvjcloud.com"域名直连，或者自定义UA再次尝试(环境变量JD_USER_AGENT)
+Jun 10 19:41:53 
+Jun 10 19:41:53 
+Jun 10 19:41:53 
+Jun 10 19:41:53 🔔美丽研究院, 结束! 🕛 1.894 秒
+Jun 10 19:41:53 

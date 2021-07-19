@@ -1,0 +1,8 @@
+docker run --name nacos -d -p 8848:8848 --privileged=true \
+--restart=always \
+-e JVM_XMS=512m \
+-e JVM_XMX=2048m \
+-e MODE=standalone \
+-e PREFER_HOST_MODE=hostname \
+-v /usr/local/docker/nacos/logs:/home/nacos/logs \
+nacos/nacos-server:1.2.1

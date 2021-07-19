@@ -1,0 +1,104 @@
+version: '2'
+networks:
+  sentinel-master:
+    driver: bridge
+    ipam:
+      config:
+      -
+        subnet: 172.100.0.0/24
+        gateway: 172.100.0.1
+services:
+    remaster:
+        image: redis
+        container_name: master
+        ports:
+          - "6379:6379"
+        restart: always
+        expose:
+            - 6379
+        volumes:
+          - ./conf/redis.conf:/etc/redis/redis.conf
+        command: /bin/bash -c "redis-server /etc/redis/redis.conf --port 6379"
+        networks:
+          sentinel-master:
+            ipv4_address: 172.100.0.10
+    slave6380:
+        image: redis
+        container_name: slave01
+        ports:
+          - "6380:6379"
+        restart: always
+        expose:
+            - 6379
+        volumes:
+          - ./conf/redis.conf:/etc/redis/redis.conf
+        command: /bin/bash -c "sleep 2 && redis-server /etc/redis/redis.conf --port 6379 --slaveof 172.100.0.10 6379"
+        depends_on:
+          - remaster
+        networks:
+          sentinel-master:
+            ipv4_address: 172.100.0.11
+    slave6381:
+        image: redis
+        container_name: slave02
+        ports:
+          - "6381:6379"
+        restart: always
+        expose:
+            - 6379
+        volumes:
+          - ./conf/redis.conf:/etc/redis/redis.conf
+        command: /bin/bash -c "sleep 2 && redis-server /etc/redis/redis.conf --port 6379 --slaveof 172.100.0.10 6379"
+        depends_on:
+          - remaster
+        networks:
+          sentinel-master:
+            ipv4_address: 172.100.0.12
+    sentinel1:
+      image: redis
+      container_name: redis-sentinel-1
+      restart: always
+      ports:
+        - 26379:26379
+      command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+      volumes:
+        - ./conf/sentinel.conf:/usr/local/etc/redis/sentinel.conf
+      depends_on:
+        - remaster
+        - slave6380
+        - slave6381
+      networks:
+        sentinel-master:
+          ipv4_address: 172.100.1.10
+    sentinel2:
+      image: redis
+      container_name: redis-sentinel-2
+      restart: always
+      ports:
+        - 26380:26379
+      command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+      volumes:
+        - ./conf/sentinel.conf:/usr/local/etc/redis/sentinel.conf
+      depends_on:
+        - remaster
+        - slave6380
+        - slave6381
+      networks:
+        sentinel-master:
+          ipv4_address: 172.100.1.11
+    sentinel3:
+      image: redis
+      container_name: redis-sentinel-3
+      restart: always
+      ports:
+        - 26381:26379
+      command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+      volumes:
+        - ./conf/sentinel.conf:/usr/local/etc/redis/sentinel.conf
+      depends_on:
+        - remaster
+        - slave6380
+        - slave6381
+      networks:
+        sentinel-master:
+          ipv4_address: 172.100.1.12

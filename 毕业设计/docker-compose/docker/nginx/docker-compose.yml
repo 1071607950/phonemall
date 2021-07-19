@@ -1,0 +1,25 @@
+version: '3'
+services:
+    nginx:
+        image: nginx:1.10
+        container_name: nginx
+        hostname: nginx
+        ports:
+          - "80:80"
+        volumes:
+          - ./html:/usr/share/nginx/html
+          - ./logs:/var/log/nginx
+          - ./conf:/etc/nginx
+        # network_mode: "host"
+        networks:
+          myNetwork:
+            ipv4_address: 172.100.0.21
+        deploy:
+           resources:
+              limits:
+                 cpus: '2'
+                 memory: 32m
+networks:
+  myNetwork:   #自定义网络名称
+    external:     #外部已定义网卡
+      name: "myNetwork"    #使用docker-compose的默认网卡　　

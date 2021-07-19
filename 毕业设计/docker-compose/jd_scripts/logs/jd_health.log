@@ -1,0 +1,130 @@
+Jun 08 22:14:00 
+Jun 08 22:14:00 🔔东东健康社区, 开始!
+Jun 08 22:14:00 
+Jun 08 22:14:00 ====================共1个京东账号Cookie=========
+Jun 08 22:14:00 
+Jun 08 22:14:00 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 10:14:00 PM=====================
+Jun 08 22:14:00 
+Jun 08 22:14:00 如果出现提示 ?.data. 错误，请升级nodejs版本(进入容器后，apk add nodejs-current)
+Jun 08 22:14:00 开始获取东东健康社区配置文件
+Jun 08 22:14:00 
+Jun 08 22:14:00 共1个京东账号
+Jun 08 22:14:00 
+Jun 08 22:14:00 您提供了1个账号的东东健康社区助力码
+Jun 08 22:14:00 
+Jun 08 22:14:00 
+Jun 08 22:14:00 ******开始【京东账号1】liu1071607950*********
+Jun 08 22:14:00 
+Jun 08 22:14:00 开始
+Jun 08 22:14:05 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 08 22:14:05 东东健康社区 health/read API请求失败，请检查网路重试
+Jun 08 22:14:05 第1个京东账号将要助力的好友["T0184qQ2QR4e9FLXJxPxlACjVfnoaW5kRrbA"]
+Jun 08 22:14:06 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 08 22:14:06 去助力好友T0184qQ2QR4e9FLXJxPxlACjVfnoaW5kRrbA
+Jun 08 22:14:06 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 08 22:14:08 undefined任务，完成次数：undefined/undefined
+Jun 08 22:14:08 
+Jun 08 22:14:08 ==============📣系统通知📣==============
+Jun 08 22:14:08 东东健康社区
+Jun 08 22:14:08 京东账号1 liu1071607950
+Jun 08 22:14:08 本次获得0健康值，累计0健康值
+Jun 08 22:14:08 
+Jun 08 22:14:08 
+Jun 08 22:14:08 🔔东东健康社区, 结束! 🕛 8.367 秒
+Jun 08 22:14:08 
+Jun 09 22:13:19 
+Jun 09 22:13:19 🔔东东健康社区, 开始!
+Jun 09 22:13:19 
+Jun 09 22:13:19 ====================共1个京东账号Cookie=========
+Jun 09 22:13:19 
+Jun 09 22:13:19 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 10:13:19 PM=====================
+Jun 09 22:13:19 
+Jun 09 22:13:19 如果出现提示 ?.data. 错误，请升级nodejs版本(进入容器后，apk add nodejs-current)
+Jun 09 22:13:19 开始获取东东健康社区配置文件
+Jun 09 22:13:19 
+Jun 09 22:13:19 共1个京东账号
+Jun 09 22:13:19 
+Jun 09 22:13:19 您提供了0个账号的东东健康社区助力码
+Jun 09 22:13:19 
+Jun 09 22:13:19 
+Jun 09 22:13:19 ******开始【京东账号1】liu1071607950*********
+Jun 09 22:13:19 
+Jun 09 22:13:19 由于您第1个京东账号未提供shareCode,将采纳本脚本自带的助力码
+Jun 09 22:13:19 
+Jun 09 22:13:19 开始
+Jun 09 22:13:24 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 09 22:13:24 东东健康社区 health/read API请求失败，请检查网路重试
+Jun 09 22:13:24 第1个京东账号将要助力的好友["T019-aknAFRllhyoQlyI46gCjVfnoaW5kRrbA","T0225KkcRhcbp1CBJhv0wfZedQCjVfnoaW5kRrbA","T010_aU6SR8Q_QCjVfnoaW5kRrbA","T0225KkcREtN9lOGJUinl_dfcwCjVfnoaW5kRrbA","T0225KkcRBYdoFaGIxOnnPMJdACjVfnoaW5kRrbA","T027Zm_olqSxIOtH97BATGmKoWraLawCjVfnoaW5kRrbA","T0225KkcRk1N_FeCJhv3xvdfcQCjVfnoaW5kRrbA"]
+Jun 09 22:13:25 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 09 22:13:25 去助力好友T019-aknAFRllhyoQlyI46gCjVfnoaW5kRrbA
+Jun 09 22:13:25 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 09 22:13:26 去助力好友T0225KkcRhcbp1CBJhv0wfZedQCjVfnoaW5kRrbA
+Jun 09 22:13:26 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 09 22:13:27 去助力好友T010_aU6SR8Q_QCjVfnoaW5kRrbA
+Jun 09 22:13:27 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 09 22:13:28 去助力好友T0225KkcREtN9lOGJUinl_dfcwCjVfnoaW5kRrbA
+Jun 09 22:13:29 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 09 22:13:30 去助力好友T0225KkcRBYdoFaGIxOnnPMJdACjVfnoaW5kRrbA
+Jun 09 22:13:30 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 09 22:13:31 去助力好友T027Zm_olqSxIOtH97BATGmKoWraLawCjVfnoaW5kRrbA
+Jun 09 22:13:31 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 09 22:13:32 去助力好友T0225KkcRk1N_FeCJhv3xvdfcQCjVfnoaW5kRrbA
+Jun 09 22:13:32 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 09 22:13:33 undefined任务，完成次数：undefined/undefined
+Jun 09 22:13:34 
+Jun 09 22:13:34 ==============📣系统通知📣==============
+Jun 09 22:13:34 东东健康社区
+Jun 09 22:13:34 京东账号1 liu1071607950
+Jun 09 22:13:34 本次获得0健康值，累计0健康值
+Jun 09 22:13:34 
+Jun 09 22:13:34 
+Jun 09 22:13:34 🔔东东健康社区, 结束! 🕛 14.809 秒
+Jun 09 22:13:34 
+Jun 10 22:14:21 
+Jun 10 22:14:21 🔔东东健康社区, 开始!
+Jun 10 22:14:21 
+Jun 10 22:14:21 ====================共1个京东账号Cookie=========
+Jun 10 22:14:21 
+Jun 10 22:14:21 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 10:14:21 PM=====================
+Jun 10 22:14:21 
+Jun 10 22:14:21 如果出现提示 ?.data. 错误，请升级nodejs版本(进入容器后，apk add nodejs-current)
+Jun 10 22:14:21 开始获取东东健康社区配置文件
+Jun 10 22:14:21 
+Jun 10 22:14:21 共1个京东账号
+Jun 10 22:14:21 
+Jun 10 22:14:21 您提供了0个账号的东东健康社区助力码
+Jun 10 22:14:21 
+Jun 10 22:14:21 
+Jun 10 22:14:21 ******开始【京东账号1】liu1071607950*********
+Jun 10 22:14:21 
+Jun 10 22:14:21 由于您第1个京东账号未提供shareCode,将采纳本脚本自带的助力码
+Jun 10 22:14:21 
+Jun 10 22:14:21 开始
+Jun 10 22:14:26 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 10 22:14:26 东东健康社区 health/read API请求失败，请检查网路重试
+Jun 10 22:14:26 第1个京东账号将要助力的好友["T019-aknAFRllhyoQlyI46gCjVfnoaW5kRrbA","T0225KkcRhcbp1CBJhv0wfZedQCjVfnoaW5kRrbA","T010_aU6SR8Q_QCjVfnoaW5kRrbA","T0225KkcREtN9lOGJUinl_dfcwCjVfnoaW5kRrbA","T0225KkcRBYdoFaGIxOnnPMJdACjVfnoaW5kRrbA","T027Zm_olqSxIOtH97BATGmKoWraLawCjVfnoaW5kRrbA","T0225KkcRk1N_FeCJhv3xvdfcQCjVfnoaW5kRrbA"]
+Jun 10 22:14:27 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 10 22:14:27 去助力好友T019-aknAFRllhyoQlyI46gCjVfnoaW5kRrbA
+Jun 10 22:14:28 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 10 22:14:29 去助力好友T0225KkcRhcbp1CBJhv0wfZedQCjVfnoaW5kRrbA
+Jun 10 22:14:29 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 10 22:14:30 去助力好友T010_aU6SR8Q_QCjVfnoaW5kRrbA
+Jun 10 22:14:30 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 10 22:14:31 去助力好友T0225KkcREtN9lOGJUinl_dfcwCjVfnoaW5kRrbA
+Jun 10 22:14:31 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 10 22:14:32 去助力好友T0225KkcRBYdoFaGIxOnnPMJdACjVfnoaW5kRrbA
+Jun 10 22:14:33 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 10 22:14:34 去助力好友T027Zm_olqSxIOtH97BATGmKoWraLawCjVfnoaW5kRrbA
+Jun 10 22:14:34 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 10 22:14:35 去助力好友T0225KkcRk1N_FeCJhv3xvdfcQCjVfnoaW5kRrbA
+Jun 10 22:14:35 任务完成失败：{"code":-30001,"msg":"登陆失败"}
+Jun 10 22:14:36 undefined任务，完成次数：undefined/undefined
+Jun 10 22:14:36 
+Jun 10 22:14:36 ==============📣系统通知📣==============
+Jun 10 22:14:36 东东健康社区
+Jun 10 22:14:36 京东账号1 liu1071607950
+Jun 10 22:14:36 本次获得0健康值，累计0健康值
+Jun 10 22:14:36 
+Jun 10 22:14:36 
+Jun 10 22:14:36 🔔东东健康社区, 结束! 🕛 15.461 秒
+Jun 10 22:14:36 

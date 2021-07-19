@@ -1,0 +1,40 @@
+2021-06-06 09:35:03,421 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2021-06-06 09:35:03,430 WARN [serverlist] updated to : [Member{ip='71d22eaea35c', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.1}}]
+
+2021-06-06 09:35:05,250 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[] 
+
+2021-06-06 09:35:14,814 INFO This node is ready to provide external services
+
+2021-06-06 10:55:10,291 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2021-06-06 10:55:10,293 WARN [serverlist] updated to : [Member{ip='71d22eaea35c', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.1}}]
+
+2021-06-06 10:55:11,634 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[] 
+
+2021-06-06 10:55:19,992 INFO This node is ready to provide external services
+
+2021-06-06 12:09:01,791 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2021-06-06 12:09:01,793 WARN [serverlist] updated to : [Member{ip='71d22eaea35c', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.1}}]
+
+2021-06-06 12:09:02,990 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[] 
+
+2021-06-06 12:09:09,581 INFO This node is ready to provide external services
+
+2021-06-06 12:11:04,475 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2021-06-06 12:11:04,477 WARN [serverlist] updated to : [Member{ip='71d22eaea35c', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.1}}]
+
+2021-06-06 12:11:05,856 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[] 
+
+2021-06-06 12:11:13,399 INFO This node is ready to provide external services
+
+2021-06-06 12:18:50,013 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2021-06-06 12:18:50,015 WARN [serverlist] updated to : [Member{ip='nacos', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.1}}]
+
+2021-06-06 12:18:51,315 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[] 
+
+2021-06-06 12:18:57,142 INFO This node is ready to provide external services
+

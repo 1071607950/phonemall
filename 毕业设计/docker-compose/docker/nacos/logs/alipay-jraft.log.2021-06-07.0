@@ -1,0 +1,104 @@
+2021-06-07 00:16:31,158 INFO Node <naming_service_metadata/nacos:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2021-06-07 00:16:31,168 INFO Fail to find the next candidate.
+
+2021-06-07 00:16:31,168 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2021-06-07 00:16:31,205 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=1, votedFor=nacos:7848, cost time=16 ms
+
+2021-06-07 00:16:31,205 INFO Shutting down FSMCaller...
+
+2021-06-07 00:16:31,206 INFO onShutdown.
+
+2021-06-07 00:16:31,207 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@7e69232[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2021-06-07 00:16:31,208 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@cb714de[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2021-06-07 00:16:31,208 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/nacos:7848>'}.
+
+2021-06-07 00:16:31,209 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/nacos:7848>'}.
+
+2021-06-07 00:16:31,210 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/nacos:7848>'}.
+
+2021-06-07 00:16:31,210 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/nacos:7848>'}.
+
+2021-06-07 00:16:31,210 INFO Node <naming_service_metadata/nacos:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2021-06-07 00:16:31,211 INFO Stop the RaftGroupService successfully.
+
+2021-06-07 00:16:31,211 INFO Node <naming_instance_metadata/nacos:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2021-06-07 00:16:31,212 INFO Fail to find the next candidate.
+
+2021-06-07 00:16:31,212 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2021-06-07 00:16:31,212 INFO The number of active nodes decrement to 2.
+
+2021-06-07 00:16:31,225 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=1, votedFor=nacos:7848, cost time=12 ms
+
+2021-06-07 00:16:31,226 INFO Shutting down FSMCaller...
+
+2021-06-07 00:16:31,226 INFO onShutdown.
+
+2021-06-07 00:16:31,226 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@704fd[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2021-06-07 00:16:31,226 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@1cd0abe3[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2021-06-07 00:16:31,227 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/nacos:7848>'}.
+
+2021-06-07 00:16:31,227 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/nacos:7848>'}.
+
+2021-06-07 00:16:31,227 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/nacos:7848>'}.
+
+2021-06-07 00:16:31,227 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/nacos:7848>'}.
+
+2021-06-07 00:16:31,227 INFO Node <naming_instance_metadata/nacos:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2021-06-07 00:16:31,228 INFO Stop the RaftGroupService successfully.
+
+2021-06-07 00:16:31,228 INFO Node <naming_persistent_service_v2/nacos:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2021-06-07 00:16:31,228 INFO Fail to find the next candidate.
+
+2021-06-07 00:16:31,228 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2021-06-07 00:16:31,231 INFO The number of active nodes decrement to 1.
+
+2021-06-07 00:16:31,240 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=1, votedFor=nacos:7848, cost time=11 ms
+
+2021-06-07 00:16:31,240 INFO Shutting down FSMCaller...
+
+2021-06-07 00:16:31,240 INFO onShutdown.
+
+2021-06-07 00:16:31,240 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@23e927[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2021-06-07 00:16:31,241 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@38bb2532[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2021-06-07 00:16:31,242 INFO The number of active nodes decrement to 0.
+
+2021-06-07 00:16:31,245 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@5e1b9898[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2021-06-07 00:16:31,246 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/nacos:7848>'}.
+
+2021-06-07 00:16:31,247 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@96dc055[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2021-06-07 00:16:31,247 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/nacos:7848>'}.
+
+2021-06-07 00:16:31,248 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@56e520ea[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 51660].
+
+2021-06-07 00:16:31,249 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/nacos:7848>'}.
+
+2021-06-07 00:16:31,250 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@19abc27d[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 71].
+
+2021-06-07 00:16:31,251 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/nacos:7848>'}.
+
+2021-06-07 00:16:31,251 INFO Node <naming_persistent_service_v2/nacos:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2021-06-07 00:16:31,251 INFO Stop the RaftGroupService successfully.
+
+2021-06-07 00:16:31,252 INFO Shutdown managed channel: nacos:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=nacos:7848}}.
+
+2021-06-07 00:16:31,325 INFO Connection disconnected: /172.100.0.20:35692
+
+2021-06-07 00:16:31,326 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@4501cb85[Shutting down, pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 37530].
+

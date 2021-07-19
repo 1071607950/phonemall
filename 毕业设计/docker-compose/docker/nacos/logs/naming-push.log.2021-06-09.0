@@ -1,0 +1,2040 @@
+2021-06-09 11:41:10,178 INFO DEFAULT_GROUP@@phonemall-admin is changed, add it to push queue.
+
+2021-06-09 11:41:10,215 INFO serviceName: DEFAULT_GROUP@@phonemall-admin changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,3320177975300
+
+2021-06-09 11:41:10,218 INFO send udp packet: 172.20.0.1,61259,3320177975300
+
+2021-06-09 11:41:10,237 INFO [PUSH-SUCC] 62ms, all delay time 591ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-admin', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 12:05:27,800 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 12:05:27,801 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,4777793349400
+
+2021-06-09 12:05:27,801 INFO send udp packet: 172.20.0.1,61259,4777793349400
+
+2021-06-09 12:05:27,809 INFO [PUSH-SUCC] 9ms, all delay time 510ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 12:05:38,415 INFO DEFAULT_GROUP@@phonemall-coupon is changed, add it to push queue.
+
+2021-06-09 12:05:38,429 INFO serviceName: DEFAULT_GROUP@@phonemall-coupon changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,4788420963800
+
+2021-06-09 12:05:38,430 INFO send udp packet: 172.20.0.1,61259,4788420963800
+
+2021-06-09 12:05:38,458 INFO [PUSH-SUCC] 43ms, all delay time 579ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 12:05:38,515 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 12:05:38,559 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,4788551815200
+
+2021-06-09 12:05:38,564 INFO send udp packet: 172.20.0.1,61259,4788551815200
+
+2021-06-09 12:05:38,575 INFO [PUSH-SUCC] 60ms, all delay time 584ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 12:07:53,938 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 12:07:53,939 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,4923931109600
+
+2021-06-09 12:07:53,939 INFO send udp packet: 172.20.0.1,61259,4923931109600
+
+2021-06-09 12:07:53,945 INFO [PUSH-SUCC] 7ms, all delay time 533ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 13:36:54,505 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 13:36:54,507 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,10264499230500
+
+2021-06-09 13:36:54,507 INFO send udp packet: 172.20.0.1,61259,10264499230500
+
+2021-06-09 13:36:54,511 INFO [PUSH-SUCC] 6ms, all delay time 603ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 13:42:10,801 INFO DEFAULT_GROUP@@phonemall-coupon is changed, add it to push queue.
+
+2021-06-09 13:42:10,802 INFO serviceName: DEFAULT_GROUP@@phonemall-coupon changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,10580794835700
+
+2021-06-09 13:42:10,803 INFO send udp packet: 172.20.0.1,59563,10580794835700
+
+2021-06-09 13:42:10,885 INFO [PUSH-SUCC] 84ms, all delay time 618ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 14:13:59,008 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 14:13:59,009 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,12489002169300
+
+2021-06-09 14:13:59,010 INFO send udp packet: 172.20.0.1,59563,12489002169300
+
+2021-06-09 14:13:59,015 INFO [PUSH-SUCC] 7ms, all delay time 576ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 14:18:54,157 INFO DEFAULT_GROUP@@phonemall-seckill is changed, add it to push queue.
+
+2021-06-09 14:18:54,159 INFO serviceName: DEFAULT_GROUP@@phonemall-seckill changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,12784151152000
+
+2021-06-09 14:18:54,159 INFO send udp packet: 172.20.0.1,61259,12784151152000
+
+2021-06-09 14:18:54,163 INFO [PUSH-SUCC] 6ms, all delay time 506ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-seckill', ephemeral=true, revision=0}, DataSize=0
+
+2021-06-09 14:18:59,467 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 14:18:59,469 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,12789461424400
+
+2021-06-09 14:18:59,469 INFO send udp packet: 172.20.0.1,61259,12789461424400
+
+2021-06-09 14:18:59,473 INFO [PUSH-SUCC] 6ms, all delay time 578ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 14:19:13,089 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:19:13,090 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,12803083008800
+
+2021-06-09 14:19:13,091 INFO send udp packet: 172.20.0.1,59563,12803083008800
+
+2021-06-09 14:19:13,096 INFO [PUSH-SUCC] 7ms, all delay time 564ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 14:31:14,964 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:31:14,965 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,13524957476100
+
+2021-06-09 14:31:14,965 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:31:14,965 INFO send udp packet: 172.20.0.1,59563,13524957476100
+
+2021-06-09 14:31:14,966 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,13524958570700
+
+2021-06-09 14:31:14,967 INFO send udp packet: 172.20.0.1,61259,13524958570700
+
+2021-06-09 14:31:14,971 INFO [PUSH-SUCC] 7ms, all delay time 529ms, SLA 529ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:31:14,972 INFO [PUSH-SUCC] 7ms, all delay time 530ms, SLA 530ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:32:30,710 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:32:30,712 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,13600704264500
+
+2021-06-09 14:32:30,713 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:32:30,713 INFO send udp packet: 172.20.0.1,59563,13600704264500
+
+2021-06-09 14:32:30,715 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,13600707068200
+
+2021-06-09 14:32:30,717 INFO send udp packet: 172.20.0.1,61259,13600707068200
+
+2021-06-09 14:32:30,723 INFO [PUSH-SUCC] 13ms, all delay time 606ms, SLA 606ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:32:30,724 INFO [PUSH-SUCC] 11ms, all delay time 607ms, SLA 607ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:32:37,120 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:32:37,121 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,13607113471600
+
+2021-06-09 14:32:37,121 INFO send udp packet: 172.20.0.1,61259,13607113471600
+
+2021-06-09 14:32:37,125 INFO [PUSH-SUCC] 5ms, all delay time 536ms, SLA 536ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:33:07,034 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:33:07,035 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,13637027976200
+
+2021-06-09 14:33:07,036 INFO send udp packet: 172.20.0.1,61259,13637027976200
+
+2021-06-09 14:33:07,040 INFO [PUSH-SUCC] 6ms, all delay time 569ms, SLA 569ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:36:50,907 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:36:50,908 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,13860900539000
+
+2021-06-09 14:36:50,908 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:36:50,908 INFO send udp packet: 172.20.0.1,59563,13860900539000
+
+2021-06-09 14:36:50,908 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,13860901098600
+
+2021-06-09 14:36:50,909 INFO send udp packet: 172.20.0.1,61259,13860901098600
+
+2021-06-09 14:36:50,913 INFO [PUSH-SUCC] 6ms, all delay time 517ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:36:50,914 INFO [PUSH-SUCC] 6ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:36:51,908 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:36:51,911 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,13861903805600
+
+2021-06-09 14:36:51,912 INFO send udp packet: 172.20.0.1,61259,13861903805600
+
+2021-06-09 14:36:51,921 INFO [PUSH-SUCC] 13ms, all delay time 525ms, SLA 525ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:37:15,566 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:37:15,568 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,13885560402100
+
+2021-06-09 14:37:15,569 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:37:15,569 INFO send udp packet: 172.20.0.1,59563,13885560402100
+
+2021-06-09 14:37:15,570 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,13885562693800
+
+2021-06-09 14:37:15,575 INFO send udp packet: 172.20.0.1,61259,13885562693800
+
+2021-06-09 14:37:15,582 INFO [PUSH-SUCC] 16ms, all delay time 597ms, SLA 597ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:37:15,583 INFO [PUSH-SUCC] 14ms, all delay time 598ms, SLA 598ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:37:29,285 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:37:29,286 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,13899279191000
+
+2021-06-09 14:37:29,287 INFO send udp packet: 172.20.0.1,61259,13899279191000
+
+2021-06-09 14:37:29,301 INFO [PUSH-SUCC] 16ms, all delay time 577ms, SLA 577ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:40:04,236 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:40:04,237 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14054230116800
+
+2021-06-09 14:40:04,238 INFO send udp packet: 172.20.0.1,61259,14054230116800
+
+2021-06-09 14:40:04,243 INFO [PUSH-SUCC] 7ms, all delay time 509ms, SLA 510ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:40:08,342 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:40:08,343 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14058335889700
+
+2021-06-09 14:40:08,343 INFO send udp packet: 172.20.0.1,61259,14058335889700
+
+2021-06-09 14:40:08,348 INFO [PUSH-SUCC] 6ms, all delay time 536ms, SLA 536ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:41:14,260 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:41:14,261 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14124253948000
+
+2021-06-09 14:41:14,262 INFO send udp packet: 172.20.0.1,61259,14124253948000
+
+2021-06-09 14:41:14,270 INFO [PUSH-SUCC] 10ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:41:29,290 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:41:29,291 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14139284052100
+
+2021-06-09 14:41:29,292 INFO send udp packet: 172.20.0.1,61259,14139284052100
+
+2021-06-09 14:41:29,297 INFO [PUSH-SUCC] 7ms, all delay time 549ms, SLA 549ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:42:05,888 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:42:05,889 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14175882217900
+
+2021-06-09 14:42:05,890 INFO send udp packet: 172.20.0.1,61259,14175882217900
+
+2021-06-09 14:42:05,898 INFO [PUSH-SUCC] 10ms, all delay time 511ms, SLA 511ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:42:35,938 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:42:35,939 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14205931740900
+
+2021-06-09 14:42:35,940 INFO send udp packet: 172.20.0.1,61259,14205931740900
+
+2021-06-09 14:42:35,945 INFO [PUSH-SUCC] 7ms, all delay time 556ms, SLA 556ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:42:50,922 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:42:50,923 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14220915986600
+
+2021-06-09 14:42:50,924 INFO send udp packet: 172.20.0.1,61259,14220915986600
+
+2021-06-09 14:42:50,928 INFO [PUSH-SUCC] 6ms, all delay time 506ms, SLA 507ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=8}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:43:35,084 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:43:35,085 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14265077793100
+
+2021-06-09 14:43:35,085 INFO send udp packet: 172.20.0.1,61259,14265077793100
+
+2021-06-09 14:43:35,089 INFO [PUSH-SUCC] 5ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=9}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:45:02,535 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:45:02,536 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14352528578300
+
+2021-06-09 14:45:02,536 INFO send udp packet: 172.20.0.1,61259,14352528578300
+
+2021-06-09 14:45:02,541 INFO [PUSH-SUCC] 6ms, all delay time 598ms, SLA 598ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=10}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:45:24,243 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:45:24,244 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14374236895500
+
+2021-06-09 14:45:24,245 INFO send udp packet: 172.20.0.1,61259,14374236895500
+
+2021-06-09 14:45:24,250 INFO [PUSH-SUCC] 7ms, all delay time 517ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=11}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:47:23,940 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:47:23,941 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14493933297200
+
+2021-06-09 14:47:23,941 INFO send udp packet: 172.20.0.1,61259,14493933297200
+
+2021-06-09 14:47:23,945 INFO [PUSH-SUCC] 6ms, all delay time 510ms, SLA 510ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=12}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:47:46,766 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:47:46,767 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14516759425000
+
+2021-06-09 14:47:46,767 INFO send udp packet: 172.20.0.1,61259,14516759425000
+
+2021-06-09 14:47:46,771 INFO [PUSH-SUCC] 5ms, all delay time 517ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=13}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:53:27,016 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 14:53:27,021 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14857013904100
+
+2021-06-09 14:53:27,024 INFO send udp packet: 172.20.0.1,61259,14857013904100
+
+2021-06-09 14:53:27,031 INFO [PUSH-SUCC] 16ms, all delay time 569ms, SLA 570ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:53:51,211 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 14:53:51,212 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14881204620700
+
+2021-06-09 14:53:51,212 INFO send udp packet: 172.20.0.1,61259,14881204620700
+
+2021-06-09 14:53:51,217 INFO [PUSH-SUCC] 6ms, all delay time 590ms, SLA 590ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:55:46,767 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:55:46,768 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,14996760913500
+
+2021-06-09 14:55:46,769 INFO send udp packet: 172.20.0.1,61259,14996760913500
+
+2021-06-09 14:55:46,774 INFO [PUSH-SUCC] 7ms, all delay time 543ms, SLA 543ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=14}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:55:55,286 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 14:55:55,308 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15005301136100
+
+2021-06-09 14:55:55,312 INFO send udp packet: 172.20.0.1,61259,15005301136100
+
+2021-06-09 14:55:55,325 INFO [PUSH-SUCC] 39ms, all delay time 635ms, SLA 635ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 14:56:14,757 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 14:56:14,762 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15024754496400
+
+2021-06-09 14:56:14,762 INFO send udp packet: 172.20.0.1,61259,15024754496400
+
+2021-06-09 14:56:14,767 INFO [PUSH-SUCC] 10ms, all delay time 539ms, SLA 540ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=15}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:56:20,965 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 14:56:20,967 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15030959767400
+
+2021-06-09 14:56:20,968 INFO send udp packet: 172.20.0.1,61259,15030959767400
+
+2021-06-09 14:56:20,974 INFO [PUSH-SUCC] 9ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 14:57:33,911 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 14:57:33,912 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15103905005100
+
+2021-06-09 14:57:33,913 INFO send udp packet: 172.20.0.1,61259,15103905005100
+
+2021-06-09 14:57:33,917 INFO [PUSH-SUCC] 6ms, all delay time 529ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 14:57:35,313 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 14:57:35,314 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:52458, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52458,15105306762500
+
+2021-06-09 14:57:35,314 INFO send udp packet: 172.20.0.1,52458,15105306762500
+
+2021-06-09 14:57:35,324 INFO [PUSH-SUCC] 11ms, all delay time 515ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 14:57:43,726 INFO DEFAULT_GROUP@@phonemall-auth-server is changed, add it to push queue.
+
+2021-06-09 14:57:43,727 INFO serviceName: DEFAULT_GROUP@@phonemall-auth-server changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15113719764600
+
+2021-06-09 14:57:43,728 INFO send udp packet: 172.20.0.1,61259,15113719764600
+
+2021-06-09 14:57:43,732 INFO [PUSH-SUCC] 6ms, all delay time 547ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-auth-server', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 14:58:09,077 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 14:58:09,078 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:54626, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54626,15139070770400
+
+2021-06-09 14:58:09,078 INFO send udp packet: 172.20.0.1,54626,15139070770400
+
+2021-06-09 14:58:09,088 INFO [PUSH-SUCC] 11ms, all delay time 557ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 14:58:20,896 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 14:58:20,896 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:52193, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52193,15150889160700
+
+2021-06-09 14:58:20,897 INFO send udp packet: 172.20.0.1,52193,15150889160700
+
+2021-06-09 14:58:20,905 INFO [PUSH-SUCC] 10ms, all delay time 528ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 14:58:21,096 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 14:58:21,097 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:52193, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52193,15151089839600
+
+2021-06-09 14:58:21,098 INFO send udp packet: 172.20.0.1,52193,15151089839600
+
+2021-06-09 14:58:21,102 INFO [PUSH-SUCC] 6ms, all delay time 530ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 14:58:22,197 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 14:58:22,198 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:52193, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52193,15152190957400
+
+2021-06-09 14:58:22,199 INFO send udp packet: 172.20.0.1,52193,15152190957400
+
+2021-06-09 14:58:22,203 INFO [PUSH-SUCC] 6ms, all delay time 528ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:01:45,170 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:01:45,171 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15355163589800
+
+2021-06-09 15:01:45,171 INFO send udp packet: 172.20.0.1,61259,15355163589800
+
+2021-06-09 15:01:45,176 INFO [PUSH-SUCC] 6ms, all delay time 574ms, SLA 574ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=15}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:01:56,290 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:01:56,290 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:01:56,291 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:52193, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52193,15366283617200
+
+2021-06-09 15:01:56,291 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:52193, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52193,15366283802900
+
+2021-06-09 15:01:56,291 INFO send udp packet: 172.20.0.1,52193,15366283617200
+
+2021-06-09 15:01:56,293 INFO send udp packet: 172.20.0.1,52193,15366283802900
+
+2021-06-09 15:01:56,390 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:01:56,390 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:01:56,391 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15366383315700
+
+2021-06-09 15:01:56,391 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:52193, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52193,15366383486600
+
+2021-06-09 15:01:56,391 INFO send udp packet: 172.20.0.1,61259,15366383315700
+
+2021-06-09 15:01:56,392 INFO send udp packet: 172.20.0.1,52193,15366383486600
+
+2021-06-09 15:01:56,395 INFO [PUSH-SUCC] 5ms, all delay time 592ms, SLA 592ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:01:56,962 INFO [PUSH-SUCC] 672ms, all delay time 1180ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:01:57,503 INFO [PUSH-SUCC] 1213ms, all delay time 1721ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:01:58,085 INFO [PUSH-SUCC] 1695ms, all delay time 2279ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:06:20,249 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:06:20,250 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15630242725000
+
+2021-06-09 15:06:20,250 INFO send udp packet: 172.20.0.1,61259,15630242725000
+
+2021-06-09 15:06:20,255 INFO [PUSH-SUCC] 6ms, all delay time 546ms, SLA 546ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=15}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:06:22,552 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:06:22,554 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15632546251800
+
+2021-06-09 15:06:22,554 INFO send udp packet: 172.20.0.1,61259,15632546251800
+
+2021-06-09 15:06:22,558 INFO [PUSH-SUCC] 6ms, all delay time 546ms, SLA 546ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:09:28,417 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:09:28,490 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15818482366400
+
+2021-06-09 15:09:28,494 INFO send udp packet: 172.20.0.1,61259,15818482366400
+
+2021-06-09 15:09:28,527 INFO [PUSH-SUCC] 109ms, all delay time 637ms, SLA 637ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=16}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:11:31,632 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:11:31,635 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,15941627454300
+
+2021-06-09 15:11:31,635 INFO send udp packet: 172.20.0.1,61259,15941627454300
+
+2021-06-09 15:11:31,640 INFO [PUSH-SUCC] 8ms, all delay time 529ms, SLA 529ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:12:23,507 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:12:23,508 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:62579, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,62579,15993500654700
+
+2021-06-09 15:12:23,508 INFO send udp packet: 172.20.0.1,62579,15993500654700
+
+2021-06-09 15:12:23,517 INFO [PUSH-SUCC] 10ms, all delay time 516ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:12:23,707 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:12:23,708 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:62579, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,62579,15993700688000
+
+2021-06-09 15:12:23,708 INFO send udp packet: 172.20.0.1,62579,15993700688000
+
+2021-06-09 15:12:23,714 INFO [PUSH-SUCC] 7ms, all delay time 542ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:12:23,907 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:12:23,908 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:62579, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,62579,15993900806800
+
+2021-06-09 15:12:23,908 INFO send udp packet: 172.20.0.1,62579,15993900806800
+
+2021-06-09 15:12:23,913 INFO [PUSH-SUCC] 6ms, all delay time 549ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:12:32,420 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 15:12:32,423 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:62579, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,62579,16002415803800
+
+2021-06-09 15:12:32,424 INFO send udp packet: 172.20.0.1,62579,16002415803800
+
+2021-06-09 15:12:32,431 INFO [PUSH-SUCC] 11ms, all delay time 596ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:18:31,688 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:18:31,690 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,16361682456100
+
+2021-06-09 15:18:31,691 INFO send udp packet: 172.20.0.1,61259,16361682456100
+
+2021-06-09 15:18:31,700 INFO [PUSH-SUCC] 12ms, all delay time 566ms, SLA 566ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:18:45,513 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:18:45,513 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:18:45,513 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 15:18:45,513 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:18:45,514 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:62579, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,62579,16375506702100
+
+2021-06-09 15:18:45,514 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:62579, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,62579,16375506997200
+
+2021-06-09 15:18:45,514 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:62579, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,62579,16375507189200
+
+2021-06-09 15:18:45,515 INFO send udp packet: 172.20.0.1,62579,16375506702100
+
+2021-06-09 15:18:45,515 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:62579, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,62579,16375507382300
+
+2021-06-09 15:18:45,515 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:18:45,516 INFO send udp packet: 172.20.0.1,62579,16375506997200
+
+2021-06-09 15:18:45,519 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,16375509365600
+
+2021-06-09 15:18:45,519 INFO send udp packet: 172.20.0.1,62579,16375507189200
+
+2021-06-09 15:18:45,520 INFO send udp packet: 172.20.0.1,62579,16375507382300
+
+2021-06-09 15:18:45,520 INFO send udp packet: 172.20.0.1,61259,16375509365600
+
+2021-06-09 15:18:45,522 INFO [PUSH-SUCC] 9ms, all delay time 569ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:18:45,523 INFO [PUSH-SUCC] 10ms, all delay time 569ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:18:45,525 INFO [PUSH-SUCC] 12ms, all delay time 571ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:18:45,526 INFO [PUSH-SUCC] 11ms, all delay time 577ms, SLA 577ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:18:45,527 INFO [PUSH-SUCC] 14ms, all delay time 573ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:23:05,435 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:23:05,436 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,16635428689300
+
+2021-06-09 15:23:05,436 INFO send udp packet: 172.20.0.1,65488,16635428689300
+
+2021-06-09 15:23:05,446 INFO [PUSH-SUCC] 11ms, all delay time 512ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:25:06,741 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:25:06,743 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,16756735164200
+
+2021-06-09 15:25:06,743 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:25:06,743 INFO send udp packet: 172.20.0.1,65488,16756735164200
+
+2021-06-09 15:25:06,745 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,16756736938000
+
+2021-06-09 15:25:06,747 INFO send udp packet: 172.20.0.1,61259,16756736938000
+
+2021-06-09 15:25:06,757 INFO [PUSH-SUCC] 14ms, all delay time 602ms, SLA 602ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:25:06,767 INFO [PUSH-SUCC] 26ms, all delay time 612ms, SLA 612ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:25:11,951 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:25:11,952 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,16761944879700
+
+2021-06-09 15:25:11,952 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:25:11,953 INFO send udp packet: 172.20.0.1,65488,16761944879700
+
+2021-06-09 15:25:11,953 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,16761945767400
+
+2021-06-09 15:25:11,954 INFO send udp packet: 172.20.0.1,61259,16761945767400
+
+2021-06-09 15:25:11,959 INFO [PUSH-SUCC] 7ms, all delay time 511ms, SLA 511ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:25:11,960 INFO [PUSH-SUCC] 9ms, all delay time 512ms, SLA 512ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:33:01,514 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}
+
+2021-06-09 15:33:01,733 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:33:01,733 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17231726202800
+
+2021-06-09 15:33:01,734 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:33:01,734 INFO send udp packet: 172.20.0.1,65488,17231726202800
+
+2021-06-09 15:33:01,734 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17231727109900
+
+2021-06-09 15:33:01,735 INFO send udp packet: 172.20.0.1,61259,17231727109900
+
+2021-06-09 15:33:01,741 INFO [PUSH-SUCC] 7ms, all delay time 557ms, SLA 227ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:33:01,742 INFO [PUSH-SUCC] 9ms, all delay time 558ms, SLA 228ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:33:48,000 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:33:48,000 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17277993036200
+
+2021-06-09 15:33:48,001 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:33:48,001 INFO send udp packet: 172.20.0.1,65488,17277993036200
+
+2021-06-09 15:33:48,001 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17277993975200
+
+2021-06-09 15:33:48,002 INFO send udp packet: 172.20.0.1,61259,17277993975200
+
+2021-06-09 15:33:48,006 INFO [PUSH-SUCC] 5ms, all delay time 591ms, SLA 591ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:33:48,011 INFO [PUSH-SUCC] 11ms, all delay time 596ms, SLA 596ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:34:02,324 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:34:02,325 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17292317548000
+
+2021-06-09 15:34:02,325 INFO send udp packet: 172.20.0.1,58622,17292317548000
+
+2021-06-09 15:34:02,335 INFO [PUSH-SUCC] 11ms, all delay time 580ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:34:02,424 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:34:02,425 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17292417329200
+
+2021-06-09 15:34:02,425 INFO send udp packet: 172.20.0.1,58622,17292417329200
+
+2021-06-09 15:34:02,431 INFO [PUSH-SUCC] 7ms, all delay time 509ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:34:02,924 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:34:02,925 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17292917783600
+
+2021-06-09 15:34:02,925 INFO send udp packet: 172.20.0.1,58622,17292917783600
+
+2021-06-09 15:34:02,934 INFO [PUSH-SUCC] 10ms, all delay time 521ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:34:27,970 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:34:27,971 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17317963666900
+
+2021-06-09 15:34:27,971 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:34:27,971 INFO send udp packet: 172.20.0.1,65488,17317963666900
+
+2021-06-09 15:34:27,972 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17317964753400
+
+2021-06-09 15:34:27,973 INFO send udp packet: 172.20.0.1,61259,17317964753400
+
+2021-06-09 15:34:27,978 INFO [PUSH-SUCC] 7ms, all delay time 561ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:34:27,979 INFO [PUSH-SUCC] 9ms, all delay time 562ms, SLA 562ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:34:32,378 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:34:32,379 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17322371594600
+
+2021-06-09 15:34:32,380 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:34:32,380 INFO send udp packet: 172.20.0.1,65488,17322371594600
+
+2021-06-09 15:34:32,380 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17322372794400
+
+2021-06-09 15:34:32,382 INFO send udp packet: 172.20.0.1,61259,17322372794400
+
+2021-06-09 15:34:32,387 INFO [PUSH-SUCC] 7ms, all delay time 516ms, SLA 516ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:34:32,388 INFO [PUSH-SUCC] 10ms, all delay time 517ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:35:02,936 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:35:02,937 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17352930155300
+
+2021-06-09 15:35:02,939 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:35:02,939 INFO send udp packet: 172.20.0.1,65488,17352930155300
+
+2021-06-09 15:35:02,939 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17352932096300
+
+2021-06-09 15:35:02,941 INFO send udp packet: 172.20.0.1,61259,17352932096300
+
+2021-06-09 15:35:02,948 INFO [PUSH-SUCC] 9ms, all delay time 529ms, SLA 529ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:35:02,949 INFO [PUSH-SUCC] 13ms, all delay time 530ms, SLA 530ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:35:17,963 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:35:17,965 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17367957307600
+
+2021-06-09 15:35:17,966 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:35:17,966 INFO send udp packet: 172.20.0.1,65488,17367957307600
+
+2021-06-09 15:35:17,967 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17367959726500
+
+2021-06-09 15:35:17,969 INFO send udp packet: 172.20.0.1,61259,17367959726500
+
+2021-06-09 15:35:17,978 INFO [PUSH-SUCC] 16ms, all delay time 557ms, SLA 557ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:35:17,981 INFO [PUSH-SUCC] 15ms, all delay time 560ms, SLA 560ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:35:39,356 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:35:39,357 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:35:39,356 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:35:39,368 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17389360346100
+
+2021-06-09 15:35:39,368 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17389360717400
+
+2021-06-09 15:35:39,368 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17389360954300
+
+2021-06-09 15:35:39,368 INFO send udp packet: 172.20.0.1,58622,17389360346100
+
+2021-06-09 15:35:39,369 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:35:39,370 INFO send udp packet: 172.20.0.1,58622,17389360717400
+
+2021-06-09 15:35:39,370 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17389362389200
+
+2021-06-09 15:35:39,371 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:35:39,371 INFO send udp packet: 172.20.0.1,58622,17389360954300
+
+2021-06-09 15:35:39,371 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17389364013000
+
+2021-06-09 15:35:39,372 INFO send udp packet: 172.20.0.1,65488,17389362389200
+
+2021-06-09 15:35:39,373 INFO send udp packet: 172.20.0.1,61259,17389364013000
+
+2021-06-09 15:35:39,376 INFO [PUSH-SUCC] 5ms, all delay time 536ms, SLA 536ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:35:39,377 INFO [PUSH-SUCC] 8ms, all delay time 537ms, SLA 537ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:35:39,494 INFO [PUSH-SUCC] 138ms, all delay time 654ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:35:39,499 INFO [PUSH-SUCC] 143ms, all delay time 669ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:35:39,502 INFO [PUSH-SUCC] 146ms, all delay time 672ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:40:46,708 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 15:40:46,712 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:52458, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52458,17696705200700
+
+2021-06-09 15:40:46,716 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 15:40:46,716 INFO send udp packet: 172.20.0.1,52458,17696705200700
+
+2021-06-09 15:40:46,719 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17696712216900
+
+2021-06-09 15:40:46,724 INFO send udp packet: 172.20.0.1,61259,17696712216900
+
+2021-06-09 15:40:47,910 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 15:40:47,911 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,17697904173600
+
+2021-06-09 15:40:47,912 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 15:40:47,912 INFO send udp packet: 172.20.0.1,59563,17697904173600
+
+2021-06-09 15:40:47,913 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17697905523700
+
+2021-06-09 15:40:47,914 INFO send udp packet: 172.20.0.1,61259,17697905523700
+
+2021-06-09 15:40:49,413 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:40:49,414 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17699406922800
+
+2021-06-09 15:40:49,415 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:40:49,415 INFO send udp packet: 172.20.0.1,65488,17699406922800
+
+2021-06-09 15:40:49,416 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17699408318700
+
+2021-06-09 15:40:49,417 INFO send udp packet: 172.20.0.1,61259,17699408318700
+
+2021-06-09 15:40:50,816 INFO DEFAULT_GROUP@@phonemall-auth-server is changed, add it to push queue.
+
+2021-06-09 15:40:50,817 INFO serviceName: DEFAULT_GROUP@@phonemall-auth-server changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17700810200600
+
+2021-06-09 15:40:50,819 INFO send udp packet: 172.20.0.1,61259,17700810200600
+
+2021-06-09 15:40:50,916 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:40:50,916 INFO DEFAULT_GROUP@@phonemall-admin is changed, add it to push queue.
+
+2021-06-09 15:40:50,917 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,17700909517700
+
+2021-06-09 15:40:50,917 INFO serviceName: DEFAULT_GROUP@@phonemall-admin changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17700910080300
+
+2021-06-09 15:40:50,918 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:40:50,918 INFO send udp packet: 172.20.0.1,59563,17700909517700
+
+2021-06-09 15:40:50,920 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17700912167400
+
+2021-06-09 15:40:50,921 INFO send udp packet: 172.20.0.1,61259,17700910080300
+
+2021-06-09 15:40:50,922 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:40:50,923 INFO send udp packet: 172.20.0.1,61259,17700912167400
+
+2021-06-09 15:40:50,924 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17700916196600
+
+2021-06-09 15:40:50,926 INFO send udp packet: 172.20.0.1,58622,17700916196600
+
+2021-06-09 15:40:51,717 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:40:51,718 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:54626, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54626,17701710598200
+
+2021-06-09 15:40:51,718 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:40:51,718 INFO send udp packet: 172.20.0.1,54626,17701710598200
+
+2021-06-09 15:40:51,719 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17701711681700
+
+2021-06-09 15:40:51,720 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:40:51,720 INFO send udp packet: 172.20.0.1,61259,17701711681700
+
+2021-06-09 15:40:51,720 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17701712988900
+
+2021-06-09 15:40:51,721 INFO send udp packet: 172.20.0.1,58622,17701712988900
+
+2021-06-09 15:40:55,825 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:40:55,825 INFO DEFAULT_GROUP@@phonemall-coupon is changed, add it to push queue.
+
+2021-06-09 15:40:55,826 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17705819084700
+
+2021-06-09 15:40:55,827 INFO serviceName: DEFAULT_GROUP@@phonemall-coupon changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,17705819491200
+
+2021-06-09 15:40:55,827 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:40:55,827 INFO send udp packet: 172.20.0.1,61259,17705819084700
+
+2021-06-09 15:40:55,827 INFO DEFAULT_GROUP@@phonemall-coupon is changed, add it to push queue.
+
+2021-06-09 15:40:55,828 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17705820668800
+
+2021-06-09 15:40:55,829 INFO send udp packet: 172.20.0.1,59563,17705819491200
+
+2021-06-09 15:40:55,829 INFO serviceName: DEFAULT_GROUP@@phonemall-coupon changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17705821589600
+
+2021-06-09 15:40:55,830 INFO send udp packet: 172.20.0.1,58622,17705820668800
+
+2021-06-09 15:40:55,831 INFO send udp packet: 172.20.0.1,61259,17705821589600
+
+2021-06-09 15:40:56,724 INFO retry to push data, key: 172.20.0.1,52458,17696705200700
+
+2021-06-09 15:40:56,726 INFO retry to push data, key: 172.20.0.1,61259,17696712216900
+
+2021-06-09 15:40:57,914 INFO retry to push data, key: 172.20.0.1,59563,17697904173600
+
+2021-06-09 15:40:57,916 INFO retry to push data, key: 172.20.0.1,61259,17697905523700
+
+2021-06-09 15:40:58,264 WARN ack takes too long from /172.20.0.1:61259 ack json: {"type": "push-ack", "lastRefTime":"17696712216900", "data":""}
+
+2021-06-09 15:40:58,265 INFO [PUSH-SUCC] 11549ms, all delay time 12082ms, SLA 12082ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:40:58,267 WARN ack takes too long from /172.20.0.1:61259 ack json: {"type": "push-ack", "lastRefTime":"17697905523700", "data":""}
+
+2021-06-09 15:40:58,267 INFO [PUSH-SUCC] 10355ms, all delay time 10889ms, SLA 10889ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:40:58,271 INFO [PUSH-SUCC] 8856ms, all delay time 9360ms, SLA 9361ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:40:58,275 INFO [PUSH-SUCC] 7458ms, all delay time 8018ms, SLA 8018ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-auth-server', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:40:58,279 INFO [PUSH-SUCC] 7363ms, all delay time 7926ms, SLA 7926ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-admin', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:40:58,281 INFO [PUSH-SUCC] 7363ms, all delay time 7928ms, SLA 7928ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:40:58,282 INFO [PUSH-SUCC] 6564ms, all delay time 7099ms, SLA 7099ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:40:58,283 INFO [PUSH-SUCC] 2458ms, all delay time 3027ms, SLA 3027ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:40:58,284 INFO [PUSH-SUCC] 2457ms, all delay time 3028ms, SLA 3028ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:40:58,285 WARN ack takes too long from /172.20.0.1:61259 ack json: {"type": "push-ack", "lastRefTime":"17696712216900", "data":""}
+
+2021-06-09 15:40:58,290 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,61259,17696712216900, ack json: {"type": "push-ack", "lastRefTime":"17696712216900", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:40:58,291 WARN ack takes too long from /172.20.0.1:61259 ack json: {"type": "push-ack", "lastRefTime":"17697905523700", "data":""}
+
+2021-06-09 15:40:58,292 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,61259,17697905523700, ack json: {"type": "push-ack", "lastRefTime":"17697905523700", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:40:59,417 INFO retry to push data, key: 172.20.0.1,65488,17699406922800
+
+2021-06-09 15:41:00,921 INFO retry to push data, key: 172.20.0.1,59563,17700909517700
+
+2021-06-09 15:41:00,928 INFO retry to push data, key: 172.20.0.1,58622,17700916196600
+
+2021-06-09 15:41:01,023 INFO DEFAULT_GROUP@@phonemall-admin is changed, add it to push queue.
+
+2021-06-09 15:41:01,023 INFO serviceName: DEFAULT_GROUP@@phonemall-admin changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17711016005400
+
+2021-06-09 15:41:01,024 INFO send udp packet: 172.20.0.1,61259,17711016005400
+
+2021-06-09 15:41:01,028 INFO [PUSH-SUCC] 5ms, all delay time 605ms, SLA 605ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-admin', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:01,086 WARN ack takes too long from /172.20.0.1:65488 ack json: {"type": "push-ack", "lastRefTime":"17699406922800", "data":""}
+
+2021-06-09 15:41:01,087 INFO [PUSH-SUCC] 11674ms, all delay time 12176ms, SLA 12177ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:01,089 WARN ack takes too long from /172.20.0.1:65488 ack json: {"type": "push-ack", "lastRefTime":"17699406922800", "data":""}
+
+2021-06-09 15:41:01,089 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,65488,17699406922800, ack json: {"type": "push-ack", "lastRefTime":"17699406922800", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:01,624 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:41:01,624 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17711617113900
+
+2021-06-09 15:41:01,625 INFO send udp packet: 172.20.0.1,65488,17711617113900
+
+2021-06-09 15:41:01,630 INFO [PUSH-SUCC] 6ms, all delay time 547ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:41:01,720 INFO retry to push data, key: 172.20.0.1,54626,17701710598200
+
+2021-06-09 15:41:01,722 INFO retry to push data, key: 172.20.0.1,58622,17701712988900
+
+2021-06-09 15:41:01,724 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 15:41:01,725 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:52458, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52458,17711717334000
+
+2021-06-09 15:41:01,725 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 15:41:01,725 INFO send udp packet: 172.20.0.1,52458,17711717334000
+
+2021-06-09 15:41:01,725 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17711718175700
+
+2021-06-09 15:41:01,727 INFO send udp packet: 172.20.0.1,61259,17711718175700
+
+2021-06-09 15:41:01,732 INFO [PUSH-SUCC] 7ms, all delay time 548ms, SLA 548ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:02,926 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 15:41:02,928 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,17712921110600
+
+2021-06-09 15:41:02,931 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 15:41:02,931 INFO send udp packet: 172.20.0.1,59563,17712921110600
+
+2021-06-09 15:41:02,932 WARN ack takes too long from /172.20.0.1:58622 ack json: {"type": "push-ack", "lastRefTime":"17700916196600", "data":""}
+
+2021-06-09 15:41:02,934 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17712926939400
+
+2021-06-09 15:41:02,936 INFO [PUSH-SUCC] 12014ms, all delay time 12583ms, SLA 12583ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:02,936 INFO send udp packet: 172.20.0.1,61259,17712926939400
+
+2021-06-09 15:41:02,938 WARN ack takes too long from /172.20.0.1:58622 ack json: {"type": "push-ack", "lastRefTime":"17701712988900", "data":""}
+
+2021-06-09 15:41:02,938 INFO [PUSH-SUCC] 11218ms, all delay time 11755ms, SLA 11755ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:02,939 INFO [PUSH-SUCC] 7112ms, all delay time 7683ms, SLA 7683ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:02,942 INFO [PUSH-SUCC] 11ms, all delay time 562ms, SLA 562ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:02,942 WARN ack takes too long from /172.20.0.1:58622 ack json: {"type": "push-ack", "lastRefTime":"17700916196600", "data":""}
+
+2021-06-09 15:41:02,943 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,58622,17700916196600, ack json: {"type": "push-ack", "lastRefTime":"17700916196600", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:02,945 WARN ack takes too long from /172.20.0.1:58622 ack json: {"type": "push-ack", "lastRefTime":"17701712988900", "data":""}
+
+2021-06-09 15:41:02,946 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,58622,17701712988900, ack json: {"type": "push-ack", "lastRefTime":"17701712988900", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:03,527 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:41:03,527 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:41:03,527 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:41:03,527 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17713519948700
+
+2021-06-09 15:41:03,528 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17713520431300
+
+2021-06-09 15:41:03,528 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17713520825100
+
+2021-06-09 15:41:03,528 INFO send udp packet: 172.20.0.1,58622,17713519948700
+
+2021-06-09 15:41:03,530 INFO send udp packet: 172.20.0.1,58622,17713520431300
+
+2021-06-09 15:41:03,532 INFO send udp packet: 172.20.0.1,58622,17713520825100
+
+2021-06-09 15:41:03,534 INFO [PUSH-SUCC] 8ms, all delay time 606ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:41:03,536 INFO [PUSH-SUCC] 9ms, all delay time 608ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:41:03,539 INFO [PUSH-SUCC] 12ms, all delay time 611ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:41:04,428 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:41:04,429 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17714421893900
+
+2021-06-09 15:41:04,429 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:41:04,429 INFO send udp packet: 172.20.0.1,65488,17714421893900
+
+2021-06-09 15:41:04,430 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17714423163200
+
+2021-06-09 15:41:04,431 INFO send udp packet: 172.20.0.1,61259,17714423163200
+
+2021-06-09 15:41:04,435 INFO [PUSH-SUCC] 6ms, all delay time 524ms, SLA 524ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:04,436 INFO [PUSH-SUCC] 8ms, all delay time 525ms, SLA 525ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:05,830 INFO retry to push data, key: 172.20.0.1,59563,17705819491200
+
+2021-06-09 15:41:05,830 INFO DEFAULT_GROUP@@phonemall-auth-server is changed, add it to push queue.
+
+2021-06-09 15:41:05,832 INFO serviceName: DEFAULT_GROUP@@phonemall-auth-server changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17715824403900
+
+2021-06-09 15:41:05,833 INFO send udp packet: 172.20.0.1,61259,17715824403900
+
+2021-06-09 15:41:05,837 INFO [PUSH-SUCC] 7ms, all delay time 580ms, SLA 580ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-auth-server', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:05,930 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:41:05,931 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17715923784500
+
+2021-06-09 15:41:05,932 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:41:05,932 INFO send udp packet: 172.20.0.1,61259,17715923784500
+
+2021-06-09 15:41:05,932 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17715924857500
+
+2021-06-09 15:41:05,933 INFO send udp packet: 172.20.0.1,58622,17715924857500
+
+2021-06-09 15:41:05,936 INFO [PUSH-SUCC] 6ms, all delay time 513ms, SLA 514ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:05,939 INFO [PUSH-SUCC] 8ms, all delay time 516ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:06,631 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:41:06,632 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17716624762100
+
+2021-06-09 15:41:06,632 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:41:06,632 INFO send udp packet: 172.20.0.1,61259,17716624762100
+
+2021-06-09 15:41:06,633 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17716625778100
+
+2021-06-09 15:41:06,634 INFO send udp packet: 172.20.0.1,58622,17716625778100
+
+2021-06-09 15:41:06,638 INFO [PUSH-SUCC] 7ms, all delay time 541ms, SLA 541ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:06,641 INFO [PUSH-SUCC] 9ms, all delay time 544ms, SLA 544ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:06,725 WARN max re-push times reached, retry times 2, key: 172.20.0.1,52458,17696705200700
+
+2021-06-09 15:41:06,726 ERROR [PUSH-FAIL] 20018ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=2}, reason=null, target=172.20.0.1
+
+2021-06-09 15:41:07,775 WARN ack takes too long from /172.20.0.1:59563 ack json: {"type": "push-ack", "lastRefTime":"17697904173600", "data":""}
+
+2021-06-09 15:41:07,780 INFO [PUSH-SUCC] 19870ms, all delay time 20402ms, SLA 5400ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=2}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:07,784 WARN ack takes too long from /172.20.0.1:59563 ack json: {"type": "push-ack", "lastRefTime":"17700909517700", "data":""}
+
+2021-06-09 15:41:07,784 INFO [PUSH-SUCC] 16868ms, all delay time 17431ms, SLA 2362ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=6}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:07,786 WARN ack takes too long from /172.20.0.1:59563 ack json: {"type": "push-ack", "lastRefTime":"17705819491200", "data":""}
+
+2021-06-09 15:41:07,787 INFO [PUSH-SUCC] 11962ms, all delay time 12531ms, SLA 12531ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:07,787 WARN ack takes too long from /172.20.0.1:59563 ack json: {"type": "push-ack", "lastRefTime":"17697904173600", "data":""}
+
+2021-06-09 15:41:07,788 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,59563,17697904173600, ack json: {"type": "push-ack", "lastRefTime":"17697904173600", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:07,789 WARN ack takes too long from /172.20.0.1:59563 ack json: {"type": "push-ack", "lastRefTime":"17700909517700", "data":""}
+
+2021-06-09 15:41:07,790 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,59563,17700909517700, ack json: {"type": "push-ack", "lastRefTime":"17700909517700", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:07,791 INFO [PUSH-SUCC] 4865ms, all delay time 5411ms, SLA 5411ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:07,793 WARN ack takes too long from /172.20.0.1:59563 ack json: {"type": "push-ack", "lastRefTime":"17705819491200", "data":""}
+
+2021-06-09 15:41:07,794 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,59563,17705819491200, ack json: {"type": "push-ack", "lastRefTime":"17705819491200", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:08,334 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:41:08,334 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 15:41:08,334 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 15:41:08,335 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,17718327567600
+
+2021-06-09 15:41:08,335 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,17718328057700
+
+2021-06-09 15:41:08,335 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17718327840400
+
+2021-06-09 15:41:08,335 INFO send udp packet: 172.20.0.1,59563,17718327567600
+
+2021-06-09 15:41:08,337 INFO send udp packet: 172.20.0.1,59563,17718328057700
+
+2021-06-09 15:41:08,338 INFO send udp packet: 172.20.0.1,61259,17718327840400
+
+2021-06-09 15:41:08,341 INFO [PUSH-SUCC] 7ms, all delay time 564ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=6}, DataSize=0
+
+2021-06-09 15:41:08,341 INFO [PUSH-SUCC] 7ms, all delay time 564ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=2}, DataSize=0
+
+2021-06-09 15:41:08,343 INFO [PUSH-SUCC] 9ms, all delay time 555ms, SLA 555ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:09,636 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 15:41:09,637 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,17719630176500
+
+2021-06-09 15:41:09,638 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 15:41:09,638 INFO send udp packet: 172.20.0.1,59563,17719630176500
+
+2021-06-09 15:41:09,639 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17719631690900
+
+2021-06-09 15:41:09,640 INFO send udp packet: 172.20.0.1,61259,17719631690900
+
+2021-06-09 15:41:09,644 INFO [PUSH-SUCC] 8ms, all delay time 521ms, SLA 521ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:09,645 INFO [PUSH-SUCC] 7ms, all delay time 522ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:09,937 INFO DEFAULT_GROUP@@phonemall-coupon is changed, add it to push queue.
+
+2021-06-09 15:41:09,937 INFO serviceName: DEFAULT_GROUP@@phonemall-coupon changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17719930025600
+
+2021-06-09 15:41:09,938 INFO send udp packet: 172.20.0.1,61259,17719930025600
+
+2021-06-09 15:41:09,944 INFO [PUSH-SUCC] 7ms, all delay time 530ms, SLA 530ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:10,691 WARN ack takes too long from /172.20.0.1:54626 ack json: {"type": "push-ack", "lastRefTime":"17701710598200", "data":""}
+
+2021-06-09 15:41:10,691 INFO [PUSH-SUCC] 18974ms, all delay time 19508ms, SLA 19508ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:10,696 WARN ack takes too long from /172.20.0.1:54626 ack json: {"type": "push-ack", "lastRefTime":"17701710598200", "data":""}
+
+2021-06-09 15:41:10,696 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,54626,17701710598200, ack json: {"type": "push-ack", "lastRefTime":"17701710598200", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:10,838 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:41:10,839 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17720831532700
+
+2021-06-09 15:41:10,839 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:41:10,839 INFO send udp packet: 172.20.0.1,61259,17720831532700
+
+2021-06-09 15:41:10,840 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17720832731800
+
+2021-06-09 15:41:10,840 INFO send udp packet: 172.20.0.1,58622,17720832731800
+
+2021-06-09 15:41:10,843 INFO [PUSH-SUCC] 5ms, all delay time 586ms, SLA 586ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:10,845 INFO [PUSH-SUCC] 6ms, all delay time 588ms, SLA 588ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:11,239 INFO DEFAULT_GROUP@@phonemall-auth-server is changed, add it to push queue.
+
+2021-06-09 15:41:11,240 INFO serviceName: DEFAULT_GROUP@@phonemall-auth-server changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17721232321400
+
+2021-06-09 15:41:11,240 INFO send udp packet: 172.20.0.1,61259,17721232321400
+
+2021-06-09 15:41:11,247 INFO [PUSH-SUCC] 8ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-auth-server', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:11,727 INFO retry to push data, key: 172.20.0.1,52458,17711717334000
+
+2021-06-09 15:41:12,206 WARN ack takes too long from /172.20.0.1:52458 ack json: {"type": "push-ack", "lastRefTime":"17696705200700", "data":""}
+
+2021-06-09 15:41:12,207 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,52458,17696705200700, ack json: {"type": "push-ack", "lastRefTime":"17696705200700", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:12,208 WARN ack takes too long from /172.20.0.1:52458 ack json: {"type": "push-ack", "lastRefTime":"17696705200700", "data":""}
+
+2021-06-09 15:41:12,208 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,52458,17696705200700, ack json: {"type": "push-ack", "lastRefTime":"17696705200700", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:12,210 WARN ack takes too long from /172.20.0.1:52458 ack json: {"type": "push-ack", "lastRefTime":"17711717334000", "data":""}
+
+2021-06-09 15:41:12,211 INFO [PUSH-SUCC] 10487ms, all delay time 11027ms, SLA 4423ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=3}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:41:12,212 WARN ack takes too long from /172.20.0.1:52458 ack json: {"type": "push-ack", "lastRefTime":"17711717334000", "data":""}
+
+2021-06-09 15:41:12,212 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.20.0.1,52458,17711717334000, ack json: {"type": "push-ack", "lastRefTime":"17711717334000", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-09 15:41:12,741 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 15:41:12,741 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:52458, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,52458,17722734151100
+
+2021-06-09 15:41:12,742 INFO send udp packet: 172.20.0.1,52458,17722734151100
+
+2021-06-09 15:41:12,751 INFO [PUSH-SUCC] 10ms, all delay time 546ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=3}, DataSize=1
+
+2021-06-09 15:41:14,143 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:41:14,144 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,17724136821900
+
+2021-06-09 15:41:14,145 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:41:14,145 INFO send udp packet: 172.20.0.1,59563,17724136821900
+
+2021-06-09 15:41:14,145 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17724138294600
+
+2021-06-09 15:41:14,146 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:41:14,146 INFO send udp packet: 172.20.0.1,61259,17724138294600
+
+2021-06-09 15:41:14,148 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17724140400000
+
+2021-06-09 15:41:14,148 INFO send udp packet: 172.20.0.1,58622,17724140400000
+
+2021-06-09 15:41:14,151 INFO [PUSH-SUCC] 8ms, all delay time 600ms, SLA 600ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:14,153 INFO [PUSH-SUCC] 8ms, all delay time 602ms, SLA 602ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:14,156 INFO [PUSH-SUCC] 10ms, all delay time 605ms, SLA 605ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:17,750 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:41:17,751 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17727743649900
+
+2021-06-09 15:41:17,752 INFO send udp packet: 172.20.0.1,61259,17727743649900
+
+2021-06-09 15:41:17,752 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:41:17,752 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:58622, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,58622,17727745008200
+
+2021-06-09 15:41:17,752 INFO send udp packet: 172.20.0.1,58622,17727745008200
+
+2021-06-09 15:41:17,755 INFO [PUSH-SUCC] 5ms, all delay time 540ms, SLA 540ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:17,758 INFO [PUSH-SUCC] 6ms, all delay time 543ms, SLA 543ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:41:18,351 INFO DEFAULT_GROUP@@phonemall-coupon is changed, add it to push queue.
+
+2021-06-09 15:41:18,351 INFO serviceName: DEFAULT_GROUP@@phonemall-coupon changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,17728343942800
+
+2021-06-09 15:41:18,352 INFO send udp packet: 172.20.0.1,59563,17728343942800
+
+2021-06-09 15:41:18,356 INFO [PUSH-SUCC] 5ms, all delay time 573ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:41:21,256 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:41:21,257 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:54626, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54626,17731250080100
+
+2021-06-09 15:41:21,259 INFO send udp packet: 172.20.0.1,54626,17731250080100
+
+2021-06-09 15:41:21,266 INFO [PUSH-SUCC] 11ms, all delay time 560ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:43:29,832 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:43:29,833 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,17859825649000
+
+2021-06-09 15:43:29,834 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:43:29,834 INFO send udp packet: 172.20.0.1,65488,17859825649000
+
+2021-06-09 15:43:29,834 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,17859827267400
+
+2021-06-09 15:43:29,835 INFO send udp packet: 172.20.0.1,61259,17859827267400
+
+2021-06-09 15:43:29,839 INFO [PUSH-SUCC] 5ms, all delay time 583ms, SLA 583ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:43:29,840 INFO [PUSH-SUCC] 8ms, all delay time 584ms, SLA 584ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:44:14,710 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:44:14,711 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:49773, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,49773,17904703571000
+
+2021-06-09 15:44:14,711 INFO send udp packet: 172.20.0.1,49773,17904703571000
+
+2021-06-09 15:44:14,720 INFO [PUSH-SUCC] 10ms, all delay time 558ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=3}, DataSize=1
+
+2021-06-09 15:44:14,910 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:44:14,911 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:49773, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,49773,17904903685800
+
+2021-06-09 15:44:14,912 INFO send udp packet: 172.20.0.1,49773,17904903685800
+
+2021-06-09 15:44:14,916 INFO [PUSH-SUCC] 6ms, all delay time 571ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:44:15,111 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 15:44:15,111 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:49773, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,49773,17905103817600
+
+2021-06-09 15:44:15,112 INFO send udp packet: 172.20.0.1,49773,17905103817600
+
+2021-06-09 15:44:15,115 INFO [PUSH-SUCC] 4ms, all delay time 571ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=7}, DataSize=1
+
+2021-06-09 15:46:31,019 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:46:31,021 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,18041013527800
+
+2021-06-09 15:46:31,022 INFO send udp packet: 172.20.0.1,54408,18041013527800
+
+2021-06-09 15:46:31,034 INFO [PUSH-SUCC] 15ms, all delay time 590ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:46:37,130 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 15:46:37,130 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:49773, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,49773,18047123203600
+
+2021-06-09 15:46:37,131 INFO send udp packet: 172.20.0.1,49773,18047123203600
+
+2021-06-09 15:46:37,135 INFO [PUSH-SUCC] 6ms, all delay time 512ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=3}, DataSize=1
+
+2021-06-09 15:48:38,468 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:48:39,017 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,18169009771000
+
+2021-06-09 15:48:39,030 INFO send udp packet: 172.20.0.1,54408,18169009771000
+
+2021-06-09 15:48:39,052 INFO [PUSH-SUCC] 584ms, all delay time 1152ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 15:48:52,788 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:48:52,789 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,18182782199800
+
+2021-06-09 15:48:52,790 INFO send udp packet: 172.20.0.1,65488,18182782199800
+
+2021-06-09 15:48:52,790 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:48:52,791 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18182783749200
+
+2021-06-09 15:48:52,792 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:48:52,792 INFO send udp packet: 172.20.0.1,61259,18182783749200
+
+2021-06-09 15:48:52,792 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,18182785273200
+
+2021-06-09 15:48:52,793 INFO send udp packet: 172.20.0.1,54408,18182785273200
+
+2021-06-09 15:48:52,795 INFO [PUSH-SUCC] 7ms, all delay time 562ms, SLA 562ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:48:52,797 INFO [PUSH-SUCC] 7ms, all delay time 564ms, SLA 564ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:48:52,798 INFO [PUSH-SUCC] 6ms, all delay time 565ms, SLA 565ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:49:03,035 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:49:03,075 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:49773, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,49773,18193068080200
+
+2021-06-09 15:49:03,078 INFO send udp packet: 172.20.0.1,49773,18193068080200
+
+2021-06-09 15:49:03,078 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:49:03,079 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18193071537500
+
+2021-06-09 15:49:03,080 INFO send udp packet: 172.20.0.1,61259,18193071537500
+
+2021-06-09 15:49:03,087 INFO [PUSH-SUCC] 9ms, all delay time 620ms, SLA 620ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:49:13,078 INFO retry to push data, key: 172.20.0.1,49773,18193068080200
+
+2021-06-09 15:49:23,166 WARN max re-push times reached, retry times 2, key: 172.20.0.1,49773,18193068080200
+
+2021-06-09 15:49:23,168 ERROR [PUSH-FAIL] 20133ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=4}, reason=null, target=172.20.0.1
+
+2021-06-09 15:49:36,044 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:49:36,045 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18226037529700
+
+2021-06-09 15:49:36,046 INFO send udp packet: 172.20.0.1,61259,18226037529700
+
+2021-06-09 15:49:36,049 INFO [PUSH-SUCC] 5ms, all delay time 569ms, SLA 569ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:49:37,045 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:49:37,047 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,18227040089400
+
+2021-06-09 15:49:37,050 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:49:37,050 INFO send udp packet: 172.20.0.1,65488,18227040089400
+
+2021-06-09 15:49:37,050 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18227043193600
+
+2021-06-09 15:49:37,052 INFO send udp packet: 172.20.0.1,61259,18227043193600
+
+2021-06-09 15:49:37,052 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 15:49:37,054 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,18227046432900
+
+2021-06-09 15:49:37,056 INFO send udp packet: 172.20.0.1,54408,18227046432900
+
+2021-06-09 15:49:37,060 INFO [PUSH-SUCC] 10ms, all delay time 591ms, SLA 591ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:49:37,061 INFO [PUSH-SUCC] 16ms, all delay time 592ms, SLA 592ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:49:37,068 INFO [PUSH-SUCC] 16ms, all delay time 599ms, SLA 599ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:50:15,497 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 15:50:15,498 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:59411, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59411,18265490933400
+
+2021-06-09 15:50:15,499 INFO send udp packet: 172.20.0.1,59411,18265490933400
+
+2021-06-09 15:50:15,506 INFO [PUSH-SUCC] 9ms, all delay time 562ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:50:15,698 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:50:15,698 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:59411, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59411,18265690954100
+
+2021-06-09 15:50:15,698 INFO send udp packet: 172.20.0.1,59411,18265690954100
+
+2021-06-09 15:50:15,703 INFO [PUSH-SUCC] 5ms, all delay time 595ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 15:50:43,708 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:50:43,709 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:59411, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59411,18293701836000
+
+2021-06-09 15:50:43,709 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:50:43,709 INFO send udp packet: 172.20.0.1,59411,18293701836000
+
+2021-06-09 15:50:43,710 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18293702591000
+
+2021-06-09 15:50:43,710 INFO send udp packet: 172.20.0.1,61259,18293702591000
+
+2021-06-09 15:50:43,713 INFO [PUSH-SUCC] 4ms, all delay time 594ms, SLA 594ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:50:43,714 INFO [PUSH-SUCC] 6ms, all delay time 595ms, SLA 595ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:50:59,829 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:50:59,830 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:59411, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59411,18309823278700
+
+2021-06-09 15:50:59,831 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:50:59,831 INFO send udp packet: 172.20.0.1,59411,18309823278700
+
+2021-06-09 15:50:59,831 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18309824195400
+
+2021-06-09 15:50:59,832 INFO send udp packet: 172.20.0.1,61259,18309824195400
+
+2021-06-09 15:50:59,836 INFO [PUSH-SUCC] 5ms, all delay time 507ms, SLA 507ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:50:59,837 INFO [PUSH-SUCC] 8ms, all delay time 508ms, SLA 508ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:51:26,806 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:51:26,807 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:59411, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59411,18336799690900
+
+2021-06-09 15:51:26,807 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:51:26,807 INFO send udp packet: 172.20.0.1,59411,18336799690900
+
+2021-06-09 15:51:26,807 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18336800262600
+
+2021-06-09 15:51:26,808 INFO send udp packet: 172.20.0.1,61259,18336800262600
+
+2021-06-09 15:51:26,812 INFO [PUSH-SUCC] 5ms, all delay time 537ms, SLA 537ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=8}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:51:26,813 INFO [PUSH-SUCC] 7ms, all delay time 538ms, SLA 538ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=8}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:52:58,292 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:52:58,293 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:59411, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59411,18428286124900
+
+2021-06-09 15:52:58,294 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:52:58,294 INFO send udp packet: 172.20.0.1,59411,18428286124900
+
+2021-06-09 15:52:58,294 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18428286960000
+
+2021-06-09 15:52:58,295 INFO send udp packet: 172.20.0.1,61259,18428286960000
+
+2021-06-09 15:52:58,298 INFO [PUSH-SUCC] 4ms, all delay time 599ms, SLA 599ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=9}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:52:58,300 INFO [PUSH-SUCC] 8ms, all delay time 601ms, SLA 601ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=9}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:55:46,179 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:55:46,180 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:59411, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59411,18596173048400
+
+2021-06-09 15:55:46,181 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:55:46,181 INFO send udp packet: 172.20.0.1,59411,18596173048400
+
+2021-06-09 15:55:46,181 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18596173739800
+
+2021-06-09 15:55:46,182 INFO send udp packet: 172.20.0.1,61259,18596173739800
+
+2021-06-09 15:55:46,188 INFO [PUSH-SUCC] 9ms, all delay time 601ms, SLA 601ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=10}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:55:46,189 INFO [PUSH-SUCC] 8ms, all delay time 602ms, SLA 602ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=10}, DataSize=0, target=172.20.0.1
+
+2021-06-09 15:57:18,980 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:57:18,981 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:59411, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59411,18688974155400
+
+2021-06-09 15:57:18,982 INFO send udp packet: 172.20.0.1,59411,18688974155400
+
+2021-06-09 15:57:18,982 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 15:57:18,984 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18688976292600
+
+2021-06-09 15:57:18,984 INFO send udp packet: 172.20.0.1,61259,18688976292600
+
+2021-06-09 15:57:18,991 INFO [PUSH-SUCC] 11ms, all delay time 513ms, SLA 513ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 15:57:18,992 INFO [PUSH-SUCC] 10ms, all delay time 514ms, SLA 514ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:01:53,506 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=0}
+
+2021-06-09 16:01:54,044 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:01:54,044 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:59411, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59411,18964036874200
+
+2021-06-09 16:01:54,044 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:01:54,044 INFO send udp packet: 172.20.0.1,59411,18964036874200
+
+2021-06-09 16:01:54,045 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,18964037981200
+
+2021-06-09 16:01:54,045 INFO send udp packet: 172.20.0.1,61259,18964037981200
+
+2021-06-09 16:01:54,048 INFO [PUSH-SUCC] 4ms, all delay time 555ms, SLA 542ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:01:54,049 INFO [PUSH-SUCC] 5ms, all delay time 556ms, SLA 543ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=0}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:08:11,021 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:08:11,022 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,19341015067100
+
+2021-06-09 16:08:11,023 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:08:11,023 INFO send udp packet: 172.20.0.1,65488,19341015067100
+
+2021-06-09 16:08:11,024 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,19341016442900
+
+2021-06-09 16:08:11,024 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:08:11,024 INFO send udp packet: 172.20.0.1,61259,19341016442900
+
+2021-06-09 16:08:11,025 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,19341017428000
+
+2021-06-09 16:08:11,025 INFO send udp packet: 172.20.0.1,54408,19341017428000
+
+2021-06-09 16:08:11,029 INFO [PUSH-SUCC] 8ms, all delay time 585ms, SLA 585ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:08:11,029 INFO [PUSH-SUCC] 6ms, all delay time 585ms, SLA 585ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:08:11,030 INFO [PUSH-SUCC] 6ms, all delay time 586ms, SLA 586ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:08:31,649 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:08:31,650 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,19361642883600
+
+2021-06-09 16:08:31,651 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:08:31,651 INFO send udp packet: 172.20.0.1,65488,19361642883600
+
+2021-06-09 16:08:31,651 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,19361644221900
+
+2021-06-09 16:08:31,652 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:08:31,652 INFO send udp packet: 172.20.0.1,61259,19361644221900
+
+2021-06-09 16:08:31,653 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,19361645460100
+
+2021-06-09 16:08:31,653 INFO send udp packet: 172.20.0.1,54408,19361645460100
+
+2021-06-09 16:08:31,656 INFO [PUSH-SUCC] 7ms, all delay time 508ms, SLA 508ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:08:31,658 INFO [PUSH-SUCC] 6ms, all delay time 510ms, SLA 510ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:08:31,660 INFO [PUSH-SUCC] 9ms, all delay time 512ms, SLA 512ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:09:15,644 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 16:09:15,644 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:53049, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,53049,19405637316200
+
+2021-06-09 16:09:15,645 INFO send udp packet: 172.20.0.1,53049,19405637316200
+
+2021-06-09 16:09:15,652 INFO [PUSH-SUCC] 8ms, all delay time 549ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 16:09:15,844 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:09:15,845 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:53049, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,53049,19405837631500
+
+2021-06-09 16:09:15,845 INFO send udp packet: 172.20.0.1,53049,19405837631500
+
+2021-06-09 16:09:15,849 INFO [PUSH-SUCC] 5ms, all delay time 563ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=1}, DataSize=1
+
+2021-06-09 16:18:05,518 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:18:05,519 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:53049, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,53049,19935511639900
+
+2021-06-09 16:18:05,519 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:18:05,519 INFO send udp packet: 172.20.0.1,53049,19935511639900
+
+2021-06-09 16:18:05,520 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,19935512519600
+
+2021-06-09 16:18:05,520 INFO send udp packet: 172.20.0.1,61259,19935512519600
+
+2021-06-09 16:18:05,524 INFO [PUSH-SUCC] 5ms, all delay time 582ms, SLA 582ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:18:05,524 INFO [PUSH-SUCC] 6ms, all delay time 582ms, SLA 582ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:18:11,526 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:18:11,527 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,19941519597900
+
+2021-06-09 16:18:11,527 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:18:11,527 INFO send udp packet: 172.20.0.1,65488,19941519597900
+
+2021-06-09 16:18:11,528 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,19941520693900
+
+2021-06-09 16:18:11,528 INFO send udp packet: 172.20.0.1,61259,19941520693900
+
+2021-06-09 16:18:11,528 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:18:11,529 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,19941521971500
+
+2021-06-09 16:18:11,530 INFO send udp packet: 172.20.0.1,54408,19941521971500
+
+2021-06-09 16:18:11,532 INFO [PUSH-SUCC] 5ms, all delay time 558ms, SLA 558ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:18:11,533 INFO [PUSH-SUCC] 7ms, all delay time 559ms, SLA 559ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:18:11,535 INFO [PUSH-SUCC] 7ms, all delay time 561ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:18:26,956 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:18:26,957 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:53049, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,53049,19956949293700
+
+2021-06-09 16:18:26,957 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:18:26,957 INFO send udp packet: 172.20.0.1,53049,19956949293700
+
+2021-06-09 16:18:26,958 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,19956950372000
+
+2021-06-09 16:18:26,958 INFO send udp packet: 172.20.0.1,61259,19956950372000
+
+2021-06-09 16:18:26,961 INFO [PUSH-SUCC] 4ms, all delay time 543ms, SLA 543ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:18:35,713 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:18:35,714 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,19965707283800
+
+2021-06-09 16:18:35,715 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:18:35,715 INFO send udp packet: 172.20.0.1,65488,19965707283800
+
+2021-06-09 16:18:35,716 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,19965708787000
+
+2021-06-09 16:18:35,717 INFO send udp packet: 172.20.0.1,61259,19965708787000
+
+2021-06-09 16:18:35,717 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:18:35,718 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,19965710569700
+
+2021-06-09 16:18:35,718 INFO send udp packet: 172.20.0.1,54408,19965710569700
+
+2021-06-09 16:18:35,721 INFO [PUSH-SUCC] 8ms, all delay time 589ms, SLA 589ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:18:35,721 INFO [PUSH-SUCC] 6ms, all delay time 589ms, SLA 589ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:18:35,722 INFO [PUSH-SUCC] 5ms, all delay time 590ms, SLA 590ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:18:36,958 INFO retry to push data, key: 172.20.0.1,53049,19956949293700
+
+2021-06-09 16:18:46,959 WARN max re-push times reached, retry times 2, key: 172.20.0.1,53049,19956949293700
+
+2021-06-09 16:18:46,960 ERROR [PUSH-FAIL] 20004ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=3}, reason=null, target=172.20.0.1
+
+2021-06-09 16:30:55,917 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 16:30:55,919 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:54886, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54886,20705911681700
+
+2021-06-09 16:30:55,919 INFO send udp packet: 172.20.0.1,54886,20705911681700
+
+2021-06-09 16:30:55,938 INFO [PUSH-SUCC] 21ms, all delay time 585ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=3}, DataSize=1
+
+2021-06-09 16:31:02,926 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:31:02,928 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20712920589700
+
+2021-06-09 16:31:02,928 INFO send udp packet: 172.20.0.1,51240,20712920589700
+
+2021-06-09 16:31:02,942 INFO [PUSH-SUCC] 16ms, all delay time 592ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=3}, DataSize=1
+
+2021-06-09 16:31:03,327 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 16:31:03,328 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20713320872500
+
+2021-06-09 16:31:03,328 INFO send udp packet: 172.20.0.1,51240,20713320872500
+
+2021-06-09 16:31:03,366 INFO [PUSH-SUCC] 39ms, all delay time 637ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=5}, DataSize=1
+
+2021-06-09 16:31:14,142 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:31:14,143 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20724135718500
+
+2021-06-09 16:31:14,145 INFO send udp packet: 172.20.0.1,61259,20724135718500
+
+2021-06-09 16:31:14,145 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:31:14,147 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20724140044600
+
+2021-06-09 16:31:14,150 INFO send udp packet: 172.20.0.1,51240,20724140044600
+
+2021-06-09 16:31:14,156 INFO [PUSH-SUCC] 14ms, all delay time 573ms, SLA 573ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:31:14,171 INFO [PUSH-SUCC] 26ms, all delay time 588ms, SLA 588ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=3}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:31:29,162 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:31:29,163 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20739155625700
+
+2021-06-09 16:31:29,163 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:31:29,163 INFO send udp packet: 172.20.0.1,61259,20739155625700
+
+2021-06-09 16:31:29,163 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20739156261700
+
+2021-06-09 16:31:29,164 INFO send udp packet: 172.20.0.1,51240,20739156261700
+
+2021-06-09 16:31:29,167 INFO [PUSH-SUCC] 5ms, all delay time 583ms, SLA 583ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:31:29,169 INFO [PUSH-SUCC] 6ms, all delay time 585ms, SLA 585ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:31:32,967 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 16:31:32,967 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:31:32,968 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:54886, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54886,20742961152700
+
+2021-06-09 16:31:32,969 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20742961362100
+
+2021-06-09 16:31:32,969 INFO send udp packet: 172.20.0.1,54886,20742961152700
+
+2021-06-09 16:31:32,969 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:31:32,969 INFO send udp packet: 172.20.0.1,61259,20742961362100
+
+2021-06-09 16:31:32,970 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20742962291800
+
+2021-06-09 16:31:32,970 INFO send udp packet: 172.20.0.1,51240,20742962291800
+
+2021-06-09 16:31:32,973 INFO [PUSH-SUCC] 6ms, all delay time 586ms, SLA 586ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:31:32,978 INFO [PUSH-SUCC] 9ms, all delay time 591ms, SLA 591ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=5}, DataSize=1, target=172.20.0.1
+
+2021-06-09 16:31:33,038 INFO [PUSH-SUCC] 71ms, all delay time 660ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=3}, DataSize=1
+
+2021-06-09 16:31:42,505 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 16:31:42,506 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20752498822300
+
+2021-06-09 16:31:42,506 INFO send udp packet: 172.20.0.1,51240,20752498822300
+
+2021-06-09 16:31:42,511 INFO [PUSH-SUCC] 6ms, all delay time 590ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=7}, DataSize=1
+
+2021-06-09 16:31:57,525 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 16:31:57,525 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20767518305100
+
+2021-06-09 16:31:57,526 INFO send udp packet: 172.20.0.1,51240,20767518305100
+
+2021-06-09 16:31:57,530 INFO [PUSH-SUCC] 5ms, all delay time 600ms for subscriber 172.20.0.1, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=3}, DataSize=1
+
+2021-06-09 16:33:05,809 INFO DEFAULT_GROUP@@phonemall-coupon is changed, add it to push queue.
+
+2021-06-09 16:33:05,814 INFO serviceName: DEFAULT_GROUP@@phonemall-coupon changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,20835806509200
+
+2021-06-09 16:33:05,819 INFO send udp packet: 172.20.0.1,59563,20835806509200
+
+2021-06-09 16:33:05,819 INFO DEFAULT_GROUP@@phonemall-coupon is changed, add it to push queue.
+
+2021-06-09 16:33:05,828 INFO serviceName: DEFAULT_GROUP@@phonemall-coupon changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20835820377500
+
+2021-06-09 16:33:05,841 INFO send udp packet: 172.20.0.1,61259,20835820377500
+
+2021-06-09 16:33:05,861 INFO [PUSH-SUCC] 42ms, all delay time 576ms, SLA 576ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:05,863 INFO [PUSH-SUCC] 55ms, all delay time 578ms, SLA 578ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-coupon', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,009 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 16:33:06,009 INFO DEFAULT_GROUP@@phonemall-admin is changed, add it to push queue.
+
+2021-06-09 16:33:06,109 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:33:06,152 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:54626, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54626,20836144932400
+
+2021-06-09 16:33:06,153 INFO serviceName: DEFAULT_GROUP@@phonemall-admin changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20836145795400
+
+2021-06-09 16:33:06,154 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20836146899500
+
+2021-06-09 16:33:06,154 INFO send udp packet: 172.20.0.1,54626,20836144932400
+
+2021-06-09 16:33:06,154 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 16:33:06,156 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 16:33:06,202 INFO DEFAULT_GROUP@@phonemall-cart is changed, add it to push queue.
+
+2021-06-09 16:33:06,274 INFO send udp packet: 172.20.0.1,61259,20836145795400
+
+2021-06-09 16:33:06,286 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20836278369000
+
+2021-06-09 16:33:06,309 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20836302156200
+
+2021-06-09 16:33:06,497 INFO serviceName: DEFAULT_GROUP@@phonemall-cart changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20836489726000
+
+2021-06-09 16:33:06,323 INFO [PUSH-SUCC] 314ms, all delay time 864ms, SLA 864ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,656 INFO send udp packet: 172.20.0.1,61259,20836146899500
+
+2021-06-09 16:33:06,668 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 16:33:06,683 INFO send udp packet: 172.20.0.1,61259,20836278369000
+
+2021-06-09 16:33:06,668 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 16:33:06,671 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 16:33:06,676 INFO [PUSH-SUCC] 667ms, all delay time 1170ms, SLA 1170ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-admin', ephemeral=true, revision=2}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,701 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20836693844300
+
+2021-06-09 16:33:06,706 INFO send udp packet: 172.20.0.1,61259,20836302156200
+
+2021-06-09 16:33:06,707 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:54886, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54886,20836699748800
+
+2021-06-09 16:33:06,708 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,20836700898000
+
+2021-06-09 16:33:06,710 INFO DEFAULT_GROUP@@phonemall-product is changed, add it to push queue.
+
+2021-06-09 16:33:06,708 INFO [PUSH-SUCC] 599ms, all delay time 1127ms, SLA 1127ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,709 INFO DEFAULT_GROUP@@phonemall-member is changed, add it to push queue.
+
+2021-06-09 16:33:06,709 INFO send udp packet: 172.20.0.1,51240,20836489726000
+
+2021-06-09 16:33:06,710 INFO DEFAULT_GROUP@@phonemall-search is changed, add it to push queue.
+
+2021-06-09 16:33:06,710 INFO serviceName: DEFAULT_GROUP@@phonemall-product changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20836703297400
+
+2021-06-09 16:33:06,717 INFO serviceName: DEFAULT_GROUP@@phonemall-member changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,20836709435400
+
+2021-06-09 16:33:06,718 INFO [PUSH-SUCC] 564ms, all delay time 1259ms, SLA 1259ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,722 INFO send udp packet: 172.20.0.1,51240,20836693844300
+
+2021-06-09 16:33:06,722 INFO serviceName: DEFAULT_GROUP@@phonemall-search changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20836715153000
+
+2021-06-09 16:33:06,723 INFO DEFAULT_GROUP@@phonemall-auth-server is changed, add it to push queue.
+
+2021-06-09 16:33:06,724 INFO [PUSH-SUCC] 568ms, all delay time 1146ms, SLA 1146ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,727 INFO send udp packet: 172.20.0.1,54886,20836699748800
+
+2021-06-09 16:33:06,771 INFO serviceName: DEFAULT_GROUP@@phonemall-auth-server changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20836763851600
+
+2021-06-09 16:33:06,775 INFO [PUSH-SUCC] 573ms, all delay time 1194ms, SLA 1194ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-cart', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,780 INFO send udp packet: 172.20.0.1,59563,20836700898000
+
+2021-06-09 16:33:06,786 INFO [PUSH-SUCC] 118ms, all delay time 1327ms, SLA 1327ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,787 INFO send udp packet: 172.20.0.1,51240,20836703297400
+
+2021-06-09 16:33:06,812 INFO send udp packet: 172.20.0.1,54408,20836709435400
+
+2021-06-09 16:33:06,813 INFO [PUSH-SUCC] 142ms, all delay time 1157ms, SLA 1157ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,815 INFO send udp packet: 172.20.0.1,61259,20836715153000
+
+2021-06-09 16:33:06,820 INFO [PUSH-SUCC] 152ms, all delay time 1242ms, SLA 1242ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,821 INFO send udp packet: 172.20.0.1,61259,20836763851600
+
+2021-06-09 16:33:06,822 INFO [PUSH-SUCC] 112ms, all delay time 1244ms, SLA 1244ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-product', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,883 INFO [PUSH-SUCC] 173ms, all delay time 1227ms, SLA 1227ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-search', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,884 INFO [PUSH-SUCC] 175ms, all delay time 1425ms, SLA 1425ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-member', ephemeral=true, revision=6}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:06,903 INFO [PUSH-SUCC] 180ms, all delay time 1247ms, SLA 1247ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-auth-server', ephemeral=true, revision=4}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:07,310 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 16:33:07,312 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:59563, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,59563,20837304947300
+
+2021-06-09 16:33:07,313 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 16:33:07,313 INFO send udp packet: 172.20.0.1,59563,20837304947300
+
+2021-06-09 16:33:07,313 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20837305707100
+
+2021-06-09 16:33:07,313 INFO send udp packet: 172.20.0.1,61259,20837305707100
+
+2021-06-09 16:33:07,313 INFO DEFAULT_GROUP@@phonemall-ware is changed, add it to push queue.
+
+2021-06-09 16:33:07,314 INFO serviceName: DEFAULT_GROUP@@phonemall-ware changed, schedule push for: 172.20.0.1:51240, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,51240,20837306884800
+
+2021-06-09 16:33:07,315 INFO send udp packet: 172.20.0.1,51240,20837306884800
+
+2021-06-09 16:33:07,317 INFO [PUSH-SUCC] 4ms, all delay time 541ms, SLA 541ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=8}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:07,323 INFO [PUSH-SUCC] 10ms, all delay time 547ms, SLA 547ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=8}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:07,811 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:33:07,834 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:65488, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,65488,20837826661500
+
+2021-06-09 16:33:07,836 INFO send udp packet: 172.20.0.1,65488,20837826661500
+
+2021-06-09 16:33:07,836 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:33:07,845 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:61259, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,61259,20837838318000
+
+2021-06-09 16:33:07,846 INFO send udp packet: 172.20.0.1,61259,20837838318000
+
+2021-06-09 16:33:07,846 INFO DEFAULT_GROUP@@phonemall-order is changed, add it to push queue.
+
+2021-06-09 16:33:07,847 INFO serviceName: DEFAULT_GROUP@@phonemall-order changed, schedule push for: 172.20.0.1:54408, agent: Nacos-Java-Client:v1.2.1, key: 172.20.0.1,54408,20837839908100
+
+2021-06-09 16:33:07,848 INFO send udp packet: 172.20.0.1,54408,20837839908100
+
+2021-06-09 16:33:07,898 INFO [PUSH-SUCC] 52ms, all delay time 588ms, SLA 589ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=8}, DataSize=0, target=172.20.0.1
+
+2021-06-09 16:33:17,313 INFO retry to push data, key: 172.20.0.1,59563,20837304947300
+
+2021-06-09 16:33:17,836 INFO retry to push data, key: 172.20.0.1,65488,20837826661500
+
+2021-06-09 16:33:17,936 INFO retry to push data, key: 172.20.0.1,61259,20837838318000
+
+2021-06-09 16:33:27,426 WARN max re-push times reached, retry times 2, key: 172.20.0.1,59563,20837304947300
+
+2021-06-09 16:33:27,427 ERROR [PUSH-FAIL] 20117ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=8}, reason=null, target=172.20.0.1
+
+2021-06-09 16:33:27,936 WARN max re-push times reached, retry times 2, key: 172.20.0.1,65488,20837826661500
+
+2021-06-09 16:33:27,937 ERROR [PUSH-FAIL] 20126ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=8}, reason=null, target=172.20.0.1
+
+2021-06-09 16:33:27,937 WARN max re-push times reached, retry times 2, key: 172.20.0.1,61259,20837838318000
+
+2021-06-09 16:33:27,938 ERROR [PUSH-FAIL] 20102ms, Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=8}, reason=null, target=172.20.0.1
+

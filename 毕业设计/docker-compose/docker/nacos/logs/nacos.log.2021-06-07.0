@@ -1,0 +1,36 @@
+2021-06-07 00:08:51,597 WARN clearConfigHistory start
+
+2021-06-07 00:08:51,681 INFO [capacityManagement] start correct usage
+
+2021-06-07 00:08:51,684 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-06-07 00:16:31,082 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2021-06-07 00:16:31,087 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2021-06-07 00:16:31,083 WARN [WatchFileCenter] start close
+
+2021-06-07 00:16:31,083 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2021-06-07 00:16:31,113 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2021-06-07 00:16:31,084 WARN [NotifyCenter] Start destroying Publisher
+
+2021-06-07 00:16:31,112 INFO Shutting down ExecutorService 'taskScheduler'
+
+2021-06-07 00:16:31,113 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/tps
+
+2021-06-07 00:16:31,115 WARN [NotifyCenter] Destruction of the end
+
+2021-06-07 00:16:31,136 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/conf
+
+2021-06-07 00:16:31,136 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2021-06-07 00:16:31,142 WARN [HttpClientBeanHolder] Destruction of the end
+
+2021-06-07 00:16:31,136 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/loader
+
+2021-06-07 00:16:31,147 WARN [WatchFileCenter] already closed
+
+2021-06-07 00:16:33,542 WARN [ThreadPoolManager] Destruction of the end
+

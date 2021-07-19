@@ -1,0 +1,476 @@
+2021-06-06 09:35:03,492 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2021-06-06 09:35:03,492 WARN Using naming.distro config to replace core.distro config
+
+2021-06-06 09:35:03,811 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-06-06 09:35:03,813 INFO listen for service meta change
+
+2021-06-06 09:36:54,523 INFO Client connection 172.29.0.2:8091#true connect
+
+2021-06-06 09:36:54,525 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=0}, 172.29.0.2:8091#true
+
+2021-06-06 09:44:45,824 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 09:44:45,824 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 09:48:09,436 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 09:48:42,847 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 09:49:38,227 WARN namespace : public, [DEFAULT_GROUP@@phonemall-order] services are automatically cleaned
+
+2021-06-06 10:10:06,110 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=1}, 172.29.0.2:8091#true
+
+2021-06-06 10:10:15,446 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=2}, 172.29.0.2:8091#true
+
+2021-06-06 10:20:16,389 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 10:20:16,389 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 10:20:18,115 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 10:20:39,904 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, 192.168.1.101:9000#true
+
+2021-06-06 10:22:16,401 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, ip: {"ip":"192.168.1.101","port":9000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.1.101#9000#DEFAULT#DEFAULT_GROUP@@phonemall-order"},"lastHeartBeatTime":1622946105207,"metadataId":"192.168.1.101:9000:DEFAULT"}
+
+2021-06-06 10:22:16,401 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, 192.168.1.101:9000#true
+
+2021-06-06 10:22:17,949 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 10:22:56,955 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 10:22:56,955 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, 192.168.1.101:9000#true
+
+2021-06-06 10:24:06,960 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, ip: {"ip":"192.168.1.101","port":9000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.1.101#9000#DEFAULT#DEFAULT_GROUP@@phonemall-order"},"lastHeartBeatTime":1622946214628,"metadataId":"192.168.1.101:9000:DEFAULT"}
+
+2021-06-06 10:24:06,960 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, 192.168.1.101:9000#true
+
+2021-06-06 10:24:07,884 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, 192.168.1.101:9000#true
+
+2021-06-06 10:26:15,936 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, 192.168.1.101:9000#true
+
+2021-06-06 10:26:47,962 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 10:27:38,239 WARN namespace : public, [DEFAULT_GROUP@@phonemall-order] services are automatically cleaned
+
+2021-06-06 10:30:04,628 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 10:30:04,629 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 10:33:21,634 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=3}, 172.29.0.2:8091#true
+
+2021-06-06 10:33:30,589 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=4}, 172.29.0.2:8091#true
+
+2021-06-06 10:34:14,887 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=5}, 172.29.0.2:8091#true
+
+2021-06-06 10:34:47,983 INFO Client connection 172.29.0.2:8091#true disconnect, remove instances and subscribers
+
+2021-06-06 10:35:03,875 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 10:35:25,628 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, 192.168.1.101:9000#true
+
+2021-06-06 10:35:38,242 WARN namespace : public, [DEFAULT_GROUP@@serverAddr] services are automatically cleaned
+
+2021-06-06 10:36:21,799 INFO Client connection 172.29.0.2:8091#true connect
+
+2021-06-06 10:36:21,799 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=0}, 172.29.0.2:8091#true
+
+2021-06-06 10:38:39,658 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, ip: {"ip":"192.168.1.101","port":9000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.1.101#9000#DEFAULT#DEFAULT_GROUP@@phonemall-order"},"lastHeartBeatTime":1622947085479,"metadataId":"192.168.1.101:9000:DEFAULT"}
+
+2021-06-06 10:38:39,659 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, 192.168.1.101:9000#true
+
+2021-06-06 10:38:42,993 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 10:38:45,409 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 10:38:45,409 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, 192.168.1.101:9000#true
+
+2021-06-06 10:38:47,431 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, 192.168.1.101:9000#true
+
+2021-06-06 10:39:12,539 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, 192.168.1.101:9000#true
+
+2021-06-06 10:41:19,408 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, 192.168.1.101:9000#true
+
+2021-06-06 10:41:40,421 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=8}, 192.168.1.101:9000#true
+
+2021-06-06 10:48:44,106 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=9}, 192.168.1.101:9000#true
+
+2021-06-06 10:49:04,626 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=10}, 192.168.1.101:9000#true
+
+2021-06-06 10:49:05,358 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=11}, 192.168.1.101:9000#true
+
+2021-06-06 10:49:38,020 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 10:50:38,246 WARN namespace : public, [DEFAULT_GROUP@@phonemall-order] services are automatically cleaned
+
+2021-06-06 10:50:54,163 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 10:50:54,163 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 10:51:45,360 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 10:52:07,136 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, 192.168.1.101:9000#true
+
+2021-06-06 10:55:10,343 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2021-06-06 10:55:10,343 WARN Using naming.distro config to replace core.distro config
+
+2021-06-06 10:55:10,570 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-06-06 10:55:10,572 INFO listen for service meta change
+
+2021-06-06 10:55:21,740 INFO Client connection 172.29.0.2:8091#true connect
+
+2021-06-06 10:55:21,750 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=0}, 172.29.0.2:8091#true
+
+2021-06-06 10:55:23,661 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 10:55:23,661 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 10:56:48,555 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 10:57:12,480 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, 192.168.1.101:9000#true
+
+2021-06-06 10:58:28,543 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=1}, 172.29.0.2:8091#true
+
+2021-06-06 10:58:40,766 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=2}, 172.29.0.2:8091#true
+
+2021-06-06 11:03:23,721 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, ip: {"ip":"192.168.1.101","port":9000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.1.101#9000#DEFAULT#DEFAULT_GROUP@@phonemall-order"},"lastHeartBeatTime":1622948571920,"metadataId":"192.168.1.101:9000:DEFAULT"}
+
+2021-06-06 11:03:23,721 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, 192.168.1.101:9000#true
+
+2021-06-06 11:03:23,989 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 11:03:36,401 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 11:03:36,401 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, 192.168.1.101:9000#true
+
+2021-06-06 11:04:06,404 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, ip: {"ip":"192.168.1.101","port":9000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.1.101#9000#DEFAULT#DEFAULT_GROUP@@phonemall-order"},"lastHeartBeatTime":1622948616401,"metadataId":"192.168.1.101:9000:DEFAULT"}
+
+2021-06-06 11:04:06,404 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, 192.168.1.101:9000#true
+
+2021-06-06 11:04:08,990 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 11:04:24,620 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 11:04:24,620 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, 192.168.1.101:9000#true
+
+2021-06-06 11:04:44,875 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, 192.168.1.101:9000#true
+
+2021-06-06 11:05:18,994 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 11:06:43,895 WARN namespace : public, [DEFAULT_GROUP@@phonemall-order] services are automatically cleaned
+
+2021-06-06 11:07:50,582 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 11:07:50,582 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 11:08:30,640 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 11:08:49,924 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, 192.168.1.101:9000#true
+
+2021-06-06 11:09:46,149 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, 192.168.1.101:9000#true
+
+2021-06-06 11:10:07,197 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, 192.168.1.101:9000#true
+
+2021-06-06 11:10:21,057 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, 192.168.1.101:9000#true
+
+2021-06-06 11:10:41,765 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, 192.168.1.101:9000#true
+
+2021-06-06 11:11:09,760 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, 192.168.1.101:9000#true
+
+2021-06-06 11:11:31,841 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=8}, 192.168.1.101:9000#true
+
+2021-06-06 11:13:08,266 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=9}, 192.168.1.101:9000#true
+
+2021-06-06 11:13:39,014 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 11:14:21,823 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 11:14:21,823 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=10}, 192.168.1.101:9000#true
+
+2021-06-06 11:14:22,602 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=11}, 192.168.1.101:9000#true
+
+2021-06-06 11:14:48,474 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=12}, 192.168.1.101:9000#true
+
+2021-06-06 11:15:38,998 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=13}, 192.168.1.101:9000#true
+
+2021-06-06 11:16:04,938 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=14}, 192.168.1.101:9000#true
+
+2021-06-06 11:16:50,599 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=3}, 172.29.0.2:8091#true
+
+2021-06-06 11:16:57,919 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=4}, 172.29.0.2:8091#true
+
+2021-06-06 11:18:31,499 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=15}, 192.168.1.101:9000#true
+
+2021-06-06 11:18:52,077 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=16}, 192.168.1.101:9000#true
+
+2021-06-06 11:30:25,946 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=5}, 172.29.0.2:8091#true
+
+2021-06-06 11:30:33,737 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=6}, 172.29.0.2:8091#true
+
+2021-06-06 11:31:12,471 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=17}, 192.168.1.101:9000#true
+
+2021-06-06 11:31:33,606 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=18}, 192.168.1.101:9000#true
+
+2021-06-06 11:32:32,811 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=19}, 192.168.1.101:9000#true
+
+2021-06-06 11:32:58,874 INFO Client connection 192.168.1.101:50992#true connect
+
+2021-06-06 11:33:04,067 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 11:33:16,197 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 11:33:16,197 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=20}, 192.168.1.101:9000#true
+
+2021-06-06 11:35:43,340 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=21}, 192.168.1.101:9000#true
+
+2021-06-06 11:36:14,076 INFO Client connection 192.168.1.101:50992#true disconnect, remove instances and subscribers
+
+2021-06-06 11:36:14,076 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 11:36:43,906 WARN namespace : public, [DEFAULT_GROUP@@phonemall-order] services are automatically cleaned
+
+2021-06-06 11:38:27,370 INFO Client connection 192.168.1.101:57077#true connect
+
+2021-06-06 11:38:44,999 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 11:38:44,999 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 11:38:45,946 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 11:39:09,083 INFO Client connection 192.168.1.101:57077#true disconnect, remove instances and subscribers
+
+2021-06-06 11:39:19,084 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 11:40:43,908 WARN namespace : public, [DEFAULT_GROUP@@phonemall-order] services are automatically cleaned
+
+2021-06-06 12:07:01,205 INFO Client connection 192.168.1.101:50139#true connect
+
+2021-06-06 12:07:19,140 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 12:07:19,140 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 12:09:01,842 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2021-06-06 12:09:01,842 WARN Using naming.distro config to replace core.distro config
+
+2021-06-06 12:09:02,056 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-06-06 12:09:02,058 INFO listen for service meta change
+
+2021-06-06 12:09:10,401 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 12:09:10,409 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 12:09:12,760 INFO Client connection 192.168.1.101:50139#true connect
+
+2021-06-06 12:09:13,647 INFO Client connection 172.29.0.2:8091#true connect
+
+2021-06-06 12:09:13,647 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=0}, 172.29.0.2:8091#true
+
+2021-06-06 12:09:40,401 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 12:09:54,369 INFO Client connection 192.168.1.101:61394#true connect
+
+2021-06-06 12:10:04,343 INFO Client connection 192.168.1.101:50139#true disconnect, remove instances and subscribers
+
+2021-06-06 12:10:11,988 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, 192.168.1.101:9000#true
+
+2021-06-06 12:11:04,541 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2021-06-06 12:11:04,541 WARN Using naming.distro config to replace core.distro config
+
+2021-06-06 12:11:04,829 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-06-06 12:11:04,830 INFO listen for service meta change
+
+2021-06-06 12:11:15,868 INFO Client connection 192.168.1.101:61394#true connect
+
+2021-06-06 12:11:17,468 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 12:11:17,469 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 12:13:07,657 INFO Client connection 192.168.1.101:61394#true disconnect, remove instances and subscribers
+
+2021-06-06 12:13:12,496 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, ip: {"ip":"192.168.1.101","port":9000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.1.101#9000#DEFAULT#DEFAULT_GROUP@@phonemall-order"},"lastHeartBeatTime":1622952757740,"metadataId":"192.168.1.101:9000:DEFAULT"}
+
+2021-06-06 12:13:12,496 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 12:13:12,657 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 12:14:38,477 WARN namespace : public, [DEFAULT_GROUP@@phonemall-order] services are automatically cleaned
+
+2021-06-06 12:16:43,046 INFO Client connection 192.168.1.101:61394#true connect
+
+2021-06-06 12:16:43,570 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 12:16:43,570 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 12:17:17,669 INFO Client connection 192.168.1.101:61394#true disconnect, remove instances and subscribers
+
+2021-06-06 12:17:23,574 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, ip: {"ip":"192.168.1.101","port":9000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.1.101#9000#DEFAULT#DEFAULT_GROUP@@phonemall-order"},"lastHeartBeatTime":1622953008589,"metadataId":"192.168.1.101:9000:DEFAULT"}
+
+2021-06-06 12:17:23,574 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 12:17:27,669 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 12:18:50,071 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2021-06-06 12:18:50,071 WARN Using naming.distro config to replace core.distro config
+
+2021-06-06 12:18:50,297 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-06-06 12:18:50,298 INFO listen for service meta change
+
+2021-06-06 12:34:09,370 INFO Client connection 172.100.0.22:8091#true connect
+
+2021-06-06 12:34:09,371 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=0}, 172.100.0.22:8091#true
+
+2021-06-06 12:35:28,504 INFO Client connection 192.168.1.101:61394#true connect
+
+2021-06-06 12:35:28,522 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 12:35:28,522 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 12:35:28,822 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 12:35:46,857 INFO Client connection 192.168.1.101:55171#true connect
+
+2021-06-06 12:36:02,681 INFO Client connection 192.168.1.101:61394#true disconnect, remove instances and subscribers
+
+2021-06-06 12:36:02,681 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 12:36:19,894 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 12:36:19,894 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, 192.168.1.101:9000#true
+
+2021-06-06 12:39:32,049 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=1}, 172.100.0.22:8091#true
+
+2021-06-06 12:39:40,621 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=2}, 172.100.0.22:8091#true
+
+2021-06-06 12:42:49,313 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=3}, 172.100.0.22:8091#true
+
+2021-06-06 12:43:05,842 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=4}, 172.100.0.22:8091#true
+
+2021-06-06 12:47:38,408 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=5}, 172.100.0.22:8091#true
+
+2021-06-06 12:47:53,478 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=6}, 172.100.0.22:8091#true
+
+2021-06-06 12:50:13,486 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=7}, 172.100.0.22:8091#true
+
+2021-06-06 12:50:22,022 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=8}, 172.100.0.22:8091#true
+
+2021-06-06 12:51:00,893 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, 192.168.1.101:9000#true
+
+2021-06-06 12:51:14,324 INFO Client connection 192.168.1.101:54951#true connect
+
+2021-06-06 12:51:22,725 INFO Client connection 192.168.1.101:55171#true disconnect, remove instances and subscribers
+
+2021-06-06 12:51:32,726 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 12:51:43,625 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 12:51:43,625 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, 192.168.1.101:9000#true
+
+2021-06-06 12:55:24,086 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=9}, 172.100.0.22:8091#true
+
+2021-06-06 12:55:57,738 INFO Client connection 172.100.0.22:8091#true disconnect, remove instances and subscribers
+
+2021-06-06 12:57:23,400 WARN namespace : public, [DEFAULT_GROUP@@serverAddr] services are automatically cleaned
+
+2021-06-06 13:02:11,984 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, 192.168.1.101:9000#true
+
+2021-06-06 13:02:25,683 INFO Client connection 192.168.1.101:62634#true connect
+
+2021-06-06 13:02:37,757 INFO Client connection 192.168.1.101:54951#true disconnect, remove instances and subscribers
+
+2021-06-06 13:02:42,758 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 13:02:45,376 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 13:02:45,376 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, 192.168.1.101:9000#true
+
+2021-06-06 13:03:51,292 INFO Client connection 172.17.0.1:8091#true connect
+
+2021-06-06 13:03:51,292 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=0}, 172.17.0.1:8091#true
+
+2021-06-06 13:04:14,624 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=1}, 172.17.0.1:8091#true
+
+2021-06-06 13:04:33,340 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=2}, 172.17.0.1:8091#true
+
+2021-06-06 13:05:14,219 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, 192.168.1.101:9000#true
+
+2021-06-06 13:05:37,764 INFO Client connection 192.168.1.101:62634#true disconnect, remove instances and subscribers
+
+2021-06-06 13:05:47,765 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 13:06:23,404 WARN namespace : public, [DEFAULT_GROUP@@phonemall-order] services are automatically cleaned
+
+2021-06-06 13:08:39,405 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=3}, 172.17.0.1:8091#true
+
+2021-06-06 13:09:12,774 INFO Client connection 172.17.0.1:8091#true disconnect, remove instances and subscribers
+
+2021-06-06 13:09:13,983 INFO Client connection 192.168.65.4:8091#true connect
+
+2021-06-06 13:09:13,983 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=4}, 192.168.65.4:8091#true
+
+2021-06-06 13:09:53,512 INFO Client connection 192.168.1.101:57535#true connect
+
+2021-06-06 13:10:23,054 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 13:10:23,054 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=0}, 192.168.1.101:9000#true
+
+2021-06-06 13:14:17,892 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=1}, 192.168.1.101:9000#true
+
+2021-06-06 13:14:47,786 INFO Client connection 192.168.1.101:57535#true disconnect, remove instances and subscribers
+
+2021-06-06 13:14:52,787 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 13:14:54,968 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 13:14:54,968 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=2}, 192.168.1.101:9000#true
+
+2021-06-06 13:15:41,553 INFO Client connection 192.168.1.101:11000#true connect
+
+2021-06-06 13:15:41,553 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=0}, 192.168.1.101:11000#true
+
+2021-06-06 13:16:33,498 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=3}, 192.168.1.101:9000#true
+
+2021-06-06 13:16:48,715 INFO Client connection 192.168.1.101:62376#true connect
+
+2021-06-06 13:17:06,154 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=4}, 192.168.1.101:9000#true
+
+2021-06-06 13:17:20,183 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=5}, 192.168.1.101:9000#true
+
+2021-06-06 13:17:41,554 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=6}, 192.168.1.101:9000#true
+
+2021-06-06 13:17:52,794 INFO Client connection 192.168.1.101:62376#true disconnect, remove instances and subscribers
+
+2021-06-06 13:18:53,307 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='serverAddr', ephemeral=true, revision=5}, 192.168.65.4:8091#true
+
+2021-06-06 13:19:27,798 INFO Client connection 192.168.65.4:8091#true disconnect, remove instances and subscribers
+
+2021-06-06 13:20:23,409 WARN namespace : public, [DEFAULT_GROUP@@serverAddr] services are automatically cleaned
+
+2021-06-06 13:43:06,143 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=7}, 192.168.1.101:9000#true
+
+2021-06-06 13:43:31,448 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=8}, 192.168.1.101:9000#true
+
+2021-06-06 13:43:34,160 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=1}, 192.168.1.101:11000#true
+
+2021-06-06 13:43:52,420 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=2}, 192.168.1.101:11000#true
+
+2021-06-06 13:44:18,421 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=3}, 192.168.1.101:11000#true
+
+2021-06-06 13:44:19,631 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=9}, 192.168.1.101:9000#true
+
+2021-06-06 13:44:45,309 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-ware', ephemeral=true, revision=4}, 192.168.1.101:11000#true
+
+2021-06-06 13:44:52,876 INFO Client connection 192.168.1.101:9000#true disconnect, remove instances and subscribers
+
+2021-06-06 13:44:55,742 INFO Client connection 192.168.1.101:9000#true connect
+
+2021-06-06 13:44:55,742 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='phonemall-order', ephemeral=true, revision=10}, 192.168.1.101:9000#true
+

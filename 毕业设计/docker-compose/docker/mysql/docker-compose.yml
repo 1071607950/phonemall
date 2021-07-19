@@ -1,0 +1,33 @@
+version: '3'
+services:
+    mysql:
+        image: mysql:5.7
+        container_name: mysql
+        hostname: mysql
+        ports:
+          - "3306:3306"
+        volumes:
+          - ./conf:/etc/mysql
+          - ./logs:/var/log/mysql
+          - D:/docker/mysql/data:/var/lib/mysql
+        environment:
+          - MYSQL_ROOT_PASSWORD=root
+          - MYSQL_USER=ponemall
+          - MYSQL_PASS=ponemall
+        networks:
+          myNetwork:
+            ipv4_address: 172.100.0.10
+        deploy:
+           resources:
+              limits:
+                 cpus: '2'
+                 memory: 256m
+networks:
+  myNetwork:
+    name: myNetwork
+    driver: bridge
+    ipam:
+      config:
+      -
+        subnet: 172.100.0.0/16
+        gateway: 172.100.0.1

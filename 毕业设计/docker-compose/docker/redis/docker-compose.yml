@@ -1,0 +1,25 @@
+version: '3'
+services:
+    remaster:
+        image: redis
+        container_name: master
+        hostname: redis
+        ports:
+          - "6379:6379"
+        expose:
+            - 6379
+        volumes:
+          - ./conf/redis.conf:/etc/redis/redis.conf
+        command: /bin/bash -c "redis-server /etc/redis/redis.conf --port 6379"
+        networks:
+          myNetwork:
+            ipv4_address: 172.100.0.11
+        deploy:
+           resources:
+              limits:
+                 cpus: '2'
+                 memory: 32m
+networks:
+  myNetwork:   #自定义网络名称
+    external:     #外部已定义网卡
+      name: "myNetwork"    #使用docker-compose的默认网卡　　

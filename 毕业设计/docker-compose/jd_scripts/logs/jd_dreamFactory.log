@@ -1,0 +1,2173 @@
+Jun 06 23:51:07 
+Jun 06 23:51:07 🔔京喜工厂, 开始!
+Jun 06 23:51:07 
+Jun 06 23:51:07 ====================共1个京东账号Cookie=========
+Jun 06 23:51:07 
+Jun 06 23:51:07 ==================脚本执行- 北京时间(UTC+8)：6/6/2021, 11:51:07 PM=====================
+Jun 06 23:51:07 
+Jun 06 23:51:10 获取签名参数成功！
+Jun 06 23:51:10 fp: 4577845242784162
+Jun 06 23:51:10 token: tk01wc1a91c94a8nUmFpQi9aZ3FsgdeDWXokhqCB7BBKkihinYBGQuW6te3/WWT+o2Iet/UKuu8MVyLInQxk+cdU9rOj
+Jun 06 23:51:10 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='xqhoaw2grWGc';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Jun 06 23:51:13 拼团活动ID: 获取成功 9rjG4ynoRkoB7xaWk_i6bw==
+Jun 06 23:51:13 开始获取京喜工厂配置文件
+Jun 06 23:51:13 
+Jun 06 23:51:13 共1个京东账号
+Jun 06 23:51:13 
+Jun 06 23:51:13 您提供了1个账号的京喜工厂助力码
+Jun 06 23:51:13 
+Jun 06 23:51:13 
+Jun 06 23:51:13 ******开始【京东账号1】liu1071607950*********
+Jun 06 23:51:13 
+Jun 06 23:51:13 GetUserInfo异常：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1622994673,"ret":10001}
+Jun 06 23:51:13 QueryFriendList异常：{"msg":"亲,您还未登陆,正在为您跳转至登录页面...","nowTime":1622994673,"ret":10001}
+Jun 06 23:51:13 开始
+Jun 06 23:51:17 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 06 23:51:17 京喜工厂 API请求失败，请检查网路重试
+Jun 06 23:51:17 第1个京东账号将要助力的好友["v_6oxhaw6AsFBMpI51z2_w=="]
+Jun 06 23:51:17 助力朋友[v_6oxhaw6AsFBMpI51z2_w==]失败：亲,您还未登陆,正在为您跳转至登录页面...
+Jun 06 23:51:17 
+Jun 06 23:51:17 🔔京喜工厂, 结束! 🕛 10.139 秒
+Jun 06 23:51:17 
+Jun 08 09:50:55 
+Jun 08 09:50:55 🔔京喜工厂, 开始!
+Jun 08 09:50:55 
+Jun 08 09:50:55 ====================共1个京东账号Cookie=========
+Jun 08 09:50:55 
+Jun 08 09:50:55 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 9:50:55 AM=====================
+Jun 08 09:50:55 
+Jun 08 09:50:59 获取签名参数成功！
+Jun 08 09:50:59 fp: 7753674194181162
+Jun 08 09:50:59 token: tk01we8e31d3aa8nRTdwcG9tZFdae1RgE6FPwg6xrjnZTQdIor9naKtlttRtOPsnep5fgx68AoQdgCX1b0HUHCkhtEL3
+Jun 08 09:50:59 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='JPDrOuIlkv6r';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 08 09:51:17 拼团活动ID: 获取成功 9rjG4ynoRkoB7xaWk_i6bw==
+Jun 08 09:51:17 开始获取京喜工厂配置文件
+Jun 08 09:51:17 
+Jun 08 09:51:17 共1个京东账号
+Jun 08 09:51:17 
+Jun 08 09:51:17 您提供了1个账号的京喜工厂助力码
+Jun 08 09:51:17 
+Jun 08 09:51:18 
+Jun 08 09:51:18 ******开始【京东账号1】liu1071607950*********
+Jun 08 09:51:18 
+Jun 08 09:51:18 
+Jun 08 09:51:18 ==============📣系统通知📣==============
+Jun 08 09:51:18 京喜工厂
+Jun 08 09:51:18 【提示】cookie已失效
+Jun 08 09:51:18 京东账号1 liu1071607950
+Jun 08 09:51:18 请重新登录获取
+Jun 08 09:51:18 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 09:51:18 
+Jun 08 09:51:18 
+Jun 08 09:51:18 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 09:51:18 
+Jun 08 09:51:18 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 09:51:18 
+Jun 08 09:51:18 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 09:51:18 
+Jun 08 09:51:18 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 09:51:18 
+Jun 08 09:51:18 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 09:51:18 
+Jun 08 09:51:18 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 09:51:18 
+Jun 08 09:51:18 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 09:51:18 
+Jun 08 09:51:18 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 09:51:18 
+Jun 08 09:51:20 
+Jun 08 09:51:20 🔔京喜工厂, 结束! 🕛 25.01 秒
+Jun 08 09:51:20 
+Jun 08 10:51:35 
+Jun 08 10:51:35 🔔京喜工厂, 开始!
+Jun 08 10:51:35 
+Jun 08 10:51:35 ====================共1个京东账号Cookie=========
+Jun 08 10:51:35 
+Jun 08 10:51:35 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 10:51:35 AM=====================
+Jun 08 10:51:35 
+Jun 08 10:51:38 获取签名参数成功！
+Jun 08 10:51:38 fp: 1964839891040162
+Jun 08 10:51:38 token: tk01w98da1bbaa8nTVdoNGRUOHlXI1S0Am4475Jo9evPr0sIlte4xIcBBbeltcKu3hjHu4LZ56sfJ1QpOo6uCuK/yJV2
+Jun 08 10:51:38 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='Yb/4LcJtk6wo';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 08 10:51:57 拼团活动ID: 获取成功 9rjG4ynoRkoB7xaWk_i6bw==
+Jun 08 10:51:57 开始获取京喜工厂配置文件
+Jun 08 10:51:57 
+Jun 08 10:51:57 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 10:51:57 共1个京东账号
+Jun 08 10:51:57 
+Jun 08 10:51:57 您提供了2个账号的京喜工厂助力码
+Jun 08 10:51:57 
+Jun 08 10:51:57 
+Jun 08 10:51:57 ******开始【京东账号1】liu1071607950*********
+Jun 08 10:51:57 
+Jun 08 10:51:57 
+Jun 08 10:51:57 ==============📣系统通知📣==============
+Jun 08 10:51:57 京喜工厂
+Jun 08 10:51:57 【提示】cookie已失效
+Jun 08 10:51:57 京东账号1 liu1071607950
+Jun 08 10:51:57 请重新登录获取
+Jun 08 10:51:57 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 10:51:57 
+Jun 08 10:51:58 
+Jun 08 10:51:58 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 10:51:58 
+Jun 08 10:51:58 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 10:51:58 
+Jun 08 10:51:58 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 10:51:58 
+Jun 08 10:51:58 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 10:51:58 
+Jun 08 10:51:58 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 10:51:58 
+Jun 08 10:51:58 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 10:51:58 
+Jun 08 10:51:58 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 10:51:58 
+Jun 08 10:51:58 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 10:51:58 
+Jun 08 10:51:58 
+Jun 08 10:51:58 🔔京喜工厂, 结束! 🕛 23.199 秒
+Jun 08 10:51:58 
+Jun 08 11:50:33 
+Jun 08 11:50:33 🔔京喜工厂, 开始!
+Jun 08 11:50:33 
+Jun 08 11:50:33 ====================共1个京东账号Cookie=========
+Jun 08 11:50:33 
+Jun 08 11:50:33 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 11:50:33 AM=====================
+Jun 08 11:50:33 
+Jun 08 11:50:36 获取签名参数成功！
+Jun 08 11:50:36 fp: 9620386930252162
+Jun 08 11:50:36 token: tk01w767819eea8ndkk3MGhieTFsh760VG5ogLk56UR0LLbVtKn8/E15z4biNnGM2w/Xh06IWB9B7DDx2E31PK0QgiAS
+Jun 08 11:50:36 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='H8VMYfW7l7GN';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA512(str,token)}
+Jun 08 11:50:36 拼团活动ID: 获取成功 9rjG4ynoRkoB7xaWk_i6bw==
+Jun 08 11:50:36 开始获取京喜工厂配置文件
+Jun 08 11:50:36 
+Jun 08 11:50:36 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 11:50:36 共1个京东账号
+Jun 08 11:50:36 
+Jun 08 11:50:36 您提供了2个账号的京喜工厂助力码
+Jun 08 11:50:36 
+Jun 08 11:50:36 
+Jun 08 11:50:36 ******开始【京东账号1】liu1071607950*********
+Jun 08 11:50:36 
+Jun 08 11:50:36 
+Jun 08 11:50:36 ==============📣系统通知📣==============
+Jun 08 11:50:36 京喜工厂
+Jun 08 11:50:36 【提示】cookie已失效
+Jun 08 11:50:36 京东账号1 liu1071607950
+Jun 08 11:50:36 请重新登录获取
+Jun 08 11:50:36 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 11:50:36 
+Jun 08 11:50:36 
+Jun 08 11:50:36 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 11:50:36 
+Jun 08 11:50:36 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 11:50:36 
+Jun 08 11:50:36 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 11:50:36 
+Jun 08 11:50:36 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 11:50:36 
+Jun 08 11:50:36 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 11:50:36 
+Jun 08 11:50:36 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 11:50:36 
+Jun 08 11:50:36 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 11:50:36 
+Jun 08 11:50:36 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 11:50:36 
+Jun 08 11:50:36 
+Jun 08 11:50:36 🔔京喜工厂, 结束! 🕛 3.178 秒
+Jun 08 11:50:36 
+Jun 08 12:50:58 
+Jun 08 12:50:58 🔔京喜工厂, 开始!
+Jun 08 12:50:58 
+Jun 08 12:50:58 ====================共1个京东账号Cookie=========
+Jun 08 12:50:58 
+Jun 08 12:50:58 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 12:50:58 PM=====================
+Jun 08 12:50:58 
+Jun 08 12:51:00 获取签名参数成功！
+Jun 08 12:51:00 fp: 1257703835433162
+Jun 08 12:51:00 token: tk01w96321b6ba8neWQ5NDBUQnlzPb92sKEFlm/bP2xadmX/reJUbLCfU5X5h+2KRQc/+Kmf3iKtdDLWgbMYH+Y4tijK
+Jun 08 12:51:00 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='N+VtpnhesFy8';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA512(str,token)}
+Jun 08 12:51:00 拼团活动ID: 获取成功 9rjG4ynoRkoB7xaWk_i6bw==
+Jun 08 12:51:00 开始获取京喜工厂配置文件
+Jun 08 12:51:00 
+Jun 08 12:51:00 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 12:51:00 共1个京东账号
+Jun 08 12:51:00 
+Jun 08 12:51:00 您提供了2个账号的京喜工厂助力码
+Jun 08 12:51:00 
+Jun 08 12:51:00 
+Jun 08 12:51:00 ******开始【京东账号1】liu1071607950*********
+Jun 08 12:51:00 
+Jun 08 12:51:00 
+Jun 08 12:51:00 ==============📣系统通知📣==============
+Jun 08 12:51:00 京喜工厂
+Jun 08 12:51:00 【提示】cookie已失效
+Jun 08 12:51:00 京东账号1 liu1071607950
+Jun 08 12:51:00 请重新登录获取
+Jun 08 12:51:00 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 12:51:00 
+Jun 08 12:51:00 
+Jun 08 12:51:00 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 12:51:00 
+Jun 08 12:51:00 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 12:51:00 
+Jun 08 12:51:00 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 12:51:00 
+Jun 08 12:51:00 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 12:51:00 
+Jun 08 12:51:00 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 12:51:00 
+Jun 08 12:51:00 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 12:51:00 
+Jun 08 12:51:00 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 12:51:00 
+Jun 08 12:51:00 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 12:51:00 
+Jun 08 12:51:00 
+Jun 08 12:51:00 🔔京喜工厂, 结束! 🕛 2.53 秒
+Jun 08 12:51:00 
+Jun 08 13:51:55 
+Jun 08 13:51:55 🔔京喜工厂, 开始!
+Jun 08 13:51:55 
+Jun 08 13:51:55 ====================共1个京东账号Cookie=========
+Jun 08 13:51:55 
+Jun 08 13:51:55 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 1:51:55 PM=====================
+Jun 08 13:51:55 
+Jun 08 13:51:59 获取签名参数成功！
+Jun 08 13:51:59 fp: 3474395439952162
+Jun 08 13:51:59 token: tk01w7fb01b30a8nK2Z3YlFjcEZF5R3966gU+iVIrPCnl4ellMpVsPdy9Z13/XrZHKOsXC0UsQjGlFBnZ5rqsD+3XB7k
+Jun 08 13:51:59 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='Kj7uqFeEYbMz';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 08 13:52:17 拼团活动ID: 获取成功 9rjG4ynoRkoB7xaWk_i6bw==
+Jun 08 13:52:17 开始获取京喜工厂配置文件
+Jun 08 13:52:17 
+Jun 08 13:52:17 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 13:52:17 共1个京东账号
+Jun 08 13:52:17 
+Jun 08 13:52:17 您提供了2个账号的京喜工厂助力码
+Jun 08 13:52:17 
+Jun 08 13:52:17 
+Jun 08 13:52:17 ******开始【京东账号1】liu1071607950*********
+Jun 08 13:52:17 
+Jun 08 13:52:17 
+Jun 08 13:52:17 ==============📣系统通知📣==============
+Jun 08 13:52:17 京喜工厂
+Jun 08 13:52:17 【提示】cookie已失效
+Jun 08 13:52:17 京东账号1 liu1071607950
+Jun 08 13:52:17 请重新登录获取
+Jun 08 13:52:17 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 13:52:17 
+Jun 08 13:52:17 
+Jun 08 13:52:17 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 13:52:17 
+Jun 08 13:52:17 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 13:52:17 
+Jun 08 13:52:17 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 13:52:17 
+Jun 08 13:52:17 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 13:52:17 
+Jun 08 13:52:17 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 13:52:17 
+Jun 08 13:52:17 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 13:52:17 
+Jun 08 13:52:17 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 13:52:17 
+Jun 08 13:52:17 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 13:52:17 
+Jun 08 13:52:18 
+Jun 08 13:52:18 🔔京喜工厂, 结束! 🕛 22.815 秒
+Jun 08 13:52:18 
+Jun 08 14:51:15 
+Jun 08 14:51:15 🔔京喜工厂, 开始!
+Jun 08 14:51:15 
+Jun 08 14:51:15 ====================共1个京东账号Cookie=========
+Jun 08 14:51:15 
+Jun 08 14:51:15 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 2:51:15 PM=====================
+Jun 08 14:51:15 
+Jun 08 14:51:17 获取签名参数成功！
+Jun 08 14:51:17 fp: 0545197149972162
+Jun 08 14:51:17 token: tk01wca6d1cdaa8nY20zSzVhVHlvihZl5SnVVlQnD3PT1mXcSiMsxd6KR+8m22YmK8vYQdgfoHcwdSD6bJDxkRKbX2sy
+Jun 08 14:51:17 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='3uMrHVgPGTAc';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA256(str,token)}
+Jun 08 14:51:20 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 08 14:51:20 开始获取京喜工厂配置文件
+Jun 08 14:51:20 
+Jun 08 14:51:20 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 14:51:20 共1个京东账号
+Jun 08 14:51:20 
+Jun 08 14:51:20 您提供了2个账号的京喜工厂助力码
+Jun 08 14:51:20 
+Jun 08 14:51:20 
+Jun 08 14:51:20 ******开始【京东账号1】liu1071607950*********
+Jun 08 14:51:20 
+Jun 08 14:51:20 
+Jun 08 14:51:20 ==============📣系统通知📣==============
+Jun 08 14:51:20 京喜工厂
+Jun 08 14:51:20 【提示】cookie已失效
+Jun 08 14:51:20 京东账号1 liu1071607950
+Jun 08 14:51:20 请重新登录获取
+Jun 08 14:51:20 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 14:51:20 
+Jun 08 14:51:20 
+Jun 08 14:51:20 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 14:51:20 
+Jun 08 14:51:20 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 14:51:20 
+Jun 08 14:51:20 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 14:51:20 
+Jun 08 14:51:20 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 14:51:20 
+Jun 08 14:51:20 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 14:51:20 
+Jun 08 14:51:21 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 14:51:21 
+Jun 08 14:51:21 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 14:51:21 
+Jun 08 14:51:21 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 14:51:21 
+Jun 08 14:51:21 
+Jun 08 14:51:21 🔔京喜工厂, 结束! 🕛 5.869 秒
+Jun 08 14:51:21 
+Jun 08 15:50:21 
+Jun 08 15:50:21 🔔京喜工厂, 开始!
+Jun 08 15:50:21 
+Jun 08 15:50:21 ====================共1个京东账号Cookie=========
+Jun 08 15:50:21 
+Jun 08 15:50:21 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 3:50:21 PM=====================
+Jun 08 15:50:21 
+Jun 08 15:50:23 获取签名参数成功！
+Jun 08 15:50:23 fp: 9543240922936162
+Jun 08 15:50:23 token: tk01w838f1b5ba8nOFFEVmVWUTc261Yh3YYZGVJD6qMrCrODcCOlmEn3orGL7v4XL7qTIF1xIDsbBPaV8t7fh2p3qar8
+Jun 08 15:50:23 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='2yBKgp6Rn73H';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 08 15:50:23 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 08 15:50:23 开始获取京喜工厂配置文件
+Jun 08 15:50:23 
+Jun 08 15:50:23 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 15:50:23 共1个京东账号
+Jun 08 15:50:23 
+Jun 08 15:50:23 您提供了2个账号的京喜工厂助力码
+Jun 08 15:50:23 
+Jun 08 15:50:24 
+Jun 08 15:50:24 ******开始【京东账号1】liu1071607950*********
+Jun 08 15:50:24 
+Jun 08 15:50:24 
+Jun 08 15:50:24 ==============📣系统通知📣==============
+Jun 08 15:50:24 京喜工厂
+Jun 08 15:50:24 【提示】cookie已失效
+Jun 08 15:50:24 京东账号1 liu1071607950
+Jun 08 15:50:24 请重新登录获取
+Jun 08 15:50:24 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 15:50:24 
+Jun 08 15:50:24 
+Jun 08 15:50:24 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 15:50:24 
+Jun 08 15:50:24 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 15:50:24 
+Jun 08 15:50:24 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 15:50:24 
+Jun 08 15:50:24 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 15:50:24 
+Jun 08 15:50:24 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 15:50:24 
+Jun 08 15:50:24 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 15:50:24 
+Jun 08 15:50:24 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 15:50:24 
+Jun 08 15:50:24 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 15:50:24 
+Jun 08 15:50:24 
+Jun 08 15:50:24 🔔京喜工厂, 结束! 🕛 2.81 秒
+Jun 08 15:50:24 
+Jun 08 16:50:47 
+Jun 08 16:50:47 🔔京喜工厂, 开始!
+Jun 08 16:50:47 
+Jun 08 16:50:47 ====================共1个京东账号Cookie=========
+Jun 08 16:50:47 
+Jun 08 16:50:47 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 4:50:47 PM=====================
+Jun 08 16:50:47 
+Jun 08 16:50:49 获取签名参数成功！
+Jun 08 16:50:49 fp: 0642448711061162
+Jun 08 16:50:49 token: tk01wb5ef1d0fa8nTG5HaU5YcHM4PJTsoukRWTu8KqJWORqx/k+qNlPcjIbiZL6tKuBiwTsE5RWmqI7eDkEekgiQuNgx
+Jun 08 16:50:49 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='TsxOUW+WWf5l';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Jun 08 16:50:50 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 08 16:50:50 开始获取京喜工厂配置文件
+Jun 08 16:50:50 
+Jun 08 16:50:50 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 16:50:50 共1个京东账号
+Jun 08 16:50:50 
+Jun 08 16:50:50 您提供了2个账号的京喜工厂助力码
+Jun 08 16:50:50 
+Jun 08 16:50:50 
+Jun 08 16:50:50 ******开始【京东账号1】liu1071607950*********
+Jun 08 16:50:50 
+Jun 08 16:50:50 
+Jun 08 16:50:50 ==============📣系统通知📣==============
+Jun 08 16:50:50 京喜工厂
+Jun 08 16:50:50 【提示】cookie已失效
+Jun 08 16:50:50 京东账号1 liu1071607950
+Jun 08 16:50:50 请重新登录获取
+Jun 08 16:50:50 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 16:50:50 
+Jun 08 16:50:50 
+Jun 08 16:50:50 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 16:50:50 
+Jun 08 16:50:50 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 16:50:50 
+Jun 08 16:50:50 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 16:50:50 
+Jun 08 16:50:50 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 16:50:50 
+Jun 08 16:50:50 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 16:50:50 
+Jun 08 16:50:50 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 16:50:50 
+Jun 08 16:50:50 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 16:50:50 
+Jun 08 16:50:50 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 16:50:50 
+Jun 08 16:50:50 
+Jun 08 16:50:50 🔔京喜工厂, 结束! 🕛 3.658 秒
+Jun 08 16:50:50 
+Jun 08 17:50:16 
+Jun 08 17:50:16 🔔京喜工厂, 开始!
+Jun 08 17:50:16 
+Jun 08 17:50:16 ====================共1个京东账号Cookie=========
+Jun 08 17:50:16 
+Jun 08 17:50:16 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 5:50:16 PM=====================
+Jun 08 17:50:16 
+Jun 08 17:50:19 获取签名参数成功！
+Jun 08 17:50:19 fp: 6735579164148162
+Jun 08 17:50:19 token: tk01wa6011be6a8nSnRBbXVBcmE5GEROxwUOqWlaKloW5iG3wjQx22X4+HGP0WRDnDQfS5a/jqBtn7K+RuIJzMZJmgsR
+Jun 08 17:50:19 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='ea5BrTK2hATl';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA512(str,token)}
+Jun 08 17:50:30 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 08 17:50:30 开始获取京喜工厂配置文件
+Jun 08 17:50:30 
+Jun 08 17:50:30 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 17:50:30 共1个京东账号
+Jun 08 17:50:30 
+Jun 08 17:50:30 您提供了2个账号的京喜工厂助力码
+Jun 08 17:50:30 
+Jun 08 17:50:30 
+Jun 08 17:50:30 ******开始【京东账号1】liu1071607950*********
+Jun 08 17:50:30 
+Jun 08 17:50:30 
+Jun 08 17:50:30 ==============📣系统通知📣==============
+Jun 08 17:50:30 京喜工厂
+Jun 08 17:50:30 【提示】cookie已失效
+Jun 08 17:50:30 京东账号1 liu1071607950
+Jun 08 17:50:30 请重新登录获取
+Jun 08 17:50:30 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 17:50:30 
+Jun 08 17:50:30 
+Jun 08 17:50:30 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 17:50:30 
+Jun 08 17:50:30 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 17:50:30 
+Jun 08 17:50:30 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 17:50:30 
+Jun 08 17:50:30 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 17:50:30 
+Jun 08 17:50:30 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 17:50:30 
+Jun 08 17:50:30 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 17:50:30 
+Jun 08 17:50:30 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 17:50:30 
+Jun 08 17:50:30 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 17:50:30 
+Jun 08 17:50:30 
+Jun 08 17:50:30 🔔京喜工厂, 结束! 🕛 14.1 秒
+Jun 08 17:50:30 
+Jun 08 18:51:40 
+Jun 08 18:51:40 🔔京喜工厂, 开始!
+Jun 08 18:51:40 
+Jun 08 18:51:40 ====================共1个京东账号Cookie=========
+Jun 08 18:51:40 
+Jun 08 18:51:40 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 6:51:40 PM=====================
+Jun 08 18:51:40 
+Jun 08 18:51:43 获取签名参数成功！
+Jun 08 18:51:43 fp: 2218380612140162
+Jun 08 18:51:43 token: tk01wa82e1c51a8nTEpQMnY4c0NGlfr6AwaaPg05QNAqLBGXlg29v1YbfkSettMDU2eN+JXicrvifhQBCXBwNTlebXLF
+Jun 08 18:51:43 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='Rh/HrmV+jHzs';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Jun 08 18:51:44 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 08 18:51:44 开始获取京喜工厂配置文件
+Jun 08 18:51:44 
+Jun 08 18:51:44 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 18:51:44 共1个京东账号
+Jun 08 18:51:44 
+Jun 08 18:51:44 您提供了2个账号的京喜工厂助力码
+Jun 08 18:51:44 
+Jun 08 18:51:44 
+Jun 08 18:51:44 ******开始【京东账号1】liu1071607950*********
+Jun 08 18:51:44 
+Jun 08 18:51:44 
+Jun 08 18:51:44 ==============📣系统通知📣==============
+Jun 08 18:51:44 京喜工厂
+Jun 08 18:51:44 【提示】cookie已失效
+Jun 08 18:51:44 京东账号1 liu1071607950
+Jun 08 18:51:44 请重新登录获取
+Jun 08 18:51:44 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 18:51:44 
+Jun 08 18:51:44 
+Jun 08 18:51:44 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 18:51:44 
+Jun 08 18:51:44 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 18:51:44 
+Jun 08 18:51:44 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 18:51:44 
+Jun 08 18:51:44 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 18:51:44 
+Jun 08 18:51:44 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 18:51:44 
+Jun 08 18:51:44 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 18:51:44 
+Jun 08 18:51:44 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 18:51:44 
+Jun 08 18:51:44 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 18:51:44 
+Jun 08 18:51:45 
+Jun 08 18:51:45 🔔京喜工厂, 结束! 🕛 5.148 秒
+Jun 08 18:51:45 
+Jun 08 19:50:31 
+Jun 08 19:50:31 🔔京喜工厂, 开始!
+Jun 08 19:50:31 
+Jun 08 19:50:31 ====================共1个京东账号Cookie=========
+Jun 08 19:50:31 
+Jun 08 19:50:31 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 7:50:31 PM=====================
+Jun 08 19:50:31 
+Jun 08 19:50:34 "getaddrinfo ENOTFOUND cactus.jd.com"
+Jun 08 19:50:34 request_algo 签名参数API请求失败，请检查网路重试
+Jun 08 19:50:40 拼团活动ID：获取失败，将采取脚本内置活动ID
+Jun 08 19:50:40 开始获取京喜工厂配置文件
+Jun 08 19:50:40 
+Jun 08 19:50:40 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 19:50:40 共1个京东账号
+Jun 08 19:50:40 
+Jun 08 19:50:40 您提供了2个账号的京喜工厂助力码
+Jun 08 19:50:40 
+Jun 08 19:50:40 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 08 19:50:40 京喜工厂 API请求失败，请检查网路重试
+Jun 08 19:50:40 
+Jun 08 19:50:40 ******开始【京东账号1】liu1071607950*********
+Jun 08 19:50:40 
+Jun 08 19:50:43 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 08 19:50:43 京喜工厂 API请求失败，请检查网路重试
+Jun 08 19:50:46 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 08 19:50:46 京喜工厂 API请求失败，请检查网路重试
+Jun 08 19:50:46 开始
+Jun 08 19:50:50 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 08 19:50:50 京喜工厂 API请求失败，请检查网路重试
+Jun 08 19:50:50 第1个京东账号将要助力的好友["V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=","Bo-jnVs_m9uBvbRzraXcSA==","-OvElMzqeyeGBWazWYjI1Q=="]
+Jun 08 19:50:53 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 08 19:50:53 京喜工厂 API请求失败，请检查网路重试
+Jun 08 19:50:53 
+Jun 08 19:50:53 ❗️京喜工厂, 错误!
+Jun 08 19:50:53 TypeError: Cannot read property 'msg' of undefined
+Jun 08 19:50:53     at helpFriends (/scripts/jd_dreamFactory.js:414:58)
+Jun 08 19:50:53     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Jun 08 19:50:53     at async jdDreamFactory (/scripts/jd_dreamFactory.js:137:5)
+Jun 08 19:50:53     at async /scripts/jd_dreamFactory.js:95:7
+Jun 08 19:50:53 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 08 19:50:53 京喜工厂 API请求失败，请检查网路重试
+Jun 08 19:51:02 
+Jun 08 19:51:02 🔔京喜工厂, 结束! 🕛 31.636 秒
+Jun 08 19:51:02 
+Jun 08 20:51:46 
+Jun 08 20:51:46 🔔京喜工厂, 开始!
+Jun 08 20:51:46 
+Jun 08 20:51:46 ====================共1个京东账号Cookie=========
+Jun 08 20:51:46 
+Jun 08 20:51:46 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 8:51:46 PM=====================
+Jun 08 20:51:46 
+Jun 08 20:51:48 获取签名参数成功！
+Jun 08 20:51:48 fp: 2193380035511162
+Jun 08 20:51:48 token: tk01wb80c1c4aa8ndWs2VVdRUlRG6xINJJ62qIzJiFORapfsiE4GRTQlrwS82sYw9hOwiKXANBQnTYuDqk4STBPj2sO1
+Jun 08 20:51:48 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='/JYt9kYaO13x';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA256(str,token)}
+Jun 08 20:52:07 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 08 20:52:07 开始获取京喜工厂配置文件
+Jun 08 20:52:07 
+Jun 08 20:52:07 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 20:52:07 共1个京东账号
+Jun 08 20:52:07 
+Jun 08 20:52:07 您提供了2个账号的京喜工厂助力码
+Jun 08 20:52:07 
+Jun 08 20:52:08 
+Jun 08 20:52:08 ******开始【京东账号1】liu1071607950*********
+Jun 08 20:52:08 
+Jun 08 20:52:08 
+Jun 08 20:52:08 ==============📣系统通知📣==============
+Jun 08 20:52:08 京喜工厂
+Jun 08 20:52:08 【提示】cookie已失效
+Jun 08 20:52:08 京东账号1 liu1071607950
+Jun 08 20:52:08 请重新登录获取
+Jun 08 20:52:08 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 20:52:08 
+Jun 08 20:52:08 
+Jun 08 20:52:08 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 20:52:08 
+Jun 08 20:52:08 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 20:52:08 
+Jun 08 20:52:08 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 20:52:08 
+Jun 08 20:52:08 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 20:52:08 
+Jun 08 20:52:08 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 20:52:08 
+Jun 08 20:52:08 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 20:52:08 
+Jun 08 20:52:08 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 20:52:08 
+Jun 08 20:52:08 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 20:52:08 
+Jun 08 20:52:08 
+Jun 08 20:52:08 🔔京喜工厂, 结束! 🕛 22.419 秒
+Jun 08 20:52:08 
+Jun 08 21:51:57 
+Jun 08 21:51:57 🔔京喜工厂, 开始!
+Jun 08 21:51:57 
+Jun 08 21:51:57 ====================共1个京东账号Cookie=========
+Jun 08 21:51:57 
+Jun 08 21:51:57 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 9:51:57 PM=====================
+Jun 08 21:51:57 
+Jun 08 21:52:00 获取签名参数成功！
+Jun 08 21:52:00 fp: 9040776714706162
+Jun 08 21:52:00 token: tk01wce531cbaa8nWVdYSHVVUEEyyZqGKwnNaTXzEWT8NqYtU/H/ZjniPpoV/FCpFAgzdh0AEWzYPod8C+z3rUfcPl2c
+Jun 08 21:52:00 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='YtjN0OSvJdrG';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA512(str,token)}
+Jun 08 21:52:19 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 08 21:52:19 开始获取京喜工厂配置文件
+Jun 08 21:52:19 
+Jun 08 21:52:19 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 21:52:19 共1个京东账号
+Jun 08 21:52:19 
+Jun 08 21:52:19 您提供了2个账号的京喜工厂助力码
+Jun 08 21:52:19 
+Jun 08 21:52:19 
+Jun 08 21:52:19 ******开始【京东账号1】liu1071607950*********
+Jun 08 21:52:19 
+Jun 08 21:52:19 
+Jun 08 21:52:19 ==============📣系统通知📣==============
+Jun 08 21:52:19 京喜工厂
+Jun 08 21:52:19 【提示】cookie已失效
+Jun 08 21:52:19 京东账号1 liu1071607950
+Jun 08 21:52:19 请重新登录获取
+Jun 08 21:52:19 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 21:52:19 
+Jun 08 21:52:19 
+Jun 08 21:52:19 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 21:52:19 
+Jun 08 21:52:19 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 21:52:19 
+Jun 08 21:52:19 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 21:52:19 
+Jun 08 21:52:19 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 21:52:19 
+Jun 08 21:52:19 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 21:52:19 
+Jun 08 21:52:19 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 21:52:19 
+Jun 08 21:52:19 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 21:52:19 
+Jun 08 21:52:19 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 21:52:19 
+Jun 08 21:52:20 
+Jun 08 21:52:20 🔔京喜工厂, 结束! 🕛 22.315 秒
+Jun 08 21:52:20 
+Jun 08 22:51:25 
+Jun 08 22:51:25 🔔京喜工厂, 开始!
+Jun 08 22:51:25 
+Jun 08 22:51:25 ====================共1个京东账号Cookie=========
+Jun 08 22:51:25 
+Jun 08 22:51:25 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 10:51:25 PM=====================
+Jun 08 22:51:25 
+Jun 08 22:51:27 获取签名参数成功！
+Jun 08 22:51:27 fp: 7247002014808162
+Jun 08 22:51:27 token: tk01wb85c1c42a8nSmZ2ZmtqUmhBn2OMXT7XlX57sbTJ1iMcFDN/Hu5ziECzJzyCeph7P4ElnoPdfLE32QrBjEzCV6Uu
+Jun 08 22:51:27 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='+7iQpZZ+RuHi';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
+Jun 08 22:51:28 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 08 22:51:28 开始获取京喜工厂配置文件
+Jun 08 22:51:28 
+Jun 08 22:51:28 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 22:51:28 共1个京东账号
+Jun 08 22:51:28 
+Jun 08 22:51:28 您提供了2个账号的京喜工厂助力码
+Jun 08 22:51:28 
+Jun 08 22:51:28 
+Jun 08 22:51:28 ******开始【京东账号1】liu1071607950*********
+Jun 08 22:51:28 
+Jun 08 22:51:28 
+Jun 08 22:51:28 ==============📣系统通知📣==============
+Jun 08 22:51:28 京喜工厂
+Jun 08 22:51:28 【提示】cookie已失效
+Jun 08 22:51:28 京东账号1 liu1071607950
+Jun 08 22:51:28 请重新登录获取
+Jun 08 22:51:28 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 22:51:28 
+Jun 08 22:51:28 
+Jun 08 22:51:28 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 22:51:28 
+Jun 08 22:51:28 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 22:51:28 
+Jun 08 22:51:28 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 22:51:28 
+Jun 08 22:51:28 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 22:51:28 
+Jun 08 22:51:28 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 22:51:28 
+Jun 08 22:51:28 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 22:51:28 
+Jun 08 22:51:28 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 22:51:28 
+Jun 08 22:51:28 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 22:51:28 
+Jun 08 22:51:28 
+Jun 08 22:51:28 🔔京喜工厂, 结束! 🕛 3.064 秒
+Jun 08 22:51:28 
+Jun 08 23:50:45 
+Jun 08 23:50:45 🔔京喜工厂, 开始!
+Jun 08 23:50:45 
+Jun 08 23:50:45 ====================共1个京东账号Cookie=========
+Jun 08 23:50:45 
+Jun 08 23:50:45 ==================脚本执行- 北京时间(UTC+8)：6/8/2021, 11:50:45 PM=====================
+Jun 08 23:50:45 
+Jun 08 23:50:47 获取签名参数成功！
+Jun 08 23:50:47 fp: 1004858330852162
+Jun 08 23:50:47 token: tk01we4931dbfa8nMmErYk9LeDR3qppfspN/qbfElEOv/WysvgeuoU72hG6PL/djAbHJXoxG5gxBwkwotsF3x8r9lgjh
+Jun 08 23:50:47 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='9oOvOZVytEev';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Jun 08 23:51:06 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 08 23:51:06 开始获取京喜工厂配置文件
+Jun 08 23:51:06 
+Jun 08 23:51:06 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 08 23:51:06 共1个京东账号
+Jun 08 23:51:06 
+Jun 08 23:51:06 您提供了2个账号的京喜工厂助力码
+Jun 08 23:51:06 
+Jun 08 23:51:06 
+Jun 08 23:51:06 ******开始【京东账号1】liu1071607950*********
+Jun 08 23:51:06 
+Jun 08 23:51:06 
+Jun 08 23:51:06 ==============📣系统通知📣==============
+Jun 08 23:51:06 京喜工厂
+Jun 08 23:51:06 【提示】cookie已失效
+Jun 08 23:51:06 京东账号1 liu1071607950
+Jun 08 23:51:06 请重新登录获取
+Jun 08 23:51:06 https://bean.m.jd.com/bean/signIndex.action
+Jun 08 23:51:06 
+Jun 08 23:51:06 
+Jun 08 23:51:06 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 08 23:51:06 
+Jun 08 23:51:06 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 08 23:51:06 
+Jun 08 23:51:06 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 08 23:51:06 
+Jun 08 23:51:06 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 08 23:51:06 
+Jun 08 23:51:06 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 08 23:51:06 
+Jun 08 23:51:06 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 08 23:51:06 
+Jun 08 23:51:06 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 08 23:51:06 
+Jun 08 23:51:06 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 08 23:51:06 
+Jun 08 23:51:07 
+Jun 08 23:51:07 🔔京喜工厂, 结束! 🕛 21.933 秒
+Jun 08 23:51:07 
+Jun 09 10:50:40 
+Jun 09 10:50:40 🔔京喜工厂, 开始!
+Jun 09 10:50:40 
+Jun 09 10:50:40 ====================共1个京东账号Cookie=========
+Jun 09 10:50:40 
+Jun 09 10:50:40 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 10:50:40 AM=====================
+Jun 09 10:50:40 
+Jun 09 10:50:43 获取签名参数成功！
+Jun 09 10:50:43 fp: 4860435003097162
+Jun 09 10:50:43 token: tk01wba671bcfa8nZjAvQTlTbVUxadBnK2Tn9r5NtU7p9hQ92tS9UUnqe63FNGas4kBzfi9NoVufK4DfEDS6eEWE7/Dz
+Jun 09 10:50:43 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='In3s8DL+rAkX';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
+Jun 09 10:50:43 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 10:50:43 开始获取京喜工厂配置文件
+Jun 09 10:50:43 
+Jun 09 10:50:43 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 10:50:43 共1个京东账号
+Jun 09 10:50:43 
+Jun 09 10:50:43 您提供了2个账号的京喜工厂助力码
+Jun 09 10:50:43 
+Jun 09 10:50:43 
+Jun 09 10:50:43 ******开始【京东账号1】liu1071607950*********
+Jun 09 10:50:43 
+Jun 09 10:50:43 
+Jun 09 10:50:43 ==============📣系统通知📣==============
+Jun 09 10:50:43 京喜工厂
+Jun 09 10:50:43 【提示】cookie已失效
+Jun 09 10:50:43 京东账号1 liu1071607950
+Jun 09 10:50:43 请重新登录获取
+Jun 09 10:50:43 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 10:50:43 
+Jun 09 10:50:43 
+Jun 09 10:50:43 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 10:50:43 
+Jun 09 10:50:43 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 10:50:43 
+Jun 09 10:50:43 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 10:50:43 
+Jun 09 10:50:43 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 10:50:43 
+Jun 09 10:50:43 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 10:50:43 
+Jun 09 10:50:43 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 10:50:43 
+Jun 09 10:50:43 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 10:50:43 
+Jun 09 10:50:43 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 10:50:43 
+Jun 09 10:50:43 
+Jun 09 10:50:43 🔔京喜工厂, 结束! 🕛 3.351 秒
+Jun 09 10:50:43 
+Jun 09 11:51:38 
+Jun 09 11:51:38 🔔京喜工厂, 开始!
+Jun 09 11:51:38 
+Jun 09 11:51:38 ====================共1个京东账号Cookie=========
+Jun 09 11:51:38 
+Jun 09 11:51:38 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 11:51:38 AM=====================
+Jun 09 11:51:38 
+Jun 09 11:51:40 获取签名参数成功！
+Jun 09 11:51:40 fp: 3214041801448162
+Jun 09 11:51:40 token: tk01w7e2e1bb9a8nS2Y5MlNRWUw4LbNKRlh0ICD2CWXKt1tg2okBmbs5r9+H0K20A1mTeoJs6lhRKNhnmEaDmuoOvtfE
+Jun 09 11:51:40 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='Hdu1evqeSokm';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 09 11:51:41 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 11:51:41 开始获取京喜工厂配置文件
+Jun 09 11:51:41 
+Jun 09 11:51:41 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 11:51:41 共1个京东账号
+Jun 09 11:51:41 
+Jun 09 11:51:41 您提供了2个账号的京喜工厂助力码
+Jun 09 11:51:41 
+Jun 09 11:51:41 
+Jun 09 11:51:41 ******开始【京东账号1】liu1071607950*********
+Jun 09 11:51:41 
+Jun 09 11:51:41 
+Jun 09 11:51:41 ==============📣系统通知📣==============
+Jun 09 11:51:41 京喜工厂
+Jun 09 11:51:41 【提示】cookie已失效
+Jun 09 11:51:41 京东账号1 liu1071607950
+Jun 09 11:51:41 请重新登录获取
+Jun 09 11:51:41 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 11:51:41 
+Jun 09 11:51:41 
+Jun 09 11:51:41 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 11:51:41 
+Jun 09 11:51:41 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 11:51:41 
+Jun 09 11:51:41 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 11:51:41 
+Jun 09 11:51:41 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 11:51:41 
+Jun 09 11:51:41 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 11:51:41 
+Jun 09 11:51:41 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 11:51:41 
+Jun 09 11:51:41 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 11:51:41 
+Jun 09 11:51:41 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 11:51:41 
+Jun 09 11:51:41 
+Jun 09 11:51:41 🔔京喜工厂, 结束! 🕛 3.609 秒
+Jun 09 11:51:41 
+Jun 09 12:51:52 
+Jun 09 12:51:53 🔔京喜工厂, 开始!
+Jun 09 12:51:53 
+Jun 09 12:51:53 ====================共1个京东账号Cookie=========
+Jun 09 12:51:53 
+Jun 09 12:51:53 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 12:51:53 PM=====================
+Jun 09 12:51:53 
+Jun 09 12:51:55 "getaddrinfo ENOTFOUND cactus.jd.com"
+Jun 09 12:51:55 request_algo 签名参数API请求失败，请检查网路重试
+Jun 09 12:52:02 拼团活动ID：获取失败，将采取脚本内置活动ID
+Jun 09 12:52:02 开始获取京喜工厂配置文件
+Jun 09 12:52:02 
+Jun 09 12:52:02 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 12:52:02 共1个京东账号
+Jun 09 12:52:02 
+Jun 09 12:52:02 您提供了2个账号的京喜工厂助力码
+Jun 09 12:52:02 
+Jun 09 12:52:02 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 09 12:52:02 京喜工厂 API请求失败，请检查网路重试
+Jun 09 12:52:02 
+Jun 09 12:52:02 ******开始【京东账号1】liu1071607950*********
+Jun 09 12:52:02 
+Jun 09 12:52:05 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 09 12:52:05 京喜工厂 API请求失败，请检查网路重试
+Jun 09 12:52:08 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 09 12:52:08 京喜工厂 API请求失败，请检查网路重试
+Jun 09 12:52:08 开始
+Jun 09 12:52:12 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 09 12:52:12 京喜工厂 API请求失败，请检查网路重试
+Jun 09 12:52:12 第1个京东账号将要助力的好友["V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=","Bo-jnVs_m9uBvbRzraXcSA==","-OvElMzqeyeGBWazWYjI1Q=="]
+Jun 09 12:52:15 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 09 12:52:15 京喜工厂 API请求失败，请检查网路重试
+Jun 09 12:52:15 
+Jun 09 12:52:15 ❗️京喜工厂, 错误!
+Jun 09 12:52:15 TypeError: Cannot read property 'msg' of undefined
+Jun 09 12:52:15     at helpFriends (/scripts/jd_dreamFactory.js:414:58)
+Jun 09 12:52:15     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Jun 09 12:52:15     at async jdDreamFactory (/scripts/jd_dreamFactory.js:137:5)
+Jun 09 12:52:15     at async /scripts/jd_dreamFactory.js:95:7
+Jun 09 12:52:15 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 09 12:52:15 京喜工厂 API请求失败，请检查网路重试
+Jun 09 12:52:24 
+Jun 09 12:52:24 🔔京喜工厂, 结束! 🕛 31.809 秒
+Jun 09 12:52:24 
+Jun 09 13:50:13 
+Jun 09 13:50:13 🔔京喜工厂, 开始!
+Jun 09 13:50:13 
+Jun 09 13:50:13 ====================共1个京东账号Cookie=========
+Jun 09 13:50:13 
+Jun 09 13:50:13 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 1:50:13 PM=====================
+Jun 09 13:50:13 
+Jun 09 13:50:15 获取签名参数成功！
+Jun 09 13:50:15 fp: 6781775216639162
+Jun 09 13:50:15 token: tk01wc08a1d65a8nQlZtb3hGNUVne7I4NBQriRvUNuM5UIE7jKdOMKYkuSSNKxPebtVLho+7uZfOIbwkuuJj9RxSlltx
+Jun 09 13:50:15 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='dJLtyHVoX7le';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.MD5(str)}
+Jun 09 13:50:17 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 13:50:17 开始获取京喜工厂配置文件
+Jun 09 13:50:17 
+Jun 09 13:50:17 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 13:50:17 共1个京东账号
+Jun 09 13:50:17 
+Jun 09 13:50:17 您提供了2个账号的京喜工厂助力码
+Jun 09 13:50:17 
+Jun 09 13:50:17 
+Jun 09 13:50:17 ******开始【京东账号1】liu1071607950*********
+Jun 09 13:50:17 
+Jun 09 13:50:17 
+Jun 09 13:50:17 ==============📣系统通知📣==============
+Jun 09 13:50:17 京喜工厂
+Jun 09 13:50:17 【提示】cookie已失效
+Jun 09 13:50:17 京东账号1 liu1071607950
+Jun 09 13:50:17 请重新登录获取
+Jun 09 13:50:17 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 13:50:17 
+Jun 09 13:50:17 
+Jun 09 13:50:17 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 13:50:17 
+Jun 09 13:50:17 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 13:50:17 
+Jun 09 13:50:17 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 13:50:17 
+Jun 09 13:50:17 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 13:50:17 
+Jun 09 13:50:17 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 13:50:17 
+Jun 09 13:50:17 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 13:50:17 
+Jun 09 13:50:17 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 13:50:17 
+Jun 09 13:50:17 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 13:50:17 
+Jun 09 13:50:18 
+Jun 09 13:50:18 🔔京喜工厂, 结束! 🕛 5.169 秒
+Jun 09 13:50:18 
+Jun 09 14:50:50 
+Jun 09 14:50:50 🔔京喜工厂, 开始!
+Jun 09 14:50:50 
+Jun 09 14:50:50 ====================共1个京东账号Cookie=========
+Jun 09 14:50:50 
+Jun 09 14:50:50 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 2:50:50 PM=====================
+Jun 09 14:50:50 
+Jun 09 14:50:52 获取签名参数成功！
+Jun 09 14:50:52 fp: 0789293080292162
+Jun 09 14:50:52 token: tk01wce551c76a8nSnhBZDVIbWQyUrfbK8ky4JvneWn0XFQWVDjS3NXIUrjqWfzTaQPaXcKA/SGBy6Zl1dGJewH03gbN
+Jun 09 14:50:52 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='KWHNK6DG5Fnr';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Jun 09 14:51:11 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 14:51:11 开始获取京喜工厂配置文件
+Jun 09 14:51:11 
+Jun 09 14:51:11 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 14:51:11 共1个京东账号
+Jun 09 14:51:11 
+Jun 09 14:51:11 您提供了2个账号的京喜工厂助力码
+Jun 09 14:51:11 
+Jun 09 14:51:11 
+Jun 09 14:51:11 ******开始【京东账号1】liu1071607950*********
+Jun 09 14:51:11 
+Jun 09 14:51:11 
+Jun 09 14:51:11 ==============📣系统通知📣==============
+Jun 09 14:51:11 京喜工厂
+Jun 09 14:51:11 【提示】cookie已失效
+Jun 09 14:51:11 京东账号1 liu1071607950
+Jun 09 14:51:11 请重新登录获取
+Jun 09 14:51:11 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 14:51:11 
+Jun 09 14:51:11 
+Jun 09 14:51:11 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 14:51:11 
+Jun 09 14:51:11 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 14:51:11 
+Jun 09 14:51:11 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 14:51:11 
+Jun 09 14:51:11 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 14:51:11 
+Jun 09 14:51:11 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 14:51:11 
+Jun 09 14:51:11 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 14:51:11 
+Jun 09 14:51:11 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 14:51:11 
+Jun 09 14:51:11 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 14:51:11 
+Jun 09 14:51:11 
+Jun 09 14:51:11 🔔京喜工厂, 结束! 🕛 21.949 秒
+Jun 09 14:51:11 
+Jun 09 15:50:18 
+Jun 09 15:50:18 🔔京喜工厂, 开始!
+Jun 09 15:50:18 
+Jun 09 15:50:18 ====================共1个京东账号Cookie=========
+Jun 09 15:50:18 
+Jun 09 15:50:18 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 3:50:18 PM=====================
+Jun 09 15:50:18 
+Jun 09 15:50:20 获取签名参数成功！
+Jun 09 15:50:20 fp: 5539989155103162
+Jun 09 15:50:20 token: tk01wa1b91c14a8nR2JveUovbG85wnv2VB9kJz7WD/6LZfzueW/OGD/zNN0iM1ilJ5ENRNisjKuCF1qutndla+90bczi
+Jun 09 15:50:20 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='z++LTSnYxIN5';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 09 15:50:20 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 15:50:20 开始获取京喜工厂配置文件
+Jun 09 15:50:20 
+Jun 09 15:50:20 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 15:50:20 共1个京东账号
+Jun 09 15:50:20 
+Jun 09 15:50:20 您提供了2个账号的京喜工厂助力码
+Jun 09 15:50:20 
+Jun 09 15:50:21 
+Jun 09 15:50:21 ******开始【京东账号1】liu1071607950*********
+Jun 09 15:50:21 
+Jun 09 15:50:21 
+Jun 09 15:50:21 ==============📣系统通知📣==============
+Jun 09 15:50:21 京喜工厂
+Jun 09 15:50:21 【提示】cookie已失效
+Jun 09 15:50:21 京东账号1 liu1071607950
+Jun 09 15:50:21 请重新登录获取
+Jun 09 15:50:21 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 15:50:21 
+Jun 09 15:50:21 
+Jun 09 15:50:21 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 15:50:21 
+Jun 09 15:50:21 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 15:50:21 
+Jun 09 15:50:21 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 15:50:21 
+Jun 09 15:50:21 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 15:50:21 
+Jun 09 15:50:21 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 15:50:21 
+Jun 09 15:50:21 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 15:50:21 
+Jun 09 15:50:21 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 15:50:21 
+Jun 09 15:50:21 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 15:50:21 
+Jun 09 15:50:21 
+Jun 09 15:50:21 🔔京喜工厂, 结束! 🕛 3.321 秒
+Jun 09 15:50:21 
+Jun 09 16:51:08 
+Jun 09 16:51:08 🔔京喜工厂, 开始!
+Jun 09 16:51:08 
+Jun 09 16:51:08 ====================共1个京东账号Cookie=========
+Jun 09 16:51:08 
+Jun 09 16:51:08 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 4:51:08 PM=====================
+Jun 09 16:51:08 
+Jun 09 16:51:10 获取签名参数成功！
+Jun 09 16:51:10 fp: 5129106481826162
+Jun 09 16:51:10 token: tk01waee21bd6a8nYjc5RTBPSVlrHHTqxl4fZEmAZ/OtSZNOJfVR0Z2KwrOL5EufxLJ6wVb2y429vXfbMT9CUEQjdPRD
+Jun 09 16:51:10 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='UkraCK9Ab7QK';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 09 16:51:11 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 16:51:11 开始获取京喜工厂配置文件
+Jun 09 16:51:11 
+Jun 09 16:51:11 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 16:51:11 共1个京东账号
+Jun 09 16:51:11 
+Jun 09 16:51:11 您提供了2个账号的京喜工厂助力码
+Jun 09 16:51:11 
+Jun 09 16:51:11 
+Jun 09 16:51:11 ******开始【京东账号1】liu1071607950*********
+Jun 09 16:51:11 
+Jun 09 16:51:11 
+Jun 09 16:51:11 ==============📣系统通知📣==============
+Jun 09 16:51:11 京喜工厂
+Jun 09 16:51:11 【提示】cookie已失效
+Jun 09 16:51:11 京东账号1 liu1071607950
+Jun 09 16:51:11 请重新登录获取
+Jun 09 16:51:11 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 16:51:11 
+Jun 09 16:51:11 
+Jun 09 16:51:11 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 16:51:11 
+Jun 09 16:51:11 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 16:51:11 
+Jun 09 16:51:11 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 16:51:11 
+Jun 09 16:51:11 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 16:51:11 
+Jun 09 16:51:11 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 16:51:11 
+Jun 09 16:51:11 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 16:51:11 
+Jun 09 16:51:11 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 16:51:11 
+Jun 09 16:51:11 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 16:51:11 
+Jun 09 16:51:11 
+Jun 09 16:51:11 🔔京喜工厂, 结束! 🕛 3.445 秒
+Jun 09 16:51:11 
+Jun 09 17:51:13 
+Jun 09 17:51:13 🔔京喜工厂, 开始!
+Jun 09 17:51:13 
+Jun 09 17:51:13 ====================共1个京东账号Cookie=========
+Jun 09 17:51:13 
+Jun 09 17:51:13 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 5:51:13 PM=====================
+Jun 09 17:51:13 
+Jun 09 17:51:15 获取签名参数成功！
+Jun 09 17:51:15 fp: 0784422343321162
+Jun 09 17:51:15 token: tk01wd2531d20a8nNWtnL1pRV2VGslRbYtByubYYIimuG23tKxReeL9JIQOCAvtbfa0h4cVE3pbUgA7bkW3VvtSrrsy3
+Jun 09 17:51:15 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='tCVhULb005qG';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Jun 09 17:51:15 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 17:51:15 开始获取京喜工厂配置文件
+Jun 09 17:51:15 
+Jun 09 17:51:15 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 17:51:15 共1个京东账号
+Jun 09 17:51:15 
+Jun 09 17:51:15 您提供了2个账号的京喜工厂助力码
+Jun 09 17:51:15 
+Jun 09 17:51:16 
+Jun 09 17:51:16 ******开始【京东账号1】liu1071607950*********
+Jun 09 17:51:16 
+Jun 09 17:51:16 
+Jun 09 17:51:16 ==============📣系统通知📣==============
+Jun 09 17:51:16 京喜工厂
+Jun 09 17:51:16 【提示】cookie已失效
+Jun 09 17:51:16 京东账号1 liu1071607950
+Jun 09 17:51:16 请重新登录获取
+Jun 09 17:51:16 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 17:51:16 
+Jun 09 17:51:16 
+Jun 09 17:51:16 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 17:51:16 
+Jun 09 17:51:16 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 17:51:16 
+Jun 09 17:51:16 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 17:51:16 
+Jun 09 17:51:16 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 17:51:16 
+Jun 09 17:51:16 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 17:51:16 
+Jun 09 17:51:16 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 17:51:16 
+Jun 09 17:51:16 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 17:51:16 
+Jun 09 17:51:16 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 17:51:16 
+Jun 09 17:51:16 
+Jun 09 17:51:16 🔔京喜工厂, 结束! 🕛 3.165 秒
+Jun 09 17:51:16 
+Jun 09 18:50:01 
+Jun 09 18:50:01 🔔京喜工厂, 开始!
+Jun 09 18:50:01 
+Jun 09 18:50:01 ====================共1个京东账号Cookie=========
+Jun 09 18:50:01 
+Jun 09 18:50:01 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 6:50:01 PM=====================
+Jun 09 18:50:01 
+Jun 09 18:50:04 获取签名参数成功！
+Jun 09 18:50:04 fp: 2562845565161162
+Jun 09 18:50:04 token: tk01w72eb1b46a8nUGR3K1Y3ZUI1mW0hH8Qw4K2iI3j2robOVG/qPPpIKHW9xGbgqXRqt8jw/syCxd3/vP92cf+uHBbQ
+Jun 09 18:50:04 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='OuRw/s/HCp96';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 09 18:50:04 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 18:50:04 开始获取京喜工厂配置文件
+Jun 09 18:50:04 
+Jun 09 18:50:04 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 18:50:04 共1个京东账号
+Jun 09 18:50:04 
+Jun 09 18:50:04 您提供了2个账号的京喜工厂助力码
+Jun 09 18:50:04 
+Jun 09 18:50:04 
+Jun 09 18:50:04 ******开始【京东账号1】liu1071607950*********
+Jun 09 18:50:04 
+Jun 09 18:50:04 
+Jun 09 18:50:04 ==============📣系统通知📣==============
+Jun 09 18:50:04 京喜工厂
+Jun 09 18:50:04 【提示】cookie已失效
+Jun 09 18:50:04 京东账号1 liu1071607950
+Jun 09 18:50:04 请重新登录获取
+Jun 09 18:50:04 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 18:50:04 
+Jun 09 18:50:04 
+Jun 09 18:50:04 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 18:50:04 
+Jun 09 18:50:04 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 18:50:04 
+Jun 09 18:50:04 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 18:50:04 
+Jun 09 18:50:04 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 18:50:04 
+Jun 09 18:50:04 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 18:50:04 
+Jun 09 18:50:04 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 18:50:04 
+Jun 09 18:50:04 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 18:50:04 
+Jun 09 18:50:04 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 18:50:04 
+Jun 09 18:50:05 
+Jun 09 18:50:05 🔔京喜工厂, 结束! 🕛 3.684 秒
+Jun 09 18:50:05 
+Jun 09 19:51:21 
+Jun 09 19:51:21 🔔京喜工厂, 开始!
+Jun 09 19:51:21 
+Jun 09 19:51:21 ====================共1个京东账号Cookie=========
+Jun 09 19:51:21 
+Jun 09 19:51:21 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 7:51:21 PM=====================
+Jun 09 19:51:21 
+Jun 09 19:51:22 "getaddrinfo ENOTFOUND cactus.jd.com"
+Jun 09 19:51:22 request_algo 签名参数API请求失败，请检查网路重试
+Jun 09 19:51:28 拼团活动ID：获取失败，将采取脚本内置活动ID
+Jun 09 19:51:28 开始获取京喜工厂配置文件
+Jun 09 19:51:28 
+Jun 09 19:51:28 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 19:51:28 共1个京东账号
+Jun 09 19:51:28 
+Jun 09 19:51:28 您提供了2个账号的京喜工厂助力码
+Jun 09 19:51:28 
+Jun 09 19:51:28 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 09 19:51:28 京喜工厂 API请求失败，请检查网路重试
+Jun 09 19:51:28 
+Jun 09 19:51:28 ******开始【京东账号1】liu1071607950*********
+Jun 09 19:51:28 
+Jun 09 19:51:32 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 09 19:51:32 京喜工厂 API请求失败，请检查网路重试
+Jun 09 19:51:35 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 09 19:51:35 京喜工厂 API请求失败，请检查网路重试
+Jun 09 19:51:35 开始
+Jun 09 19:51:38 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 09 19:51:38 京喜工厂 API请求失败，请检查网路重试
+Jun 09 19:51:38 第1个京东账号将要助力的好友["V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=","Bo-jnVs_m9uBvbRzraXcSA==","-OvElMzqeyeGBWazWYjI1Q=="]
+Jun 09 19:51:41 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 09 19:51:41 京喜工厂 API请求失败，请检查网路重试
+Jun 09 19:51:41 
+Jun 09 19:51:41 ❗️京喜工厂, 错误!
+Jun 09 19:51:41 TypeError: Cannot read property 'msg' of undefined
+Jun 09 19:51:41     at helpFriends (/scripts/jd_dreamFactory.js:414:58)
+Jun 09 19:51:41     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Jun 09 19:51:41     at async jdDreamFactory (/scripts/jd_dreamFactory.js:137:5)
+Jun 09 19:51:41     at async /scripts/jd_dreamFactory.js:95:7
+Jun 09 19:51:41 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 09 19:51:41 京喜工厂 API请求失败，请检查网路重试
+Jun 09 19:51:50 
+Jun 09 19:51:50 🔔京喜工厂, 结束! 🕛 29.562 秒
+Jun 09 19:51:50 
+Jun 09 20:50:10 
+Jun 09 20:50:10 🔔京喜工厂, 开始!
+Jun 09 20:50:10 
+Jun 09 20:50:10 ====================共1个京东账号Cookie=========
+Jun 09 20:50:10 
+Jun 09 20:50:10 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 8:50:10 PM=====================
+Jun 09 20:50:10 
+Jun 09 20:50:12 获取签名参数成功！
+Jun 09 20:50:12 fp: 8279994027354162
+Jun 09 20:50:12 token: tk01wbc0c1c75a8nbURxRGdaUE9JR7YRTmwYCd9hgBHPDdknNqZnD2EJNuTyaGZnMi9cfW6gv2zvx+ND52kNrXffTI9Z
+Jun 09 20:50:12 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='4BlguFqRh0/a';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
+Jun 09 20:50:12 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 20:50:12 开始获取京喜工厂配置文件
+Jun 09 20:50:12 
+Jun 09 20:50:12 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 20:50:12 共1个京东账号
+Jun 09 20:50:12 
+Jun 09 20:50:12 您提供了2个账号的京喜工厂助力码
+Jun 09 20:50:12 
+Jun 09 20:50:13 
+Jun 09 20:50:13 ******开始【京东账号1】liu1071607950*********
+Jun 09 20:50:13 
+Jun 09 20:50:13 
+Jun 09 20:50:13 ==============📣系统通知📣==============
+Jun 09 20:50:13 京喜工厂
+Jun 09 20:50:13 【提示】cookie已失效
+Jun 09 20:50:13 京东账号1 liu1071607950
+Jun 09 20:50:13 请重新登录获取
+Jun 09 20:50:13 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 20:50:13 
+Jun 09 20:50:13 
+Jun 09 20:50:13 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 20:50:13 
+Jun 09 20:50:13 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 20:50:13 
+Jun 09 20:50:13 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 20:50:13 
+Jun 09 20:50:13 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 20:50:13 
+Jun 09 20:50:13 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 20:50:13 
+Jun 09 20:50:13 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 20:50:13 
+Jun 09 20:50:13 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 20:50:13 
+Jun 09 20:50:13 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 20:50:13 
+Jun 09 20:50:13 
+Jun 09 20:50:13 🔔京喜工厂, 结束! 🕛 3.13 秒
+Jun 09 20:50:13 
+Jun 09 21:51:46 
+Jun 09 21:51:46 🔔京喜工厂, 开始!
+Jun 09 21:51:46 
+Jun 09 21:51:46 ====================共1个京东账号Cookie=========
+Jun 09 21:51:46 
+Jun 09 21:51:46 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 9:51:46 PM=====================
+Jun 09 21:51:46 
+Jun 09 21:51:48 获取签名参数成功！
+Jun 09 21:51:48 fp: 1439365186771162
+Jun 09 21:51:48 token: tk01w6cb91b12a8nRGVnaHpJZ3BO82DC2PLM68/shlPnO0wYd1cOWFBV+YKcu/L4tU0iYoZT2/Wsapn0ajfToABmDp3i
+Jun 09 21:51:48 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='kXpgadVfXbjU';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Jun 09 21:51:48 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 09 21:51:48 开始获取京喜工厂配置文件
+Jun 09 21:51:48 
+Jun 09 21:51:48 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 21:51:48 共1个京东账号
+Jun 09 21:51:48 
+Jun 09 21:51:48 您提供了2个账号的京喜工厂助力码
+Jun 09 21:51:48 
+Jun 09 21:51:48 
+Jun 09 21:51:48 ******开始【京东账号1】liu1071607950*********
+Jun 09 21:51:48 
+Jun 09 21:51:48 
+Jun 09 21:51:48 ==============📣系统通知📣==============
+Jun 09 21:51:48 京喜工厂
+Jun 09 21:51:48 【提示】cookie已失效
+Jun 09 21:51:48 京东账号1 liu1071607950
+Jun 09 21:51:48 请重新登录获取
+Jun 09 21:51:48 https://bean.m.jd.com/bean/signIndex.action
+Jun 09 21:51:48 
+Jun 09 21:51:48 
+Jun 09 21:51:48 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 09 21:51:48 
+Jun 09 21:51:48 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 09 21:51:48 
+Jun 09 21:51:48 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 09 21:51:48 
+Jun 09 21:51:48 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 09 21:51:48 
+Jun 09 21:51:48 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 09 21:51:48 
+Jun 09 21:51:48 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 09 21:51:48 
+Jun 09 21:51:48 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 09 21:51:48 
+Jun 09 21:51:48 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 09 21:51:48 
+Jun 09 21:51:49 
+Jun 09 21:51:49 🔔京喜工厂, 结束! 🕛 2.871 秒
+Jun 09 21:51:49 
+Jun 09 22:50:46 
+Jun 09 22:50:46 🔔京喜工厂, 开始!
+Jun 09 22:50:46 
+Jun 09 22:50:46 ====================共1个京东账号Cookie=========
+Jun 09 22:50:46 
+Jun 09 22:50:46 ==================脚本执行- 北京时间(UTC+8)：6/9/2021, 10:50:46 PM=====================
+Jun 09 22:50:46 
+Jun 09 22:50:47 "getaddrinfo ENOTFOUND cactus.jd.com"
+Jun 09 22:50:47 request_algo 签名参数API请求失败，请检查网路重试
+Jun 09 22:50:53 拼团活动ID：获取失败，将采取脚本内置活动ID
+Jun 09 22:50:53 开始获取京喜工厂配置文件
+Jun 09 22:50:53 
+Jun 09 22:50:53 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 09 22:50:53 共1个京东账号
+Jun 09 22:50:53 
+Jun 09 22:50:53 您提供了2个账号的京喜工厂助力码
+Jun 09 22:50:53 
+Jun 09 22:50:53 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 09 22:50:53 京喜工厂 API请求失败，请检查网路重试
+Jun 09 22:50:53 
+Jun 09 22:50:53 ******开始【京东账号1】liu1071607950*********
+Jun 09 22:50:53 
+Jun 09 22:50:57 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 09 22:50:57 京喜工厂 API请求失败，请检查网路重试
+Jun 09 22:51:00 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 09 22:51:00 京喜工厂 API请求失败，请检查网路重试
+Jun 09 22:51:00 开始
+Jun 09 22:51:03 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 09 22:51:03 京喜工厂 API请求失败，请检查网路重试
+Jun 09 22:51:03 第1个京东账号将要助力的好友["V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=","Bo-jnVs_m9uBvbRzraXcSA==","-OvElMzqeyeGBWazWYjI1Q=="]
+Jun 09 22:51:06 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 09 22:51:06 京喜工厂 API请求失败，请检查网路重试
+Jun 09 22:51:06 
+Jun 09 22:51:06 ❗️京喜工厂, 错误!
+Jun 09 22:51:06 TypeError: Cannot read property 'msg' of undefined
+Jun 09 22:51:06     at helpFriends (/scripts/jd_dreamFactory.js:414:58)
+Jun 09 22:51:06     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Jun 09 22:51:06     at async jdDreamFactory (/scripts/jd_dreamFactory.js:137:5)
+Jun 09 22:51:06     at async /scripts/jd_dreamFactory.js:95:7
+Jun 09 22:51:06 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 09 22:51:06 京喜工厂 API请求失败，请检查网路重试
+Jun 09 22:51:15 
+Jun 09 22:51:15 🔔京喜工厂, 结束! 🕛 29.497 秒
+Jun 09 22:51:15 
+Jun 10 10:51:12 
+Jun 10 10:51:12 🔔京喜工厂, 开始!
+Jun 10 10:51:12 
+Jun 10 10:51:12 ====================共1个京东账号Cookie=========
+Jun 10 10:51:12 
+Jun 10 10:51:12 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 10:51:12 AM=====================
+Jun 10 10:51:12 
+Jun 10 10:51:15 获取签名参数成功！
+Jun 10 10:51:15 fp: 4653799601339162
+Jun 10 10:51:15 token: tk01wce071cb5a8nZ2pNaldiTSsvzxDXHlAjh9X567sKFtJfr/rGgYCkWz20Dt8sSyd10WEUeVs5Io9X2HscGbladmGh
+Jun 10 10:51:15 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='Y0tL7oaXQt3f';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
+Jun 10 10:51:35 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 10:51:35 开始获取京喜工厂配置文件
+Jun 10 10:51:35 
+Jun 10 10:51:35 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 10:51:35 共1个京东账号
+Jun 10 10:51:35 
+Jun 10 10:51:35 您提供了2个账号的京喜工厂助力码
+Jun 10 10:51:35 
+Jun 10 10:51:35 
+Jun 10 10:51:35 ******开始【京东账号1】liu1071607950*********
+Jun 10 10:51:35 
+Jun 10 10:51:35 
+Jun 10 10:51:35 ==============📣系统通知📣==============
+Jun 10 10:51:35 京喜工厂
+Jun 10 10:51:35 【提示】cookie已失效
+Jun 10 10:51:35 京东账号1 liu1071607950
+Jun 10 10:51:35 请重新登录获取
+Jun 10 10:51:35 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 10:51:35 
+Jun 10 10:51:35 
+Jun 10 10:51:35 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 10:51:35 
+Jun 10 10:51:35 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 10:51:35 
+Jun 10 10:51:35 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 10:51:35 
+Jun 10 10:51:35 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 10:51:35 
+Jun 10 10:51:35 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 10:51:35 
+Jun 10 10:51:35 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 10:51:35 
+Jun 10 10:51:35 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 10:51:35 
+Jun 10 10:51:35 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 10:51:35 
+Jun 10 10:51:56 SyntaxError: Unexpected token < in JSON at position 0
+Jun 10 10:51:56     at JSON.parse (<anonymous>)
+Jun 10 10:51:56     at safeGet (/scripts/jd_dreamFactory.js:1424:21)
+Jun 10 10:51:56     at /scripts/jd_dreamFactory.js:1219:15
+Jun 10 10:51:56     at isSurge.isLoon.isQuanX.isNode.got.on.then.message (/scripts/jd_dreamFactory.js:1661:4869)
+Jun 10 10:51:56     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Jun 10 10:51:56 京东服务器访问数据为空，请检查自身设备网络情况
+Jun 10 10:51:57 
+Jun 10 10:51:57 账号liu1071607950 参加作者lxk0301的团 【NYxpNL6PmYJWMLJJ9Ek2mA==】
+Jun 10 10:51:57 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293517,"ret":10001}
+Jun 10 10:51:57 
+Jun 10 10:51:58 
+Jun 10 10:51:58 账号liu1071607950 参加作者lxk0301的团 【N26wLM8PqoDdMk9Q03durg==】
+Jun 10 10:51:59 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293519,"ret":10001}
+Jun 10 10:51:59 
+Jun 10 10:52:00 
+Jun 10 10:52:00 账号liu1071607950 参加作者lxk0301的团 【Y-wVEhYp7qoZVh7BsVTu0w==】
+Jun 10 10:52:00 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293520,"ret":10001}
+Jun 10 10:52:00 
+Jun 10 10:52:01 
+Jun 10 10:52:01 账号liu1071607950 参加作者lxk0301的团 【MDOlUKE56tbO5SKqB0ofwg==】
+Jun 10 10:52:01 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293521,"ret":10001}
+Jun 10 10:52:01 
+Jun 10 10:52:02 
+Jun 10 10:52:02 账号liu1071607950 参加作者lxk0301的团 【_uQEdKjUT1S4DC-vL-WowQ==】
+Jun 10 10:52:02 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293523,"ret":10001}
+Jun 10 10:52:02 
+Jun 10 10:52:03 
+Jun 10 10:52:03 账号liu1071607950 参加作者lxk0301的团 【N2Q0AEiug4U_PiAsFaxAtQ==】
+Jun 10 10:52:04 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293524,"ret":10001}
+Jun 10 10:52:04 
+Jun 10 10:52:05 
+Jun 10 10:52:05 账号liu1071607950 参加作者lxk0301的团 【5dYZe7nuHdP-_whe9Iy1LQ==】
+Jun 10 10:52:05 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293525,"ret":10001}
+Jun 10 10:52:05 
+Jun 10 10:52:06 
+Jun 10 10:52:06 账号liu1071607950 参加作者lxk0301的团 【XgLSJa-Q7qDsqGozVh4ZDQ==】
+Jun 10 10:52:06 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293526,"ret":10001}
+Jun 10 10:52:06 
+Jun 10 10:52:07 
+Jun 10 10:52:07 账号liu1071607950 参加作者lxk0301的团 【kqJKPylXcZJDiF32R-pOjw==】
+Jun 10 10:52:07 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293528,"ret":10001}
+Jun 10 10:52:07 
+Jun 10 10:52:08 
+Jun 10 10:52:09 账号liu1071607950 参加作者lxk0301的团 【_8CX21aHbWLQpSgMFAAqWw==】
+Jun 10 10:52:09 参团失败：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623293529,"ret":10001}
+Jun 10 10:52:09 
+Jun 10 10:52:10 
+Jun 10 10:52:10 🔔京喜工厂, 结束! 🕛 57.782 秒
+Jun 10 10:52:10 
+Jun 10 11:51:10 
+Jun 10 11:51:10 🔔京喜工厂, 开始!
+Jun 10 11:51:10 
+Jun 10 11:51:10 ====================共1个京东账号Cookie=========
+Jun 10 11:51:10 
+Jun 10 11:51:10 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 11:51:10 AM=====================
+Jun 10 11:51:10 
+Jun 10 11:51:14 获取签名参数成功！
+Jun 10 11:51:14 fp: 0619782461537162
+Jun 10 11:51:14 token: tk01we4971cc6a8nQ0gxMlFnRkxk1eMFbInuvwnO1juXikEw+1geKencr55TJtqF2K4TzVLeTSzzUPCsl+9C2/QBvaGR
+Jun 10 11:51:14 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='wQi0y7R+GKzh';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA256(str,token)}
+Jun 10 11:51:33 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 11:51:33 开始获取京喜工厂配置文件
+Jun 10 11:51:33 
+Jun 10 11:51:33 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 11:51:33 共1个京东账号
+Jun 10 11:51:33 
+Jun 10 11:51:33 您提供了2个账号的京喜工厂助力码
+Jun 10 11:51:33 
+Jun 10 11:51:33 
+Jun 10 11:51:33 ******开始【京东账号1】liu1071607950*********
+Jun 10 11:51:33 
+Jun 10 11:51:33 GetUserInfo异常：{"msg":"登录京东账号才可以继续游戏哦~","nowTime":1623297093,"ret":10001}
+Jun 10 11:51:33 QueryFriendList异常：{"msg":"亲,您还未登陆,正在为您跳转至登录页面...","nowTime":1623297093,"ret":10001}
+Jun 10 11:51:33 开始
+Jun 10 11:51:37 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 10 11:51:37 京喜工厂 API请求失败，请检查网路重试
+Jun 10 11:51:37 第1个京东账号将要助力的好友["V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=","Bo-jnVs_m9uBvbRzraXcSA==","-OvElMzqeyeGBWazWYjI1Q=="]
+Jun 10 11:51:37 助力朋友[V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=]失败：亲,您还未登陆,正在为您跳转至登录页面...
+Jun 10 11:51:37 助力朋友[Bo-jnVs_m9uBvbRzraXcSA==]失败：亲,您还未登陆,正在为您跳转至登录页面...
+Jun 10 11:51:38 助力朋友[-OvElMzqeyeGBWazWYjI1Q==]失败：亲,您还未登陆,正在为您跳转至登录页面...
+Jun 10 11:51:38 
+Jun 10 11:51:38 🔔京喜工厂, 结束! 🕛 27.489 秒
+Jun 10 11:51:38 
+Jun 10 12:50:25 
+Jun 10 12:50:25 🔔京喜工厂, 开始!
+Jun 10 12:50:25 
+Jun 10 12:50:25 ====================共1个京东账号Cookie=========
+Jun 10 12:50:25 
+Jun 10 12:50:25 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 12:50:25 PM=====================
+Jun 10 12:50:25 
+Jun 10 12:50:28 "getaddrinfo ENOTFOUND cactus.jd.com"
+Jun 10 12:50:28 request_algo 签名参数API请求失败，请检查网路重试
+Jun 10 12:50:34 拼团活动ID：获取失败，将采取脚本内置活动ID
+Jun 10 12:50:34 开始获取京喜工厂配置文件
+Jun 10 12:50:34 
+Jun 10 12:50:34 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 12:50:34 共1个京东账号
+Jun 10 12:50:34 
+Jun 10 12:50:34 您提供了2个账号的京喜工厂助力码
+Jun 10 12:50:34 
+Jun 10 12:50:34 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 10 12:50:34 京喜工厂 API请求失败，请检查网路重试
+Jun 10 12:50:34 
+Jun 10 12:50:34 ******开始【京东账号1】liu1071607950*********
+Jun 10 12:50:34 
+Jun 10 12:50:37 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 10 12:50:37 京喜工厂 API请求失败，请检查网路重试
+Jun 10 12:50:40 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 10 12:50:40 京喜工厂 API请求失败，请检查网路重试
+Jun 10 12:50:40 开始
+Jun 10 12:50:44 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 10 12:50:44 京喜工厂 API请求失败，请检查网路重试
+Jun 10 12:50:44 第1个京东账号将要助力的好友["V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=","Bo-jnVs_m9uBvbRzraXcSA==","-OvElMzqeyeGBWazWYjI1Q=="]
+Jun 10 12:50:47 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 10 12:50:47 京喜工厂 API请求失败，请检查网路重试
+Jun 10 12:50:47 
+Jun 10 12:50:47 ❗️京喜工厂, 错误!
+Jun 10 12:50:47 TypeError: Cannot read property 'msg' of undefined
+Jun 10 12:50:47     at helpFriends (/scripts/jd_dreamFactory.js:414:58)
+Jun 10 12:50:47     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Jun 10 12:50:47     at async jdDreamFactory (/scripts/jd_dreamFactory.js:137:5)
+Jun 10 12:50:47     at async /scripts/jd_dreamFactory.js:95:7
+Jun 10 12:50:47 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 10 12:50:47 京喜工厂 API请求失败，请检查网路重试
+Jun 10 12:50:56 
+Jun 10 12:50:56 🔔京喜工厂, 结束! 🕛 31.427 秒
+Jun 10 12:50:56 
+Jun 10 13:51:22 
+Jun 10 13:51:22 🔔京喜工厂, 开始!
+Jun 10 13:51:22 
+Jun 10 13:51:22 ====================共1个京东账号Cookie=========
+Jun 10 13:51:22 
+Jun 10 13:51:22 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 1:51:22 PM=====================
+Jun 10 13:51:22 
+Jun 10 13:51:25 获取签名参数成功！
+Jun 10 13:51:25 fp: 7054719980826162
+Jun 10 13:51:25 token: tk01w834c1b2ea8nYU9lTEVPYVY5mM/GVv/bSa8O4pW/+JJSUa28V7ya0wZvheeirVM3RbEKf2FnKWqnrC7tDxRP/J/D
+Jun 10 13:51:25 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='t4Zhh3wn06LW';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
+Jun 10 13:51:44 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 13:51:44 开始获取京喜工厂配置文件
+Jun 10 13:51:44 
+Jun 10 13:51:44 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 13:51:44 共1个京东账号
+Jun 10 13:51:44 
+Jun 10 13:51:44 您提供了2个账号的京喜工厂助力码
+Jun 10 13:51:44 
+Jun 10 13:51:44 
+Jun 10 13:51:44 ******开始【京东账号1】liu1071607950*********
+Jun 10 13:51:44 
+Jun 10 13:51:44 
+Jun 10 13:51:44 ==============📣系统通知📣==============
+Jun 10 13:51:44 京喜工厂
+Jun 10 13:51:44 【提示】cookie已失效
+Jun 10 13:51:44 京东账号1 liu1071607950
+Jun 10 13:51:44 请重新登录获取
+Jun 10 13:51:44 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 13:51:44 
+Jun 10 13:51:44 
+Jun 10 13:51:44 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 13:51:44 
+Jun 10 13:51:44 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 13:51:44 
+Jun 10 13:51:44 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 13:51:44 
+Jun 10 13:51:44 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 13:51:44 
+Jun 10 13:51:44 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 13:51:44 
+Jun 10 13:51:44 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 13:51:44 
+Jun 10 13:51:44 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 13:51:44 
+Jun 10 13:51:44 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 13:51:44 
+Jun 10 13:51:45 
+Jun 10 13:51:45 🔔京喜工厂, 结束! 🕛 22.489 秒
+Jun 10 13:51:45 
+Jun 10 14:51:33 
+Jun 10 14:51:33 🔔京喜工厂, 开始!
+Jun 10 14:51:33 
+Jun 10 14:51:33 ====================共1个京东账号Cookie=========
+Jun 10 14:51:33 
+Jun 10 14:51:33 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 2:51:33 PM=====================
+Jun 10 14:51:33 
+Jun 10 14:51:36 获取签名参数成功！
+Jun 10 14:51:36 fp: 3475922863424162
+Jun 10 14:51:36 token: tk01w9eca1ba2a8nRm1uTTBQT1NZ/xEnbNn8/pIhLBuAfurpd50N15huz8tk4ZENz6KwfkM4La+P9d3/7MlKYxiuXp84
+Jun 10 14:51:36 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='xOGAKiZ7NE1G';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA256(str,token)}
+Jun 10 14:51:55 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 14:51:55 开始获取京喜工厂配置文件
+Jun 10 14:51:55 
+Jun 10 14:51:55 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 14:51:55 共1个京东账号
+Jun 10 14:51:55 
+Jun 10 14:51:55 您提供了2个账号的京喜工厂助力码
+Jun 10 14:51:55 
+Jun 10 14:52:10 
+Jun 10 14:52:10 ******开始【京东账号1】liu1071607950*********
+Jun 10 14:52:10 
+Jun 10 14:52:10 
+Jun 10 14:52:10 ==============📣系统通知📣==============
+Jun 10 14:52:10 京喜工厂
+Jun 10 14:52:10 【提示】cookie已失效
+Jun 10 14:52:10 京东账号1 liu1071607950
+Jun 10 14:52:10 请重新登录获取
+Jun 10 14:52:10 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 14:52:10 
+Jun 10 14:52:10 
+Jun 10 14:52:10 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 14:52:10 
+Jun 10 14:52:10 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 14:52:10 
+Jun 10 14:52:10 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 14:52:10 
+Jun 10 14:52:10 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 14:52:10 
+Jun 10 14:52:10 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 14:52:10 
+Jun 10 14:52:10 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 14:52:10 
+Jun 10 14:52:10 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 14:52:10 
+Jun 10 14:52:10 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 14:52:10 
+Jun 10 14:52:11 
+Jun 10 14:52:11 🔔京喜工厂, 结束! 🕛 37.35 秒
+Jun 10 14:52:11 
+Jun 10 15:51:24 
+Jun 10 15:51:24 🔔京喜工厂, 开始!
+Jun 10 15:51:24 
+Jun 10 15:51:24 ====================共1个京东账号Cookie=========
+Jun 10 15:51:24 
+Jun 10 15:51:24 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 3:51:24 PM=====================
+Jun 10 15:51:24 
+Jun 10 15:51:27 "getaddrinfo ENOTFOUND cactus.jd.com"
+Jun 10 15:51:27 request_algo 签名参数API请求失败，请检查网路重试
+Jun 10 15:51:36 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 15:51:36 开始获取京喜工厂配置文件
+Jun 10 15:51:36 
+Jun 10 15:51:36 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 15:51:36 共1个京东账号
+Jun 10 15:51:36 
+Jun 10 15:51:36 您提供了2个账号的京喜工厂助力码
+Jun 10 15:51:36 
+Jun 10 15:51:36 
+Jun 10 15:51:36 ******开始【京东账号1】liu1071607950*********
+Jun 10 15:51:36 
+Jun 10 15:51:36 
+Jun 10 15:51:36 ==============📣系统通知📣==============
+Jun 10 15:51:36 京喜工厂
+Jun 10 15:51:36 【提示】cookie已失效
+Jun 10 15:51:36 京东账号1 liu1071607950
+Jun 10 15:51:36 请重新登录获取
+Jun 10 15:51:36 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 15:51:36 
+Jun 10 15:51:36 
+Jun 10 15:51:36 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 15:51:36 
+Jun 10 15:51:36 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 15:51:36 
+Jun 10 15:51:36 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 15:51:36 
+Jun 10 15:51:36 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 15:51:36 
+Jun 10 15:51:36 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 15:51:36 
+Jun 10 15:51:36 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 15:51:36 
+Jun 10 15:51:36 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 15:51:36 
+Jun 10 15:51:36 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 15:51:36 
+Jun 10 15:51:37 
+Jun 10 15:51:37 🔔京喜工厂, 结束! 🕛 12.388 秒
+Jun 10 15:51:37 
+Jun 10 16:50:42 
+Jun 10 16:50:42 🔔京喜工厂, 开始!
+Jun 10 16:50:42 
+Jun 10 16:50:42 ====================共1个京东账号Cookie=========
+Jun 10 16:50:42 
+Jun 10 16:50:42 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 4:50:42 PM=====================
+Jun 10 16:50:42 
+Jun 10 16:50:45 获取签名参数成功！
+Jun 10 16:50:45 fp: 3948753110807162
+Jun 10 16:50:45 token: tk01w98c51ba0a8nUDBUejlQTmtXOCf/o6L207uKFLe/jn8C2JKp8tDicLejS90tKJksvi4qhMdYxPjW6S+N81shDGId
+Jun 10 16:50:45 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='p2jR95Ft2sEx';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 10 16:51:06 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 16:51:06 开始获取京喜工厂配置文件
+Jun 10 16:51:06 
+Jun 10 16:51:06 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 16:51:06 共1个京东账号
+Jun 10 16:51:06 
+Jun 10 16:51:06 您提供了2个账号的京喜工厂助力码
+Jun 10 16:51:06 
+Jun 10 16:51:07 
+Jun 10 16:51:07 ******开始【京东账号1】liu1071607950*********
+Jun 10 16:51:07 
+Jun 10 16:51:07 
+Jun 10 16:51:07 ==============📣系统通知📣==============
+Jun 10 16:51:07 京喜工厂
+Jun 10 16:51:07 【提示】cookie已失效
+Jun 10 16:51:07 京东账号1 liu1071607950
+Jun 10 16:51:07 请重新登录获取
+Jun 10 16:51:07 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 16:51:07 
+Jun 10 16:51:07 
+Jun 10 16:51:07 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 16:51:07 
+Jun 10 16:51:07 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 16:51:07 
+Jun 10 16:51:07 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 16:51:07 
+Jun 10 16:51:07 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 16:51:07 
+Jun 10 16:51:07 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 16:51:07 
+Jun 10 16:51:07 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 16:51:07 
+Jun 10 16:51:07 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 16:51:07 
+Jun 10 16:51:07 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 16:51:07 
+Jun 10 16:51:07 
+Jun 10 16:51:07 🔔京喜工厂, 结束! 🕛 24.773 秒
+Jun 10 16:51:07 
+Jun 10 17:50:31 
+Jun 10 17:50:31 🔔京喜工厂, 开始!
+Jun 10 17:50:31 
+Jun 10 17:50:31 ====================共1个京东账号Cookie=========
+Jun 10 17:50:31 
+Jun 10 17:50:31 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 5:50:31 PM=====================
+Jun 10 17:50:31 
+Jun 10 17:50:34 获取签名参数成功！
+Jun 10 17:50:34 fp: 1648471718556162
+Jun 10 17:50:34 token: tk01w74f11a6ea8nbyt2Y1VWTXlLFI04Q0igKVS70wpASAkFeCwH/1KQyI00YDRl6P5b/dZQEPfZASqQSc4ACP5vZR4X
+Jun 10 17:50:34 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='t+XCERb2pO6q';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.MD5(str)}
+Jun 10 17:50:53 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 17:50:53 开始获取京喜工厂配置文件
+Jun 10 17:50:53 
+Jun 10 17:50:53 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 17:50:53 共1个京东账号
+Jun 10 17:50:53 
+Jun 10 17:50:53 您提供了2个账号的京喜工厂助力码
+Jun 10 17:50:53 
+Jun 10 17:50:53 
+Jun 10 17:50:53 ******开始【京东账号1】liu1071607950*********
+Jun 10 17:50:53 
+Jun 10 17:50:53 
+Jun 10 17:50:53 ==============📣系统通知📣==============
+Jun 10 17:50:53 京喜工厂
+Jun 10 17:50:53 【提示】cookie已失效
+Jun 10 17:50:53 京东账号1 liu1071607950
+Jun 10 17:50:53 请重新登录获取
+Jun 10 17:50:53 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 17:50:53 
+Jun 10 17:50:53 
+Jun 10 17:50:53 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 17:50:53 
+Jun 10 17:50:53 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 17:50:53 
+Jun 10 17:50:53 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 17:50:53 
+Jun 10 17:50:53 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 17:50:53 
+Jun 10 17:50:53 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 17:50:53 
+Jun 10 17:50:53 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 17:50:53 
+Jun 10 17:50:53 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 17:50:53 
+Jun 10 17:50:53 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 17:50:53 
+Jun 10 17:50:53 
+Jun 10 17:50:53 🔔京喜工厂, 结束! 🕛 22.426 秒
+Jun 10 17:50:53 
+Jun 10 18:51:57 
+Jun 10 18:51:57 🔔京喜工厂, 开始!
+Jun 10 18:51:57 
+Jun 10 18:51:57 ====================共1个京东账号Cookie=========
+Jun 10 18:51:57 
+Jun 10 18:51:57 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 6:51:57 PM=====================
+Jun 10 18:51:57 
+Jun 10 18:51:59 获取签名参数成功！
+Jun 10 18:51:59 fp: 3427576523367162
+Jun 10 18:51:59 token: tk01wc4051c87a8ncURTWUhhYUtUt32Lt/nPcroIrz0Dl6/bLbAO6juo4QP8tJFnIJScirNo+fd/vXmaQu5Wyn/Cq54j
+Jun 10 18:51:59 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='U6hjUJ6L1k5/';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA512(str,token)}
+Jun 10 18:52:18 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 18:52:18 开始获取京喜工厂配置文件
+Jun 10 18:52:18 
+Jun 10 18:52:18 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 18:52:18 共1个京东账号
+Jun 10 18:52:18 
+Jun 10 18:52:18 您提供了2个账号的京喜工厂助力码
+Jun 10 18:52:18 
+Jun 10 18:52:19 
+Jun 10 18:52:19 ******开始【京东账号1】liu1071607950*********
+Jun 10 18:52:19 
+Jun 10 18:52:19 
+Jun 10 18:52:19 ==============📣系统通知📣==============
+Jun 10 18:52:19 京喜工厂
+Jun 10 18:52:19 【提示】cookie已失效
+Jun 10 18:52:19 京东账号1 liu1071607950
+Jun 10 18:52:19 请重新登录获取
+Jun 10 18:52:19 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 18:52:19 
+Jun 10 18:52:19 
+Jun 10 18:52:19 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 18:52:19 
+Jun 10 18:52:19 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 18:52:19 
+Jun 10 18:52:19 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 18:52:19 
+Jun 10 18:52:19 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 18:52:19 
+Jun 10 18:52:19 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 18:52:19 
+Jun 10 18:52:19 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 18:52:19 
+Jun 10 18:52:19 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 18:52:19 
+Jun 10 18:52:19 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 18:52:19 
+Jun 10 18:52:19 
+Jun 10 18:52:19 🔔京喜工厂, 结束! 🕛 22.244 秒
+Jun 10 18:52:19 
+Jun 10 19:50:35 
+Jun 10 19:50:35 🔔京喜工厂, 开始!
+Jun 10 19:50:35 
+Jun 10 19:50:35 ====================共1个京东账号Cookie=========
+Jun 10 19:50:35 
+Jun 10 19:50:35 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 7:50:35 PM=====================
+Jun 10 19:50:35 
+Jun 10 19:50:38 "getaddrinfo ENOTFOUND cactus.jd.com"
+Jun 10 19:50:38 request_algo 签名参数API请求失败，请检查网路重试
+Jun 10 19:50:44 拼团活动ID：获取失败，将采取脚本内置活动ID
+Jun 10 19:50:44 开始获取京喜工厂配置文件
+Jun 10 19:50:44 
+Jun 10 19:50:44 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 19:50:44 共1个京东账号
+Jun 10 19:50:44 
+Jun 10 19:50:44 您提供了2个账号的京喜工厂助力码
+Jun 10 19:50:44 
+Jun 10 19:50:44 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 10 19:50:44 京喜工厂 API请求失败，请检查网路重试
+Jun 10 19:50:44 
+Jun 10 19:50:44 ******开始【京东账号1】liu1071607950*********
+Jun 10 19:50:44 
+Jun 10 19:50:48 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 10 19:50:48 京喜工厂 API请求失败，请检查网路重试
+Jun 10 19:50:51 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 10 19:50:51 京喜工厂 API请求失败，请检查网路重试
+Jun 10 19:50:51 开始
+Jun 10 19:50:54 "getaddrinfo ENOTFOUND share.turinglabs.net"
+Jun 10 19:50:54 京喜工厂 API请求失败，请检查网路重试
+Jun 10 19:50:54 第1个京东账号将要助力的好友["V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=","Bo-jnVs_m9uBvbRzraXcSA==","-OvElMzqeyeGBWazWYjI1Q=="]
+Jun 10 19:50:57 "getaddrinfo ENOTFOUND m.jingxi.com"
+Jun 10 19:50:57 京喜工厂 API请求失败，请检查网路重试
+Jun 10 19:50:57 
+Jun 10 19:50:57 ❗️京喜工厂, 错误!
+Jun 10 19:50:57 TypeError: Cannot read property 'msg' of undefined
+Jun 10 19:50:57     at helpFriends (/scripts/jd_dreamFactory.js:414:58)
+Jun 10 19:50:57     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Jun 10 19:50:57     at async jdDreamFactory (/scripts/jd_dreamFactory.js:137:5)
+Jun 10 19:50:57     at async /scripts/jd_dreamFactory.js:95:7
+Jun 10 19:50:57 "getaddrinfo ENOTFOUND wq.jd.com"
+Jun 10 19:50:57 京喜工厂 API请求失败，请检查网路重试
+Jun 10 19:51:07 
+Jun 10 19:51:07 🔔京喜工厂, 结束! 🕛 31.889 秒
+Jun 10 19:51:07 
+Jun 10 20:51:43 
+Jun 10 20:51:43 🔔京喜工厂, 开始!
+Jun 10 20:51:43 
+Jun 10 20:51:43 ====================共1个京东账号Cookie=========
+Jun 10 20:51:43 
+Jun 10 20:51:43 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 8:51:43 PM=====================
+Jun 10 20:51:43 
+Jun 10 20:51:46 获取签名参数成功！
+Jun 10 20:51:46 fp: 6455708994024162
+Jun 10 20:51:46 token: tk01w63741a64a8nSnJUVDlhNGFQ2Fa0X+0H0nU64LgXqBzXTGCL7A1PEte/rlN2GNb388Tdt6yoYXMA9nXI3aw7JEEk
+Jun 10 20:51:46 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='FShmcZrerbEW';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
+Jun 10 20:51:47 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 20:51:47 开始获取京喜工厂配置文件
+Jun 10 20:51:47 
+Jun 10 20:51:47 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 20:51:47 共1个京东账号
+Jun 10 20:51:47 
+Jun 10 20:51:47 您提供了2个账号的京喜工厂助力码
+Jun 10 20:51:47 
+Jun 10 20:51:47 
+Jun 10 20:51:47 ******开始【京东账号1】liu1071607950*********
+Jun 10 20:51:47 
+Jun 10 20:51:47 
+Jun 10 20:51:47 ==============📣系统通知📣==============
+Jun 10 20:51:47 京喜工厂
+Jun 10 20:51:47 【提示】cookie已失效
+Jun 10 20:51:47 京东账号1 liu1071607950
+Jun 10 20:51:47 请重新登录获取
+Jun 10 20:51:47 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 20:51:47 
+Jun 10 20:51:48 
+Jun 10 20:51:48 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 20:51:48 
+Jun 10 20:51:48 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 20:51:48 
+Jun 10 20:51:48 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 20:51:48 
+Jun 10 20:51:48 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 20:51:48 
+Jun 10 20:51:48 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 20:51:48 
+Jun 10 20:51:48 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 20:51:48 
+Jun 10 20:51:48 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 20:51:48 
+Jun 10 20:51:48 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 20:51:48 
+Jun 10 20:51:48 
+Jun 10 20:51:48 🔔京喜工厂, 结束! 🕛 5.146 秒
+Jun 10 20:51:48 
+Jun 10 21:52:00 
+Jun 10 21:52:00 🔔京喜工厂, 开始!
+Jun 10 21:52:00 
+Jun 10 21:52:00 ====================共1个京东账号Cookie=========
+Jun 10 21:52:00 
+Jun 10 21:52:00 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 9:52:00 PM=====================
+Jun 10 21:52:00 
+Jun 10 21:52:02 获取签名参数成功！
+Jun 10 21:52:02 fp: 8596595826032162
+Jun 10 21:52:02 token: tk01wdbe01d27a8nckNzelFUVi9SsZnkfjA3tX1y565flRX9Tc7P0hVdKy+RktvadXesdMCqyCbuUDsW6alt4hutDL+9
+Jun 10 21:52:02 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='7ntIRU6cSItg';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Jun 10 21:52:04 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 21:52:04 开始获取京喜工厂配置文件
+Jun 10 21:52:04 
+Jun 10 21:52:04 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 21:52:04 共1个京东账号
+Jun 10 21:52:04 
+Jun 10 21:52:04 您提供了2个账号的京喜工厂助力码
+Jun 10 21:52:04 
+Jun 10 21:52:04 
+Jun 10 21:52:04 ******开始【京东账号1】liu1071607950*********
+Jun 10 21:52:04 
+Jun 10 21:52:04 
+Jun 10 21:52:04 ==============📣系统通知📣==============
+Jun 10 21:52:04 京喜工厂
+Jun 10 21:52:04 【提示】cookie已失效
+Jun 10 21:52:04 京东账号1 liu1071607950
+Jun 10 21:52:04 请重新登录获取
+Jun 10 21:52:04 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 21:52:04 
+Jun 10 21:52:04 
+Jun 10 21:52:04 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 21:52:04 
+Jun 10 21:52:04 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 21:52:04 
+Jun 10 21:52:04 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 21:52:04 
+Jun 10 21:52:04 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 21:52:04 
+Jun 10 21:52:04 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 21:52:04 
+Jun 10 21:52:04 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 21:52:04 
+Jun 10 21:52:04 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 21:52:04 
+Jun 10 21:52:04 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 21:52:04 
+Jun 10 21:52:04 
+Jun 10 21:52:04 🔔京喜工厂, 结束! 🕛 4.54 秒
+Jun 10 21:52:04 
+Jun 10 22:50:49 
+Jun 10 22:50:49 🔔京喜工厂, 开始!
+Jun 10 22:50:49 
+Jun 10 22:50:49 ====================共1个京东账号Cookie=========
+Jun 10 22:50:49 
+Jun 10 22:50:49 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 10:50:49 PM=====================
+Jun 10 22:50:49 
+Jun 10 22:50:52 获取签名参数成功！
+Jun 10 22:50:52 fp: 2399419934056162
+Jun 10 22:50:52 token: tk01w103a1e1ca8nbmtVVWVxdi9sl3idwvOzQRkLbr79CSiiPilcppbqqHyl5rfpA4q9sw1QE37jPfuBuAXUIyCtLWsO
+Jun 10 22:50:52 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='NoNHps4d3JQp';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.MD5(str)}
+Jun 10 22:50:54 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 22:50:54 开始获取京喜工厂配置文件
+Jun 10 22:50:54 
+Jun 10 22:50:54 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 22:50:54 共1个京东账号
+Jun 10 22:50:54 
+Jun 10 22:50:54 您提供了2个账号的京喜工厂助力码
+Jun 10 22:50:54 
+Jun 10 22:50:54 
+Jun 10 22:50:54 ******开始【京东账号1】liu1071607950*********
+Jun 10 22:50:54 
+Jun 10 22:50:54 
+Jun 10 22:50:54 ==============📣系统通知📣==============
+Jun 10 22:50:54 京喜工厂
+Jun 10 22:50:54 【提示】cookie已失效
+Jun 10 22:50:54 京东账号1 liu1071607950
+Jun 10 22:50:54 请重新登录获取
+Jun 10 22:50:54 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 22:50:54 
+Jun 10 22:50:54 
+Jun 10 22:50:54 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 22:50:54 
+Jun 10 22:50:54 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 22:50:54 
+Jun 10 22:50:54 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 22:50:54 
+Jun 10 22:50:54 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 22:50:54 
+Jun 10 22:50:54 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 22:50:54 
+Jun 10 22:50:54 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 22:50:54 
+Jun 10 22:50:54 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 22:50:54 
+Jun 10 22:50:54 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 22:50:54 
+Jun 10 22:50:54 
+Jun 10 22:50:54 🔔京喜工厂, 结束! 🕛 5.008 秒
+Jun 10 22:50:54 
+Jun 10 23:50:29 
+Jun 10 23:50:29 🔔京喜工厂, 开始!
+Jun 10 23:50:29 
+Jun 10 23:50:29 ====================共1个京东账号Cookie=========
+Jun 10 23:50:29 
+Jun 10 23:50:29 ==================脚本执行- 北京时间(UTC+8)：6/10/2021, 11:50:29 PM=====================
+Jun 10 23:50:29 
+Jun 10 23:50:31 获取签名参数成功！
+Jun 10 23:50:31 fp: 1121761022388162
+Jun 10 23:50:31 token: tk01w80f91bc6a8nSXB0L3hDTStmGTJZDXiQD8K6T5oDA7nOm/o3k1LcmSDjqGwf7YNr4+HuF3xplWhhj7wkyoJTEpCG
+Jun 10 23:50:31 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='GaQlgvypesY7';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Jun 10 23:50:31 拼团活动ID: 获取成功 laD7IwPwDF1-Te-MvbW9Iw==
+Jun 10 23:50:31 开始获取京喜工厂配置文件
+Jun 10 23:50:31 
+Jun 10 23:50:31 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 10 23:50:31 共1个京东账号
+Jun 10 23:50:31 
+Jun 10 23:50:31 您提供了2个账号的京喜工厂助力码
+Jun 10 23:50:31 
+Jun 10 23:50:31 
+Jun 10 23:50:31 ******开始【京东账号1】liu1071607950*********
+Jun 10 23:50:31 
+Jun 10 23:50:31 
+Jun 10 23:50:31 ==============📣系统通知📣==============
+Jun 10 23:50:31 京喜工厂
+Jun 10 23:50:31 【提示】cookie已失效
+Jun 10 23:50:31 京东账号1 liu1071607950
+Jun 10 23:50:31 请重新登录获取
+Jun 10 23:50:31 https://bean.m.jd.com/bean/signIndex.action
+Jun 10 23:50:31 
+Jun 10 23:50:31 
+Jun 10 23:50:31 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 10 23:50:31 
+Jun 10 23:50:31 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 10 23:50:31 
+Jun 10 23:50:31 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 10 23:50:31 
+Jun 10 23:50:31 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 10 23:50:31 
+Jun 10 23:50:31 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 10 23:50:31 
+Jun 10 23:50:31 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 10 23:50:31 
+Jun 10 23:50:31 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 10 23:50:31 
+Jun 10 23:50:31 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 10 23:50:31 
+Jun 10 23:50:31 
+Jun 10 23:50:31 🔔京喜工厂, 结束! 🕛 2.597 秒
+Jun 10 23:50:31 
+Jun 24 14:51:34 
+Jun 24 14:51:34 🔔京喜工厂, 开始!
+Jun 24 14:51:34 
+Jun 24 14:51:34 ====================共1个京东账号Cookie=========
+Jun 24 14:51:34 
+Jun 24 14:51:34 ==================脚本执行- 北京时间(UTC+8)：6/24/2021, 2:51:34 PM=====================
+Jun 24 14:51:34 
+Jun 24 14:51:38 获取签名参数成功！
+Jun 24 14:51:38 fp: 1684086503859162
+Jun 24 14:51:38 token: tk01wc4401c7fa8nYnEwaktURWNBPSmQZ65gD6ldYtu3Z2NP7hbdFGurOpQn5JqhfATV3hplMNkJhMG0J1vIcXI3ygIl
+Jun 24 14:51:38 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='qZQ7CW7Xcn9r';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Jun 24 14:51:41 拼团活动ID: 获取成功 bozIUUFcANuUdWpw3QdvPw==
+Jun 24 14:51:41 开始获取京喜工厂配置文件
+Jun 24 14:51:41 
+Jun 24 14:51:41 由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+Jun 24 14:51:41 共1个京东账号
+Jun 24 14:51:41 
+Jun 24 14:51:41 您提供了2个账号的京喜工厂助力码
+Jun 24 14:51:41 
+Jun 24 14:51:41 
+Jun 24 14:51:41 ******开始【京东账号1】liu1071607950*********
+Jun 24 14:51:41 
+Jun 24 14:51:41 
+Jun 24 14:51:41 ==============📣系统通知📣==============
+Jun 24 14:51:41 京喜工厂
+Jun 24 14:51:41 【提示】cookie已失效
+Jun 24 14:51:41 京东账号1 liu1071607950
+Jun 24 14:51:41 请重新登录获取
+Jun 24 14:51:41 https://bean.m.jd.com/bean/signIndex.action
+Jun 24 14:51:41 
+Jun 24 14:51:41 
+Jun 24 14:51:41 您未提供server酱的SCKEY，取消微信推送消息通知🚫
+Jun 24 14:51:41 
+Jun 24 14:51:41 您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+Jun 24 14:51:41 
+Jun 24 14:51:41 您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+Jun 24 14:51:41 
+Jun 24 14:51:41 您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+Jun 24 14:51:41 
+Jun 24 14:51:41 您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+Jun 24 14:51:41 
+Jun 24 14:51:41 您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+Jun 24 14:51:41 
+Jun 24 14:51:41 您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+Jun 24 14:51:41 
+Jun 24 14:51:41 您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+Jun 24 14:51:41 
+Jun 24 14:51:41 
+Jun 24 14:51:41 🔔京喜工厂, 结束! 🕛 7.384 秒
+Jun 24 14:51:41 
